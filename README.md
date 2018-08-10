@@ -22,3 +22,5 @@
 * [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
 * [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
 * [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
+* [Аналитика рынка труда в IT](about-it.md)
+* [Аналитика недвижимости в Санкт-Петербурге](about-aparts.md)
