@@ -10,7 +10,7 @@
 
 | date       | event | theme/slides |
 |------------|-------|--------------|
-| 2018-08-26 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn inside kubernetes inside google cloud via terraform](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) |
+| 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn inside kubernetes inside google cloud via terraform](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) |
 | 2018-08-26 | [chaos constructions](https://chaosconstructions.ru/) | [Openvpn inside kubernetes inside google cloud via terraform](https://cloud.mail.ru/public/gNZx/GqqMTbB61) |
 | 2018-08-19 | [Geekpicnic](https://vk.com/geekpicnicspb2018) | [Time management in real life](https://cloud.mail.ru/public/3c18/Uzx3QtU7X) |
 | 2018-04-25 | [SpbLUG](http://spblug.org/) | [Test me if you can. Do YML developers Dream of testing ansible?](https://cloud.mail.ru/public/2Rc8/EywUuHHp2) |
