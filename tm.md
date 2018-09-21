@@ -10,9 +10,9 @@
 
 ## links
 
-* [Как похудеть](http://www.goncharov.xyz/how-to-lose-weight.html)
-* [Как выучить английский](http://www.goncharov.xyz/how-to-english.html)
-* [Как улучшать городскую инфраструктуру](http://www.goncharov.xyz/how-to-improve-your-town.html)
+* [Как похудеть](http://www.goncharov.xyz/life/how-to-lose-weight.html)
+* [Как выучить английский](http://www.goncharov.xyz/life/how-to-english.html)
+* [Как улучшать городскую инфраструктуру](http://www.goncharov.xyz/life/how-to-improve-your-town.html)
 
 ### trackers
 
