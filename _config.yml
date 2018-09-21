@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-redirect-from
 theme: jekyll-theme-minimal
 title: Lev Goncharov
 logo: logo.png

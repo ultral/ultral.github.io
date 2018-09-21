@@ -1,3 +1,6 @@
+---
+redirect_from: "/about-it.html"
+---
 # Аналитика рынка труда в IT
 ## remote
 Удаленный работа. 
