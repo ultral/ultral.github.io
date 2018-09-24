@@ -56,7 +56,7 @@ As you remember, we had a private cloud with limited possibility to create VMs o
 First of all we tried to run Virtualbox x32 without nested. It was bad idea because of kernel panic. Also vast majority of our VMs in our infrastructure are x86_64, so we decided to continue research. As a result we decided to use nested virtualization. Hopefully it was supported by our host servers.
 
 # Faced issues
-I was implementing testkitchen and faced with some issues. You can read it [here](it/testkitchen-issues.md)
+I was implementing testkitchen and faced with some issues. You can read it [here](testkitchen-issues.md)
 
 # Links
 * [presentation](https://cloud.mail.ru/public/2Rc8/EywUuHHp2)
