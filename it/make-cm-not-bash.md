@@ -1,6 +1,3 @@
----
-redirect_from: "/make-cm-not-bash.html"
----
 # Make configuration management not bash
 
 Configuration management зачем оно надо? 
