@@ -34,9 +34,9 @@
 # Life
 * [Изучение английского](life/how-to-english.md)
 * [Как похудеть](life/how-to-lose-weight.md)
-* [Как улучшать город вокруг себя](how-to-improve-your-town.md)
-* [Варианты взаидоействия с Управляющей компанией](how-to-contact-with-uk.md)
-* [Как структурировать общение с госорганами и не свихнуться](how-to-mange-tasks.md)
+* [Как улучшать город вокруг себя](life/how-to-improve-your-town.md)
+* [Варианты взаидоействия с Управляющей компанией](life/how-to-contact-with-uk.md)
+* [Как структурировать общение с госорганами и не свихнуться](life/how-to-mange-tasks.md)
 * [Аналитика недвижимости в Санкт-Петербурге](life/about-aparts.md)
 
 # Trips
