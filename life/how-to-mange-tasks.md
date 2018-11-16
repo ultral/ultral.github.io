@@ -4,9 +4,9 @@
 
 ![manage it](assets/uk.jpg?raw=true "manage it")
 
-[Как улучшать город вокруг себя](how-to-improve-your-town.md)
-[Варианты взаидоействия с Управляющей компанией](how-to-contact-with-uk.md)
-[Как структурировать общение с госорганами и не свихнуться](how-to-mange-tasks.md)
+* [Как улучшать город вокруг себя](how-to-improve-your-town.md)
+* [Варианты взаидоействия с Управляющей компанией](how-to-contact-with-uk.md)
+* [Как структурировать общение с госорганами и не свихнуться](how-to-mange-tasks.md)
  
 ## Пререквизиты
 
