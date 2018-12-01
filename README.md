@@ -1,7 +1,7 @@
 # About
 
-[Eevents](about.md)
-[certs](certs.md)
+* [Eevents](about.md)
+* [Сerts](certs.md)
 
 # Publications
 
