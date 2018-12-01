@@ -1,5 +1,5 @@
 * *2018* Finished intermidiate english course.
-* *2018* Finished 20533 Implementing Microsoft Azure Infrastructure Solutions course.
+* *2018* [Finished](assets/2018_azure.jpg) Microsoft course 20533 _Implementing Microsoft Azure Infrastructure Solutions course_.
 * *2018* Created & conducted internal course _introduction to ansible_.
 * *2018* Wrote article [make configuration management not bash](http://www.goncharov.xyz/it/make-cm-not-bash.html).
 * *2018* Created & conducted [k8s/terraform/gcp workshop](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) at [hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/).
@@ -15,6 +15,7 @@
 * *2017* Wrote article [how-to test your own OS distributive](https://habr.com/post/342216/).
 * *2017* Wrote article [how-to mix kubernetes/k8s, minikube, terraform](https://habr.com/post/340884/).
 * *2017* Wrote article [about monitoring](https://habr.com/post/339330/).
+* *2016* Was awarded [certificate of honor](assets/2016_rcntec.jpg).
 * *2016* Did speech about SDS development at internal conference.
 * *2015* Did volunteer photography at [surf camp](https://vk.com/aloha74).
 * *2015* Did speech about migration from monolith to microservices at internal meetup.
@@ -25,9 +26,13 @@
 * *2012* Wrote article [about journey Chelyabinsk - London by car](http://autokadabra.ru/shouts/53220).
 * *2012* Wrote article [about journey to RHCP perfomance by car](http://autokadabra.ru/shouts/51038).
 * *2011* Finished linguaphone Intermidiate course in English club.
-* *2011* Finished intermidiate course in English club.
+* *2011* [Finished](assets/2011_english.jpg) intermidiate course in English club.
 * *2010* Created & conducted information security course.
-* *2010* Participated at CTF competitions (team wildride): [UralCTF](assets/2010_ructf.jpg), RuCTF, [UFOCTF](assets/2010_ufoctf.jpg),
+* *2010* Participated at CTF competitions (team wildride): [UralCTF](assets/2010_uralctg.jpg), [RuCTF](assets/2010_ructf.jpg),
 * *2010* Wrote article [Interception of system calls in linux kernel x64](https://habr.com/post/110369/).
 * *2009* Created & conducted Freebsd administration course.
-* *2009* Participated at CTF competitions (team wildride): CIPHER, HARCTF, RuCTF, RuCTFE.
+* *2009* Participated at CTF competitions (team wildride): [UfoCTF](assets/2009_ufoctf.jpg), CIPHER, HARCTF, RuCTF, RuCTFE.
+* *2005* [Got](assets/2005_crypto.jpg) the award for great results in regional math-cryptography olympiad.
+* *2005* [Got](assets/2005_base.jpg) the award for great results in regional physics olympiad.
+* *2000* [Got](assets/2001_chess.jpg) the 3rd junior category in chess.
+* *2000* [Got](assets/2001_chess.jpg) the 4rd junior category in chess.
