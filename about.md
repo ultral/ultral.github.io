@@ -1,5 +1,7 @@
+# Social activity, tranings, courses, awards, articles
+
 * **2018** Finished intermidiate english course.
-* **2018** [Finished](assets/2018_azure.jpg) Microsoft course 20533 _Implementing Microsoft Azure Infrastructure Solutions course_.
+* **2018** [Finished](assets/2018_azure.jpg) Microsoft course 20533 _Implementing Microsoft Azure Infrastructure Solutions_.
 * **2018** Created & conducted internal course _introduction to ansible_.
 * **2018** Wrote article [make configuration management not bash](http://www.goncharov.xyz/it/make-cm-not-bash.html).
 * **2018** Created & conducted [k8s/terraform/gcp workshop](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) at [hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/).
@@ -34,5 +36,5 @@
 * **2009** Participated at CTF competitions (team wildride): [UfoCTF](assets/2009_ufoctf.jpg), CIPHER, HARCTF, RuCTF, RuCTFE.
 * **2005** [Got](assets/2005_crypto.jpg) the award for great results in regional math-cryptography olympiad.
 * **2005** [Got](assets/2005_base.jpg) the award for great results in regional physics olympiad.
-* **2000** [Got](assets/2001_chess.jpg) the 3rd junior category in chess.
+* **2001** [Got](assets/2001_chess.jpg) the 3rd junior category in chess.
 * **2000** [Got](assets/2001_chess.jpg) the 4rd junior category in chess.
