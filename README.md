@@ -11,8 +11,7 @@
 * [How to mount NTFS on MAC for RW](https://habr.com/post/246517/)
 * [Interception of system calls in linux kernel x64](https://habr.com/post/110369)
 * [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv.md) and [Faced technical issues](it/testkitchen-issues.md)
-* [Make configuration management, not bash (EN)](it/make-cm-not-bash-en.md)
-* [Make configuration management, not bash (RU)](it/make-cm-not-bash-ru.md)
+* [Make configuration management, not bash](it/make-cm-not-bash-en.md) [RU](it/make-cm-not-bash-ru.md)
 
 # Speeches
 
@@ -37,6 +36,7 @@
 * [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
 
 # Life
+* [How to lose weight](life/how-to-lose-weight-en.md)
 * [Изучение английского](life/how-to-english.md)
 * [Как похудеть](life/how-to-lose-weight.md)
 * [Как улучшать город вокруг себя](life/how-to-improve-your-town.md)
