@@ -12,7 +12,7 @@ I'd like to share my experience how to interact with housing and utilities servi
 2. I configured trello to collect emails from `blahblah_trello_import@example.com` & create cards from an email. 
 3. I synced trello & google calendar.
  
-## Who it looks?
+## How it looks?
  
 1. There are two ways to create new card: 
     * Write email to housing and utilities service provider & BCC `blahblah_trello_import@example.com`. 
