@@ -53,6 +53,7 @@
 
 ## English
 * [UK trip by car](life/UK-trip-by-car.md)
+* [Baikal](life/baikal.md)
 
 ## Russian
 * [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
