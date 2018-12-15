@@ -37,6 +37,7 @@
 # Life
 
 ## English
+* [How to learn english](life/how-to-english-en.md)
 * [How to lose weight](life/how-to-lose-weight-en.md)
 * [How to improve your town](life/how-to-improve-your-town-en.md)
 * [How to interact with housing and utilities service provider and don't go nut](life/how-to-mange-tasks-en.md)
