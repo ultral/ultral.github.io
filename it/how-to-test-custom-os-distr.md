@@ -1,4 +1,4 @@
-# How to test your own OS distributive
+# How to test your own OS distribution
 
 ![intro](assets/distr-intro.png?raw=true)
 
