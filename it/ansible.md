@@ -18,19 +18,18 @@ Why I chose ansible? It's a sophisticated question, there are some points:
 As you could have noticed at the previous sentence ansible is agentless configuration management solution. It means that you have to have a management node with installed ansible.
 
 How does it work?
-1. Ansible gets hosts from the inventory.
-2. Ansible gets tasks from the playbook (playbook it is a list of tasks in declarative YML format).
-3. Ansible generates executable code for each task.
-4. Ansible copies executable python code to the target hosts via SCP.
-5. Ansible executes python code at the target hosts.
+1. The ansible gets hosts from the inventory.
+2. The ansible gets tasks from the playbook (playbook it is a list of tasks in declarative YML format).
+3. The ansible generates executable code for each task.
+4. The ansible copies executable python code to the target hosts via SCP.
+5. The ansible executes python code at the target hosts.
 
 ![ansible schema](assets/ansible_inside.png?raw=true "kitchen-ci schema")
 
 # Use cases
-
-## Manage VMs
 I hope you've received basic knowledge about the ansible and we can continue. Let's describe some use cases.
 
+## Manage VMs
 The first one use case is [Linux virtual machines configuration management](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html).
 
 ![Green build policy schema](assets/Green-build-policy.png?raw=true "Green build policy schema") 
