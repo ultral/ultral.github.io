@@ -30,7 +30,7 @@
 # About IT
 * [Hard vs soft skills](it/hard-soft-skills-en.md)
 * [How to configure Sublime](it/sublime.md)
-* [Felix M arithmometer review (RU)](https://habr.com/post/169629/)
+* [Arithmometer Felix M review](it/felix-m-review.md)
 
 # Life
 * [How to learn English](life/how-to-english-en.md)
