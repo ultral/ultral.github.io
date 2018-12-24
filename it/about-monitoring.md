@@ -4,89 +4,57 @@
 
 [Russian version](https://habr.com/post/339330/)
 
-A monitoring is the most important part of your infrastructure. A monitoring is system engineers basics. However, everyone has his own way to understand it. My way consist of denial. anger & acceptance. 
+Monitoring is the most important part of your infrastructure. Monitoring is system engineers basics. However, everyone has his own way to understand it. My way consist of denial. anger & acceptance. 
 
-**Denial**. You should not monitor anything, because, your users flag you if something strange will be occurred.
+**Denial**. You should not monitor anything, because, your users flag you if something strange will occur.
 **Anger**. You have to monitor everything. You are allowed to notify CTO/CEO if CPU load average metric will be more than 95% during 30 seconds. 
-**Acceptance**. Business guys doesn't care about RAM/CPU/IOPS. Their interest to TTM(time to market) & business metrics.
+**Acceptance**. Business guys don't care about RAM/CPU/IOPS. Their interest to TTM(time to market) & business metrics.
 
 ## Denial
 
 ![Denial](assets/monitoring_denial.png?raw=true "Denial")
+It's hard to believe, but there is a *server room* at the photo.
 
-Всё началось давным-давно, в далёкой галактике. Я учился в университете и работал в двух местах «ты ж программистом»:
--  Торгово-производственная компания: три сервера, десять пользователей. На этих фотографиях вы видите серверную.
--  Кафедра государственного университета: четыре сервера, сорок рабочих мест. 
-
-
-
-В то время я даже не подозревал о существовании такой штуки, как мониторинг. Я искренне считал, что если что-то сломается, то можно просто броситься грудью на амбразуру и героически решить проблемы.
-
-Моё отношение к мониторингу в то время можно охарактеризовать так:
-
--  Пользователи сами сообщат, когда что-то сломается.Мы сами постоянно работаем с сайтом, поэтому увидим, когда он сломался.На сервере перегружен процессор? Мне какое дело, программисты что-то там написали.
-
-К счастью, этот период продлился недолго — я начал подозревать, что здесь что-то не так, и бывает лучше.
+It was 2007. I was studying at CSU (Chelyabinsk State University) at the information security department as a sophomore. I decided to apply for CSU as an assistant at information security lab. It was a temporary part-time job. After that at 2009, I got one more part-time permanent job at a trading production organization as a system administrator. That time, I didn't use to know about monitoring, I was wet behind the ears and thought that it was possible to be a hero an solve any faced problem. Hopefully, it was a short period of my life, I felt that it was wrong.
 
 ## Anger
-Под влиянием получаемого опыта начало меняться и моё видение мониторинга. Это процесс совпал со сменой работ. Уйдя из университета и производственной компании, я начал работать в  не больших outstaffing фирмах:
 
--  В первой компании было три офиса, 100 пользователей, одна стойка в дата-центре и два системных администратора. Серверный парк состоял из 100 машин, расположенных в 5000 км от меня, а на хостинге было 1200 клиентов. 
--  Во второй компании было 400 серверов, до которых всего-то 12000 км, два корпоративных сайта и один системный администратор.
+![Anger](assets/monitoring_anger.png?raw=true "Anger")
 
-![](https://habrastorage.org/webt/59/d4/ca/59d4caacb5416292915692.png)
+2010 was one of the most exhausting years. I worked for 2 employers; conducted courses; was preparing master thesis; moreover, I was prefect. Under experience pressure, my vision about monitoring was changing. That process clashed with my resignation. Before graduating exam, I decided to resign and looked for a new job. The vast majority of interviewers were confused because I was a student. However, one of them had agreed to hire me, I had a full-time permanent job for an international multinational company. I graduated; I was improving my skills & experience, I worked for outstaffing companies. The vast majority of our projects were amazing & interesting startups. I extremely levelled up my qualification, because there were no other ways in case of 400 servers for the single person. I had worked as a DevOps before it was mainstream. I burned out at work & decided to change work.
 
-К тому времени уже считал, что:
 
--  Мониторить нужно всё подряд. В том числе и то, что никому не нужно. Все события являются важными, и информацию о них нужно рассылать максимальному количеству человек. Включая начальство. По SMS. Ночью. Процессор на сервере в течение 35 секунд был загружен на 95%? Нет времени объяснять, необходимо срочно слать SMS! 
+That time, I thought, that we had to monitor everything. It was really important. Everyone should receive monitoring notifications. Also, monitoring toolset was changing & improving. One of the first implementations was bash/PowerShell scripts(free space, count of available updates, backups status, etc) & external services Red Alert, Lazy farmer (in-house tool for site checking). It was good enough in 2010-2011, however, we faced a lot of different issues:
+* Email hell.
+* Unpredictable delays.
+* Unknown resources utilization.
 
-В то же время активно развивался и преображался инструментарий. Изначально была пачка скриптов, контролирующих всевозможные метрики (свободное место, количество доступных обновлений, результат работы бэкапов и так далее), а также сторонние сервисы Red Alert, Lazy Farmer (in-house разработка - попытка заменить сервис проверки сайтов). 
+We had decided to do our life a bit easier and choose Zabbix. We monitored everything:
+* Count of users connected to wifi.
+* Count of printed pages.
+* Count alived VPN tunnels.
+* Servers temperature.
+* Network load.
+* etc...
 
-В такой конфигурации система мониторинга существовала около года, но за это время выявилось много недостатков:
--  Многочисленные задержки в работе серверов из-за работы скриптов.
--  Неизвестна утилизация ресурсов.
--  Сложно найти источники проблем.
-
-Встал вопрос, как упростить себе жизнь. Рассматривал варианты с Dude/Nagios/Zabbix. Основным критерием при выборе стала скорость развертывания, и выбор пал на Zabbix.
-
-В нём на мониторинг ставили всё, до чего дотягивались руки:
--  Количествво пользователей, подключенных к WiFi.
--  Количество напечатанных на принтере страниц.
--  Свободную память на маршрутизаторе.
--  Количество VPN туннелей на маршрутизаторе.
--  Температуру на серверах.
--  Открытость крышки сервера.
--  Загруженность сетевых интерфейсов коммутаторов.
--  … и многое другое.
-
-Отдельно хочу упомянуть про особенности внедрения и работы с Zabbix:
-1. Серверы далеко, а метрик много. Когда начали появляться пропуски, внедрили Zabbix proxy.
-2. При падении туннеля генерируется куча алертов о недоступности серверов, пришлось настраивать зависимости.
-3. Мы автоматизировали однотипные действия при алертах: сначала система пробует починить самостоятельно (к примеру, почистить диск), и только в случае неудачи шлёт алерт. Чтобы уменьшить время реакции на алерт,  мы настроили рассылку  SMS.
-4. Чтобы алерты не сыпались круглые сутки в виде SMS, не надо настраивать оповещения о том, что на сервере в течение 5 секунд CPU грузился на 100%.
-5. При мониторинге сложных метрик из-за ресурсоёмкости процесса терялась часть значений. Хотя данные отправлялись серверу мониторинга, он не успевал всё регистрировать. 
-6. У Sphinx есть куча сервисов, состав которых может меняться. Новые серверы автоматически обнаруживаются и ставятся на мониторинг. Бывают ситуации, когда вебсервер запущен, но пользователь видит фигу вместо страницы. В подобных случаях мы прогоняли пользовательские сценарии на вебе, а в случае проблем система слала алерт.
-7. Обычно заказчики хотят, что бы все задачи/проблемы отображались в одном месте, поэтому мы создавали задачу при возникновении критичного для бизнес-процессов события.
-8. Сбор необработанных исключений долог и нуден, поэтому при возникновении события мы обрабатывали его в eventlog и создавали задачу.
-9. Заказчики не читают писем, поэтому мы писали им в Skype (zabbix2skype).
-![](https://habrastorage.org/webt/59/d4/cb/59d4cbe69559d546541068.png)
-10. Quis custodiet ipsos custodes? Кто будет мониторить мониторинг? Я так и не нашёл для себя ответа.
+Also, I'd like to share some of the faced issues:
+1. There were cross DC distributed infrastructures and a lot of metrics. We faced that sometimes metrics were absent. We fixed it via Zabbix proxy.
+2. If VPN tunnel fails, we will receive a ton of messages. We configured infrastructure dependencies.
+3. We automated recurrent tasks. i.e. in case of low free space, we tried to clean it automatically.
+4. We understood that it was a bad idea to notify somebody if the CPU load average metric will be more than 95% during 30 seconds, as a result, we added something like threshold period. 
+5. We checked business-critical scenarios (i.e. web login, search, etc).
+6. We added Zabbix to skype integrations, because of chat-ops.
+7. Quis custodiet ipsos custodes?.
+8. etc... 
 
 
 ## Acceptance
 
-Спустя несколько лет я пришёл к смирению. Опять же, этот период отчасти совпал со сменой места работы. Три ЦОДа, тысячи серверов, тысячи  сотрудников, офисы по всей РФ, и не только. 
+![Acceptance](assets/monitoring_custom.png?raw=true "Acceptance")
 
-Я понял для себя, что бизнес не интересует нагрузка на CPU и прочие технические подробности. Владельцы и управленцы мыслят другими категориями: время простоя/информационная система/потеря прибыли… 
+A bit later, I understood that on one hand, business guys don't care about RAM/CPU/IOPS. Their interest to TTM(time to market) & business metrics, but on the other hand, IT gut should be able to trace any kind of issue.
 
-![](https://habrastorage.org/webt/59/d4/ce/59d4ce1f30b05658361586.png)
-
-Zabbix мне нравился, но я увидел, что существуют другие системы (сторонние решения, сильно доработанные напильником, или самописные), которые плотно интегрируются с бизнесом заказчика.
-
-Основные идеи, к которым я пришёл: Нужно объединять серверы в информационные систему, чтобы все видели одну и ту же картинку и понимали взаимосвязи.
-1. Нельзя всё удержать в голове, должно быть хранилище знаний об инфраструктуре  (кто ответственен за сервер, где что находится, и так далее).Необходимо упрощать и унифициовать настройку мониторинга (SNMP вместо агентов).
-2. Важно, чтобы у системы мониторинга был дружелюбный интерфейс, позволяющий разобраться в ситуации даже не айтишникам.
-3. Если информационная система не работает, это ещё не повод поднимать всех по тревоге в 3 ночи. Необходимо оговаривать с заказчиком допустимую продолжительность простоя и реакции.
-4. Серебряной пули не существует — надо идти на компромиссы при выборе метрик для отслеживания, при создании правил уведомления, при автоматизации типовых действий и так далее.
-
-Так, вкратце, эволюционировали представления о мониторинге как таковом, его задачах и способах реализации. Конечно, огромное влияние на этот процесс оказали условия, сложившиеся в компаниях, где я работал, и люди, трудившиеся вместе со мной.
+Zabbix had been good enough, but the world was changing. There were a lot of modern approaches to monitoring. 
+* It's possible to split monolith monitoring application to different levels: collect, store, present. 
+* Business & IT must operate exactly the same data, but they should look at data different points of view. 
+* There is no silver bullet exists, it means that you should customize your solutions.
