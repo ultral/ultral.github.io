@@ -6,9 +6,9 @@
 
 Monitoring is the most important part of your infrastructure. Monitoring is system engineers basics. However, everyone has his own way to understand it. My way consist of denial. anger & acceptance. 
 
-**Denial**. You should not monitor anything, because, your users flag you if something strange will occur.
-**Anger**. You have to monitor everything. You are allowed to notify CTO/CEO if CPU load average metric will be more than 95% during 30 seconds. 
-**Acceptance**. Business guys don't care about RAM/CPU/IOPS. Their interest to TTM(time to market) & business metrics.
+* **Denial**. You should not monitor anything, because, your users flag you if something strange will occur.
+* **Anger**. You have to monitor everything. You are allowed to notify CTO/CEO if CPU load average metric will be more than 95% during 30 seconds. 
+* **Acceptance**. Business guys don't care about RAM/CPU/IOPS. Their interest to TTM(time to market) & business metrics.
 
 ## Denial
 
