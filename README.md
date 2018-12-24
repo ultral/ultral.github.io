@@ -8,7 +8,7 @@
 * [Docker testing](it/docker-testing.md).
 * [How-to test your own OS distribution](it/how-to-test-custom-os-distr.md).
 * [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/).
-* [About monitoring (RU)](https://habr.com/post/339330/).
+* [About monitoring](it/about-monitoring.md).
 * [How to mount NTFS on MAC for RW (RU)](https://habr.com/post/246517/).
 * [System call interception in linux-kernel module](it/system-call-interception-in-linux-kernel-module.md).
 * [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv.md).
