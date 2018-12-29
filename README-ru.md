@@ -37,11 +37,7 @@
 * [Варианты взаидоействия с управляющей компанией](life/how-to-contact-with-uk.md)
 * [Как структурировать общение с управляющей компанией и не свихнуться](life/how-to-mange-tasks.md)
 * [Аналитика недвижимости в Санкт-Петербурге](life/about-aparts.md)
-
-# Trips
 * [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
 * [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
-
-# Landings for presentations
-* [Тайм менеджмент в домашних условиях](tm.md)
+* [Тайм менеджмент в домашних условиях](life/time-management.md)
 * [Openvpn внутри kubernetes внутри google cloud через terraform](gce4vpn.md)
