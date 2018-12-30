@@ -11,6 +11,9 @@
 * [Перехват системных вызовов в linux под x86-64](https://habr.com/post/110369)
 * [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible? (EN)](it/test-ansible-roles-via-testkitchen-inside-hyperv.md)
 * [Почему bash это плохо](it/make-cm-not-bash-ru.md)
+* [Аналитика рынка труда в IT](it/about-it.md)
+* [Хард и софт скиллз](it/hard-soft-skills.md)
+* [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
 
 # Speeches
 
@@ -24,11 +27,6 @@
 | 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Страшная сказка про vagrant](https://habr.com/post/342216/) |
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](https://cloud.mail.ru/public/AQgP/pJKNrcbp2) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 | 
-
-# About IT
-* [Аналитика рынка труда в IT](it/about-it.md)
-* [Хард и софт скиллз](it/hard-soft-skills.md)
-* [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
 
 # Life
 * [Изучение английского](life/how-to-english.md)
