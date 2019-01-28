@@ -65,7 +65,7 @@ At the next stage, I suppose that you would like to improve your speaking. First
 
 **A:** No.
 
-Well, you can read & write at home without help, but for speaking you must talk. There are some services for that, i.e. [preply](https://preply.com), [skyeng](https://skyeng.ru/), [italki]((https://www.italki.com/), etc. From my point of view, at the beginning you don't have to speak with a native speaker, it's ok just talk with somebody with C2 level.
+Well, you can read & write at home without help, but for speaking you must talk. There are some services for that, i.e. [preply](https://preply.com), [skyeng](https://skyeng.ru/), [italki](https://www.italki.com/), etc. From my point of view, at the beginning you don't have to speak with a native speaker, it's ok just talk with somebody with C2 level.
 
 # Conclusion
 
@@ -86,12 +86,12 @@ When I was in primary school, I visited a private English coach for a year or tw
 
 Just before I graduate, I had applied for international IT company. It was funny & frightful. I had to talk & chat with workmates during the day, so my English was improving forcedly & sharply. i.e. 
 * My workmate stay with me & my during week or two.
-* I visited the UK by a car http://www.goncharov.xyz/life/UK-trip-by-car.html .
+* I [visited the UK by a car](http://www.goncharov.xyz/life/UK-trip-by-car.html).
 * I called to DataCenter & talked with Indian support.
 As a result, I finished English intermediate course in 2011. However, I decided to resign in 2012 and applied for a new job without sufficient English practise.
 
 In 2017 I applied for an international IT company and started an intermediate course again... On one hand It was strange because I finished it 6 years ago, but on the other hand, I finished it without any major efforts. However, I've been doing English tasks myself. i.e.: 
-* I read books(I've read 5-6 books(Harry Potter, DevOps handbooks etc) since last year).
+* I read books(I've read 10 books(all Harry Potter, DevOps handbooks etc) since last year).
 * I write articles/docs(not really a lot, but it is).
 * I listen to podcasts, watch movies without subs.
 * I learn online with a native teacher.
