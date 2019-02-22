@@ -12,13 +12,13 @@ I'd like to share my story about migration an application to Openshift. Also, as
 
 ## What should we do?
 
-![This is fine](assets/d2o_this_is_fine.png?raw=true "This is fine")
+![This is fine](assets/deploy2openshift-this_is_fine.png?raw=true "This is fine")
 
 First of all, let's talk about our application. It is out of box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. Usually, our clients were installing on dedicated servers, however, we faced the issue. We had to tun the application inside Openshift.
 
 ## Prerequisites
 
-![Deploy](assets/d2o_deploy.png?raw=true "Deploy")
+![Deploy](assets/deploy2openshift-deploy.png?raw=true "Deploy")
 
 The application is the product with a long history, it should work out of the box in completely different environments. As a result, there are a lot of pages in our installations guides. However, the top level schema is easy as pie, you just should:
 * Apply DB schema.
@@ -36,7 +36,7 @@ Unfortunate, the world is cruel, there were some important prerequisites.
 
 ## Ansible-container demo
 
-![Ansible-container](assets/d2o_schema-ansible-container.png?raw=true "Ansible-container")
+![Ansible-container](assets/deploy2openshift-schema-ansible-container.png?raw=true "Ansible-container")
 
 > Ansible Container is an open source project that aims to enable the automation of the entire container build, deployment and management process. Best of all, it uses the same simple, powerful and agentless Ansible automation language that you're already using, ensuring you can automate the entire application lifecycle.
 
@@ -53,20 +53,20 @@ The main point is that ansible-container helped us to create a demo very fast, b
 
 ## Multiple containers demo
 
-![Multiple containers](assets/d2o_schema-multiple-containers.png?raw=true "Multiple containers")
+![Multiple containers](assets/deploy2openshift-schema-multiple-containers.png?raw=true "Multiple containers")
 
 The first demo container was built via ansible-container. It was good enough for the demo, however, we decided not to use it. We split the monolith container into different:
 
 1. We used the original Openshift PostgreSQL container without any modifications.
 2. We built the application stateless container. 
 
-![Multiple containers](assets/d2o_schema-multiple-containers-db-init.png?raw=true "Multiple containers")
+![Multiple containers](assets/deploy2openshift-schema-multiple-containers-db-init.png?raw=true "Multiple containers")
 
 However, it wasn't clear to initialize the database? We found a great article about [PODs life](https://blog.openshift.com/kubernetes-pods-life/) inside kubernetes. So, we decided to use init container for database initialization.
 
 ## Initialize the application 
 
-![Multiple containers](assets/d2o_schema-multiple-containers-app-init.png?raw=true "Multiple containers")
+![Multiple containers](assets/deploy2openshift-schema-multiple-containers-app-init.png?raw=true "Multiple containers")
 
 As I mentioned before,  the application should work out of the box in completely different environments, support different application servers/databases and integration interfaces with third-party systems.
 
@@ -77,8 +77,7 @@ There are a lot of ways to initialize the application:
 4. Use an external container with individual configuration for each use case.
 
 We chose the last one, we created additional replication controller for initializing the application? Really?
-
-![Multiple containers](assets/d2o_schema-multiple-containers-final.png?raw=true "Multiple containers")
+![Multiple containers](assets/deploy2openshift-schema-multiple-containers-final.png?raw=true "Multiple containers")
 
 We read the documentation again.
 
@@ -110,7 +109,7 @@ During the migration, I've tested some of them. I'd like to share my results.
 
 ## Openshift templates
 
-![Openshift templates](assets/d2o_openshift-templates.png?raw=true "Openshift templates")
+![Openshift templates](assets/deploy2openshift-openshift-templates.png?raw=true "Openshift templates")
 
 [Openshift templates](https://docs.openshift.com/container-platform/3.7/dev_guide/templates.html)
 
@@ -125,7 +124,7 @@ During the migration, I've tested some of them. I'd like to share my results.
 
 ## Scripts and template
 
-![Custom scripts](assets/d2o_openshift-scripts.png?raw=true "Custom scrtipts")
+![Custom scripts](assets/deploy2openshift-openshift-scripts.png?raw=true "Custom scrtipts")
 
 **Pros:**
 * Scripting.
@@ -135,7 +134,7 @@ During the migration, I've tested some of them. I'd like to share my results.
 
 ## Terraform k8s provider
 
-![Terraform k8s provider](assets/d2o_terraform.png?raw=true "Terraform k8s provider")
+![Terraform k8s provider](assets/deploy2openshift-terraform.png?raw=true "Terraform k8s provider")
 
 [Terraform k8s provider](https://www.terraform.io/docs/providers/kubernetes/index.html)
 
@@ -151,7 +150,7 @@ During the migration, I've tested some of them. I'd like to share my results.
 
 ## Ansible-container
 
-![Ansible-container](assets/d2o_ansible-container.png?raw=true "Ansible-container")
+![Ansible-container](assets/deploy2openshift-ansible-container.png?raw=true "Ansible-container")
 
 [Ansible-container](https://blog.openshift.com/ansible-container/)
 
@@ -166,7 +165,7 @@ During the migration, I've tested some of them. I'd like to share my results.
 
 ## Ansible k8s module
 
-![Ansible k8s module](assets/d2o_ansible.png?raw=true "Ansible k8s module")
+![Ansible k8s module](assets/deploy2openshift-ansible.png?raw=true "Ansible k8s module")
 
 [Ansible + k8s module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
 
@@ -182,11 +181,11 @@ During the migration, I've tested some of them. I'd like to share my results.
 
 ## Ansible Playbook Bundle
 
-![Ansible Playbook Bundle](assets/d2o_apb.png?raw=true "Ansible Playbook Bundle")
+![Ansible Playbook Bundle](assets/deploy2openshift-apb.png?raw=true "Ansible Playbook Bundle")
 
 > An Ansible Playbook Bundle (APB) is a lightweight application definition (meta-container). They are used to define and deploy complex groups of applications, deployment configs, deployments, and services to an OpenShift Origin cluster running the Ansible Service Broker. APBs offer more power and simple configuration by leveraging the power of Ansible. APBs have the following features:
 
-![Ansible Playbook Bundle](assets/d2o_apb-descr.png?raw=true "Ansible Playbook Bundle")
+![Ansible Playbook Bundle](assets/deploy2openshift-apb-descr.png?raw=true "Ansible Playbook Bundle")
 
 The main idea is that you pack all needed thing into a container and run the container inside Openshift. [Ansible Playbook Bundle](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle)
 
@@ -202,7 +201,7 @@ The main idea is that you pack all needed thing into a container and run the con
 
 ## Result
 
-![Result](assets/d2o_result.png?raw=true "Result")
+![Result](assets/deploy2openshift-result.png?raw=true "Result")
 
 One one hand I don't want to be the final authority, but on the other hand, I'd like to share my point of view. There is no silver bullet exists. 
 * if you don't plan provide your application as a service then [Ansible k8s module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html) is your choice.
