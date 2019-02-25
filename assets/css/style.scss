@@ -2,3 +2,15 @@
  ---
 
 @import "{{ site.theme }}";
+
+header {
+  width: auto;
+  float: none;
+  position: static;
+  padding-bottom: 50px;
+}
+
+section {
+  width: auto;
+  float: none;
+}
