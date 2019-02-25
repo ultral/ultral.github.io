@@ -19,6 +19,7 @@
 
 | date       | event | theme/slides |
 |------------|-------|--------------|
+| 2018-02-25 | [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
 | 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn внутри kubernetes внутри google cloud через terraform](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) |
 | 2018-08-26 | [chaos constructions](https://chaosconstructions.ru/) | [Openvpn внутри kubernetes внутри google cloud через terraform](https://cloud.mail.ru/public/gNZx/GqqMTbB61) |
 | 2018-08-19 | [Geekpicnic](https://vk.com/geekpicnicspb2018) | [Тайм менеджмент в домашних условиях](https://cloud.mail.ru/public/3c18/Uzx3QtU7X) |
