@@ -3,13 +3,21 @@
 
 @import "{{ site.theme }}";
 
-wrapper {
-  width: 100%;
-  padding-top: 95
+body {
+  padding-top: 0;
 }
 
-header {
+.wrapper {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.header, .section {
   float: none;
   width: 100%;
+}
+.header {
   position: fixed;
+  top: 0;
+  background-color: #fff;
 }
