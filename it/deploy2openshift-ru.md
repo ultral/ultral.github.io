@@ -1,4 +1,4 @@
-# Let's deploy to Openshift
+# Запускаем приложение в Openshift и сравниваем существующий инструментарий
 
 Это расшифровка выступления на [kubernetes SPB meetup #3](https://www.meetup.com/kubernetes-spb/events/258970186/).
 
@@ -194,7 +194,7 @@ POD это **группа** контейнеров. В итоге наш под 
 * Вам нужны привилегии уровня администратора.
 * Документация иногда оставляет желать лучшего.
 
-## Result
+## Выводы
 
 ![Result](assets/deploy2openshift-result.png?raw=true "Result")
 

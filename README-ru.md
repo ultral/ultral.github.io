@@ -21,13 +21,13 @@
 | date       | event | theme/slides |
 |------------|-------|--------------|
 | 2018-02-25 | [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
-| 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn внутри kubernetes внутри google cloud через terraform](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) |
-| 2018-08-26 | [chaos constructions](https://chaosconstructions.ru/) | [Openvpn внутри kubernetes внутри google cloud через terraform](https://cloud.mail.ru/public/gNZx/GqqMTbB61) |
-| 2018-08-19 | [Geekpicnic](https://vk.com/geekpicnicspb2018) | [Тайм менеджмент в домашних условиях](https://cloud.mail.ru/public/3c18/Uzx3QtU7X) |
-| 2018-04-25 | [SPbLUG](http://spblug.org/) | [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](https://cloud.mail.ru/public/2Rc8/EywUuHHp2) |
-| 2018-03-02 | [Devopsdays T-systems](https://www.t-systems.com/) | [Страшная сказка про vagrant](https://habr.com/post/342216/) |
-| 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Страшная сказка про vagrant](https://habr.com/post/342216/) |
-| 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](https://cloud.mail.ru/public/AQgP/pJKNrcbp2) |
+| 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn внутри kubernetes внутри google cloud через terraform](it/gce4vpn.md) |
+| 2018-08-26 | [chaos constructions](https://chaosconstructions.ru/) | [Openvpn внутри kubernetes внутри google cloud через terraform](it/gce4vpn.md1) |
+| 2018-08-19 | [Geekpicnic](https://vk.com/geekpicnicspb2018) | [Тайм менеджмент в домашних условиях](life/time-management-irl.md) |
+| 2018-04-25 | [SPbLUG](http://spblug.org/) | [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv.md) |
+| 2018-03-02 | [Devopsdays T-systems](https://www.t-systems.com/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr.m) |
+| 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr.m) |
+| 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 | 
 
 # Life
