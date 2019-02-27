@@ -1,3 +1,6 @@
+---
+redirect_from: "/m2s.html"
+---
 # Monolith to microservices
 
 I'd like to share my story about migration monolith application into microservices. Please, keep in mind that it was during 2012 - 2014. It is transcription of my presentation at [dotnetconf(RU)](http://dotnetconf.ru/materialy/monitoringandalerting).
