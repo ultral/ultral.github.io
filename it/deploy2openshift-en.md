@@ -18,7 +18,7 @@ I'd like to share my story about migrating application to Openshift. Also, as a 
 
 ![This is fine](assets/deploy2openshift-this_is_fine.png?raw=true "This is fine")
 
-First of all, let's talk about our application. It is an out of box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. Usually, our clients were installing on dedicated servers, however, we faced the issue. We had to tun the application inside Openshift.
+First of all, let's talk about our application. It is an out of box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. Usually, our clients were installing our application on dedicated servers, however, we faced the issue. We had to tun the application inside Openshift.
 
 ## Prerequisites
 
