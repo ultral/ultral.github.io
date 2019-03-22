@@ -4,9 +4,10 @@ redirect_from: "/d2o.html"
 
 # Let's deploy to Openshift
 
-It is the transcription of my presentation at [kubernetes SPB meetup #3](https://www.meetup.com/kubernetes-spb/events/258970186/).
+It is the transcription of my presentation at [kubernetes SPB meetup #3 (RU)](https://www.meetup.com/kubernetes-spb/events/258970186/) & [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889).
 
-* [slides](https://cloud.mail.ru/public/3VkE/F2H78LtZw).
+* [k8spb slides](https://cloud.mail.ru/public/3VkE/F2H78LtZw)
+* [ITGM slides](https://cloud.mail.ru/public/8emR/JZJWC6jCs)
 * [English version](deploy2openshift-en.md)
 * [Russian version](deploy2openshift-ru.md)
 
@@ -160,12 +161,9 @@ During the migration, I've tested some of them. I'd like to share my results.
 [Ansible-container](https://blog.openshift.com/ansible-container/)
 
 **Pros:**
-* [Make CM, no bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html)
-* Re-use existing roles. role=image.
 * One toolset for everything.
 
 **Cons:**
-* Huge images, because of a single layer.
 * Looks abandon & out of date.
 
 Ansible container was replaced by [Ansible bender](https://blog.tomecek.net/post/road-to-ansible-bender-0-2-0/).

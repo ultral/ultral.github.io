@@ -1,8 +1,9 @@
 # Запускаем приложение в Openshift и сравниваем существующий инструментарий
 
-Это расшифровка выступления на [kubernetes SPB meetup #3](https://www.meetup.com/kubernetes-spb/events/258970186/).
+Это расшифровка выступления на [kubernetes SPB meetup #3 (RU)](https://www.meetup.com/kubernetes-spb/events/258970186/) и [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889).
 
-* [slides](https://cloud.mail.ru/public/3VkE/F2H78LtZw).
+* [k8spb slides](https://cloud.mail.ru/public/3VkE/F2H78LtZw)
+* [ITGM slides](https://cloud.mail.ru/public/8emR/JZJWC6jCs)
 * [English version](deploy2openshift-en.md)
 * [Russian version](deploy2openshift-ru.md)
 
