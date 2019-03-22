@@ -2,8 +2,8 @@
 
 Это расшифровка выступления на [kubernetes SPB meetup #3 (RU)](https://www.meetup.com/kubernetes-spb/events/258970186/) и [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889).
 
-* [k8spb slides](https://cloud.mail.ru/public/3VkE/F2H78LtZw)
-* [ITGM slides](https://cloud.mail.ru/public/8emR/JZJWC6jCs)
+* [k8spb slides](https://cloud.mail.ru/public/AU1p/NPQFXfeMP)
+* [ITGM slides](https://cloud.mail.ru/public/5aBL/6S2YQd5TU)
 * [English version](deploy2openshift-en.md)
 * [Russian version](deploy2openshift-ru.md)
 

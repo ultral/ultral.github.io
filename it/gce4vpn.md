@@ -5,10 +5,10 @@ redirect_from: "/gce4vpn.html"
 
 ![gce4vpn](assets/gce4vpn-intro.png?raw=true "gce4vpn")
 
-It is text version of my [presentation](https://cloud.mail.ru/public/gNZx/GqqMTbB61) at [chaos constructions](https://chaosconstructions.ru/) & [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/). This project was created just for luls:
+It is text version of my [presentation](https://cloud.mail.ru/public/MK6G/DgNtrv5x5) at [chaos constructions](https://chaosconstructions.ru/) & [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/). This project was created just for luls:
 * [video from hashicorp meetup](https://www.youtube.com/watch?v=BgOvc3pIJXo).
-* [slides for chaos constructions](https://cloud.mail.ru/public/gNZx/GqqMTbB61).
-* [slides for hashicorp meetup](https://cloud.mail.ru/public/EEkM/jthv4Bv6d).
+* [slides for chaos constructions](https://cloud.mail.ru/public/MK6G/DgNtrv5x5).
+* [slides for hashicorp meetup](https://cloud.mail.ru/public/F193/yjoC7irob).
 * [github.com/ultral/gce4vpn](https://github.com/ultral/gce4vpn).
 
 # Main idea
@@ -66,8 +66,8 @@ As a result, it works. On one hand, there are some kludges, but on the other han
 # Links
 
 * [video from hashicorp meetup](https://www.youtube.com/watch?v=BgOvc3pIJXo).
-* [slides for chaos constructions](https://cloud.mail.ru/public/gNZx/GqqMTbB61).
-* [slides for hashicorp meetup](https://cloud.mail.ru/public/EEkM/jthv4Bv6d).
+* [slides for chaos constructions](https://cloud.mail.ru/public/MK6G/DgNtrv5x5).
+* [slides for hashicorp meetup](https://cloud.mail.ru/public/F193/yjoC7irob).
 * [github.com/ultral/gce4vpn](https://github.com/ultral/gce4vpn).
 * [$500 for google cloud platform](https://about.gitlab.com/2018/04/05/gke-gitlab-integration/)
 * [t.me/ru_hashicorp](https://t.me/ru_hashicorp)
