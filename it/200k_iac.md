@@ -10,3 +10,4 @@ Also, it might be interesting to overview:
 * [Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://www.youtube.com/watch?v=RTEgE2lcyk4) & [text version](https://www.hashicorp.com/resources/lessons-learned-300000-lines-code)
 * [Integrating Infrastructure as Code into a Continuous Delivery Pipeline](https://www.youtube.com/watch?v=wTunI1mZyp8)
 * [Тестируем инфраструктуру как код](http://rootconf.ru/2015/abstracts/1761)
+* [Эффективная разработка и сопровождение Ansible-ролей](https://www.youtube.com/watch?v=IzJsBUPXfkE)
