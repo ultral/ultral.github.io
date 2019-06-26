@@ -11,3 +11,4 @@ Also, it might be interesting to overview:
 * [Integrating Infrastructure as Code into a Continuous Delivery Pipeline](https://www.youtube.com/watch?v=wTunI1mZyp8)
 * [Тестируем инфраструктуру как код](http://rootconf.ru/2015/abstracts/1761)
 * [Эффективная разработка и сопровождение Ansible-ролей](https://www.youtube.com/watch?v=IzJsBUPXfkE)
+* [Ansible — это вам не bash!](https://www.youtube.com/watch?v=LApKSi5tUYo)
