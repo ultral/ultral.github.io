@@ -4,6 +4,7 @@
 * [Сerts](certs.md)
 
 # Publications
+* [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md)
 * [Let us deploy to openshift](it/deploy2openshift-en.md)
 * [About ansible](it/ansible.md).
 * [Docker testing](it/docker-testing.md).
