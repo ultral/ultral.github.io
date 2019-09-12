@@ -4,9 +4,9 @@ redirect_from: "/d2o.html"
 
 # Let's deploy to Openshift
 
-It is the transcription of my presentation at [kubernetes SPB meetup #3 (RU)](https://www.meetup.com/kubernetes-spb/events/258970186/) & [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889).
+It is the transcription of my presentation at [kubernetes SPB meetup #3 (RU) 2019-02-25](https://www.meetup.com/kubernetes-spb/events/258970186/) & [ITGM #14 (ENG) 2019-03-23](https://piter-united.ru/#rec91713889).
 
-* [Video(RU) from k8spb meetup at dell emc](https://www.youtube.com/watch?v=mrTUo-k_jKg)
+* [Video(RU) from k8spb meetup at dell emc 2019-02-25](https://www.youtube.com/watch?v=mrTUo-k_jKg)
 * [k8spb slides](https://cloud.mail.ru/public/AU1p/NPQFXfeMP)
 * [ITGM slides](https://cloud.mail.ru/public/5aBL/6S2YQd5TU)
 * [English version](deploy2openshift-en.md)

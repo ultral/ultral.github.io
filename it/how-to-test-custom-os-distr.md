@@ -5,6 +5,8 @@ redirect_from: "/ostest.html"
 
 ![intro](assets/distr-intro.png?raw=true)
 
+It is text version of speech at [Devopsdays T-systems 2018-03-02](https://www.t-systems.com/) and [Hashicorp meetup 2018-02-08](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/).
+
 * [Russian version](https://habr.com/post/342216/)
 * [Crosspost English version](https://habr.com/en/all/)
 
