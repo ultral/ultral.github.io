@@ -4,7 +4,7 @@
 * [Сerts](certs.md)
 
 # Publications
-* [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md)
+* [Lessons learned from testing Over 200 000 lines of Infrastructure Code](it/200k_iac.md)
 * [Let us deploy to openshift](it/deploy2openshift-en.md)
 * [About ansible](it/ansible.md).
 * [Docker testing](it/docker-testing.md).
@@ -27,9 +27,9 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
-| 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
-| 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
-| 2019-04-24 | [SPbLUG](http://spblug.org/) | [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Lessons learned from testing Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Lessons learned from testing Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2019-04-24 | [SPbLUG](http://spblug.org/) | [Lessons learned from testing Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2019-03-23 | [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
 | 2019-02-25 | [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
 | 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md) |
