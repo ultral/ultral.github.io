@@ -25,7 +25,7 @@
 
 Что же делать?
 
-# Infrastrcture as Code
+# Infrastructure as Code
 
 ![Infrastructure as Code](assets/200k_iac_code.png?raw=true "Infrastructure as Code")
 Даже такой странный случай как *Infrastructure as bash history* можно притянуть за уши к *Infrastructure as Code*, но когда мы захотим сделать что-нибудь посложнее чем старый добрый LAMPовый сервер, мы прийдем к тому, что этот код необходимо как-то модифицировать, изменять, дорабатывать. Далее хотелось мы будем рассматривать параллели между *Infrastructure as Code* и разработкой ПО.
