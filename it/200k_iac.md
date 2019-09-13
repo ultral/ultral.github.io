@@ -1,13 +1,13 @@
 ---
 redirect_from: "/iac"
 ---
-# Lessons learned from testing Over 200 000 lines of Infrastructure Code
+# Lessons learned from testing Over 200,000 lines of Infrastructure Code
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
 
 It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W53jMaebVJw)) at [DevopsConf 2019-05-28](http://devopsconf.io/moscow-rit/2019/abstracts/4906). 
 
-**IaC** (Infrastructure as Code) is a modern approach and I believe that infrastructure is code. It means that we should use the same philosophy for infrastructure as for software development. If we are talking that infrastructure is code, then we should reuse  practices from development for infrastructure, i.e. unit testing, pair programming, code review. Please keep in mind this idea during reading the article.
+**IaC** (Infrastructure as Code) is a modern approach and I believe that infrastructure is code. It means that we should use the same philosophy for infrastructure as for software development. If we are talking that infrastructure is code, then we should reuse  practices from development for infrastructure, i.e. unit testing, pair programming, code review. Please, keep in mind this idea while reading the article.
 
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
@@ -20,12 +20,12 @@ It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W
 
 ![Infrastructure as bash history](assets/200k_iabh.png?raw=true "Infrastructure as bash history")
 
-Let us imagine that you are onboarding on a project and you hear something like: "We use *Infrastructure as Code* approach". Unfortunately, sometimes it means *Infrastructure as bash history* or *Documentation as bash history*. It is almost a real situation, i.e. Denis Lysenko described this situation at his speech [How to replace infrastructure and stop worrying(RU)](https://www.youtube.com/watch?v=Qf5xHuiYgN4). Denis shared the story how to convert bash history into upscale infrastructure. 
+Let us imagine that you are onboarding on a project and you hear something like: "We use *Infrastructure as Code* approach". Unfortunately, what they really mean is *Infrastructure as bash history* or *Documentation as bash history*. This is almost a real situation. For example, Denis Lysenko described this situation in his speech [How to replace infrastructure and stop worrying(RU)](https://www.youtube.com/watch?v=Qf5xHuiYgN4). Denis shared the story on how to convert bash history into an upscale infrastructure. 
 
-Let us check source code definition: `a text listing of commands to be compiled or assembled into an executable computer program`. If we want we can present *Infrastructure as bash history* like code. It is a text & it is a list of commands, it describes how a server was configured, moreover, it is: 
+Let us check source code definition: `a text listing of commands to be compiled or assembled into an executable computer program`. If we want we can present *Infrastructure as bash history* like code. This is a text & a list of commands. It describes how a server was configured. Moreover, it is: 
 1. *Reproducible*: you can get bash history, execute commands and probably get working infrastructure.
 2. *Versioning*: you know who logged in, when and what was done.
-Unfotunately, if you lost server you will be able to do nothing because there is no bash history, you lot it with the server.
+Unfotunately, if you lose server, you will be able to do nothing because there is no bash history, you lost it with the server.
 
 What is to be done?
 
@@ -33,7 +33,7 @@ What is to be done?
 
 ![Infrastructure as Code](assets/200k_iac_code.png?raw=true "Infrastructure as Code")
 
-On the one hand, this abnormal case *Infrastructure as bash history* can be presented as *Infrastructure as Code*, but on the other hand, if you want to do something more complex than LAMP server, you have to manage, maintain, modify the code. Let us chat about parallels between *Infrastructure as Code* development and software development.
+On the one hand, this abnormal case, *Infrastructure as bash history*, can be presented as *Infrastructure as Code*, but on the other hand, if you want to do something more complex than LAMP server, you have to manage, maintain and modify the code. Let us chat about parallels between *Infrastructure as Code* development and software development.
 
 ## D.R.Y.
 
