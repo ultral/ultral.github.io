@@ -27,16 +27,18 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
+| 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos.md) |
+| 2019-09-25 | [SPbLUG](http://spblug.org/) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos.md) |
 | 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Lessons learned from testing Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Lessons learned from testing Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2019-04-24 | [SPbLUG](http://spblug.org/) | [Lessons learned from testing Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2019-03-23 | [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
 | 2019-02-25 | [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
 | 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md) |
-| 2018-08-26 | [chaos constructions](https://chaosconstructions.ru/) | [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md) |
+| 2018-08-26 | [Chaos Constructions](https://chaosconstructions.ru/) | [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md) |
 | 2018-08-19 | [Geekpicnic](https://vk.com/geekpicnicspb2018) | [Time management in real life](life/time-management-irl.md) |
 | 2018-04-25 | [SPbLUG](http://spblug.org/) | [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv.md) |
-| 2018-03-02 | [Devopsdays T-systems](https://www.t-systems.com/) | [Scary tale about vagrant](it/how-to-test-custom-os-distr.md) |
+| 2018-03-02 | [DevOps days T-systems](https://www.t-systems.com/) | [Scary tale about vagrant](it/how-to-test-custom-os-distr.md) |
 | 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Scary tale about vagrant](it/how-to-test-custom-os-distr.md)|
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [From monolith to microservices](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features | 
