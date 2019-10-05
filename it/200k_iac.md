@@ -146,30 +146,30 @@ It is like pair programming. In other words, there are two DevOps engineers and 
 
 From my point of view, *Code review* is one of the most efficient ways to share knowledge inside a team about your infrastructure. How does it work?
 * There is a repository which contains your infrastructure description.
-* Everyone is doing his changes in a dedicated branch.
-* During merge request, you are able to review delta of changes your infrastructure.
+* Everyone is doing their changes in a dedicated branch.
+* During merge request, you are able to review delta of changes in your infrastructure.
 
-The most interesting thing is that we were rotating a reviewer. It means that every couple of days we elected a new reviewer and the reviewer was looking through all merge request. As a result theoretically, every person had to touch a new part of the infrastructure and have average knowledge about our infrastructure in general.
+The most interesting thing is that we were rotating a reviewer. It means that every couple of days we elected a new reviewer and the reviewer was looking through all merge requests. As a result, theoretically, every person had to touch a new part of the infrastructure and had an average knowledge about our infrastructure in general.
 
 ### Code Style
 
 ![Code style](assets/200k_int_code_style.png?raw=true "Code style")
 
-Time was going, we were arguing during review sometimes because reviewer and committer might use different code style: 2 spaces or 4, camelCase or snake_case. We implemented it, however, it was not a picnic.
-* The first idea was to recommend to use linters. Everyone had his own development environment: IDE, OS.. it was tricky to sync & unify everything
-* The idea evolved into a slack bot. After each commit the bot was checking source code & pushing into slack messages with a list of problems, unfortunately, in the vast majority of cases, there were no changes after messages.
+Time was ticking, we were sometimes arguing during the review because the reviewer and the committer might use a  different code style: 2 spaces or 4, *camelCase* or *snake_case*. We implemented it, however, it was not a picnic.
+* The first idea was to recommend using linters. Everyone had his own development environment: IDE, OS.. it was tricky to sync & unify everything.
+* The idea evolved into a slack bot. After each commit, the bot was checking source code & pushing into slack messages with a list of problems. Unfortunately, in the vast majority of cases, there were no source code changes after the messages.
 
 ### Green Build Master
 
 ![Green Build Master](assets/200k_int_code_gbm.png?raw=true "Green Build Master")
 
-Next, the most painful step was to restrict commits into the master for everyone, only via merge requests & tests have to be ok. It is called *Green Build Master*. In other words, you are 100% sure that you can deploy your infrastructure from the master branch. It is a pretty common practice in software development:
+Next, the most painful step was to restrict pushing to the master branch for everyone. Only via merge requests & green tests have to be ok. This is called *Green Build Master*. In other words, you are 100% sure that you can deploy your infrastructure from the master branch. It is a pretty common practice in software development:
 * There is a repository which contains your infrastructure description.
-* Everyone is doing his changes in a dedicated branch.
+* Everyone is doing their changes in a dedicated branch.
 * For each branch, we are running tests.
 * You are not able to merge into the master branch if tests are failing.
 
-It was a tough decision, hopefully, as a result at review there was no arguing about code style and amount of smelling code was decreasing.
+It was a tough decision. Hopefully, as a result during review process, there was no arguing about the code style and the amount of code smell was decreasing.
 
 # IaC Testing
 
@@ -374,3 +374,4 @@ Infrastructure as Code it is a combination of:
 * [Тестируем инфраструктуру как код](http://rootconf.ru/2015/abstracts/1761)
 * [Эффективная разработка и сопровождение Ansible-ролей](https://www.youtube.com/watch?v=IzJsBUPXfkE)
 * [Ansible — это вам не bash!](https://www.youtube.com/watch?v=LApKSi5tUYo)
+* [Ansible идемпотентный](https://www.youtube.com/watch?v=1-lRS05NrLc)

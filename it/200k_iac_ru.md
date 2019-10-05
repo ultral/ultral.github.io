@@ -350,3 +350,4 @@ Infrastructure as Code это
 * [Тестируем инфраструктуру как код](http://rootconf.ru/2015/abstracts/1761)
 * [Эффективная разработка и сопровождение Ansible-ролей](https://www.youtube.com/watch?v=IzJsBUPXfkE)
 * [Ansible — это вам не bash!](https://www.youtube.com/watch?v=LApKSi5tUYo)
+* [Ansible идемпотентный](https://www.youtube.com/watch?v=1-lRS05NrLc)
