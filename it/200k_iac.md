@@ -175,9 +175,9 @@ It was a tough decision. Hopefully, as a result during review process, there was
 
 ![IaC testing](assets/200k_testing.png?raw=true "IaC testing")
 
-Besides code style checking, you are able to check that you can deploy or recreate your infrastructure in a sandbox. What's for? It is a sophisticated question and I would like to share a story instead of an answer. Were was a custom auto-scaler for AWS written in Powershell. The auto-scaler did not check cutting edges for input params, as a result, it created tons of virtual machines and the customer was unhappy. It is an awkward situation, hopefully, it is possible to catch it on the earliest stages.
+Besides code style checking, you are able to check that you can deploy or recreate your infrastructure in a sandbox. What for? It is a sophisticated question and I would like to share a story instead of an answer. There was a custom auto-scaler for AWS written in Powershell. The auto-scaler did not check cutting edges for input params. As a result, it created tons of virtual machines and the customer was unhappy. It is an awkward situation, but it is possible to identify this at the earliest stages.
 
-On the one hand, it is possible to test the script & infrastructure, but on the other hand, you are an increasing amount of code and making infrastructure more complex. However, the real reason under the hood for that is that you are putting your knowledge about infrastructure into tests, you are describing how things should work together.
+On the one hand, it is possible to test the script & infrastructure, but on the other hand, you are increasing an amount of code and making the infrastructure more complex. However, the real reason under the hood for that is that you are putting your knowledge about infrastructure to the tests. You are describing how things should work together.
 
 ## IaC Testing Pyramid
 
@@ -185,7 +185,7 @@ On the one hand, it is possible to test the script & infrastructure, but on the 
 
 ### IaC Testing: Static Analysis
 
-You can create the whole infrastructure from scratch for each commit, but usually, there are some obstacles:
+You can create the whole infrastructure from scratch for each commit, but, usually, there are some obstacles:
 * The price is stratospheric.
 * It requires a lot of time.
 
@@ -225,14 +225,14 @@ find . -type f -print0 | xargs -0 mv -t /path/to/target-dir
 
 #### Static analysis tools
 
-You can catch some issues from the previous example via [Shellcheck](https://www.shellcheck.net/). There are a lot of tools like that, they call linters and you can find out the most suitable for you IDE, stack, environment
+You can catch some issues from the previous example via [Shellcheck](https://www.shellcheck.net/). There are a lot of tools like that, they are called linters and you can find out the most suitable for your IDE, stack and environment.
 
 | Language | Tool |
 | --- | --- |
 | bash | [Shellcheck](https://www.shellcheck.net/) |
 | Ruby | [RuboCop](https://github.com/rubocop-hq/rubocop) |
 | python | [Pylint](https://www.pylint.org/) |
-| ansible  | [Ansible Lint](https://github.com/ansible/ansible-lint) |
+| Ansible  | [Ansible Lint](https://github.com/ansible/ansible-lint) |
 
 ### IaC Testing: Unit Tests
 
