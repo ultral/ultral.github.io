@@ -240,17 +240,17 @@ You can catch some issues from the previous example via [Shellcheck](https://www
 
 As you can see linters can not catch everything, they can only predict. If we continue to think about parallels between software development and Infrastructure as Code we should mention unit tests. There are a lot of unit tests systems like [shunit](https://github.com/kward/shunit2), [JUnit](https://junit.org), [RSpec](https://rspec.info/), [pytest](https://docs.pytest.org). But have you ever heard about unit tests for Ansible, Chef, Saltstack, CFengine?
 
-When we were talking about *S.O.L.I.D.* for CFM, I mentioned that our infrastructure should be made from simple bricks/modules. Now the time has come:
-1. Split infrastructure into simple modules/breaks, i.e. Ansible roles.
-2. Create an environment i.e. Docker or VM.
-3. Apply your one simple break/module to the environment.
-4. Check that everything is ok or not.
+When we were talking about *S.O.L.I.D.* for CFM, I mentioned that our infrastructure should be made from simple bricks/modules. Now the time has come to point out that:
+1. Split infrastructure into simple modules/bricks (i.e. Ansible roles).
+2. Create an environment (i.e. Docker or VM).
+3. Apply your one simple brick/module to the environment.
+4. Check that everything is OK or not.
 ...
 6. PROFIT!
 
 #### IaC Testing: Unit Testing tools
 
-What is the test for CFM and your infrastructure? i.e. you can just run a script or you can use production-ready solution like:
+What is the tests for CFM and your infrastructure? For example, you can just run a script or you can use a production-ready solution like:
 
 | CFM | Tool |
 | --- | --- |
@@ -259,7 +259,7 @@ What is the test for CFM and your infrastructure? i.e. you can just run a script
 | Chef | [Serverspec](https://serverspec.org/) |
 | saltstack | [Goss](https://github.com/aelsabbahy/goss) |
 
-Let us take a look at testinfra, I would like to check that users `test1`, `test2` exist and their are part of `sshusers` group:
+Let us take a look at *Testinfra*. I would like to check that users `test1`, `test2` exist and they are part of `sshusers` group:
 ```
 def test_default_users(host):
     users = ['test1', 'test2' ]
@@ -268,38 +268,38 @@ def test_default_users(host):
         assert 'sshusers' in host.user(login).groups
 ```
 
-What is the best solution? There is no single answer for that question, however, I created the heat map and compared changes in this  projects during 2018-2019:
+What is the best solution? There is no single answer for that question, however, I created the heat map and compared changes in these  projects during 2018-2019:
 
 ![IaC unit tests](assets/200k_testing_unit_compare.png?raw=true "IaC unit tests tools")
 
 #### IaC Testing frameworks
 
-After that, you can face a question how to run it all together? On the one hand, you can [do everything on your own](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html) if you have enough great engineers, but on the other hand, you can use opensource production-ready solutions:
+After that, you can face a question: how to run it all together? On the one hand, you can [do everything on your own](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html) if you have enough great engineers, but, on the other hand, you can use opensource production-ready solutions:
 
 | CFM | Tool |
 | --- | --- |
 | Ansible | [Molecule](https://molecule.readthedocs.io) |
-| Chef | [Test Kitchen](https://docs.chef.io/kitchen.html) |
+| Chef | [KitchenCI](https://docs.chef.io/kitchen.html) |
 | Terraform | [Terratest](https://github.com/gruntwork-io/terratest) |
 
-I created the heat map and compared changes in this  projects during 2018-2019:
+I created the heat map and compared changes in this projects during 2018-2019:
 
 ![IaC unit tests](assets/200k_testing_framework_compare.png?raw=true "IaC testing frameworks")
 
-#### Molecule vs. Testkitchen
+#### Molecule vs. KitchenCI
 
-![Molecule vs. Testkitchen](assets/200k_testing_unit_kitchen.png?raw=true "Molecule vs. Testkitchen")
+![Molecule vs. KitchenCI](assets/200k_testing_unit_kitchen.png?raw=true "Molecule vs. Testkitchen")
 
-In the beginning, we tried to [test ansible roles via testkitchen inside hyper-v](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html):
-1. Create VMs.
-2. Apply Ansible roles.
-3. Run Inspec.
+In the beginning, we tried to [test Ansible roles via KitchenCI inside Hyper-V](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html) this way:
+1. Creating VMs.
+2. Applying Ansible roles.
+3. Runing Inspec.
  
-It took 40-70 minutes for 25-35 Ansible roles. It was too long for us.
+It took 40-70 minutes to do this for 25-35 Ansible roles. It was too long for us.
 
-![Molecule vs. Testkitchen](assets/200k_testing_unit_molecule.png?raw=true "Molecule vs. Testkitchen")
+![Molecule vs. KitchenCI](assets/200k_testing_unit_molecule.png?raw=true "Molecule vs. Testkitchen")
 
-The next step was use Jenkins / docker / Ansible / molecule. It is approximately the same idea:
+The next step was using Jenkins / docker / Ansible / molecule. It is approximately the same idea:
 1. Lint Ansible playbooks.
 2. Lint Ansible roles.
 3. Run a docker container.
@@ -311,41 +311,41 @@ The next step was use Jenkins / docker / Ansible / molecule. It is approximately
 
 Linting for 40 roles and testing for ten of them took about 15 minutes.
 
-![Molecule vs. Testkitchen](assets/200k_testing_molecule_vs_testkitchen.png?raw=true "Molecule vs. Testkitchen")
+![Molecule vs. KitchenCI](assets/200k_testing_molecule_vs_testkitchen.png?raw=true "Molecule vs. Testkitchen")
 
-What is the best solution? On the one hand, I do not want to be the final authority, but on the other hand, I would like to share my point of view. There is no silver bullet exists, however, in case of Ansible molecule is a more suitable solution then testkitchen. 
+What is the best solution? On the one hand, I do not want to be the final authority, but, on the other hand, I would like to share my point of view. There is no silver bullet. However, in the case of Ansible, molecule is a more suitable solution then KitchenCI. 
 
 ### IaC Testing: Integration Tests
 
 ![IaC Integration Tests](assets/200k_testing_integration.png?raw=true "IaC Integration Tests")
 
-On the next level of *IaC testing pyramid*, there are *integration tests*. Integration tests for infrastructure look like unit tests:
-1. Split infrastructure into simple modules/breaks, i.e. Ansible roles.
-2. Create an environment i.e. Docker or VM.
-3. Apply *a combination* of simple break/module to the environment.
-4. Check that everything is ok or not.
+On the next level of *IaC testing pyramid*, there are *integration tests*. Integration tests for infrastructure look like unit tests. Let's look at the integration tests flow:
+1. Split infrastructure into simple modules/briks (i.e. Ansible roles).
+2. Create an environment (i.e. Docker or VM).
+3. Apply *a combination* of simple briks/modules to the environment.
+4. Check that everything is OK or not.
 ...
 6. PROFIT!
 
-In other words, during unit tests, we check one simple module(i.e. Ansible role, python script, Ansible module, etc) of an infrastructure, but in the case of integration tests, we check the whole server configuration.
+In other words, during unit tests, we check one simple module (i.e. Ansible role, python script, Ansible module, etc) of an infrastructure, but in the case of integration tests, we check the whole server configuration.
 
 ### IaC Testing: End to End Tests
 
 ![IaC testing pyramid](assets/200k_testing_pyramid.png?raw=true "IaC testing pyramid")
 
-On top of the *IaC testing pyramid*, there are *End to End Tests*. In this case, we do not check dedicated server, script, module of our infrastructure; We check the whole infrastructure together works properly. Unfortunately, there is no out of the box solution for that or I have not heard about them(please, flag me if you know about them). Usually, people reinvent the wheel, because, there is demand on end to end tests for infrastructure. So, I would like to share my experience, hope it will be useful for somebody.
+On the top of the *IaC testing pyramid*, there are *End to End Tests*. In this case, we do not check a server, a script and a module; we check the whole infrastructure together works properly. Unfortunately, there is no out of the box solution for that or I have not heard about them (please, flag me if you know about them). Usually, people reinvent the wheel, because, there is a demand on end to end tests for infrastructure. So, I would like to share my experience, hope it will be useful for somebody.
 
 ![IaC End to End Tests](assets/200k_testing_e2e_1.png?raw=true "IaC End to End Tests")
 
-First of all, I would like to describe the context. It is an out of box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. Usually, our clients are an immense enterprise with a completely different environment. We have knowledge about different environments combinations and we store it as different docker-compose files. Also, there matching between docker-compose files and tests, we store it as Jenkins jobs.
+First of all, I would like to describe the context. It is an out of the box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. Usually, our clients are an immense enterprise with a completely different environment. We have knowledge about different environments combinations and we store them as different docker-compose files. Also, there is a matching between docker-compose files and tests, we store them as Jenkins jobs.
 
 ![IaC End to End Tests](assets/200k_testing_e2e_2.png?raw=true "IaC End to End Tests")
 
-This scheme had been working quiet log period of time when during [openshift research](http://www.goncharov.xyz/it/deploy2openshift-en.html) we tried to migrate it into Openshift. We used approximately the same containers (hell  D.R.Y. again) and change the surrounding environment only.
+This scheme had been working for quiet log period of time. During [openshift research](http://www.goncharov.xyz/it/deploy2openshift-en.html) we tried to migrate it into Openshift. We used approximately the same containers (D.R.Y. helped again) and change the surrounding environment only.
 
 ![IaC End to End Tests](assets/200k_testing_e2e_3.png?raw=true "IaC End to End Tests")
 
-We continue to research and found [APB](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle) (Ansible Playbook Bundle). The main idea is that you pack all needed things into a container and run the container inside Openshift. It means that you have a reproducible and testable solution.
+We continued to research and found [APB](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle) (Ansible Playbook Bundle). The main idea is that you pack all the needed things into a container and run the container inside Openshift. It means that you have a reproducible and testable solution.
 
 ![IaC End to End Tests](assets/200k_testing_e2e_4.png?raw=true "IaC End to End Tests")
 
@@ -355,7 +355,7 @@ Everything was fine until we faced one more issue: we had to maintain heterogene
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
 
-Infrastructure as Code it is a combination of: 
+*Infrastructure as Code* is a combination of: 
 * Code.
 * People interaction.
 * Infrastructure testing.
