@@ -55,6 +55,8 @@ On one hand, it is possible to use bash for described purpose, but on the other 
 * [Ansible modules examples](https://github.com/berlic/devopsdays-ansible)
 * [Ansible module development: getting started](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html)
 * [Integrating Infrastructure as Code into a Continuous Delivery Pipeline](https://www.youtube.com/watch?v=wTunI1mZyp8)
+* [Practical Ansible testing with molecule](https://www.ansible.com/practical-ansible-testing-with-molecule)
+* [Code together: mob-programming](https://www.ansible.com/code-together-mob-programming)
 * [Тестируем инфраструктуру как код](http://rootconf.ru/2015/abstracts/1761)
 * [Эффективная разработка и сопровождение Ansible-ролей](https://www.youtube.com/watch?v=IzJsBUPXfkE)
 * [Ansible — это вам не bash!](https://www.youtube.com/watch?v=LApKSi5tUYo)
