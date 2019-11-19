@@ -27,6 +27,8 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
+| 2019-11-08 | Fall marathon | [A technical article and a speech are sides of the same coin](life/how-to-make-speech.md) |
+| 2019-11-08 | [Linkmeup №22](https://linkmeup.ru/blog/495.html) | [Linkmeup podcast №22](https://linkmeup.ru/blog/495.html) |
 | 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos.md) |
 | 2019-09-25 | [SPbLUG](http://spblug.org/) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos.md) |
 | 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
