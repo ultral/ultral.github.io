@@ -9,15 +9,16 @@ It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W
 
 **IaC** (Infrastructure as Code) is a modern approach and I believe that infrastructure is code. It means that we should use the same philosophy for infrastructure as for software development. If we are talking that infrastructure is code, then we should reuse  practices from development for infrastructure, i.e. unit testing, pair programming, code review. Please, keep in mind this idea while reading the article.
 
-* [English version](http://www.goncharov.xyz/iac)
-* [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
-* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](http://spblug.org)
+* [2020-01-24](https://devconfcz2020a.sched.com/event/YS73/lessons-learned-from-testing-over-200000-lines-of-infrastructure-code) [DevConf.CZ](https://www.devconf.info/cz/)
+  * [Slides for Devconf](https://cloud.mail.ru/public/5Lg7/5JBnK6cBn)
+* [2019-06-20](https://dins.timepad.ru/event/995147/) [DevOps EVENING!](https://vk.com/wall-55518582_883)
+  * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
 * 2019-05-28 [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906)
   * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
   * [Slides for DevopConf (RU)](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
-* 2019-06-20 [DEVOPS EVENING](https://dins.timepad.ru/event/995147/)
-  * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
-* 2020-01-24 [DevConf](https://devconfcz2020a.sched.com/event/YS73/lessons-learned-from-testing-over-200000-lines-of-infrastructure-code)
+* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](http://spblug.org)
+* [English version](http://www.goncharov.xyz/iac)
+* [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
 
 # Infrastructure as bash history
 
