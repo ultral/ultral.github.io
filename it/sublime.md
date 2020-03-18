@@ -23,37 +23,6 @@ import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe0
 * type `Package Control: Remove Package`
 * type package name
 
-## sublime settings
-
-* for mac (`cmd + ,`) 
-* for windows `preferences -> settings`
-
-```
-{
-  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-  "default_encoding": "UTF-8",
-  "default_line_ending": "unix",
-  "dictionary": "Packages/Russian-English Bilingual.dic",
-  "ensure_newline_at_eof_on_save": true,
-  "font_size": 11,
-  "ignored_packages":
-  [
-    "Markdown",
-    "SublimeLinter-pyyaml",
-    "Vintage"
-  ],
-  "rulers":
-  [
-    80
-  ],
-  "spell_check": true,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": "true"
-}
-```
-
 ### sublime linter
 * `ctrl + shift + p` or `cmd + shift + p`
 * install package
@@ -119,7 +88,7 @@ gem install yaml-lint
 
 ### sublime applysyntax
 
-it is needed for ansible lint  
+it is needed for ansible lint
 
 * install [ApplySyntax](https://github.com/facelessuser/ApplySyntax)
     * * `ctrl + shift + p` or `cmd + shift + p`
@@ -206,6 +175,37 @@ Sublime text 3 has it by default. however I advise to improve it.
 }
 ```
 
+## sublime settings
+
+* for mac (`cmd + ,`)
+* for windows `preferences -> settings`
+
+```
+{
+  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+  "default_encoding": "UTF-8",
+  "default_line_ending": "unix",
+  "dictionary": "Packages/Russian-English Bilingual.dic",
+  "ensure_newline_at_eof_on_save": true,
+  "font_size": 11,
+  "ignored_packages":
+  [
+    "Markdown",
+    "SublimeLinter-pyyaml",
+    "Vintage"
+  ],
+  "rulers":
+  [
+    80
+  ],
+  "spell_check": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": "true"
+}
+```
+
 #### Hints
 * Via `Goto anything` (`Cmd+p` or `ctrl + p`) you can fast switch throw:
   - open files/projects
@@ -222,3 +222,11 @@ Sublime text 3 has it by default. however I advise to improve it.
 
 ####
 SublimeLinter-annotations
+
+
+# WSL Integration
+
+1. Enable WSL `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux` .
+2. Checkout [repo](https://github.com/ultral/sublime_wsl_helpers.git) .
+3. Add the `helpers` dir from the repo to the `PATH` variable.
+4. Run `sudo install_me.sh` from the repo inside WSL.
