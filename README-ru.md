@@ -16,6 +16,7 @@
 * [Аналитика рынка труда в IT](it/about-it.md)
 * [Хард и софт скиллз](it/hard-soft-skills.md)
 * [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
+* [Openvpn внутри kubernetes внутри google cloud через terraform (EN)](it/gce4vpn.md)
 
 # Speeches
 
@@ -44,13 +45,12 @@
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 |
 
 # Life
+* [Уроки выученные за 3 года удаленно так, что бы остаться в трезвом уме и светлой памяти](life/remote-work.md)
+* [Микроклимат в квартире](life/microclimate.md)
 * [Изучение английского](life/how-to-english.md)
 * [Как похудеть](life/how-to-lose-weight.md)
-* [Как улучшать город вокруг себя](life/how-to-improve-your-town.md)
-* [Варианты взаидоействия с управляющей компанией](life/how-to-contact-with-uk.md)
-* [Как структурировать общение с управляющей компанией и не свихнуться](life/how-to-mange-tasks.md)
+* [Как улучшать город вокруг себя и не свихнуться](life/how-to-improve-city.md)
 * [Аналитика недвижимости в Санкт-Петербурге](life/about-aparts.md)
 * [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
 * [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
 * [Тайм менеджмент в домашних условиях](life/time-management.md)
-* [Openvpn внутри kubernetes внутри google cloud через terraform](gce4vpn.md)
