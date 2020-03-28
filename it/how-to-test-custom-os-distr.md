@@ -114,6 +114,3 @@ However, we were able to produce release every week & improve development veloci
 ![flow](assets/distr-flow-light.png?raw=true)
 
 The result was not ideal, but *a journey of a thousand li starts with a single step*(c).
-
-
-
