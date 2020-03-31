@@ -50,7 +50,7 @@
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features |
 
 # Life
-* [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work.md)
+* [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-en.md)
 * [Time management in real life](life/time-management-irl.md)
 * [How to learn English](life/how-to-english-en.md)
 * [How to lose weight](life/how-to-lose-weight-en.md)
