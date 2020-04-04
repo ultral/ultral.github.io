@@ -1,9 +1,11 @@
 # About
+
 * [Английская версия](README.md)
 * [События (EN)](about.md)
 * [Сертефикаты](certs.md)
 
-# Publications
+## Publications
+
 * [По следам DevConf и CfgMgmtCamp или что можно узнать съездив спикером на 2 международные конференции за 2 недели](https://habr.com/en/post/487432/)
 * [Что я узнал, протестировав 200 000 строк инфраструктурного кода](it/200k_iac.md)
 * [Запускаем приложение в Openshift и сравниваем существующий инструментарий](it/deploy2openshift-ru.md)
@@ -19,7 +21,7 @@
 * [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
 * [Openvpn внутри kubernetes внутри google cloud через terraform (EN)](it/gce4vpn.md)
 
-# Speeches
+## Speeches
 
 | date       | event | theme        |
 |------------|-------|--------------|
@@ -45,8 +47,10 @@
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 |
 
-# Life
+## Life
+
 * [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](life/remote-work.md)
+* [Split тренировка в домашних условиях](life/workout-split.md)
 * [Микроклимат в квартире](life/microclimate.md)
 * [Изучение английского](life/how-to-english.md)
 * [Как похудеть](life/how-to-lose-weight.md)
