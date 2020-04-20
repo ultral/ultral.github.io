@@ -56,11 +56,11 @@ My fitness program:
 
 ## 3. Eat healthy food
 
-I've written [the article](http://www.goncharov.xyz/life/how-to-lose-weight-en.html). In short: reduce sugar and fat; increase vegetables, not fat meat & porridge.
+I've written [the article](http://www.goncharov.xyz/life/how-to-lose-weight-en.html). In short: reduce sugar and fat; increase vegetables, porridge and not fat meat.
 
 ## 4. Create a schedule & follow it
 
-You shouldn’t spend all time working. If you work from home you have 3 additional hours: 2 commute hours & 1 hour for lunch. It's extremely easy to waste that time like a couch potato. Unfortunately, in the future, it will be hard to rid of bad habits. It's better to prevent it. You can invest free time into something fundamental: [learn a foreign language](http://www.goncharov.xyz/life/how-to-english-en.html), gain six-pack abs, create old school PC from scratch, read a book, create a pet project. You should plan time for that activity & make some preparations:
+You shouldn’t spend all time working. If you work from home you have 3 additional hours: 2 commute hours & 1 hour for lunch. It's extremely easy to waste that time like a couch potato. Unfortunately, in the future, it will be hard to get rid of bad habits. It's better to prevent them. You can invest free time into something fundamental: [learn a foreign language](http://www.goncharov.xyz/life/how-to-english-en.html), gain six-pack abs, create old school PC from scratch, read a book, create a pet project. You should plan time for that activity & make some preparations:
 
 1. Move everything out of your mind.
 2. Create contexts.
