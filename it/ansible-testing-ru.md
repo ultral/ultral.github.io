@@ -535,5 +535,9 @@ Ansible проповедут делкларативный подход, поэт
 
 * Slides [How to test Ansible and don't go nuts](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * Video [How to test Ansible and don't go nuts](https://www.youtube.com/watch?v=GdrJv5oypfg)
-* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/iac)
+* [Что я узнал, протестировав 200 000 строк инфраструктурного кода](http://www.goncharov.xyz/it/200k_iac_ru.html)
+* [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
+* [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
+* [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos.html)
+* [Monolith to microservices](http://www.goncharov.xyz/it/monolith-to-microservices.html)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)

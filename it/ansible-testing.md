@@ -17,4 +17,8 @@ redirect_from: "/ar"
 * [Russian version](http://www.goncharov.xyz/it/ansible-testing-ru.html)
 * [English version](http://www.goncharov.xyz/it/ansible-testing.html)
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/iac)
+* [How to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
+* [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
+* [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos.html)
+* [Monolith to microservices](http://www.goncharov.xyz/it/monolith-to-microservices.html)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)
