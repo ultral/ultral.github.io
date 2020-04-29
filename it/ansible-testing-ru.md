@@ -249,6 +249,272 @@ get_url:
 
 ## Lessons learned
 
+### Avoid global variables
+
+Ansible использует глобальные переменные, есть частичный workaround в виде [private_role_vars](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-private-role-vars), но это не панацея. 
+
+Приведу пример. Пусть у нас есть `role_a` и `role_b`
+
+```YAML
+# cat role_a/defaults/main.yml
+---
+msg: a
+
+# cat role_a/tasks/main.yml
+---
+- debug:
+    msg: role_a={{ msg }}
+```
+
+```YAML
+# cat role_b/defaults/main.yml
+---
+msg: b
+
+# cat role_b/tasks/main.yml
+---
+- set_fact:
+    msg: b
+- debug:
+    msg: role_b={{ msg }}
+```
+
+```YAML
+- hosts: localhost
+  vars:
+    msg: hello
+  roles:
+    - role: role_a
+    - role: role_b
+  tasks:
+    - debug:
+        msg: play={{msg}}
+```
+
+![Ansible refactoring](assets/at_global_vars.png?raw=true "Ansible refactoring")
+
+Забавная вещь, что результат работы плэйбуков будет зависеть от не всегда очевиндынх вещей, например очередности перечисления ролей. К сожалению это в натуре Ansible и лучшее что можно сделать, то использовать какие-то договоренности, например внутри роли использовать только переменную описанные в этой роли.
+
+**BAD**: использовать глобальную переменную.
+
+```YAML
+# cat roles/some_role/tasks/main.yml
+---
+debug:
+  var: java_home
+```
+
+**GOOD**: В `defaults` определять необходимые переменные и позже использовать только их.
+
+```YAML
+# cat roles/some_role/defaults/main.yml
+---
+r__java_home:
+ "{{ java_home | default('/path') }}"
+
+# cat roles/some_role/tasks/main.yml
+---
+debug:
+  var: r__java_home
+
+```
+
+### Prefix role variables
+
+**BAD**: использовать глобальную переменную.
+
+```YAML
+# cat roles/some_role/defaults/main.yml
+---
+db_port: 5432
+```
+
+**GOOD**: В роли для переменных использовать переменные с префиксом имени роли, это посмотрев на inventory позволит проще понять что происходит.
+
+```YAML
+# cat roles/some_role/defaults/main.yml
+---
+some_role__db_port: 5432
+```
+
+### Use loop control variable
+
+**BAD**: Использовать в циклах стандартную переменную `item`, если этот таск/поэйбук будет где-то заинклюдан то это может привести к непрдедвиденному поведению
+
+```YAML
+---
+- hosts: localhost
+  tasks:
+    - debug:
+        msg: "{{ item }}"
+      loop:
+        - item1
+        - item2
+
+```
+
+**GOOD**: Переопределять переменную в цикле через `loop_var`.
+
+```YAML
+---
+- hosts: localhost
+  tasks:
+    - debug:
+        msg: "{{ item_name }}"
+      loop:
+        - item1
+        - item2
+      loop_control:
+        loop_var: item_name
+
+```
+
+### Check input variables
+
+Мы договорлист использовать префиксы переменных, не будет лишним проверить что они определены как мы ожидаем и, например, не были перекрыты пустым значением
+
+**GOOD**: Проверять переменные.
+
+```YAML
+- name: "Verify that required string variables are defined"
+  assert:
+    that: ahs_var is defined and ahs_var | length > 0 and ahs_var != None
+    fail_msg: "{{ ahs_var }} needs to be set for the role to work "
+    success_msg: "Required variables {{ ahs_var }} is defined"
+  loop_control:
+    loop_var: ahs_var
+  with_items:
+    - ahs_item1
+    - ahs_item2
+    - ahs_item3
+```
+
+### Avoid hashes dictionaries, use flat structure
+
+Если роль ожидает hash/dictonarie в одному из параметров, то если мы захотим поправить один из дочерних параметров, нам надо будет переопределять весь hash/dictonarie, что повысит сложность конфигурирования.
+
+**BAD**: Использовать hash/dictonarie.
+
+```YAML
+---
+user:
+  name: admin
+  group: admin
+```
+
+**GOOD**: Использовать плоскую структуру переменных.
+
+```YAML
+---
+user_name: admin
+user_group: "{{ user_name }}"
+```
+
+### Create idempotent playbooks & roles
+
+Роли и плэйбуки должны быть идемпотентными, т.к. уменьшает configuration drift и страх сломать что-то. Но если вы пользуете molecule то это поведение по умолчанию.
+
+### Avoid using command shell modules
+
+Использование shell модуля приводит к императивной парадагме описания, вместо декларативной, которая является основной Ansible.
+
+### Test your roles via molecule
+
+Molecule позволяет весьма гибка штука, давай посмотрим несколько сценариев.
+
+#### Molecule Multiple instances
+
+В `molecule.yml` в секции `platforms` можно описать множество хостов которые разворачивать.
+
+```YAML
+---
+    driver:
+      name: docker
+    platforms:
+      - name: postgresql-instance
+        hostname: postgresql-instance
+        image: registry.example.com/postgres10:latest
+        pre_build_image: true
+        override_command: false
+        network_mode: host
+      - name: app-instance
+        hostname: app-instance
+        pre_build_image: true
+        image: registry.example.com/docker_centos_ansible_tests
+        network_mode: host
+```
+
+Соответсвенно эти хосты, можно потом в `converge.yml` использовать:
+
+```YAML
+---
+- name: Converge all
+  hosts: all
+  vars:
+    ansible_user: root
+  roles:
+    - role: some_role
+
+- name: Converge db
+  hosts: db-instance
+  roles:
+    - role: some_db_role
+
+- name: Converge app
+  hosts: app-instance
+  roles:
+    - role: some_app_role
+```
+
+#### Ansible verifier
+
+В molecule есть возможность использовать ansible Для проверки того, что инстанс был настроен правильно, более того это по умолчанию с 3 релиза. Это не так гибко как testinfra/inspec, но можно проверять, что содержимое файла соответсвует нашим ожиданиям:
+
+```YAML
+---
+- name: Verify
+  hosts: all
+  tasks:
+    - name: copy config
+      copy:
+        src: expected_standalone.conf
+        dest: /root/wildfly/bin/standalone.conf
+        mode: "0644"
+        owner: root
+        group: root
+      register: config_copy_result
+
+    - name: Certify that standalone.conf changed
+      assert:
+        that: not config_copy_result.changed
+```
+
+Или развернуть сервис, дождаться его доступности и сделать smoke test:
+
+```YAML
+---
+  - name: Verify
+    hosts: solr
+    tasks:
+      - command: /blah/solr/bin/solr start -s /solr_home -p 8983 -force
+      - uri:
+          url: http://127.0.0.1:8983/solr
+          method: GET
+          status_code: 200
+        register: uri_result
+        until: uri_result is not failed
+        retries: 12
+        delay: 10
+      - name: Post documents to solr
+        command: /blah/solr/bin/post -c master /exampledocs/books.csv
+```
+
+### Put complex logic into modules & plugins
+
+Ansible проповедут делкларативный подход, поэтому когда вы делаете ветвление кода, трансформацию данных, shell модули, то код становится сложно читаемым. Что бы побороться с этим и оставить его простым для понимания, не будет лишним, бороться с этой сложностью путём создания своих модулей.
+
+### Summorize Tips & Tricks
+
 1. Avoid global variables.
 2. Prefix role variables.
 3. Use loop control variable.
@@ -259,6 +525,11 @@ get_url:
 8. Test your roles via molecule.
 9. Put complex logic into modules & plugins.
 
+## Заключение
+
+![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
+
+Нельзя просто так взять и отрефакторить инфраструктуру на проекте, даже если у вас IaC. Это долгий процесс требующий терпения, времени и знаний.
 
 ## Links
 
