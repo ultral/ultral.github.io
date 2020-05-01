@@ -30,14 +30,18 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
+| 2018-04-22 | [T@Home](https://www.t-systems.com/) | [Time management in real life](life/time-management-irl.md) |
+| 2018-04-09 | [T@Home](https://www.t-systems.com/) | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work.md) |
+| 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/01.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
+| 2020-03-31 | [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) | [Work from home](https://music.yandex.ru/album/10318378/track/64324269) |
 | 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [How to test Ansible and don't go nuts](it/ansible-testing.md) |
 | 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2020-01-03 | Alexander Kadyrov podcast №2 | [Alexander Kadyrov podcast №2](https://podcast.kadyrov.dev/senior-yaml-developer/) |
 | 2019-11-08 | Fall marathon | [A technical article and a speech are sides of the same coin](life/how-to-make-speech.md) |
 | 2019-11-08 | [Linkmeup №22](https://linkmeup.ru/blog/495.html) | [Linkmeup podcast №22](https://linkmeup.ru/blog/495.html) |
-| 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos.md) |
-| 2019-09-25 | [SPbLUG](http://spblug.org/) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos.md) |
+| 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos-en.md) |
+| 2019-09-25 | [SPbLUG](http://spblug.org/) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos-en.md) |
 | 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2019-04-24 | [SPbLUG](http://spblug.org/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |

@@ -36,7 +36,7 @@
 | 2020-01-03 | Подкаст Александра Кадырова №2 | [Подкаст Александра Кадырова](https://podcast.kadyrov.dev/senior-yaml-developer/) |
 | 2019-11-08 | Осенний марафон | [Статья и выступление. Две стороны одной медали](life/how-to-make-speech.md) |
 | 2019-11-08 | [Linkmeup №22](https://linkmeup.ru/blog/495.html) | [Шоты №22. Лев Гончаров. DevOpsConf](https://linkmeup.ru/blog/495.html) |
-| 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](it/coreos2centos.md) |
+| 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [История переезда с самописного CFM 120 конфигураций ВМ на Ansible за 18 месяцев](it/coreos2centos-ru.md) |
 | 2019-09-25 | [SPbLUG](http://spblug.org/) | [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](it/coreos2centos.md) |
 | 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac.md) |
 | 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac.md) |
