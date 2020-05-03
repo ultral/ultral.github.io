@@ -9,11 +9,11 @@
 * [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](it/ansible-testing-ru.md)
 * [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](http://www.goncharov.xyz/it/coreos2centos-ru.html)
 * [По следам DevConf и CfgMgmtCamp или что можно узнать съездив спикером на 2 международные конференции за 2 недели](https://habr.com/en/post/487432/)
-* [Что я узнал, протестировав 200 000 строк инфраструктурного кода](it/200k_iac_en.md)
+* [Что я узнал, протестировав 200 000 строк инфраструктурного кода](it/200k-iac-en.md)
 * [Запускаем приложение в Openshift и сравниваем существующий инструментарий](it/deploy2openshift-ru.md)
 * [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](https://habr.com/post/342216/)
 * [Нет времени объяснять! или как подружить terraform с minikube и kubernetes](https://habr.com/post/340884/)
-* [Мониторинг головного мозга](https://habr.com/post/339330/)
+* [Мониторинг головного мозга](it/about-monitoring-ru.md)
 * [Подключаем NTFS на запись в Mac OS X Yosemite 10.10](https://habr.com/post/246517/)
 * [Перехват системных вызовов в linux под x86-64](https://habr.com/post/110369)
 * [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.md).
@@ -32,16 +32,16 @@
 | 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/01.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
 | 2020-03-31 | [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) | [Работаем дома в принудительном порядке](https://music.yandex.ru/album/10318378/track/64324269) |
 | 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](it/ansible-testing-ru.md) |
-| 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac_en.md) |
-| 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac_en.md) |
+| 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md) |
+| 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md) |
 | 2020-01-03 | Подкаст Александра Кадырова №2 | [Подкаст Александра Кадырова](https://podcast.kadyrov.dev/senior-yaml-developer/) |
 | 2019-11-08 | Осенний марафон | [Статья и выступление. Две стороны одной медали](life/how-to-make-speech.md) |
 | 2019-11-08 | [Linkmeup №22](https://linkmeup.ru/blog/495.html) | [Шоты №22. Лев Гончаров. DevOpsConf](https://linkmeup.ru/blog/495.html) |
 | 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](it/coreos2centos-ru.md) |
 | 2019-09-25 | [SPbLUG](http://spblug.org/) | [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](it/coreos2centos.md) |
-| 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac_en.md) |
-| 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac_en.md) |
-| 2019-04-24 | [SPbLUG](http://spblug.org/) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac_en.md) |
+| 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Что я узнал протестировав 200 000 строк IaC](it/200k-iac-en.md) |
+| 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Что я узнал протестировав 200 000 строк IaC](it/200k-iac-en.md) |
+| 2019-04-24 | [SPbLUG](http://spblug.org/) | [Что я узнал протестировав 200 000 строк IaC](it/200k-iac-en.md) |
 | 2019-03-23 | [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889) | [Let us deploy to openshift](it/deploy2openshift-ru.md) |
 | 2019-02-25 | [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/) | [Запускаем приложение в Openshift и сравниваем существующий инструментарий](it/deploy2openshift-ru.md) |
 | 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn внутри kubernetes внутри google cloud через terraform](it/gce4vpn.md) |
