@@ -42,7 +42,7 @@ At the current stage the knowledge how it was provisioned, all known kludges wer
 
 ## Just do it
 
-We had used TeamCity for our projects & gitlab hadn't was popular, so we decided to use TeamCity. We manually created a VM. We were running *tests* inside the VM. 
+We had used TeamCity for our projects & gitlab hadn't was popular, so we decided to use TeamCity. We manually created a VM. We were running *tests* inside the VM.
 
 There were some steps in build flow:
 
@@ -52,7 +52,7 @@ There were some steps in build flow:
 4. Update staging to the new version.
 
 ```bash
-make install && ./libs/run_all_tests.sh 
+make install && ./libs/run_all_tests.sh
 make dist
 make srpm
 rpmbuild -ba SPECS/xxx-base.spec
