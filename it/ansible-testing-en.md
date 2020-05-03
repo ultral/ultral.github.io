@@ -7,154 +7,155 @@ redirect_from:
 
 ![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
 
-Это расшифровка моего [выступления](https://www.youtube.com/watch?v=GdrJv5oypfg) на [DevOps-40 2020-03-18](https://www.meetup.com/DevOps-40/events/269140089/):
+It is the translation of my [speech](https://www.youtube.com/watch?v=GdrJv5oypfg) at [DevOps-40 2020-03-18](https://www.meetup.com/DevOps-40/events/269140089/):
 
 * [Slides](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * [Video](https://www.youtube.com/watch?v=GdrJv5oypfg)
 * [Russian version](http://www.goncharov.xyz/it/ansible-testing-ru.html)
-* [English version](http://www.goncharov.xyz/it/ansible-testing.html)
+* [English version](http://www.goncharov.xyz/it/ansible-testing-en.html)
 
-Начиная со второго коммита любой код становится legacy, т.к. изначальные задумки начинают расходиться с суровой реальностью. Это не хорошо и не плохо, это данность с которой сложно спорить и необходимо уживаться. Частью этого процесса является рефакторинг. Рефакторинг Infrastructure as Code. Да начнется история как отрефакторить Ansible за год и не слететь с катушек.
+After the second commit each code becomes legacy. It happens because the original ideas do not meet actual requirements for the system. It is not bad or good thing. It is the nature of infrastructure & agreements between people. Refactoring should align requirements & actual state. Let me call it Infrastructure as Code refactoring.
 
-## Зарождение Legacy
+## Legacy interception
 
-### День № 1: Нулевой пациент
+### Day № 1: Patient zero
 
 ![Ansible refactoring](assets/at_dev_ops.png?raw=true "Ansible refactoring")
 
-Жил был условный проект. На нем была Dev команда разработки и Ops инженеры. Они решали одну и ту же задачу: как развернуть сервера и запустить приложение. Проблема была в том, что каждая команда решала эту задачу по своему. На проекте было принято решение использовать Ansible для синхронизации знаний между командами Dev и Ops.
+There were a project. It was casual project, nothing special. There were operations engineers and developers. They were dealing witth exactly the same task: how to provision an application. However, there was the problem: each team tried to do in uniq way. They had decided to deal with it & use Ansible as the source of the truth.
 
-### День № 89: Зарождение Legacy
+### Day № 89: Legacy arise
 
 ![Ansible refactoring](assets/at_pasta_legacy.png?raw=true "Ansible refactoring")
 
-Сами того не заметив, хотели сделать как можно лучше, а получилось legacy. Как так получается?
+Time was ticking, they were doing as much as possible, unfortunately they got legacy. How did this happen?
 
-* У нас тут срочная таска, сделаем грязный хак - потом исправим.
-* Документацию можно не писать и так всё понятно что тут происходит.
-* Я знаю Ansible / Python / Bash / Terraform ! Смотрите как я могу извернуться!
-* Я Full Stack Overflow Developer скопировал это со stackoverflow, не знаю как это работает, но выглядит прикольно и решает задачу.
+* There were bunch of ASAP tasks.
+* It was ok do not write the documentation.
+* They didn't have enough knowledge about ansible.
+* Maybe, there were some Full Stack Overflow Developer - it was ok to copy-paste a solution from the stackoverflow.
+* There were lack communication.
 
-В итоге можно получить код непонятного вида, на который нет документации, непонятно что он делает, нужен ли он, но проблема в том, что вам необходимо его развивать, дорабатывать, добавлять костыли с подпорками, делая ситуацию только еше хуже.
+The reasons were well known. There were nothing special. It was standard process. IaC was behaving like code: it was becoming outdated, it had to be maintained & actualized.
 
-```YAML
-- hosts: localhost
-  tasks:
-    - shell: echo -n Z >> a.txt && cat a.txt
-      register: output
-      delay: 1
-      retries: 5
-      until: not output.stdout.find("ZZZ")
-```
-
-### День № 109: Осознание проблемы
+### Day № 109: Ok, we have. What's the next?
 
 ![Ansible refactoring](assets/at_road_to_success.png?raw=true "Ansible refactoring")
 
-Изначально задуманная и реализованная модель IaC перестаёт отвечать действительности с запросами пользователей / бизнеса / других команд, время внесение изменений в инфраструктуру перестаёт быть приемлемым. В этот момент приходит понимание, что пора принимать меры.
+Original idea / model of IaC became outdated & stuck. IaC did not meet business / customers / users requirements. It beccme hard to maintain the IaC, they were wasting time in struggling with kludges. It was epiphany moment.
 
-## Рефакторинг IaC
+## Refactoring IaC
 
-### День № 139: А вам точно нужен рефакторинг? 
+### Day № 139: Do you really need IaC refactoring?
 
 ![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
 
-Прежде чем кидаться рефакторить вы должны ответить на ряд важных вопросов:
+*First of all before refactoring you must answer three simple questions:*
 
-1. Зачем вам всё это?
-2. Есть ли у вас время?
-3. Достаточно ли знаний?
+1. *Do I have reason?*
+2. *Do I have enough time?*
+3. *Do I have enough knowledge that?*
 
-Если вы не знаете как ответить на вопросы, то рефакторинг закончится так и не начавшись или может получиться только хуже. Т.к. был опыт( [Что я узнал, протестировав 200 000 строк инфраструктурного кода](http://www.goncharov.xyz/it/200k_iac_ru.html)), то от проекта пришел запрос помощи исправить роли и покрыть их тестами.
+*If your answers are no, then refactoring might be a problem or challenge for you. You can do things worse.*
 
-### День № 149: Подготовка рефакторинга
+In our case the project knew that our infrastructure team had pretty good experience in the IaC refactoring ([Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_ru.html)), so our infrastructure team kindly agreed to help with refactoring. It was part of our daily routine to refactor the project.
+
+### Day № 149: Prepare refactoring
 
 ![Ansible refactoring](assets/at_main_concept.png?raw=true "Ansible refactoring")
 
-Первоочердное это надо подготовиться. Определиться что будем делать. Для этого общаемся, находим проблемные точки и прикидываем пути их решения решения. Полученные концепты как-то фиксируем, например статья в confluence, что бы при появление вопроса "как лучше?" или "как правильнее?" мы не сбились с курса. В нашем случае мы придерживались идеи *разделяй и властвуй*: дробим инфраструктуру на маленькие кусочки / кирпичики. Такой подход позволяет взять изолированный кусок инфраструктуры, понять что он делает, покрыть его тестами и изменить не побоявшись что-нибудь сломать.
+First of all we had to determine the goal. We were talking, digging into the processes & researching how to deal with the problems. After researches we made & presented the main concept. The main idea was split infrastructure code into small parts and deal with each part separately. It allowed us to cover by tests each piece of the infrastructure and understood the functionality of that piece of infrastructure. As a result we were able to refactor infrastructure little by little without breaking agreements.
 
 ![Ansible refactoring](assets/200k_testing_pyramid.png?raw=true "Ansible refactoring")
 
-Получается, что тестирование инфраструктуры становится краеугольным камнем и тут стоит упомянуть пирамиду тестирования инфраструктуры. Ровно таже идея, что в разработке, но для инфраструктуры: идем от дешевых быстрых тестов которые проверяют простые вещи, например отступы, к дорогим полноценным тестами разворачивающих цельную инфраструктуру.
+*Let me mention about the IaC testing pyramid. If we are talking that Infrastructure is Code, then we should re use practices from development for infrastructure, i.e. unit testing, pair DevOpsing, code review.. etc.. One of this approaches is a software testing & using testing pyramid for that. My idea is:*
 
-#### Попытки тестирования Ansible
+* *__static__ - shellcheck/ansible lint*
+* *__unit__ - molecule/kitchen + testinfra/inspec for basic blocks: modules, roles, etc*
+* *__integration__ - check whole server configuration - group of roles. again molecule/kitchen*
+* *__e2e(end to end)__ - check that group of servers work correctly as an infrastructure*
 
-Прежде чем пойдем описывать как покрывали тестами Ansible на проекте, опишу попытки и подходы которые довелось использовать ранее, что бы понять контекст принимаемых решений.
+#### How to test Ansible?
 
-##### День № -997: SDS provision
+*Before the other part oth the story let me share my attempts to ansible before that project. It is important becasue I want to share the context.*
+
+##### Day № -997: SDS provision
 
 ![Ansible refactoring](assets/at_ostest.png?raw=true "Ansible refactoring")
 
-Первый раз тестировать Ansible довелось на проекте по разработке SDS (Software Defined Storage). Есть отдельная статья на эту тему
-[Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html), но если кратко, то у нас получилась перевернутая пирамида тестирования и тестирование мы тратили 60-90 минут на одну роль, что есть долго. Основа была e2e тесты, т.е. мы разворачивали полноценную инсталляцию, и потом ее тестировали. Еще отягчающим было изобретение своего велосипеда. Но надо признаться это решение работало и позволяло стабильно релизиться.
+It was couple of projects before. We were developping SDS (Software Defined Storage). That was software and hardware appliance. The appliance consisted of custom OS distributive, upscale servers, a lot of business logic. As part of SDS we had bunch of processes i.e. how to provision the SDS installation. For provisioning we used Ansible. To make a short story long: we had reverted IaC testing pyramid. We had e2e test and they lasted 60-90 minutes. It was too slow. The main idea was to create the installation & emulate an user activity(i.e. mount iSCSI & write something). We created the IaC testing sollution.
 
-##### День № -701: Ansible и test kitchen
+*You can read a bit more:* [How to test your own OS distribution](how-to-test-custom-os-distr-en.md).
+
+##### Day № -701: Ansible & test kitchen
 
 ![Ansible refactoring](assets/at_kitchen_1.png?raw=true "Ansible refactoring")
 
-Развитием идеи тестирования Ansible стало использование готовых инструментов, а именно test kitchen / kitchen-ci и inspec. Выбор был обусловен знанием Ruby ( подробней: [Мечтают ли YML программисты о тестировании ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)) работало быстрее порядка 40 минут на 10 ролей. Мы создавали пачку виртуальных машин и внутри гоняли тесты.
+The next idea was not to reinvent the wheel & use production ready solution, i.e. test kitchen / kitche-ci & inspec. We decided to use it because we had enough expertise in the ruby world. We were creating VMs inside a VM. It was working more or less fine: 40 minutes for 10 roles.
+
+*You can read a bit more:* [Test me if you can. Do YML developers Dream of testing ansible?](test-ansible-roles-via-testkitchen-inside-hyperv-en.md).
 
 ![Ansible refactoring](assets/at_kitchen_2.png?raw=true "Ansible refactoring")
-В целом решение работало, но был осадочек из-за неоднородности. Когда же увеличили количество тестируемых до 13 базовых ролей и 2 мета ролей комбинирующие более мелкие роли, то вдруг тесты стали бежать 70 минут, что почти в 2 раза дольше. Об XP (extreme programming) практиках было сложно говорить т.к. никто не захочет ждать 70 минут. Это стало подоводом для изменения подхода
 
-##### День № -601: Ansible и molecule
+In general it was stable solution. However, when we increased the amount of tested roles to 15(13 base roles + 2 meta roles) we faced an issue. The speed of tests felt down dramatically to 70 minutes. It was to slow. We were not able to think about XP (extreme programming) practices.
+
+##### Day № -601: Ansible & molecule
 
 ![Ansible refactoring](assets/at_molecule_unit_1.png?raw=true "Ansible refactoring")
 
-Концептуально это похоже на testkitchen, только мы перевели тестирование ролей в docker и сменили стэк. Итогом, время сократилось до стабильных 20-25 минут для 7 ролей.
+It triggered us to use *molecule* & *docker*. As a result we had 20-25 minutes for 7 roles.
 
 ![Ansible refactoring](assets/at_molecule_unit_2.png?raw=true "Ansible refactoring")
 
-Увеличив количество тестирумых ролей до 17 и линтовку 45 ролей мы прогоняли это за 28 минут на 2 jenkins slave.
+We increased amount of tested roles to 17 & linted playbooks to 45. It lasted about 28 minutes with 2 jenkins slaves.
 
-### День № 167: Добавляем на проект тесты Ansible
+### Day № 167: Introduce tests to the project
 
 ![Ansible refactoring](assets/at_yac_shaving_1.png?raw=true "Ansible refactoring")
 
-С наскоку задачу рефакторинга, скорей всего сделать не получится. Задача должна быть измеримой, что бы вы могли ее разбить на мелкие кусочки и съесть слона по частям чайной ложкой. Должно быть понимание в правильном ли вы направлении идет движение, долго ли еще идти.
+It was bad idea to test all roles from the very beginning. Because it was immense change. We wanted to change the project little by little and avoid problems. So, we arranged the S.M.A.R.T. goal lint all roles. We were enabling linting roles/playbooks one by one. It was yac shaving: we were slowly improving the project and creating the culture.
 
 ![Ansible refactoring](assets/at_yac_shaving_2.png?raw=true "Ansible refactoring")
 
-В целом не суть важно как это будет сделано, можно писать на бумажку, можно клеить стикеры на шкаф, можно создавать таски в jira, а можно завести google docs И туда записывать текущий статус. Ноги растут из того, что процесс не сиюминутный, он будет долгий и нудный. Маловероятно, что кто-то хочет, что бы за время рефакторинга вы перегорели идей, устали и забили.
+*It is no really important how to shave the yac. It might be stickers on the wardrobe, tasks in the jira or spreadsheet in the google docs. The main idea you should track current status & understand how it is going. You should not burn out during refactoring, because it is long boring journey.*
 
-Рефакторинг прост:
+*Refactoring is easy as pie:*
 
-* Eat.
-* Sleep.
-* Code.
-* IaC test.
-* Repeat
-
-и так повторяем пока не достигнем намеченной цели.
+* *Eat.*
+* *Sleep.*
+* *Code.*
+* *IaC test.*
+* *Repeat*
 
 ![Ansible refactoring](assets/at_lint.png?raw=true "Ansible refactoring")
 
-Все сразу начать тестировать может не получится, поэтому у нас первой задачей было начать с линтовки и проверки синтаксиса. 
+So, we started from the linting. It was good start point.
 
-### День № 181: Green Build Master
+### Day № 181: Green Build Master
 
 ![Ansible refactoring](assets/200k_int_code_gbm.png?raw=true "Ansible refactoring")
 
-Линтовка это небольшой первый шаг к Green Build Master. Это почти ничего не сломает, но позволит отладить процессы и сделать зелененькие билды в jenkins. Идея в том, что бы выработать привычки у команды:
+Linting was the very first step to the Green Build Master. I coted almost nothing, but it created the good habits & processes inside the team:
 
-* Красные тесты плохо.
-* Пришёл исправить что-то заодно сделай код чуть лучше, чем он был до тебя.
+* Red test is bad, you should fix it.
+* If you see code smell - improve it.
+* Code must be better after you.
 
-### День № 193: От линтовки к unit тестам
+### Day № 193: Linting -> Unit tests
 
 ![Ansible refactoring](assets/at_molecule_unit_3.png?raw=true "Ansible refactoring")
 
- Выстроив процесс попадания кода в мастер можно начинать процесс поэтапного улучшения - заменяя линтовку на запуск ролей, можно даже без идемпотентности. Необходимо понять как применять роли, как они работают.
+We had processes how to change the master branch. The next step was to replace linting via real roles applying. We had to understand how roles were implemented and why.
 
-### День № 211: От unit к integration тестам
+### Day № 211: Unit tests -> Integration tests
 
 ![Ansible refactoring](assets/at_integration_1.png?raw=true "Ansible refactoring")
 
-Когда unit тестами покрыто большинство ролей и всё линтуется, можно переходит к добавлению интеграционных тестов. Т.е. тестированию не отдельного кирпичика в инфраструктуре, а их комбинации, например полноценную конфигурацию инстанса.
+We finished with unit tests. The vas majority of roles were tested after each commit. The next step was integration tests. We had to test the combination of simple bricks which creates the building - whole server configuration.
 
 ![Ansible refactoring](assets/at_integration_2.png?raw=true "Ansible refactoring")
 
-На jenkins мы генерировали множество стадий, которые в параллель линтовали роли / плэйбуки, потом юнит тесты в контейнерах и в конце интеграционные тесты.
+We were generating bunch of stages. The stages were executing simultaneously.
 
 #### Jenkins + Docker + Ansible = Tests
 
@@ -174,17 +175,15 @@ redirect_from:
 6. Run integration tests
 7. Finish
 
-### День № 271: Bus Factor
+### Day № 271: Bus Factor
 
 ![Ansible refactoring](assets/at_review_1.png?raw=true "Ansible refactoring")
 
-Первое время рефакторингом занималась небольшая группа людей в пару-тройку человек. Они делали ревью кода в мастерe. Со временем в команде вырабатолось знание как писать код и code review способствовало распространению знаний об инфраструктуре и том как она устроена. Изюминкой здесь было, то что ревьюверы выбирались по очереди, по графику, т.е. с некоторой долей вероятности ты залезешь в новый участок инфраструктуры.
+At the beginning of the project there were small amount of people. They were reviewers. Time was ticking and knowledge how to write ansible roles were spread across all teams members. The interesting thing was that we were rotating reviewer on the 2 weeks basis.
 
 ![Ansible refactoring](assets/at_review_2.png?raw=true "Ansible refactoring")
 
-И здесь должно быть удобно. Удобно делать ревью, видеть в рамках какой задачи оно сделано, историю обсуждений. Мы интегрировали jenkins + bitbucket + jira.
-
-Но как таковое ревью не панацея, как-то, у нас пролез в мастер код, который сделал нам флапающие тесты:
+The review had to be simple & reviewer friendly. So, we integrated jenkins + bitbucket + jira for that. Unfortunately, the review is not silver bullet. I.e. we missed bad code to the master and had flapped unstable tests.
 
 ```YML
 - get_url:
@@ -205,7 +204,7 @@ redirect_from:
     - "{{ actk_certs }}"
 ```
 
-Потом это исправили, но осадочек остался.
+Fortunately, we fixed that:
 
 ```YAML
 get_url:
@@ -226,25 +225,25 @@ get_url:
   with_items: "{{ actk_cert_list }}"
 ```
 
-### День № 311: Ускоряем тесты
+### Day № 311: Speed up tests
 
 ![Ansible refactoring](assets/at_integration_4.png?raw=true "Ansible refactoring")
 
-Со вренем тестов становилось больше, билды бежали медленнее до часа в плохом случае. На одном из ретро была фраза по типу "хорошо что есть тесты, но они медленные".  В итоге мы отказались от интеграционных тестов на виртуальных машинах и адаптировали под docker, дабы было быстрее. Так же заменили testinfra на ansible verifier что бы уменьшить кол-во используемых инструментов.
+Amount of tests was increasing, project was growing. As a result in the bad case out tests were executing for 60 minutes. For dealing with that we decided to remove integration tests via VMs & use only docker. Also we replaced testinfra via ansible verifier for unifying tool set.
 
 ![Ansible refactoring](assets/at_integration_5.png?raw=true "Ansible refactoring")
 
-Строго говоря тут был комплекс мер:
+We made some changes:
 
-1. Переход на docker.
-2. Убрать тестирование ролей, которое дублируется за счет зависимостей.
-3. Увеличить кол-во слэйвов.
-4. Порядок запуска тестов.
-5. Возможность линтовать **ВСЁ** локально одной командой.
+1. Migrated to the docker.
+2. Removed duplicated tests & simplified dependencies.
+3. Increased amount of jenkins slaves.
+4. Changed test execution order.
+5. Added ability lint all via single command, it helped to lint all locally via 1 command.
 
 ![Ansible refactoring](assets/at_integration_6.png?raw=true "Ansible refactoring")
 
-В итоге Pipeline на jenkins тоже унифицировался
+As a result of that changes, the jenkins pipeline also was changed
 
 1. Generate build stages.
 2. Lint all in parallel.
@@ -253,11 +252,13 @@ get_url:
 
 ## Lessons learned
 
+Let me share some lessons learned
+
 ### Avoid global variables
 
-Ansible использует глобальные переменные, есть частичный workaround в виде [private_role_vars](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-private-role-vars), но это не панацея. 
+Ansible uses global variable namespace. I know about workaround via [private_role_vars](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-private-role-vars), but it is not silver bullet.
 
-Приведу пример. Пусть у нас есть `role_a` и `role_b`
+Let us create two roles `role_a` & `role_b`
 
 ```YAML
 # cat role_a/defaults/main.yml
@@ -297,9 +298,9 @@ msg: b
 
 ![Ansible refactoring](assets/at_global_vars.png?raw=true "Ansible refactoring")
 
-Забавная вещь, что результат работы плэйбуков будет зависеть от не всегда очевидных вещей, например очередности перечисления ролей. К сожалению это в натуре Ansible и лучшее что можно сделать, то использовать какие-то договоренности, например внутри роли использовать только переменную описанные в этой роли.
+We often need some variables to be accessible globally and shared between different role. One obvious example is JAVA_HOME. Ansible has a flat namespace, and this can lead to variable names collisions. For example, two roles (say, webserver and mailserver) may use the same variable named 'port'; such a variable may be accidentally overwritten with the same value in both roles. It's better to prefix variable names in your roles either by a role name, or some short form of it.
 
-**BAD**: использовать глобальную переменную.
+**BAD**: use global variable.
 
 ```YAML
 # cat roles/some_role/tasks/main.yml
@@ -308,7 +309,7 @@ debug:
   var: java_home
 ```
 
-**GOOD**: В `defaults` определять необходимые переменные и позже использовать только их.
+**GOOD**: In this case it's a good idea to define such a variable in the inventory, and use a local variable in your role with default value of the global one. This way the roles are kind of self-contained, and it's easy to see what variables the role uses just by looking into the defaults.
 
 ```YAML
 # cat roles/some_role/defaults/main.yml
@@ -325,7 +326,9 @@ debug:
 
 ### Prefix role variables
 
-**BAD**: использовать глобальную переменную.
+It makes sense to use role name as the prefix for variable. it helps to understand the source inventory easier.
+
+**BAD**: use global variable.
 
 ```YAML
 # cat roles/some_role/defaults/main.yml
@@ -333,7 +336,7 @@ debug:
 db_port: 5432
 ```
 
-**GOOD**: В роли для переменных использовать переменные с префиксом имени роли, это посмотрев на inventory позволит проще понять что происходит.
+**GOOD**: Prefix variable.
 
 ```YAML
 # cat roles/some_role/defaults/main.yml
@@ -343,7 +346,7 @@ some_role__db_port: 5432
 
 ### Use loop control variable
 
-**BAD**: Использовать в циклах стандартную переменную `item`, если этот таск/плэйбук будет где-то заинклюдан то это может привести к непредвиденному поведению
+**BAD**: If you use standard `item` and somebody decides to loop you role you can face unpredictable issues.
 
 ```YAML
 ---
@@ -357,7 +360,7 @@ some_role__db_port: 5432
 
 ```
 
-**GOOD**: Переопределять переменную в цикле через `loop_var`.
+**GOOD**: Override the default variable via `loop_var`.
 
 ```YAML
 ---
@@ -375,9 +378,9 @@ some_role__db_port: 5432
 
 ### Check input variables
 
-Мы договорлись использовать префиксы переменных, не будет лишним проверить что они определены как мы ожидаем и, например, не были перекрыты пустым значением
+If your role require input roles it makes sense to raise if they are not presented.
 
-**GOOD**: Проверять переменные.
+**GOOD**: Check variables.
 
 ```YAML
 - name: "Verify that required string variables are defined"
@@ -395,9 +398,13 @@ some_role__db_port: 5432
 
 ### Avoid hashes dictionaries, use flat structure
 
-Если роль ожидает hash/dictionary в одному из параметров, то если мы захотим поправить один из дочерних параметров, нам надо будет переопределять весь hash/dictionary, что повысит сложность конфигурирования.
+While dictionaries may seem like a good fit for your variables, you should minimize their usage due to the following:
 
-**BAD**: Использовать hash/dictionary.
+* It's not possible for a user to change only one element of a dictionary.
+* Dictionary elements cannot take values from other elements.
+Example: A dictionary that stores some OS user:
+
+**BAD**: Use hash/dictionary.
 
 ```YAML
 ---
@@ -406,7 +413,9 @@ user:
   group: admin
 ```
 
-**GOOD**: Использовать плоскую структуру переменных.
+Downsides: you cannot set default group name to the user name; if a person using your role wants to customize only the name, they must also supply the group. With regular variables those issues are gone: Both variables can be changed independently, and the default group name matches the user name.
+
+**GOOD**: Use flatten structure & prefix variable.
 
 ```YAML
 ---
@@ -416,19 +425,19 @@ user_group: "{{ user_name }}"
 
 ### Create idempotent playbooks & roles
 
-Роли и плэйбуки должны быть идемпотентными, т.к. уменьшает configuration drift и страх сломать что-то. Но если вы пользуете molecule, то это поведение по умолчанию.
+Roles and playboks has to be idempotent. It decreases you fear to run a role. As a result configuration drift is minimum as possible.
 
 ### Avoid using command shell modules
 
-Использование shell модуля приводит к императивной парадигме описания, вместо декларативной, которая является основной Ansible.
+Imperative approach via command / shell modules are instead of declarative ansible nature. 
 
 ### Test your roles via molecule
 
-Molecule позволяет весьма гибка штука, давай посмотрим несколько сценариев.
+Molecule is pretty flexible, let me show some examples:
 
 #### Molecule Multiple instances
 
-В `molecule.yml` в секции `platforms` можно описать множество хостов которые разворачивать.
+In the `molecule.yml` in the `platforms` you can describe bunch of instances:
 
 ```YAML
 ---
@@ -448,7 +457,7 @@ Molecule позволяет весьма гибка штука, давай по�
         network_mode: host
 ```
 
-Соответственно эти хосты, можно потом в `converge.yml` использовать:
+After that you can use the instances in the `converge.yml`:
 
 ```YAML
 ---
@@ -472,7 +481,9 @@ Molecule позволяет весьма гибка штука, давай по�
 
 #### Ansible verifier
 
-В molecule есть возможность использовать ansible Для проверки того, что инстанс был настроен правильно, более того это по умолчанию с 3 релиза. Это не так гибко как testinfra/inspec, но можно проверять, что содержимое файла соответствует нашим ожиданиям:
+Molecule allows you to use ansible verifier instead of inspec / testinfra / serverspec. It's default from the 3.0 version.
+
+You can check that file contains expected body:
 
 ```YAML
 ---
@@ -493,7 +504,7 @@ Molecule позволяет весьма гибка штука, давай по�
         that: not config_copy_result.changed
 ```
 
-Или развернуть сервис, дождаться его доступности и сделать smoke test:
+Or you can start the service & perform a smoke test:
 
 ```YAML
 ---
@@ -515,7 +526,7 @@ Molecule позволяет весьма гибка штука, давай по�
 
 ### Put complex logic into modules & plugins
 
-Ansible проповедует декларативный подход, поэтому когда вы делаете ветвление кода, трансформацию данных, shell модули, то код становится сложно читаемым. Что бы побороться с этим и оставить его простым для понимания, не будет лишним, бороться с этой сложностью путём создания своих модулей.
+Ansible nature is declarative approach & YAML. It is extremely hard to use standard developers patterns as is because there is no syntax sugar for that. If you want implement complex not straight logic in a playbook usually it will be ugly. Fortunately, you can customize ansible via creating your own modules & plugins.
 
 ### Summarize Tips & Tricks
 
@@ -529,21 +540,19 @@ Ansible проповедует декларативный подход, поэт
 8. Test your roles via molecule.
 9. Put complex logic into modules & plugins.
 
-## Заключение
+## Conclusion
 
 ![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
 
-Нельзя просто так взять и отрефакторить инфраструктуру на проекте, даже если у вас IaC. Это долгий процесс требующий терпения, времени и знаний.
+One does not simply refactor agreements & infrastructure. It is long interesting journey.
 
 ## Links
 
 * [Кросс пост](https://habr.com/en/post/500058/)
 * Slides [How to test Ansible and don't go nuts](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * Video [How to test Ansible and don't go nuts](https://www.youtube.com/watch?v=GdrJv5oypfg)
-* [Что я узнал, протестировав 200 000 строк инфраструктурного кода](http://www.goncharov.xyz/it/200k_iac_ru.html)
-* [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](http://www.goncharov.xyz/it/coreos2centos-ru.html)
-* [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
-* [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
-* [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos.html)
-* [Monolith to microservices](http://www.goncharov.xyz/it/monolith-to-microservices.html)
+* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_ru.html)
+* [How to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-en.html)
+* [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-en.html)
+* [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos-en.html)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)

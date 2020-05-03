@@ -16,7 +16,7 @@ It is text version of speech at [Devopsdays T-systems 2018-03-02](https://www.t-
 
 Let's imagine that you are developing software and hardware appliance. The appliance consists of custom OS distributive, upscale servers, a lot of business logic, as a result, it has to use real hardware. If you release broken appliance, your users will not be happy. How to do stable releases?
 
-I'd like to share my story how we dealt with it. 
+I'd like to share my story how we dealt with it.
 
 ## Proof of concept
 
