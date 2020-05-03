@@ -1,10 +1,14 @@
+---
+redirect_from:
+  - /it/about-monitoring.html
+---
 # About monitoring
 
 ![intro](assets/monitoring_intro.jpeg?raw=true "intro")
 
-[Russian version](https://habr.com/post/339330/)
+[Russian version](about-monitoring-ru.md)
 
-Monitoring is the most important part of your infrastructure. Monitoring is system engineers basics. However, everyone has his own way to understand it. My way consist of denial. anger & acceptance. 
+Monitoring is the most important part of your infrastructure. Monitoring is system engineers basics. However, everyone has his own way to understand it. My way consist of denial. anger & acceptance.
 
 * **Denial**. You should not monitor anything, because, your users flag you if something strange will occur.
 * **Anger**. You have to monitor everything. You are allowed to notify CTO/CEO if CPU load average metric will be more than 95% during 30 seconds.
@@ -60,3 +64,9 @@ Zabbix had been good enough, but the world was changing. There were a lot of mod
 * It's possible to split monolith monitoring application to different levels: collect, store, present.
 * Business & IT must operate exactly the same data, but they should look at data different points of view.
 * There is no silver bullet exists, it means that you should customize your solutions.
+
+## LINKS
+
+* [cross post](https://habr.com/en/post/339330/)
+* [Russian version](about-monitoring-ru.md)
+* [English version](about-monitoring-en.md)

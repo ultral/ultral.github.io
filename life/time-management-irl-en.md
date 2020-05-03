@@ -7,7 +7,7 @@ redirect_from:
 
 ![no problems](assets/tm-noproblems.png?raw=true "no problems")
 
-[Russian version](time-management.md)
+[Russian version](time-management-irl-ru.md)
 
 It is text version of the [presentation](https://cloud.mail.ru/public/BsRX/gJfQUEuEm) at [Geekpicnic 2018-08-19](https://vk.com/geekpicnicspb2018).
 

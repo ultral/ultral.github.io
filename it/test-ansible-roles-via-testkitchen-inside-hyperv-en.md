@@ -1,12 +1,16 @@
 ---
 redirect_from: 
-    - "/ymldev.html"
-    - "/it/testkitchen-issues.html"
+    - /ymldev
+    - /ymldev.html
+    - /it/testkitchen-issues.html
+    - /it/test-ansible-roles-via-testkitchen-inside-hyperv.html
 ---
 
 # Test me if you can. Do YML developers Dream of testing ansible?
 
 ![kitchen-ci schema](assets/kitchen-ci-schema.png?raw=true "kitchen-ci schema")
+
+* [Russian version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
 
 It is text version of [presentation 2018-04-25](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) from [Saint-Petersburg Linux User Group](http://spblug.org/).
 

@@ -1,5 +1,7 @@
 ---
-redirect_from: "/iac"
+redirect_from:
+  - /iac
+  - /it/200k_iac.html
 ---
 # Lessons learned from testing Over 200,000 lines of Infrastructure Code
 

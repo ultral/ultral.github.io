@@ -4,7 +4,8 @@ redirect_from:
     - /life/how-to-improve-your-town.html
     - /life/how-to-mange-tasks.html
     - /how-to-improve-your-town.html
-    - /imporve-towm
+    - /imporve-town
+    - /life/how-to-improve-city.html
 ---
 # Как улучшать город вокруг себя и не свихнуться
 

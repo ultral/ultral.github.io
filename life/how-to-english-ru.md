@@ -1,5 +1,7 @@
 ---
-redirect_from: "/how-to-english.html"
+redirect_from: 
+  - /how-to-english.html
+  - /life/how-to-english.html
 ---
 # Intro
 
