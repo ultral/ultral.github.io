@@ -1,11 +1,11 @@
 ---
 redirect_from: "/it/coreos2centos.html"
 ---
-# Ansible: Coreos to centos, 18 months long journey
+# Ansible: CoreOS to CentOS, 18 months long journey
 
 ![intro](assets/c2a_map.png?raw=true "intro")
 
-It is text version of my speech at [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) and  [SPbLUG 2019-09-25](http://spblug.org/) [slides](https://cloud.mail.ru/public/UDCZ/WM4Y9Qv3j).
+It is text version of my speech at [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) and [SPbLUG 2019-09-25](http://spblug.org/) [slides](https://cloud.mail.ru/public/UDCZ/WM4Y9Qv3j).
 
 There was a custom configuration management solution.
 *I would like to share the story about a project. The project used to use a custom configuration management solution. Migration lasted 18 months. You can ask me 'Why?'. There are some answers below about changing processes, agreements and workflows.*
@@ -14,26 +14,26 @@ There was a custom configuration management solution.
 
 ![CFM 2 Ansible](assets/c2a_state_1.png?raw=true "CFM 2 Ansible")
 
-The infrastructure looked like bunch of standalone Hyper-V servers. In case of creation a VM we had to perform some actions:
+The infrastructure looked like a bunch of standalone Hyper-V servers. In case of creating a VM we had to perform some actions:
 
 * Put the VM hard drives to a special place.
-* Create DNS record.
-* Create DHCP reservation.
+* Create a DNS record.
+* Create a DHCP reservation.
 * Save the VM configuration to a git repo.
 
-It was partially automated process. Unfortunately, we had to manage used resources & VMs locations manually. Hopefully, developers were able to change VMs configuration in the git repo, reboot VM and, as a result, get VM with desired configuration.
+It was a partially automated process. Unfortunately, we had to manage used resources & VMs locations manually. Hopefully, developers were able to change VMs configuration in the git repo, reboot VM and, as a result, get VM with the desired configuration.
 
 ### Custom Configuration Management Solution
 
 ![CFM 2 Ansible](assets/c2a_vm_mgmt_workflow_1.png?raw=true "CFM 2 Ansible")
 
-I guess, the original approach was to have IaC. It had to be bunch of stateless VMs. Those VMs had reset they state after reboot. How did it look like?
+I guess the original approach was to have IaC. It had to be a bunch of stateless VMs. Those VMs had reset they state after reboot. How did it look like?
 
 1. We create MAC address reservation.
 2. We mount ISO & special bootable hard drive to a VM.
 3. CoreOS starts OS customization: download the appropriate script(based on the IP) from a web server.
 4. The script downloads the rest of configuration via SCP.
-5. The rest of configuration is bunch of systemd units, compose files & bash scripts.
+5. The rest of the configuration is a bunch of systemd units, compose files & bash scripts.
 
 ![CFM 2 Ansible](assets/c2a_kernel_panic.png?raw=true "CFM 2 Ansible")
 
@@ -47,24 +47,24 @@ There were some flaws:
 6. From time to time people created broken dependencies across systemd unit files, as a result, CoreOS was not able to reboot without magic sys rq.
 7. secret management.
 
-It was possible to say that there was no CM. There was pile of organized bash scripts & systemd unit files.
+It was possible to say that there was no CM. There was a pile of organized bash scripts & systemd unit files.
 
-## Day №0: Ok. We have the problem.
+## Day №0: Ok. We have a problem
 
 ![CFM 2 Ansible](assets/c2a_map.png?raw=true "CFM 2 Ansible")
 
-It was standard environment for developing and testing: Jenkins, test environments, monitoring, registry, etc. CoreOS developes created it as underlying OS for k8s or rancher. So, we had a problem what we used a good tool, in wrong way. The first step was determine desired technologies stack. Our idea was:
+It was a standard environment for developing and testing: Jenkins, test environments, monitoring, registry, etc. CoreOS developes created it as a underlying OS for k8s or rancher. So, we had a problem what we used a good tool, in the wrong way. The first step was to determine desired technologies stack. Our idea was:
 
 1. **CentOS** as base OS, because it was close enough to a productions environments.
 2. **Ansible** for configuration management, because we had enough expertise.
 3. **Jenkins** as a framework for automating our workflow, agreements and process. We used it because we had it before as part release workflow.
-4. **Hyper-V** virtualization platform. There were some reasons out of scope. To make a short story long: we were not allowed to use public clouds & in our infrastructure we had to use MS.
+4. **Hyper-V** virtualization platform. There were some reasons out of scope. To make a short story long: we were not allowed to use public clouds & we had to use MS in our infrastructure.
 
 ### Day №30: Agreements as Code
 
 ![CFM 2 Ansible](assets/c2a_vm_mgmt_workflow_2.png?raw=true "CFM 2 Ansible")
 
-The next step was to put met requirements, to establish contracts or in other words  to have **Agreements as Code**. It had to be *manual actions* -> *mechanization* -> *automatization*.
+The next step was to put met requirements, to establish contracts or in other words to have **Agreements as Code**. It had to be *manual actions* -> *mechanization* -> *automatization*.
 
 There were some process. *Let us chat about them separately*
 
@@ -120,7 +120,7 @@ Agreements as Code was not enough for us. The amount of IaC was increasing, agre
 
 ### Day №130: What is about Openshift? is it better then Ansible + CentOS?
 
-As I mentioned our infrastructure was like a creature. It was alive. It was growing. It was changing. As a part of that process & development process we had to research was it possible or not to run our application inside Openshift/k8s. *It is better to read*  [Let's deploy to Openshift](deploy2openshift-en.md). Unfortunately, we were not able to re use Openshift inside development infrastructure.
+As I mentioned our infrastructure was like a creature. It was alive. It was growing. It was changing. As a part of that process & development process we had to research was it possible or not to run our application inside Openshift/k8s. *It is better to read* [Let's deploy to Openshift](deploy2openshift-en.md). Unfortunately, we were not able to re use Openshift inside development infrastructure.
 
 ### Day №170: Let us try Windows Azure Pack
 
