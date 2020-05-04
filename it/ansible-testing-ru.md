@@ -1,6 +1,6 @@
 # Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек
 
-![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
+![Ansible refactoring](assets/at_intro.png?raw=true "Ansible refactoring")
 
 Это расшифровка моего [выступления](https://www.youtube.com/watch?v=GdrJv5oypfg) на [DevOps-40 2020-03-18](https://www.meetup.com/DevOps-40/events/269140089/):
 
