@@ -6,7 +6,7 @@ redirect_from:
     - /it/test-ansible-roles-via-testkitchen-inside-hyperv.html
 ---
 
-# Test me if you can. Do YML developers Dream of testing ansible?
+# Test me if you can. Do YML developers Dream of testing Ansible?
 
 ![kitchen-ci schema](assets/kitchen-ci-schema.png?raw=true "kitchen-ci schema")
 

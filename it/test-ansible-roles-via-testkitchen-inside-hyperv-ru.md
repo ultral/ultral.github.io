@@ -1,4 +1,4 @@
-# Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?
+# Протестируй меня если сможешь или мечтают ли YML программисты о тестирование Ansible?
 
 ![kitchen-ci schema](https://habrastorage.org/webt/ct/me/vo/ctmevotjzsrr0s-5_erinl_pedk.png)
 
