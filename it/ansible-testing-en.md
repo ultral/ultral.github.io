@@ -14,7 +14,7 @@ It is the translation of my [speech](https://www.youtube.com/watch?v=GdrJv5oypfg
 * [Russian version](http://www.goncharov.xyz/it/ansible-testing-ru.html)
 * [English version](http://www.goncharov.xyz/it/ansible-testing-en.html)
 
-After the second commit, each code becomes legacy. It happens because the original ideas do not meet actual requirements for the system. It is not bad or good thing. It is the nature of infrastructure & agreements between people. Refactoring should align requirements & actual state. Let me call it Infrastructure as Code refactoring.
+After the second commit, each code becomes legacy. It happens because the original ideas do not meet actual requirements for the system. It is not a bad or good thing. It is the nature of infrastructure & agreements between people. Refactoring should align requirements & actual state. Let me call it Infrastructure as Code refactoring.
 
 ## Legacy interception
 
@@ -22,27 +22,27 @@ After the second commit, each code becomes legacy. It happens because the origin
 
 ![Ansible refactoring](assets/at_dev_ops.png?raw=true "Ansible refactoring")
 
-There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a  problem: each team tried to do in a unique way. They had decided to deal with it & use Ansible as the source of the truth.
+There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a  problem: each team tried to it do in a unique way. They had decided to deal with it & use Ansible as the source of the truth.
 
 ### Day № 89: Legacy arise
 
 ![Ansible refactoring](assets/at_pasta_legacy.png?raw=true "Ansible refactoring")
 
-Time was ticking, they were doing as much as possible, unfortunately, they got legacy. How did this happen?
+Time was ticking. They were doing as much as possible. Unfortunately, they got legacy. How did this happen?
 
-* There were a bunch of ASAP tasks.
-* It was ok do not write the documentation.
+* There was a bunch of ASAP tasks.
+* It was ok not to write the documentation.
 * They didn't have enough knowledge about Ansible.
 * Maybe, there were some Full Stack Overflow Developers - it was ok to copy-paste a solution from the StackOverflow.
 * There was lack communication.
 
-The reasons were well known. There was nothing special. It was a standard process. IaC was behaving like code: it was becoming outdated, it had to be maintained & actualized.
+The reasons were well known. There was nothing special. It was a standard process. IaC was behaving like code: it was becoming outdatedж it had to be maintained & actualized.
 
 ### Day № 109: Ok, we have the problem. What's next?
 
 ![Ansible refactoring](assets/at_road_to_success.png?raw=true "Ansible refactoring")
 
-Original idea / model of IaC became outdated & stuck. IaC did not meet business / customers / users requirements. It became hard to maintain the IaC, they were wasting time struggling with kludges. It was epiphany moment.
+Original idea / model of IaC became outdated & stuck. IaC did not meet business / customers / users requirements. It became hard to maintain the IaCж they were wasting time struggling with kludges. It was an epiphany moment.
 
 ## Refactoring IaC
 
@@ -54,21 +54,21 @@ Original idea / model of IaC became outdated & stuck. IaC did not meet business 
 
 1. *Do I have a reason?*
 2. *Do I have enough time?*
-3. *Do I have enough knowledge that?*
+3. *Do I have enough knowledge about it?*
 
-*If your answers are no, then refactoring might be a problem or challenge for you. You can do things worse.*
+*If your answers are no, then refactoring might be a problem or a challenge for you. You can do things worse.*
 
-In our case the project knew that our infrastructure team had a pretty good experience in the IaC refactoring ([Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_en.html)), so our infrastructure team kindly agreed to help with refactoring. It was part of our daily routine to refactor the project.
+In our case, the project knew that our infrastructure team had a pretty good experience in the IaC refactoring ([Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_en.html)), so our infrastructure team kindly agreed to help with refactoring. It was part of our daily routine to refactor the project.
 
 ### Day № 149: Prepare to refactor
 
 ![Ansible refactoring](assets/at_main_concept.png?raw=true "Ansible refactoring")
 
-First of all, we had to determine the goal. We were talking, digging into the processes & researching how to deal with the problems. After researches we made & presented the main concept. The main idea was split infrastructure code into small parts and deal with each part separately. It allowed us to cover by tests each piece of the infrastructure and understood the functionality of that piece of infrastructure. As a result, we were able to refactor infrastructure little by little without breaking agreements.
+First of all, we had to determine the goal. We were talking, delve deep into the processes & researching how to deal with the problems. After researches, we made & presented the main concept. The main idea was to split infrastructure code into small parts and deal with each part separately. It allowed us to cover by tests each piece of the infrastructure and understood the functionality of that piece of infrastructure. As a result, we were able to refactor infrastructure little by little without breaking the agreements.
 
 ![Ansible refactoring](assets/200k_testing_pyramid.png?raw=true "Ansible refactoring")
 
-*Let me mention about the IaC testing pyramid. If we are talking that Infrastructure is Code, then we should reuse practices from development for infrastructure, i.e. unit testing, pair DevOpsing, code review.. etc.. One of this approaches is a software testing & using testing pyramid for that. My idea is:*
+*Let me mention about the IaC testing pyramid. If we are talking that Infrastructure is Code, then we should reuse practices from development for infrastructure, i.e. unit testing, pair DevOpsing, code review.. etc.. One of these approaches is a software testing & using testing pyramid for that. My idea is:*
 
 * *__static__ - shellcheck/ansible lint*
 * *__unit__ - molecule/kitchen + testinfra/inspec for basic blocks: modules, roles, etc*
@@ -77,13 +77,13 @@ First of all, we had to determine the goal. We were talking, digging into the pr
 
 #### How to test Ansible?
 
-*Before the other part of the story let me share my attempts to Ansible before that project. It is important because I want to share the context.*
+*Before the other part of the story let me share my attempts to test Ansible before that project. It is important because I want to share the context.*
 
 ##### Day № -997: SDS provision
 
 ![Ansible refactoring](assets/at_ostest.png?raw=true "Ansible refactoring")
 
-It was a couple of projects before. We were developing SDS (Software Defined Storage). That was software and hardware appliance. The appliance consisted of custom OS distributive, upscale servers, a lot of business logic. As part of SDS, we had a bunch of processes i.e. how to provision the SDS installation. For provisioning we used Ansible. To make a short story long: we had reverted IaC testing pyramid. We had an e2e test and they lasted 60-90 minutes. It was too slow. The main idea was to create the installation & emulate a user activity(i.e. mount iSCSI & write something). We created the IaC testing solution.
+It was a couple of projects before. We were developing SDS (Software Defined Storage). That was software and hardware appliance. The appliance consisted of custom OS distributive, upscale servers, a lot of business logic. As part of SDS, we had a bunch of processes i.e. how to provision the SDS installation. For provisioning we used Ansible. To make a short story long: we had reverted IaC testing pyramid. We had an e2e test and they lasted 60-90 minutes. It was too slow. The main idea was to create the installation & emulate an user activity(i.e. mount iSCSI & write something). We created the IaC testing solution.
 
 *You can read a bit more:* [How to test your own OS distribution](how-to-test-custom-os-distr-en.md).
 
@@ -91,7 +91,7 @@ It was a couple of projects before. We were developing SDS (Software Defined Sto
 
 ![Ansible refactoring](assets/at_kitchen_1.png?raw=true "Ansible refactoring")
 
-The next idea was not to reinvent the wheel & use production-ready solution, i.e. test kitchen / kitchen-ci & inspec. We decided to use it because we had enough expertise in the ruby world. We were creating VMs inside a VM. It was working more or less fine: 40 minutes for 10 roles.
+The next idea was not to reinvent the wheel & use production-ready solution, i.e. test kitchen / kitchen-ci & inspec. We decided to use it because we had enough expertise in the Ruby world. We were creating VMs inside a VM. It was working more or less fine: 40 minutes for 10 roles.
 
 *You can read a bit more:* [Test me if you can. Do YML developers Dream of testing ansible?](test-ansible-roles-via-testkitchen-inside-hyperv-en.md).
 
