@@ -21,6 +21,7 @@
 
 | Date       | Event | Article        |
 |------------|-------|----------------|
+| 2020-05-27 | Tech Talk Day | [Agreements as Code](it/aac-ru.md) |
 | 2020-04-29 | [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) | [Ansible good ot not](https://music.yandex.ru/album/10318378/track/65562747) |
 | 2020-04-22 | [T@Home](https://www.t-systems.com/) | [Time management in real life](life/time-management-irl-en.md) |
 | 2020-04-09 | [T@Home](https://www.t-systems.com/) | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-ru.md) |
