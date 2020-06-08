@@ -19,6 +19,7 @@
 
 | Date       | Event | Article        |
 |------------|-------|----------------|
+| 2020-06-09 | [TechLeadConf](https://techleadconf.ru/2020/abstracts/6772) | [Agreements as Code](it/aac-ru.md) |
 | 2020-05-27 | Tech Talk Day | [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md) |
 | 2020-04-29 | [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) | [Ansible хорош выкинуть](https://music.yandex.ru/album/10318378/track/65562747) |
 | 2020-04-22 | [T дома](https://www.t-systems.com/) | [Тайм менеджмент в домашних условиях](life/time-management-irl-en.md) |
