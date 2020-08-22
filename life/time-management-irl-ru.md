@@ -15,9 +15,9 @@ redirect_from:
 ## links
 
 * [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](remote-work-ru.md)
-* [Как похудеть](http://www.goncharov.xyz/life/how-to-lose-weight.html)
-* [Как выучить английский](http://www.goncharov.xyz/life/how-to-english.html)
-* [Как улучшать городскую инфраструктуру](http://www.goncharov.xyz/life/how-to-improve-your-town.html)
+* [Как похудеть](how-to-improve-city-ru.md)
+* [Как выучить английский](how-to-english-ru.md)
+* [Как улучшать городскую инфраструктуру](how-to-improve-city-ru.md)
 
 ### trackers
 

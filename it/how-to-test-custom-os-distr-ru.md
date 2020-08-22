@@ -4,10 +4,10 @@
 
 Это текстовая версия выступления на [Devopsdays T-systems 2018-03-02](https://www.t-systems.com/) и [Hashicorp meetup 2018-02-08](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/).
 
-* [Russian version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
-* [English version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
+* [Russian version](how-to-test-custom-os-distr-en.md)
+* [English version](how-to-test-custom-os-distr-ru.md)
 * [Crosspost Russian version](https://habr.com/post/342216/)
-* [Crosspost English version](https://habr.com/en/all/)
+* [Crosspost English version](https://habr.com/en/post/436864/)
 
 ## Диспозиция
 
@@ -50,7 +50,7 @@ make publish
 
 тесты сводились к следующему:
 
-1. в полуруками предподготовленном окружении установить набор утилит 
+1. в полуруками предподготовленном окружении установить набор утилит
 2. проверить их работу
 3. если ок - то опубликовать rpm
 4. в полуручном режиме сходить на staging и накатить новую версию
@@ -98,7 +98,7 @@ make publish
     * полученная VM паковалась и заливалась в s3 (кстати, кто знает как vagrant подружить с s3?)
 2. При одобрении мерджа не виден статус билда - переехали на gitlab ci. Обошлись малой кровью - пришлось отказаться от тригера некоторых билдов по регулярке тэга, в остальном рады.
 3. Раз в неделю была рутина по выпуску релиза - автоматизировали:
-    * Инкремент версии релиза 
+    * Инкремент версии релиза
     * Генерация release notes по закрытым задачам
     * Обновление changelog
     * Создание merge requests
@@ -130,7 +130,7 @@ make publish
 
 ## Links
 
-* [Russian version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
-* [English version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
+* [Russian version](how-to-test-custom-os-distr-en.md)
+* [English version](how-to-test-custom-os-distr-ru.md)
 * [Crosspost Russian version](https://habr.com/post/342216/)
-* [Crosspost English version](https://habr.com/en/all/)
+* [Crosspost English version](https://habr.com/en/post/436864/)

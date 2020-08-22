@@ -12,8 +12,8 @@ It is the translation of my [speech](https://www.youtube.com/watch?v=GdrJv5oypfg
 
 * [Slides](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * [Video](https://www.youtube.com/watch?v=GdrJv5oypfg)
-* [Russian version](http://www.goncharov.xyz/it/ansible-testing-ru.html)
-* [English version](http://www.goncharov.xyz/it/ansible-testing-en.html)
+* [Russian version](ansible-testing-ru.md)
+* [English version](ansible-testing-en.md)
 
 After the second commit, each code becomes legacy. It happens because the original ideas do not meet actual requirements for the system. It is not a bad or good thing. It is the nature of infrastructure & agreements between people. Refactoring should align requirements & actual state. Let me call it Infrastructure as Code refactoring.
 
@@ -59,7 +59,7 @@ Original idea / model of IaC became outdated & stuck. IaC did not meet business 
 
 *If your answers are no, then refactoring might be a problem or a challenge for you. You can do things worse.*
 
-In our case, the project knew that our infrastructure team had a pretty good experience in the IaC refactoring ([Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_en.html)), so our infrastructure team kindly agreed to help with refactoring. It was part of our daily routine to refactor the project.
+In our case, the project knew that our infrastructure team had a pretty good experience in the IaC refactoring ([Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md)), so our infrastructure team kindly agreed to help with refactoring. It was part of our daily routine to refactor the project.
 
 ### Day № 149: Prepare to refactor
 
@@ -567,8 +567,8 @@ Lessons learned:
 * [Cross post](https://habr.com/en/post/500058/)
 * Slides [How to test Ansible and don't go nuts](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * Video [How to test Ansible and don't go nuts](https://www.youtube.com/watch?v=GdrJv5oypfg)
-* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_en.html)
-* [How to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-en.html)
-* [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-en.html)
-* [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos-en.html)
+* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md)
+* [How to test your own OS distribution](how-to-test-custom-os-distr-en.md)
+* [Test me if you can. Do YML developers Dream of testing ansible?](test-ansible-roles-via-testkitchen-inside-hyperv-en.mdl)
+* [Ansible: Coreos to centos, 18 months long journey](coreos2centos-en.md)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)

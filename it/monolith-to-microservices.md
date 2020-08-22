@@ -99,17 +99,19 @@ A few months later, we faced that SQL performance was not good enough again. It 
 # Backups & monitoring
 
 We implemented the 3-2-1 rule:
+
 * At least 3 copy.
 * At least 2 different storage types.
 * At least 1 copy must be stored somewhere outside.
 
-Also, we created & tested disaster recovery plan. You can read about monitoring [here](http://www.goncharov.xyz/it/about-monitoring.html).
+Also, we created & tested disaster recovery plan. You can read about monitoring [here](about-it-ru.md).
 
 ## Applications updates
 
 ![Infrastructure](assets/monolith2microservices_41.png?raw=true "Infrastructure")
 
 As you can see, the infrastructure wasn't as easy as pie. We had to update it somehow. Casual update looked like:
+
 1. Do some preparation.
 2. Ran migration.
 3. Update web applications.
@@ -117,7 +119,7 @@ As you can see, the infrastructure wasn't as easy as pie. We had to update it so
 
 All logical steps were identical for staging/preprod/productions environments, however, it was slightly different at details. So, we created PowerShell scripts with OOP magic. It was a continuous process of improving our CI/CD infrastructure.
 
-# Conclusion 
+## Conclusion
 
 |                  | 2012  | 2014   |
 |------------------|-------|--------|
