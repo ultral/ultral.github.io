@@ -1,7 +1,7 @@
 # About
 
-* [Английская версия](README.md)
-* [События (EN)](about.md)
+* [English version](README.md)
+* [About](about.md)
 * [Сертефикаты](certs.md)
 
 ## Publications
