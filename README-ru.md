@@ -6,6 +6,7 @@
 
 ## Publications
 
+* [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md)
 * [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](it/ansible-testing-ru.md)
 * [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](it/coreos2centos-ru.md)
 * [Что я узнал, протестировав 200 000 строк инфраструктурного кода](it/200k-iac-ru.md)
@@ -19,7 +20,7 @@
 
 | Date       | Event | Article        |
 |------------|-------|----------------|
-| 2020-06-09 | [TechLeadConf](https://techleadconf.ru/2020/abstracts/6772) | [Agreements as Code](it/aac-ru.md) |
+| 2020-06-09 | [TechLeadConf](https://techleadconf.ru/2020/abstracts/6772) | [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md) |
 | 2020-05-27 | Tech Talk Day | [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md) |
 | 2020-04-29 | [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) | [Ansible хорош выкинуть](https://music.yandex.ru/album/10318378/track/65562747) |
 | 2020-04-22 | [T дома](https://www.t-systems.com/) | [Тайм менеджмент в домашних условиях](life/time-management-irl-en.md) |
@@ -46,7 +47,7 @@
 | 2018-03-02 | [DevOps days T-systems](https://www.t-systems.com/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr-ru.md) |
 | 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr-ru.md) |
 | 2015-02-06 | [Rcntec internal meetup](https://www.rcntec.com/en) | [Мониторинг головного мозга](it/about-monitoring-ru.md) |
-| 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](it/monolith-to-microservices-ru.md) |
+| 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 |
 
 ## Notes
