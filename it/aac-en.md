@@ -72,7 +72,7 @@ There is approximately the same situation with Jira tickets. Let's image somebod
 
 ![Agreements as Code](assets/aac_43_aac_en.png?raw=true "Agreements as Code")
 
-Let me share some:
+Let me share some examples:
 
 * **Big** problem, **small** price - **do it**. Usually, you can easily replace instruction "how to *grant permissions* to a user" via script. It formalizes your agreements.
 * **Small** problem, **small** price - **think**. If you have free time, it makes sense. On the one hand, it might be worthless to get knowledge about rare unique REST API service if you want to *update DNS* annually. But on the other hand, it might be longterm investment & make sense.
@@ -94,7 +94,7 @@ Let's try to look from a different perspective. Your processes might be automate
 To evolute, or not to evolute: that is the question.
 
 * **Serious** problem, **trivial** automation - **do it**. Instead of the script for granting permissions, you can configure LDAP integration. Instruction -> Script -> LDAP.
-* **Trivial** problem, **trivial** automation - *make sense*. In long term, it makes sense. Maybe, you will reuse your scripts somehow. The key thing is that your knowledge is stored and should not reinvent the wheel. This foundation can be used for creating _* as Service_ in future. i.e. I have private GitHub repo and store my scripts there.
+* **Trivial** problem, **trivial** automation - *make sense*. In the long term, it makes sense. Maybe, you will reuse your scripts somehow. The key thing is that your knowledge is stored and should not reinvent the wheel. This foundation can be used for creating _* as Service_ in future. i.e. I have private GitHub repo and store my scripts there.
 * **Trivial** problem, **serious** automation - *think*. For someone, it might be important to easily update *email footer*. i.e. There is a project for generating legal footers for emails & integrating it with MS exchange. Also, I've heard about the  immense outsource company. The company has a web portal. Each employee can get his email footer.
 * **Serious** problem, **serious** automation - *make sense*. If our agreements are presented as code then will be able to refactor it in case of *apocalypse*.
 
@@ -178,7 +178,7 @@ It's totally ok that infrastructure is changing and evolving into a huge pile of
 
 It is not really important how to shave the yak. It might be stickers on the wardrobe, tasks in the Jira or spreadsheet in the google docs. The main idea is to track current status & understand how it is going. By nature, this process is similar to code refactoring but with some limitations with tooling. You should not burn out during refactoring, because it is a long boring journey. Also, I'd like to emphasize that you should have:
 
-* *Goal* - You should understand the reason & desired target. You understand then time to stop has come.
+* *Reason* - You should understand the reason & desired target. It helps you to understand then time to stop has come.
 * *Time* - It should be part of the daily routine. It should be planned in your schedule. Without that, you try to rid of refactoring burthen in the middle of the journey.
 * *Knowledge* - Insane changes can increase entropy in your system. It can push you closer to chaos & apocalypse.
 
@@ -215,7 +215,7 @@ In 2019 I made the speech [Lessons learned from testing Over 200,000 lines of In
 
 ### When should I start testing my IaC?
 
-Ok, We can present our agreements as code. In other words, we have **IaC** (Infrastructure as Code). It means that we can use the same philosophy for infrastructure as for software development and reuse practices from development for infrastructure, i.e. refactoring, unit testing, pair programming, code review. I'm going to share some examples.
+It's a pretty good question. Let me share some stories.
 
 #### Project №1
 
@@ -225,8 +225,7 @@ Ok, We can present our agreements as code. In other words, we have **IaC** (Infr
 * **Right vertical axis** - SLOC for Ansible roles(*blue line*).
 * **Left vertical axis** - the amount of tested/linted roles/playbooks. It's used for the stacked area(integration tests, unit tests, linting).
 * *Blue line* - Source Lines Of Code in YAML files.
-* *Red filler* - the number of tested roles/playbooks.
-* *Magenta line* - the number of DevOps engineers.
+* *Stacked area* - the number of tested roles/playbooks.
 
 *We started from integration tests. It was hard to maintain & it was working to slow for developing IaC. As a result, we decided to rebuild the process from scratch. We started from linting. After that, our process evolute to unit tests.*
 
