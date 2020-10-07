@@ -14,7 +14,7 @@ It is the translation of my speech [TechLeadConf 2020-06-09](https://techleadcon
 * Update java & OS in the docker image?
 * Grant access to servers?
 
-*There is the spoiler from the TechLeadConf, unfortunately, it's in Russian:*
+*There is the spoiler from the TechLeadConf. Unfortunately, it's in Russian:*
 >! [Menti](assets/aac_3_menti.png?raw=true "Menti")
 
 ![You are asking for a new environment](assets/aac_4_new_env.png?raw=true "You are asking for a new environment")
@@ -29,7 +29,7 @@ Let's imagine that you expect that an environment will be ready in 2 days after 
 
 Before we start, I would like to clarify **what is the infrastructure?**. First of all, we should realize how it appears. From my point of view, those processes are pretty similar to each other. So, let's take a look onto the infrastructure for out of the box software for the immense enterprise.
 
-1. **Coincidence** *There was an application. The application did not appear from anywhere, it was developed by particular people. Those people had to deploy or run the application somewhere. In our case, somebody sent an email about 10-15 years ago. It was requested to mount servers into racks. It was the beginning of fragile agreements.* In your case, it might request via telegram, WhatsApp or by phone call. The key thing is that somebody makes mispredicted request to do something.
+1. **Coincidence** *There was an application. The application did not appear from anywhere. It was developed by particular people. Those people had to deploy or run the application somewhere. In our case, somebody sent an email about 10-15 years ago. It was requested to mount servers into racks. It was the beginning of fragile agreements.* In your case, it might request via telegram, WhatsApp or by phone call. The key thing is that somebody makes mispredicted request to do something.
 2. **Agreements** *Time was ticking, thick stream of requests via Jira, emails became waterflow of chaotic requests to create clients like environments.* But sometimes you can hear something like: if you want to install server faster please write on Monday because we visit server room on Tuesday only. In other words, people try to optimize the process somehow. **Agreements** are appearing.
 3. **Workflow** As a result, you have a formalized process. If you want to have a new environment: please create a task in Jira, fill the form and wait 7 days, the next available infrastructure engineer will create your environment.
 
@@ -39,7 +39,7 @@ Before we start, I would like to clarify **what is the infrastructure?**. First 
 
 As we know from our experience, on the one hand, if you want to mount servers to racks it is not a rapid process. But on the other hand, the development process must run at full speed.
 
-_The world was changing. Our application was containerized. Developers were able to create CoreOS based VMs dynamically. There were docker-compose files for each VM for emulating customers like environments. It was kind of k8s with minimal sets of features. It was before k8s was released. The first answered question was faced. there was a bunch of orphaned YML files in a git repository. There was no responsible person for them. Technical debt was increasing because of fast solutions & kludges. Team members were also changing. The **apocalypse** came: nobody knew how infrastructure work, nobody saw the whole picture._
+_The world was changing. Our application was containerized. Developers were able to create CoreOS based VMs dynamically. There were docker-compose files for each VM for emulating customers like environments. It was kind of k8s with minimal sets of features. It was before k8s was released. The first answered question was faced. There was a bunch of orphaned YML files in a git repository. There was no responsible person for them. Technical debt was increasing because of fast solutions & kludges. Team members were also changing. The **apocalypse** came: nobody knew how infrastructure work, nobody saw the whole picture._
 
 Things like that happen. It is not bad or good. There is the heat death of the Universe, that's a given. There is exactly the same thing: **infrastructure tends to chaos**.
 
@@ -51,15 +51,15 @@ Things like that happen. It is not bad or good. There is the heat death of the U
 
 **Create instruction or blueprint** might be the first idea if you want to deal with chaos. There is a short story.
 
-*Ages ago I work in an immense company. The company related somehow to the petrochemical industry. There were a lot of red tapes & formalism inside the company. Once upon a time, someone had to migrate a service and agreed to implement a temporary network scheme for a couple of weeks. The service was shared to the internet & it was authorized. I was reverse-engineering the petroleum-storage depot in a big airport and found that service. The funny thing is that I found that temp scheme 5 years later. It was an awkward situation because there was direct unrestricted access to a DC core network.*
+*Ages ago, I work in an immense company. The company related somehow to the petrochemical industry. There were a lot of red tapes & formalism inside the company. Once upon a time, someone had to migrate a service and agreed to implement a temporary network scheme for a couple of weeks. The service was shared to the internet & it was authorized. I was reverse-engineering the petroleum-storage depot in a big airport and found that service. The funny thing is that I found that temp scheme 5 years later. It was an awkward situation because there was direct unrestricted access to a DC core network.*
 
-As you can see sometimes **formal authorizations & blueprints can't save from chaos**.
+As you can see, sometimes **formal authorizations & blueprints can't save from chaos**.
 
 ### Agreements as Code
 
 ![Deal with chaos](assets/aac_27_deal_with_chaos.png?raw=true "Deal with chaos")
 
-There is approximately the same situation with Jira tickets. Let's image somebody asks you to prepare a new test environment. On the one hand, you prepare the environment & immediately forget how it has been configured. But on the other hand, if formalize/automate your *agreements as code* (it might be custom DSL, Ansible playbook, etc) you have reproducible solution & the single source of truth. It sounds great: somebody commits to git changes & it automatically appears in the production infrastructure. But you may ask does it worth the effort?
+There is approximately the same situation with Jira tickets. Let's image somebody asks you to prepare a new test environment. On the one hand, you prepare the environment & immediately forget how it has been configured. But on the other hand, if formalize/automate your *agreements as code* (it might be custom DSL, Ansible playbook, etc) you have reproducible solution & the single source of truth. It sounds great: somebody commits to git changes & it automatically appears in the production infrastructure. But you may ask, does it worth the effort?
 
 ### Think twice before you code your agreements
 
@@ -86,7 +86,7 @@ Let me share some:
 Let's try to look from a different perspective. Your processes might be automated on a different level.
 
 * **Manual work** - there is no automation at all. You are doing everything by hands, collecting cutting edges & corner cases. As a result, you will know the whole process from the beginning to the end.
-* **Mechanization** - It's first shot to simplify routing. It might be an article in confluence. later this article will help to create a script and code your agreements.
+* **Mechanization** - It's first shot to simplify routing. It might be an article in confluence. Later this article will help to create a script and code your agreements.
 * **Automation** - People maintain processes as minimum as possible. There are some _* as Service_. It allows other teams to automate their processes.
 
 ![Agreements as Code](assets/aac_59_aac_en.png?raw=true "Agreements as Code")
@@ -94,8 +94,8 @@ Let's try to look from a different perspective. Your processes might be automate
 To evolute, or not to evolute: that is the question.
 
 * **Serious** problem, **trivial** automation - **do it**. Instead of the script for granting permissions, you can configure LDAP integration. Instruction -> Script -> LDAP.
-* **Trivial** problem, **trivial** automation - *make sense*. In long term it makes sense, maybe you will reuse your scripts somehow. The key thing is that your knowledge is stored and should not reinvent the wheel. This foundation can be used for creating _* as Service_ in future. i.e. I have private GitHub repo and store my scripts there.
-* **Trivial** problem, **serious** automation - *think*. For someone, it might be important to easily update *email footer*. i.e. There is a project for generating legal footers for emails & integrating it with MS exchange. Also, I've heard about the  immense outsource company. The company has a web portal and each employee can get his email footer.
+* **Trivial** problem, **trivial** automation - *make sense*. In long term, it makes sense, maybe you will reuse your scripts somehow. The key thing is that your knowledge is stored and should not reinvent the wheel. This foundation can be used for creating _* as Service_ in future. i.e. I have private GitHub repo and store my scripts there.
+* **Trivial** problem, **serious** automation - *think*. For someone, it might be important to easily update *email footer*. i.e. There is a project for generating legal footers for emails & integrating it with MS exchange. Also, I've heard about the  immense outsource company. The company has a web portal. Each employee can get his email footer.
 * **Serious** problem, **serious** automation - *make sense*. If our agreements are presented as code then will be able to refactor it in case of *apocalypse*.
 
 It's part of infrastructure nature that agreements are formalizing as code and tending to be _* as Service_.
@@ -113,7 +113,7 @@ Sooner or later, your infrastructure increases the number of agreements. It's te
 
 ![IaC refactoring](assets/aac_63_refactoring_en.png?raw=true "IaC refactoring")
 
-*There was a custom configuration management solution. It looked like IaC, it behaved like IaC. But it was hard to maintain the solution. The reason for that was that it was too fragile & nobody wanted to support it. As a result, it was changed however it took 18 months.*
+*There was a custom configuration management solution. It looked like IaC. It behaved like IaC. But it was hard to maintain the solution. The reason for that was that it was too fragile & nobody wanted to support it. As a result, it was changed however it took 18 months.*
 
 You can ask me: 'Why so long?'. There are some answers in the article [Ansible: CoreOS to CentOS, 18 months long journey](coreos2centos-en.md). In general, the answer is because changing processes, agreements and workflows. Migration is prune determined process & It follows the Pareto principle:
 
@@ -135,9 +135,9 @@ However, from a top-level perspective it is as easy as pie:
 
 ![Ansible refactoring](assets/at_intro.png?raw=true "Ansible refactoring")
 
-*There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a problem: each team tried to do it uniquely. They had decided to deal with it & use Ansible as the source of the truth. Sooner or later, they realized that playbooks were not stable, they were crashing occasionally. As a result, there was a task to stabilize it.*
+*There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a problem: each team tried to do it uniquely. They had decided to deal with it & use Ansible as the source of the truth. Sooner or later, they realized that playbooks were not stable, they were occasionally crashing. As a result, there was a task to stabilize it.*
 
-You can the whole story in the article [How to test Ansible and don't go nuts](ansible-testing-en.md). To make a long story short:
+You can read the whole story in the article [How to test Ansible and don't go nuts](ansible-testing-en.md). To make a long story short:
 
 1. Create a list of existing roles.
 2. Get the first one.
@@ -176,7 +176,7 @@ It's totally ok that infrastructure is changing and evolving into a huge pile of
 7. Take a rest.
 8. Repeat...
 
-It is not really important how to shave the yak. It might be stickers on the wardrobe, tasks in the Jira or spreadsheet in the google docs. The main idea is to track current status & understand how it is going. By , this process is similar to code refactoring but with some limitations with tooling. You should not burn out during refactoring, because it is a long boring journey. Also, I'd like to emphasize that you should have:
+It is not really important how to shave the yak. It might be stickers on the wardrobe, tasks in the Jira or spreadsheet in the google docs. The main idea is to track current status & understand how it is going. By nature, this process is similar to code refactoring but with some limitations with tooling. You should not burn out during refactoring, because it is a long boring journey. Also, I'd like to emphasize that you should have:
 
 * *Goal* - You should understand the reason & desired target. You understand then time to stop has come.
 * *Time* - It should be part of the daily routine. It should be planned in your schedule. Without that, you try to rid of refactoring burthen in the middle of the journey.
@@ -190,10 +190,10 @@ It is not really important how to shave the yak. It might be stickers on the war
 * **Right vertical axis** - SLOC for Ansible roles(*blue line*).
 * **Left vertical axis** - the number of tested/linted roles/playbooks.
 * *Blue line* - Source Lines Of Code in YAML files.
-* *Red filler* - the amount of tested roles/playbooks.
+* *Red filler* - the number of tested roles/playbooks.
 * *Magenta line* - the number of engineers.
 
-With age, the velocity of changing infrastructure might go down. It is totally ok. From my point of view, there is a correlation between the number of agreements & SLOC of your IaC. I'm not 100% sure that it's the best way to visualize agreements but it looks like there are some remarks:
+With age, the velocity of changing infrastructure might go down. It is totally ok. From my point of view, there is a correlation between the number of agreements & SLOC of your IaC. I'm not 100% sure that it's the best way to visualize agreements, but it looks like there are some remarks:
 
 * The amount of code is constantly growing.
 * The amount of tests is exponentially growing.
@@ -228,7 +228,7 @@ Ok, We can present our agreements as code. In other words, we have **IaC** (Infr
 * *Red filler* - the number of tested roles/playbooks.
 * *Magenta line* - the number of DevOps engineers.
 
-*We started from integration tests. It was hard to maintain & it was working to slow for developing IaC. As a result, we decided to rebuild the process from scratch. We started from linting. After that our process evolute to unit tests.*
+*We started from integration tests. It was hard to maintain & it was working to slow for developing IaC. As a result, we decided to rebuild the process from scratch. We started from linting. After that, our process evolute to unit tests.*
 
 #### Project №2
 
@@ -245,7 +245,7 @@ The lesson learned:
 Let me share my estimations about numbers of SLOC:
 
 * *2000* - linting must be started from the very beginning.
-* *4000* - unit tests should be written. you don't run molecule at this stage you will have problems in the future.
+* *4000* - unit tests should be written. You don't run molecule at this stage you will have problems in the future.
 * *6000* - integration tests can be implemented.
 * *8000* - E2E tests might be presented.
 
