@@ -8,7 +8,7 @@ redirect_from:
 
 ![Agreements As Code](assets/aac_59_aac_en.png?raw=true "Agreements As Code")
 
-It is the translation of my speech [TechLeadConf 2020-06-09](https://techleadconf.ru/2020/abstracts/6772). Before we start I'd like to be on the same page with you. So, could you please [answer](https://www.menti.com/96ctmh3mr6)? How much time will it take to:
+It is the translation of my speech [TechLeadConf 2020-06-09](https://techleadconf.ru/2020/abstracts/6772). Before we start, I'd like to be on the same page with you. So, could you please [answer](https://www.menti.com/96ctmh3mr6)? How much time will it take to:
 
 * Create a new environment for testing?
 * Update java & OS in the docker image?
@@ -30,14 +30,14 @@ Let's imagine that you expect that an environment will be ready in 2 days after 
 Before we start, I would like to clarify **what is the infrastructure?**. First of all, we should realize how it appears. From my point of view, those processes are pretty similar to each other. So, let's take a look onto the infrastructure for out of the box software for the immense enterprise.
 
 1. **Coincidence** *There was an application. The application did not appear from anywhere. It was developed by particular people. Those people had to deploy or run the application somewhere. In our case, somebody sent an email about 10-15 years ago. It was requested to mount servers into racks. It was the beginning of fragile agreements.* In your case, it might request via telegram, WhatsApp or by phone call. The key thing is that somebody makes mispredicted request to do something.
-2. **Agreements** *Time was ticking, thick stream of requests via Jira, emails became waterflow of chaotic requests to create clients like environments.* But sometimes you can hear something like: if you want to install server faster please write on Monday because we visit server room on Tuesday only. In other words, people try to optimize the process somehow. **Agreements** are appearing.
+2. **Agreements** *Time was ticking, thick stream of requests via Jira, emails became waterflow of chaotic requests to create clients like environments.* But sometimes you can hear something like: if you want to install server faster, please write on Monday because we visit server room on Tuesday only. In other words, people try to optimize the process somehow. **Agreements** are appearing.
 3. **Workflow** As a result, you have a formalized process. If you want to have a new environment: please create a task in Jira, fill the form and wait 7 days, the next available infrastructure engineer will create your environment.
 
 ### Infrastructure tends to chaos
 
 ![Infrastructure -> Chaos](assets/aac_17_infra_chaos_en.png?raw=true "Infrastructure -> Chaos")
 
-As we know from our experience, on the one hand, if you want to mount servers to racks it is not a rapid process. But on the other hand, the development process must run at full speed.
+As we know from our experience, on the one hand, if you want to mount servers to racks, you should know that it is not a rapid process. But on the other hand, the development process must run at full speed.
 
 _The world was changing. Our application was containerized. Developers were able to create CoreOS based VMs dynamically. There were docker-compose files for each VM for emulating customers like environments. It was kind of k8s with minimal sets of features. It was before k8s was released. The first answered question was faced. There was a bunch of orphaned YML files in a git repository. There was no responsible person for them. Technical debt was increasing because of fast solutions & kludges. Team members were also changing. The **apocalypse** came: nobody knew how infrastructure work, nobody saw the whole picture._
 
@@ -75,9 +75,9 @@ There is approximately the same situation with Jira tickets. Let's image somebod
 Let me share some:
 
 * **Big** problem, **small** price - **do it**. Usually, you can easily replace instruction "how to *grant permissions* to a user" via script. It formalizes your agreements.
-* **Small** problem, **small** price - **think**. If you have free time it makes sense. On the one hand, it might be worthless to get knowledge about rare unique REST API service if you want to *update DNS* annually. But on the other hand, it might be longterm investment & make sense.
-* **Small** problem, **big** price - **ignore**. How often should you *email footer*? annually? once time per 3 years?
-* **Big** problem, **big** price - **think twice**. If you don't have enough experience you might do situation worse. Let's imagine that scripts for automating your routine have become standard in the company. Everyone uses it. Nobody knows how it works. You face the *apocalypse*. It's time for *IaC refactoring*.
+* **Small** problem, **small** price - **think**. If you have free timem it makes sense. On the one hand, it might be worthless to get knowledge about rare unique REST API service if you want to *update DNS* annually. But on the other hand, it might be longterm investment & make sense.
+* **Small** problem, **big** price - **ignore**. How often should you *email footer*? Annually? Once time per 3 years?
+* **Big** problem, **big** price - **think twice**. If you don't have enough experience, you might do situation worse. Let's imagine that scripts for automating your routine have become standard in the company. Everyone uses it. Nobody knows how it works. You face the *apocalypse*. It's time for *IaC refactoring*.
 
 ## Manual work -> Mechanization -> Automation
 
@@ -94,7 +94,7 @@ Let's try to look from a different perspective. Your processes might be automate
 To evolute, or not to evolute: that is the question.
 
 * **Serious** problem, **trivial** automation - **do it**. Instead of the script for granting permissions, you can configure LDAP integration. Instruction -> Script -> LDAP.
-* **Trivial** problem, **trivial** automation - *make sense*. In long term, it makes sense, maybe you will reuse your scripts somehow. The key thing is that your knowledge is stored and should not reinvent the wheel. This foundation can be used for creating _* as Service_ in future. i.e. I have private GitHub repo and store my scripts there.
+* **Trivial** problem, **trivial** automation - *make sense*. In long term, it makes sense. Maybe, you will reuse your scripts somehow. The key thing is that your knowledge is stored and should not reinvent the wheel. This foundation can be used for creating _* as Service_ in future. i.e. I have private GitHub repo and store my scripts there.
 * **Trivial** problem, **serious** automation - *think*. For someone, it might be important to easily update *email footer*. i.e. There is a project for generating legal footers for emails & integrating it with MS exchange. Also, I've heard about the  immense outsource company. The company has a web portal. Each employee can get his email footer.
 * **Serious** problem, **serious** automation - *make sense*. If our agreements are presented as code then will be able to refactor it in case of *apocalypse*.
 
@@ -113,7 +113,7 @@ Sooner or later, your infrastructure increases the number of agreements. It's te
 
 ![IaC refactoring](assets/aac_63_refactoring_en.png?raw=true "IaC refactoring")
 
-*There was a custom configuration management solution. It looked like IaC. It behaved like IaC. But it was hard to maintain the solution. The reason for that was that it was too fragile & nobody wanted to support it. As a result, it was changed however it took 18 months.*
+*There was a custom configuration management solution. It looked like IaC. It behaved like IaC. But it was hard to maintain the solution. The reason for that was that it was too fragile & nobody wanted to support it. As a result, it was changed. However, it took 18 months.*
 
 You can ask me: 'Why so long?'. There are some answers in the article [Ansible: CoreOS to CentOS, 18 months long journey](coreos2centos-en.md). In general, the answer is because changing processes, agreements and workflows. Migration is prune determined process & It follows the Pareto principle:
 
@@ -122,7 +122,7 @@ You can ask me: 'Why so long?'. There are some answers in the article [Ansible: 
 
 ![CFM 2 Ansible](assets/c2a_yac_shaving.png?raw=true "CFM 2 Ansible")
 
-However, from a top-level perspective it is as easy as pie:
+From a top-level perspective, it is as easy as pie:
 
 1. Create a list of servers.
 2. Select the first one.
@@ -135,7 +135,7 @@ However, from a top-level perspective it is as easy as pie:
 
 ![Ansible refactoring](assets/at_intro.png?raw=true "Ansible refactoring")
 
-*There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a problem: each team tried to do it uniquely. They had decided to deal with it & use Ansible as the source of the truth. Sooner or later, they realized that playbooks were not stable, they were occasionally crashing. As a result, there was a task to stabilize it.*
+*There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a problem: each team tried to do it uniquely. They had decided to deal with it & use Ansible as the source of the truth. Sooner or later, they realized that playbooks were not stable. They were occasionally crashing. As a result, there was a task to stabilize it.*
 
 You can read the whole story in the article [How to test Ansible and don't go nuts](ansible-testing-en.md). To make a long story short:
 
