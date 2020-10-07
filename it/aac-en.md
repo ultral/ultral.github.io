@@ -30,7 +30,7 @@ Let's imagine that you expect that an environment will be ready in 2 days after 
 Before we start, I would like to clarify **what is the infrastructure?**. First of all, we should realize how it appears. From my point of view, those processes are pretty similar to each other. So, let's take a look onto the infrastructure for out of the box software for the immense enterprise.
 
 1. **Coincidence** *There was an application. The application did not appear from anywhere. It was developed by particular people. Those people had to deploy or run the application somewhere. In our case, somebody sent an email about 10-15 years ago. It was requested to mount servers into racks. It was the beginning of fragile agreements.* In your case, it might request via telegram, WhatsApp or by phone call. The key thing is that somebody makes mispredicted request to do something.
-2. **Agreements** *Time was ticking, thick stream of requests via Jira, emails became waterflow of chaotic requests to create clients like environments.* But sometimes you can hear something like: if you want to install server faster, please write on Monday because we visit server room on Tuesday only. In other words, people try to optimize the process somehow. **Agreements** are appearing.
+2. **Agreements** *Time was ticking, thick stream of requests via Jira, emails became waterflow of chaotic requests to create clients like environments.* But sometimes you can hear something like: if you want to install server faster, please write on Monday because we visit the server room on Tuesday only. In other words, people try to optimize the process somehow. **Agreements** are appearing.
 3. **Workflow** As a result, you have a formalized process. If you want to have a new environment: please create a task in Jira, fill the form and wait 7 days, the next available infrastructure engineer will create your environment.
 
 ### Infrastructure tends to chaos
@@ -75,9 +75,9 @@ There is approximately the same situation with Jira tickets. Let's image somebod
 Let me share some:
 
 * **Big** problem, **small** price - **do it**. Usually, you can easily replace instruction "how to *grant permissions* to a user" via script. It formalizes your agreements.
-* **Small** problem, **small** price - **think**. If you have free timem it makes sense. On the one hand, it might be worthless to get knowledge about rare unique REST API service if you want to *update DNS* annually. But on the other hand, it might be longterm investment & make sense.
-* **Small** problem, **big** price - **ignore**. How often should you *email footer*? Annually? Once time per 3 years?
-* **Big** problem, **big** price - **think twice**. If you don't have enough experience, you might do situation worse. Let's imagine that scripts for automating your routine have become standard in the company. Everyone uses it. Nobody knows how it works. You face the *apocalypse*. It's time for *IaC refactoring*.
+* **Small** problem, **small** price - **think**. If you have free time, it makes sense. On the one hand, it might be worthless to get knowledge about rare unique REST API service if you want to *update DNS* annually. But on the other hand, it might be longterm investment & make sense.
+* **Small** problem, **big** price - **ignore**. How often should you *email footer*? Annually? One time per 3 years?
+* **Big** problem, **big** price - **think twice**. If you don't have enough experience, you might do a situation worse. Let's imagine that scripts for automating your routine have become standard in the company. Everyone uses it. Nobody knows how it works. You face the *apocalypse*. It's time for *IaC refactoring*.
 
 ## Manual work -> Mechanization -> Automation
 
@@ -245,7 +245,7 @@ The lesson learned:
 Let me share my estimations about numbers of SLOC:
 
 * *2000* - linting must be started from the very beginning.
-* *4000* - unit tests should be written. You don't run molecule at this stage you will have problems in the future.
+* *4000* - unit tests should be written. You don't run the molecule at this stage you will have problems in the future.
 * *6000* - integration tests can be implemented.
 * *8000* - E2E tests might be presented.
 
