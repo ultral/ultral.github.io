@@ -19,7 +19,7 @@ It is the translation of my speech [TechLeadConf 2020-06-09](https://techleadcon
 
 ![You are asking for a new environment](assets/aac_4_new_env.png?raw=true "You are asking for a new environment")
 
-Let's image that you have an expectation that an environment will be ready in 2 days after you created a jira ticket. Just after that you receive an email that it will be ready in 2 weeks. It's sad but true. But usually I'm this person from infrastructure team. I collapse you expectation. Please don't blame on me. I'm not stiff, opinionated or arrogant person. There are some serious reason for that. Let me clarify and put things in order.
+Let's imagine that you have an expectation that an environment will be ready in 2 days after you created a jira ticket. Just after that you receive an email that it will be ready in 2 weeks. It's sad but true. But usually I'm this person from infrastructure team. I collapse your expectation. Please don't blame on me. I'm not stiff, opinionated or arrogant person. There are some serious reasons for that. Let me clarify and put things in order.
 
 ## Infrastructure in real world
 
