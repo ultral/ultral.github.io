@@ -7,6 +7,8 @@ redirect_from:
 
 ![remote](assets/remote.jpg?raw=true)
 
+* [english version](remote-work-en.md)
+
 Работа отдельно, дом отдельно. Должно быть чёткое разделение рабочего и не рабочего. Работа как газ - заполняет все доступное пространство. Однажды, можно не заметить как, станешь работать по 11 часов. Поэтому необходимо разделение. Например:
 
 1. Четкое разделение рабочего и не рабочего.
@@ -81,6 +83,6 @@ redirect_from:
 
 * подкаст [Работаем дома в принудительном порядке](http://nsfw.co.in/episodes/01.html)
 * [cross post](https://habr.com/en/post/494238/)
-* [russian version](remote-work-en.md)
-* [english version](remote-work-ru.md)
+* [russian version](remote-work-ru.md)
+* [english version](remote-work-en.md)
 * [Удалёнка: самые полезные статьи об эффективной работе из дома](https://habr.com/en/company/habr/blog/494082/)

@@ -2,6 +2,8 @@
 
 ![remote](assets/remote.jpg?raw=true)
 
+* [russian version](remote-work-ru.md)
+
 You must find out your work-life balance because without that you will burn out. It happens because work is like gas. If you don't control it, then work fill all your available time little by little. For example, I used to work 11 hours per day from home. Hopefully, I understood that it was a bad idea. Let me share some pieces of advice:
 
 1. Find out a work-life balance.
@@ -85,5 +87,5 @@ There is no silver bullet, but at least you can try because *a journey of a thou
 ## Links
 
 * [cross post](https://habr.com/en/post/494238/)
-* [russian version](remote-work-en.md)
-* [english version](remote-work-ru.md)
+* [russian version](remote-work-ru.md)
+* [english version](remote-work-en.md)

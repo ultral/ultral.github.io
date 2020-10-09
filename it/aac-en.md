@@ -4,9 +4,11 @@ redirect_from:
   - /aac.html
 ---
 
-# Agreements as Code: how to refactor IaC and don't go nuts
+# Agreements as Code: how to refactor IaC and save your sanity?
 
 ![Agreements As Code](assets/aac_59_aac_en.png?raw=true "Agreements As Code")
+
+* [Russian Version](aac-ru.md)
 
 It is the translation of my speech [TechLeadConf 2020-06-09](https://techleadconf.ru/2020/abstracts/6772). Before we start, I'd like to be on the same page with you. So, could you please [answer](https://www.menti.com/96ctmh3mr6)? How much time will it take to:
 
@@ -264,4 +266,5 @@ Let me share my estimations about numbers of SLOC:
 * [How to test Ansible and don't go nuts](ansible-testing-en.md)
 * [Ansible: CoreOS to CentOS, 18 months long journey](coreos2centos-en.md)
 * [How to test your own OS distribution](how-to-test-custom-os-distr-en.md)
-* [Podcast nsfw.co.in/04 Agreements as Code](http://nsfw.co.in/episodes/04.html)
+* [Podcast nsfw.co.in/04 Agreements as Code (RU)](http://nsfw.co.in/episodes/04.html)
+* [Russian Version](aac-ru.md)
