@@ -268,5 +268,6 @@ Let me share my estimations about numbers of SLOC:
 * [How to test your own OS distribution](how-to-test-custom-os-distr-en.md)
 * [Podcast nsfw.co.in/04 Agreements as Code (RU)](http://nsfw.co.in/episodes/04.html)
 * [Russian Version](aac-ru.md)
+* [Cross posrt](https://habr.com/en/post/522698/)
 * [Slides (RU)](https://cloud.mail.ru/public/2z4x/5BBSYWaKU)
 * [Video (RU)](https://www.youtube.com/watch?v=asdsUXzI1eE)
