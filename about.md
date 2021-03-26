@@ -9,8 +9,8 @@
 
 ### 2020
 
-* Finished elementary german course.
-* Made & conducted Ansible(RU).
+* Finished [elementary german course](assets/2021_deutch.jpg?raw=true).
+* Conducted Ansible(RU) course.
 * Conducted & Organized [Devops School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/)
 * Made speech(ENG) at [T Community days](https://www.t-systems.com/). [Agreements as Code](it/aac-en.md).
 * Made speech(RU) at [TechLeadConf](https://techleadconf.ru/2020/abstracts/6772). [Agreements as Code](it/aac-en.md).
