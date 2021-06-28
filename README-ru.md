@@ -20,6 +20,7 @@
 
 | Date       | Event | Article        |
 |------------|-------|----------------|
+| 2021-06-28 | [DevopsConf](https://devopsconf.io/moscow/2021) | [Интервью DevopsConf](https://www.youtube.com/watch?v=V54ZkGEnzfI)
 | 2021-01-28 | [T-Meetup: DevOps Life Cycle](http://devopsconf.io/2021/dt-meetup) | [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md) |
 | 2020-10-14 | Community Days | [Agreements as Code](it/aac-ru.md) |
 | 2020-06-09 | [TechLeadConf](https://techleadconf.ru/2020/abstracts/6772) | [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md) |
