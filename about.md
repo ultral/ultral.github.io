@@ -1,11 +1,24 @@
 # About Lev Goncharov
 
+![about](about.png?raw=true)
+
 * **In real life**: cyclist, camper, engineer & coffee person.
 * **At work**: Innovative Senior DevOps Engineer with broad knowledge and understanding of modern technologies, 11+ years of experience in designing, automating and implementing IaC approaches. I believe that infrastructure is a code & we must use the same philosophy for infrastructure as for software development.
+
+## Contacts
+
+* [t.me/ultralisc](https://t.me/ultralisc)
+* lev `[at]` goncharov `[dot]` xyz
 
 ## Social activity, trainings, courses, awards
 
 * [Сerts](certs.md)
+
+### 2021
+
+* Conducted configuration management course in [Devops School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/).
+* Made speech(RU) at [T-Meetup: DevOps Life Cycle](http://devopsconf.io/2021/dt-meetup). [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md).
+* Gave [the interview](https://www.youtube.com/watch?v=V54ZkGEnzfI) at [DevopsConf](https://devopsconf.io/moscow/2021)
 
 ### 2020
 
