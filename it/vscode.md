@@ -43,6 +43,7 @@ It’s not the case because too many kludges and limitations. I.e. it’s not po
 
 ## Links
 
+* [keepass & ssh-agent](keepass.md)
 * [How to test Ansible and don't go nuts](ansible-testing-en.md)
 * [Vagrant Ansible roles development environment](https://github.com/ultral/ansible_devenv)
 * [WSL helpers](https://github.com/ultral/sublime_wsl_helpers)
