@@ -51,7 +51,7 @@ Things like that happen. It is not bad or good. There is a heat death of the Uni
 
 ![Deal with chaos](assets/aac_23_deal_with_chaos_en.png?raw=true "Deal with chaos")
 
-**Createion of an instruction or a blueprint** might be the first idea if you want to deal with chaos. There is a short story.
+**Creation of an instruction or a blueprint** might be the first idea if you want to deal with chaos. There is a short story.
 
 *Ages ago, I work in an immense company. The company related somehow to the petrochemical industry. There were a lot of red tapes & formalism inside the company. Once upon a time, someone had to migrate a service and agreed to implement a temporary network scheme for a couple of weeks. The service was shared to the Internet & it was authorized. I was reverse-engineering the petroleum-storage depot in a big airport and found that service. The funny thing was that I found that temp scheme 5 years later. It was an awkward situation because there was direct unrestricted access to a DC core network.*
 
