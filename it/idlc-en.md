@@ -26,7 +26,7 @@ What is configuration management? CM is a systems engineering process for establ
 
 About 10-20 years ago it was quite popular to use Configuration Management. Where were ITIL, ITSM and some other approaches and methodologies for dealing with chaos & unique snowflakes in your infrastructure. Later appeared Configuration Management solutions like CFEngine, Chef, Puppet, Ansible, DSC etc. They helped to automate things and represent agreements about your infrastructure as code. Somebody called that Infrastructure as Code (IaC).
 
-According [wikipedia](https://en.wikipedia.org/wiki/Infrastructure_as_code)
+According to [Wikipedia](https://en.wikipedia.org/wiki/Infrastructure_as_code)
 
 > IaC is the process of managing and provisioning computer data centres through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. The IT infrastructure managed by this process comprises both physical equipment, such as bare-metal servers, as well as virtual machines, and associated configuration resources.
 
@@ -80,7 +80,7 @@ After the idea has been formalized it is a good time to think through it. You go
 In our case we used to:
 
 * Meet with all infrastructure team.
-* Get marker pen.
+* Get a marker pen.
 * Draw on the whiteboard
 
 ![Design](assets/idlc_23.png?raw=true)
@@ -228,7 +228,7 @@ A bit later you might face a request to support a new OS, web server, etc. The p
 
 ![Evaluation](assets/idlc_71.png?raw=true)
 
-It's an extremely good opportunity to split a complex playbook into simple parts. It's an infinitive process. The complexity of any system is constantly growing and it is ok. The only one thing can be done: we can slow down exponential complexity growing via review.
+It's an extremely good opportunity to split a complex playbook into simple parts. It's an infinitive process. The complexity of any system is constantly growing and it is ok. The only one thing that can be done: we can slow down exponential complexity growing via review.
 
 ## End
 
