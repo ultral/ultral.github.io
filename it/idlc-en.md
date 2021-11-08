@@ -32,7 +32,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Infrastructure_as_code)
 
 ![Ansible + git != IaC](assets/idlc_10_ansible_git_iac.png?raw=true)
 
-*If push your ansible playbooks into git it does not mean that you have IaC*. I.e. I migrated a custom configuration management solution. It was [18 months long journey](coreos2centos-en.md). It took soo much time because we were creating processes & reverse engineering existing.
+*Pushing playbooks into git does not mean that you have IaC*. I.e. I migrated a custom configuration management solution. It was [18 months long journey](coreos2centos-en.md). It took soo much time because we were creating new processes & reverse engineering existing ones.
 
 ## IaC Development Life Cycle
 
@@ -50,13 +50,13 @@ On the one hand, what's worth the prize is always worth the fight. But on the ot
 2. *Do I have enough time to do it?*
 3. *Do I have enough knowledge about it?*
 
-If your answers are no, then changes might be a problem or a challenge for you. You can do things worse. But remember:
+If your answers are negative, then changes might be a problem or a challenge for you. You can do things worse. But remember:
 
 ### Analyze
 
 ![Analyze](assets/idlc_18.png?raw=true)
 
-Ok, we are ready to analyze. But what is the first step? Let's sidestep. What do you see in the picture below? It's the embankment. It's not far from [Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/) office in Saint Petersburg. Also, there is 3 person. They make a walk along the embankment. Is it a coincidence? No! You can see that people are analyzing the upcoming changes. Before Covid-19 we used to discuss our infrastructure problems, challenges and search for new ideas during lunch walk. I see the correlation between low-intensity cardio & mental power.
+Ok, we are ready to analyze. But what is the first step? Let's sidestep. What do you see in the picture below? It's the embankment. It's not far from [Deutsche Telekom IT Solutions](https://deutschetelekomitsolutions.ru/) office in Saint Petersburg. Also, there are 3 people. They make a walk along the embankment. Is it a coincidence? No! You can see that people are analyzing the upcoming changes. Before Covid-19 we used to discuss our infrastructure problems, challenges and search for new ideas during lunch walk. I see the correlation between low-intensity cardio & mental power.
 
 ![Analyze](assets/idlc_19.png?raw=true)
 
@@ -89,7 +89,7 @@ If the weather was fine we were sitting in the backyard of our office & were dra
 
 ![Design](assets/idlc_24.png?raw=true)
 
-In the case of world distributed teams, it's not a big deal. There are some approaches like
+In case of world distributed teams, it's not a big deal. There are some approaches like
 
 * SurveyMonkey for collecting ideas.
 * Threads in mattermost/slack.
@@ -102,11 +102,11 @@ For online brainstorming, we use [hedgedoc](https://hedgedoc.org/). It's kind of
 
 ![Design](assets/at_main_concept.png?raw=true)
 
-The main concept at this stage is do not to build monolith infrastructure. It should be constructed from simple reusable bricks. I.e. If the config file size is bigger than 1000 SLOC then you should reduce complexity somehow: split to multiple well-organized configs.
+The main concept at this stage is not to build monolith infrastructure. It should be constructed from simple reusable bricks. I.e. If the config file size is bigger than 1000 SLOC then you should reduce complexity somehow: split to multiple well-organized configs.
 
 ### Development
 
-Here we are. Only after an immense amount of steps we are ready to write code for our IaC.Good try but not. Before that, we should prepare our IaC development environment.
+Here we are. Only after an immense amount of steps we are ready to write code for our IaC.Good try but no. Before that, we should prepare our IaC development environment.
 
 #### Development environment
 
@@ -118,7 +118,7 @@ If you use a unified development environment it helps you do not reinvent the wh
 
 ![Development environment](assets/200k_int_code_gbm.png?raw=true)
 
-For improving IaC development process you can reuse the best practices from the software development world. There are a lot of them like the green build master approach, pair DevOpsing, testing, mentoring, code review,  etc. If you are really interested in that you can read the article [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md).
+For improving IaC development process you can reuse best practices from the software development world. There are a lot of them like the green build master approach, pair DevOpsing, testing, mentoring, code review,  etc. If you are really interested in that you can read the article [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md).
 
 ### Test
 
@@ -126,7 +126,7 @@ For improving IaC development process you can reuse the best practices from the 
 
 ![Test](assets/200k_testing_pyramid.png?raw=true)
 
-I suggest that everybody has heard about XP practices or has been involved somehow in that process. There is almost the same for IaC. Those practices are based on a feedback loop. The crucial part of that feedback is testing. It helps you rapidly & cheaply check your changes. The gist of the pyramid is to have a lot of cheap & fast tests as the foundation. Also, there are some expensive & long scenarios on the top.
+I suppose that everybody has heard about XP practices or has been involved somehow in that process. There is almost the same for IaC. Those practices are based on a feedback loop. The crucial part of that feedback is testing. It helps you rapidly & cheaply check your changes. The gist of the pyramid is to have a lot of cheap & fast tests as the foundation. Also, there are some expensive & long scenarios on the top.
 
 We can split IaC testing pyramid into some layers:
 
@@ -146,13 +146,13 @@ You may ask: *How does the testing process work under the hood?* Answer is more 
 3. Check idempotency.
 4. Verify the instance configuration.
 
-It might interesting to read [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md) and/or [How to test Ansible and don't go nuts](ansible-testing-en.md) for deeper understanding.
+It might be interesting to read [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md) and/or [How to test Ansible and don't go nuts](ansible-testing-en.md) for deeper understanding.
 
 #### When should I start testing my IaC?
 
 ![Test](assets/aac_112_tests.png?raw=true)
 
-It's a pretty good question. There is no universal answer for that. Each team/project search for it. However, I can share some numbers which I use as a lighthouse.
+It's a pretty good question. There is no universal answer for that. Each team/project looks for it. However, I can share some numbers which I use as a lighthouse.
 
 * *200* - linting must be started from the very beginning.
 * *2000* - unit tests should be written. You don't run the molecule at this stage you will have problems in the future.
