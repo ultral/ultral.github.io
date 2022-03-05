@@ -60,8 +60,6 @@
 * [Нет времени объяснять! или как подружить terraform с minikube и kubernetes](https://habr.com/post/340884/)
 * [Подключаем NTFS на запись в Mac OS X Yosemite 10.10](https://habr.com/post/246517/)
 * [Почему bash это плохо](it/make-cm-not-bash-ru.md)
-* [Аналитика рынка труда в IT](it/about-it-ru.md)
-* [Хард и софт скиллз](it/hard-soft-skills-ru.md)
 * [Обзор арифмометра Феликс М](it/felix-m-review-ru.md)
 
 ## Life
@@ -71,7 +69,6 @@
 * [Микроклимат в квартире](life/microclimate.md)
 * [Изучение английского](life/how-to-english-ru.md)
 * [Как похудеть](life/how-to-lose-weight-ru.md)
-* [Как улучшать город вокруг себя и не свихнуться](life/how-to-improve-city-ru.md)
 * [Аналитика недвижимости в Санкт-Петербурге](life/about-aparts.md)
 * [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
 * [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
