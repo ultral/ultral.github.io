@@ -96,7 +96,7 @@
 ### 2010
 
 * Created & conducted information security course.
-* Participated at CTF competitions (team wildride): [UralCTF](assets/2010_uralctg.jpg), [RuCTF](assets/2010_ructf.jpg),
+* Participated at CTF competitions (team wildride): [UralCTF](assets/2010_uralctf.jpg), [RuCTF](assets/2010_ructf.jpg),
 
 ### 2009
 
