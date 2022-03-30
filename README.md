@@ -63,6 +63,8 @@
 * [Docker testing](it/docker-testing.md)
 * [How to mount NTFS on MAC for RW (RU)](https://habr.com/post/246517/)
 * [Make configuration management, not bash](it/make-cm-not-bash-en.md)
+* [About outsourcing](it/about-it-en.md)
+* [Hard vs soft skills](it/hard-soft-skills-en.md)
 * [How to configure VsCode](it/vscode.md)
 * [How to configure Sublime](it/sublime.md)
 
@@ -72,5 +74,6 @@
 * [Time management in real life](life/time-management-irl-en.md)
 * [How to learn English](life/how-to-english-en.md)
 * [How to lose weight](life/how-to-lose-weight-en.md)
+* [How to improve your town and don't go nuts](life/how-to-improve-city-en.md)
 * [UK trip by car](life/UK-trip-by-car.md)
 * [Baikal](life/baikal.md)
