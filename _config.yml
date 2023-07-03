@@ -4,4 +4,7 @@ theme: jekyll-theme-minimal
 title: Lev Goncharov
 description: DevOps Engineer
 show_downloads: false
-google_analytics: G-KYDK0KTRF9
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: G-KYDK0KTRF9
