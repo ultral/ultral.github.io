@@ -226,4 +226,4 @@
 * [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](ansible-testing-ru.md)
 * [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](coreos2centos-ru.md)
 * [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива для SDS схд](how-to-test-custom-os-distr-ru.md)
-* [Podcast nsfw.co.in/04 Agreements as Code](http://nsfw.co.in/episodes/04.html)
+* [Podcast nsfw.co.in/04 Agreements as Code](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/04.md)

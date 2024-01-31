@@ -266,7 +266,7 @@ Let me share my estimations about numbers of SLOC:
 * [How to test Ansible and don't go nuts](ansible-testing-en.md)
 * [Ansible: CoreOS to CentOS, 18 months long journey](coreos2centos-en.md)
 * [How to test your own OS distribution](how-to-test-custom-os-distr-en.md)
-* [Podcast nsfw.co.in/04 Agreements as Code (RU)](http://nsfw.co.in/episodes/04.html)
+* [Podcast nsfw.co.in/04 Agreements as Code (RU)](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/04.md)
 * [Russian Version](aac-ru.md)
 * [Cross posrt](https://habr.com/en/post/522698/)
 * [Slides (RU)](https://cloud.mail.ru/public/2z4x/5BBSYWaKU)

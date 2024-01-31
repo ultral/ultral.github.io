@@ -33,11 +33,11 @@
 | 2020-10-14 | Community Days | [Agreements as Code](it/aac-en.md) |
 | 2020-06-09 | [TechLeadConf](https://techleadconf.ru/2020/abstracts/6772) | [Agreements as Code](it/aac-en.md) |
 | 2020-05-27 | Tech Talk Day | [Agreements as Code](it/aac-en.md) |
-| 2020-04-29 | [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) | [Ansible good ot not](https://music.yandex.ru/album/10318378/track/65562747) |
+| 2020-04-29 | [nsfw.co.in/03](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/03.md) | [Ansible good ot not](https://music.yandex.ru/album/10318378/track/65562747) |
 | 2020-04-22 | [T@Home](https://www.t-systems.com/) | [Time management in real life](life/time-management-irl-en.md) |
 | 2020-04-09 | [T@Home](https://www.t-systems.com/) | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-en.md) |
-| 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/02.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
-| 2020-03-31 | [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) | [Work from home](https://music.yandex.ru/album/10318378/track/64324269) |
+| 2020-04-06 | [nsfw.co.in/02](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/02.md) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
+| 2020-03-31 | [nsfw.co.in/01](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/01.md) | [Work from home](https://music.yandex.ru/album/10318378/track/64324269) |
 | 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [How to test Ansible and don't go nuts](it/ansible-testing-en.md) |
 | 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md) |
 | 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md) |

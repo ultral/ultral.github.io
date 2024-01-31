@@ -25,11 +25,11 @@
 | 2020-10-14 | Community Days | [Agreements as Code](it/aac-ru.md) |
 | 2020-06-09 | [TechLeadConf](https://techleadconf.ru/2020/abstracts/6772) | [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md) |
 | 2020-05-27 | Tech Talk Day | [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md) |
-| 2020-04-29 | [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) | [Ansible хорош выкинуть](https://music.yandex.ru/album/10318378/track/65562747) |
+| 2020-04-29 | [nsfw.co.in/03](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/03.md) | [Ansible хорош выкинуть](https://music.yandex.ru/album/10318378/track/65562747) |
 | 2020-04-22 | [T дома](https://www.t-systems.com/) | [Тайм менеджмент в домашних условиях](life/time-management-irl-en.md) |
 | 2020-04-09 | [T дома](https://www.t-systems.com/) | [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](life/remote-work-ru.md) |
-| 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/02.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
-| 2020-03-31 | [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) | [Работаем дома в принудительном порядке](https://music.yandex.ru/album/10318378/track/64324269) |
+| 2020-04-06 | [nsfw.co.in/02](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/02.md) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
+| 2020-03-31 | [nsfw.co.in/01](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/01.md) | [Работаем дома в принудительном порядке](https://music.yandex.ru/album/10318378/track/64324269) |
 | 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](it/ansible-testing-ru.md) |
 | 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-ru.md) |
 | 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-ru.md) |
