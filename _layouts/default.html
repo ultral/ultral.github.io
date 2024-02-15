@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
     <script>
+      function loadGAonConsent() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KYDK0KTRF9');
+      }
       window.cookieconsent.initialise({
-        "palette": {
-          "popup": {
-            "background": "#000"
+        container: document.getElementById("content"),
+        palette: {
+          popup: {
+            background: "#000"
           },
-          "button": {
-            "background": "#f1d600"
+          button: {
+            background: "#f1d600"
           }
         },
-        "type": "opt-in",
-        "content": {
-          "message": "This website uses cookies to ensure you get the best experience here.",
+        type: "opt-in",
+        content: {
+          message: "This website uses cookies to ensure you get the best experience here.",
         },
         onInitialise: function (status) {
           var type = this.options.type;
@@ -55,16 +64,7 @@
       });
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
-    <script>
-      function loadGAonConsent() {
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'G-KYDK0KTRF9');
-      }
-    </script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
