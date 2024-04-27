@@ -3,6 +3,7 @@
 * [Russian version](README-ru.md)
 * [About](about.md)
 * [Сerts](certs.md)
+* [Articles](articles.md)
 
 ## Publications
 
@@ -60,6 +61,28 @@
 | 2015-02-06 | [Rcntec internal meetup](https://www.rcntec.com/en) | [About monitoring](it/about-monitoring-ru.md) |
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [From monolith to microservices](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features |
+
+## Articles
+
+| date       | Name                                                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------|
+| 2021-11-12 | [YAML](https://github.com/tdevopsschool/ansible-course/blob/master/docs/02.md)                                                 |
+| 2021-11-08 | [IaC Development Life Cycle](https://habr.com/en/companies/deutschetelekomitsolutions/articles/587780/)                        |
+| 2020-11-21 | [IaC introduction](https://github.com/tdevopsschool/ansible-course/blob/master/docs/01.md)                                     |
+| 2020-10-09 | [Agreements as Code: how to refactor IaC and save your sanity?](https://habr.com/en/articles/522698/)                          |
+| 2020-05-04 | [Ansible: CoreOS to CentOS, 18 months long journey](https://habr.com/en/articles/500350/)                                      |
+| 2020-05-03 | [How to test Ansible and don't go nuts](https://habr.com/en/articles/500226/)                                                  |
+| 2020-03-28 | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](https://habr.com/en/articles/494556/) |
+| 2019-09-12 | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](https://habr.com/en/articles/467169/)                 |
+| 2019-02-27 | [Let's deploy to Openshift](https://habr.com/en/articles/441906/)                                                              |
+| 2019-01-30 | [Time management in real life](https://habr.com/en/articles/437934/)                                                           |
+| 2019-01-29 | [How to learn English](https://habr.com/en/articles/437928/)                                                                   |
+| 2019-01-26 | [Arithmometer Felix M review](https://habr.com/en/articles/437454/)                                                            |
+| 2019-01-25 | [Monolith to microservices. Infrastructure point of view](https://habr.com/en/articles/437186/)                                |
+| 2019-01-24 | [About monitoring](https://habr.com/en/articles/437190/)                                                                       |
+| 2019-01-23 | [System call interception in Linux-kernel module](https://habr.com/en/articles/437182/)                                        |
+| 2019-01-22 | [Test me if you can. Do YML developers Dream of testing ansible?](https://habr.com/en/articles/436960/)                        |
+| 2019-01-21 | [How to test your own OS distribution](https://habr.com/en/articles/436864/)                                                   |
 
 ## Notes
 

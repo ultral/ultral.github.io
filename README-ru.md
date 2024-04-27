@@ -53,6 +53,40 @@
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 |
 
+## Articles
+
+| date       | Name                                                                                                                                                                                                 | Topic    |
+| ---------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------- |
+| 2023-12-04 | [Архив документов и фото в домашних условиях](https://vas3k.club/post/2193574/)                                                                                                                      | IT       |
+| 2023-05-11 | [Гайд по релокации в Испанию](https://vas3k.club/post/1941225/)                                                                                                                                      | Reloc    |
+| 2023-04-23 | [Тропа пилигримов с ребенком: от бара к гостишке и обратно через детскую площадку](https://vas3k.club/post/19315/)                                                                                   | Travel   |
+| 2022-10-30 | [Заблокировался аккаунт от AWS? Не знаешь как дальше жить? Купи подарочную карту amazon и разблокируй AWS через kindle](https://habr.com/en/articles/696288/)                                        | IT       |
+| 2021-11-13 | [IaC introduction](https://gitlab.com/t-systems-devops-school/5-IAC/-/blob/main/docs/ru/01.md)                                                                                                       | IT       |
+| 2021-09-02 | [Домашняя директория пользователя в ansible или что может быть проще? Как же вычисляется](https://habr.com/en/articles/575880/)                                                                      | IT       |
+| 2021-08-27 | [IaC Development Life Cycle](https://habr.com/en/companies/deutschetelekomitsolutions/articles/574730/)                                                                                              | IT       |
+| 2020-10-09 | [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](https://habr.com/en/articles/522702/)                                                                                          | IT       |
+| 2020-10-01 | [«Для нас главное — это желание учиться и развиваться в DevOps» — преподаватели и менторы о том, как учат в DevOps-школе](https://habr.com/en/companies/deutschetelekomitsolutions/articles/521648/) | Soft     |
+| 2020-05-01 | [Ansible: Миграция конфигурации 120 VM c CoreOS на CentOS за 18 месяцев](https://habr.com/en/articles/500040/)                                                                                       | IT       |
+| 2020-05-01 | [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](https://habr.com/en/articles/500058/)                                                                           | IT       |
+| 2020-03-26 | [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](https://habr.com/en/articles/494238/)                                                              | Soft     |
+| 2020-02-25 | [По следам DevConf и CfgMgmtCamp или что можно узнать съездив спикером на 2 международные конференции за 2 недели](https://habr.com/en/articles/487432/)                                             | Soft     |
+| 2019-09-12 | [Что я узнал, протестировав 200 000 строк инфраструктурного кода](https://habr.com/en/articles/467171/)                                                                                              | IT       |
+| 2019-03-29 | [Иcтория про Алёну которая не любила писать тесты](https://docs.google.com/document/d/1NJEOSimssk_kcYFbptjKOh9u3P495lQtC0hortUtaJc/edit)                                                             | IT       |
+| 2019-02-27 | [Запускаем приложение в Openshift и сравниваем существующий инструментарий](https://habr.com/en/articles/441928/)                                                                                    | IT       |
+| 2019-01-22 | [Мечтают ли YML программисты о тестировании ansible?](https://habr.com/en/articles/437004/)                                                                                                          | IT       |
+| 2018-01-09 | [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](https://habr.com/en/articles/342216/)                                                                                | IT       |
+| 2017-10-24 | [Нет времени объяснять! или как подружить terraform с minikube и kubernetes](https://habr.com/en/articles/340884/)                                                                                   | IT       |
+| 2017-10-04 | [Мониторинг головного мозга](https://habr.com/en/articles/339330/)                                                                                                                                   | IT       |
+| 2014-12-22 | [Подключаем NTFS на запись в Mac OS X Yosemite 10.10](https://habr.com/en/articles/246517/)                                                                                                          | IT       |
+| 2013-02-16 | [Обзор арифмометра Феликс М](https://habr.com/en/articles/169629/)                                                                                                                                   | Soft     |
+| 2013-02-10 | [5 лет с ланосом](https://autokadabra.ru/shouts/56180)                                                                                                                                               | Auto     |
+| 2013-01-09 | [Покатался на квадроцикле](https://autokadabra.ru/shouts/55437)                                                                                                                                      | Auto     |
+| 2012-10-21 | [Челябинск - Лондон на машине - это реально!](https://autokadabra.ru/shouts/53220)                                                                                                                   | Travel   |
+| 2012-07-24 | [RHCP trip Челябинск - Санкт-Петербург - Рязань](https://autokadabra.ru/shouts/51038)                                                                                                                | Auto     |
+| 2010-12-20 | [Перехват системных вызовов в linux под x86-64](https://habr.com/en/articles/110369/)                                                                                                                | IT       |
+| 2010-09-12 | [Цена пользования Chevrolet lanos](https://autokadabra.ru/shouts/36497)                                                                                                                              | Auto     |
+
+
 ## Notes
 
 * [Мониторинг головного мозга](it/about-monitoring-ru.md)
