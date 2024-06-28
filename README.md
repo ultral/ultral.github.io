@@ -12,6 +12,7 @@
 
 Выступления на митапах и конференциях
 
+* [Time management in real life](https://geek-picnic.me/saint-petersburg)
 * [Testkitchen for ansible](https://www.meetup.com/DevOps-40/events/249933164/)
 * Devopsdays T-systems: Scary tale about vagrant
 * [About vagrant](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/)
