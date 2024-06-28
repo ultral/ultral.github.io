@@ -32,6 +32,7 @@
 
 # About IT
 * [Аналитика рынка труда в IT](it/about-it.md)
+* (it/hard-soft-skills.md)
 * [How to configure Sublime](it/sublime.md)
 * [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
 
