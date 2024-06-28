@@ -81,7 +81,7 @@ redirect_from:
 ## Links
 
 # Links
-* подкаст [Работаем дома в принудительном порядке](http://nsfw.co.in/episodes/01.html)
+* подкаст [Работаем дома в принудительном порядке](https://github.com/nsfw-podcasts/nsfw-coin/blob/master/episodes/01.md)
 * [cross post](https://habr.com/en/post/494238/)
 * [russian version](remote-work-ru.md)
 * [english version](remote-work-en.md)
