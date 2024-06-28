@@ -2,7 +2,7 @@
 
 * [English version](README.md)
 * [About](about.md)
-* [Сертефикаты](certs.md)
+* [Сертификаты](certs.md)
 
 ## Publications
 
