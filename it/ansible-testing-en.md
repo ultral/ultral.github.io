@@ -43,7 +43,7 @@ The reasons were well known. There was nothing special. It was a standard proces
 
 ![Ansible refactoring](assets/at_road_to_success.png?raw=true "Ansible refactoring")
 
-Original idea / model of IaC became outdated & stuck. IaC did not meet business / customers / users requirements. It became hard to maintain the IaCж they were wasting time struggling with kludges. It was an epiphany moment.
+Original idea / model of IaC became outdated & stuck. IaC did not meet business / customers / users requirements. It became hard to maintain the IaC. They were wasting time struggling with kludges. It was an epiphany moment.
 
 ## Refactoring IaC
 
