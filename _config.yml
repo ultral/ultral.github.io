@@ -1,7 +1,6 @@
 plugins:
   - jekyll-redirect-from
-  - jekyll-remote-theme
-remote_theme: jekyll/minima
+theme: jekyll-theme-minimal
 title: Lev Goncharov
 description: DevOps Engineer
 show_downloads: false
