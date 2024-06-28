@@ -3,6 +3,7 @@
 * [Как улучшать город вокруг себя](how-to-improve-your-town.md)
 * [Варианты взаидоействия с Управляющей компанией](how-to-contact-with-uk.md)
 * [Как структурировать общение с госорганами и не свихнуться](how-to-mange-tasks.md)
+* [English version](how-to-contact-with-uk-en.md)
 
 ## Телефон в жк
 
