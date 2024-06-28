@@ -9,7 +9,7 @@
 * [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/).
 * [About monitoring (RU)](https://habr.com/post/339330/).
 * [How to mount NTFS on MAC for RW (RU)](https://habr.com/post/246517/).
-* [System call interception in linux-kernel module (kernel 2.6.34.7-61.fc13.x86_64)](it/system-call-interception-in-linux-kernel module.md).
+* [System call interception in linux-kernel module (kernel 2.6.34.7-61.fc13.x86_64)](it/system-call-interception-in-linux-kernel-module.md).
 * [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv.md) and [Faced technical issues](it/testkitchen-issues.md).
 * [Make configuration management, not bash](it/make-cm-not-bash-en.md).
 
