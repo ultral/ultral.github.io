@@ -535,7 +535,7 @@ Ansible проповедут декларативный подход, поэто
 * Slides [How to test Ansible and don't go nuts](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * Video [How to test Ansible and don't go nuts](https://www.youtube.com/watch?v=GdrJv5oypfg)
 * [Что я узнал, протестировав 200 000 строк инфраструктурного кода](http://www.goncharov.xyz/it/200k_iac_ru.html)
-* [История переезда с самописного CFM 120 конфигураций ВМ на Ansible за 18 месяцев](http://www.goncharov.xyz/it/coreos2centos-ru.html)
+* [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](http://www.goncharov.xyz/it/coreos2centos-ru.html)
 * [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
 * [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
 * [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos.html)

@@ -1,7 +1,7 @@
 ---
 redirect_from: "/coreos2centos"
 ---
-# История переезда с самописного CFM 120 конфигураций ВМ на Ansible за 18 месяцев
+# Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев
 
 ![intro](assets/c2a_map.png?raw=true "intro")
 
