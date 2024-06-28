@@ -1,3 +1,4 @@
+![Story telling](assets/2019_storytelling.png?raw=true)
 ![ansible](assets/2018_ansible.jpg?raw=true)
 ![azure](assets/2018_azure.jpg?raw=true)
 ![english](assets/2018_english.jpg?raw=true)

@@ -1,7 +1,9 @@
 # Social activity, tranings, courses, awards, articles
 
 # 2019
+* Made speech at [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889). [Let us deploy to openshift](it/deploy2openshift-en.md) 
 * Made speech at [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/). [Let us deploy to openshift](it/deploy2openshift-en.md) 
+* Completed course [Storytelling tools - instruments for speakers](assets/2019_storytelling.png?raw=true)
 
 # 2018
 * [Finished](assets/2018_english.jpg?raw=true) intermidiate english course.

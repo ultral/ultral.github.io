@@ -7,11 +7,11 @@ One one hand I don't want to be the final authority, but on the other hand, I'd 
 # How to estimate your level
 
 One of the bests ways is to go to an English school, usually, they can estimate your level for free before a course. However, there are a lot of online tests:
-* [ТЕСТ BRITISH COUNCIL](https://learnenglish.britishcouncil.org/content)
-* [ТЕСТ KAPLAN](https://www.kaplaninternational.com/free-english-test-online)
-* [ТЕСТ EDUCATION FIRST](https://www.ef.ru/test3/#/)
-* [ТЕСТ ITALKI (OXFORD PLACEMENT TEST)](https://www.italki.com/p/oet)
-* [ТЕСТ CAMBRIDGE ENGLISH WRITE & IMPROVE](https://writeandimprove.com/)
+* [BRITISH COUNCIL](https://learnenglish.britishcouncil.org/content)
+* [KAPLAN](https://www.kaplaninternational.com/free-english-test-online)
+* [EDUCATION FIRST](https://www.ef.ru/test3/#/)
+* [ITALKI (OXFORD PLACEMENT TEST)](https://www.italki.com/p/oet)
+* [CAMBRIDGE ENGLISH WRITE & IMPROVE](https://writeandimprove.com/)
 
 The main problem is that there are no free online audition tests. 
 
@@ -41,7 +41,6 @@ Vocabulary, grammar, reading & audition are possible to train at home without a 
         * [Giant robots smashing into other giant robots](http://giantrobots.fm/).
         * [Software engineering daily podcast](https://softwareengineeringdaily.com/).
         * [The bike shed podcast](http://bikeshed.fm/).
-        * 
     * There are a lot of free different audiobooks at [openculture](http://www.openculture.com/freeaudiobooks).
 3. **Speaking**: 
     * [lyricstraining.com](https://lyricstraining.com/) I don't sure that it's possible to really improve your English, However, you can try to catch English pace & word stresses.
