@@ -19,3 +19,13 @@ Openvpn inside kubernetes inside google cloud platform
 * [День 1](https://www.youtube.com/watch?v=pdAXKkMc8ls)
 * [День 2](https://www.youtube.com/watch?v=UB4dDrnKB_Y)
 * [День 3](https://www.youtube.com/watch?v=srBQOOpiAow)
+
+## GCP
+* [understanding service accounts](https://cloud.google.com/iam/docs/understanding-service-accounts)
+* [understanding roles](https://cloud.google.com/iam/docs/understanding-roles)
+* [Managing GCP projects via terraform](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
+* [Bucket naming](https://cloud.google.com/storage/docs/naming)
+* [control api callers](https://cloud.google.com/endpoints/docs/openapi/control-api-callers)
+* [granting roles to service account](https://cloud.google.com/iam/docs/granting-roles-to-service-accounts)
+* [control api access](https://cloud.google.com/endpoints/docs/openapi/control-api-access)
+* [service management access control](https://cloud.google.com/service-infrastructure/docs/service-management/access-control)
