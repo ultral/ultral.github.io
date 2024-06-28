@@ -6,6 +6,7 @@
 
 ## Publications
 
+* [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md)
 * [Agreements as Code: how to refactor IaC and save your sanity?](it/aac-en.md)
 * [How to test Ansible and don't go nuts](it/ansible-testing-en.md)
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md)
