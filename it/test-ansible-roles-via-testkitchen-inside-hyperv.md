@@ -1,3 +1,7 @@
+---
+redirect_from: "/ymldev.html"
+---
+
 # Test me if you can. Do YML developers Dream of testing ansible?
 It is text version of [presentation](https://cloud.mail.ru/public/2Rc8/EywUuHHp2) from [Saint-Petersburg Linux User Group](http://spblug.org/). Configuration example locates at [https://github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
 
