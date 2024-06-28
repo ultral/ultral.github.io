@@ -127,7 +127,7 @@
 
 #### When should I start testing my IaC?
 
-![Test](assets/aac_112_test.png?raw=true)
+![Test](assets/aac_112_tests.png?raw=true)
 
 Когда же начинать тестирование? У меня сформировались такие ориентиры:
 
@@ -167,7 +167,7 @@
 
 ### Maintain
 
-![Maintain](assets/aac_84_test.png?raw=true)
+![Maintain](assets/aac_84_tests.png?raw=true)
 
 Инфраструктура не статична, он как живой организм изменяется во времени. Но как правило она стремится к хаосу. И это нормально. Если у вас договоренности об IaC формализованы, то ее проще поддерживать и вносить изменения. На графике выше пример того, что кол-во IaC растет, но за счет тестов кол-во людей поддерживающих константно. Кому интересно, то можно почитать [Agreements as Code: как отрефакторить инфраструктуру и не сломаться](it/aac-ru.md).
 
@@ -197,7 +197,7 @@
 
 ## Links
 
-* [SLides](https://cloud.mail.ru/public/oG2P/TrHx9XToU)
+* [Slides](https://cloud.mail.ru/public/oG2P/TrHx9XToU)
 * [Video](https://youtu.be/FZ2LpiUNopU?t=6511)
 * [IaC Development Life Cycle [ENG]](idlc-en.md)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)
