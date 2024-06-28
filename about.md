@@ -1,6 +1,11 @@
-# Social activity, trainings, courses, awards
+# About Lev Goncharov
 
-## 2020
+* **In real life**: cyclist, camper, engineer & coffee person.
+* **At work**: Innovative Senior DevOps Engineer with broad knowledge and understanding of modern technologies, 11+ years of experience in designing, automating and implementing IaC approaches. I believe that infrastructure is a code & we must use the same philosophy for infrastructure as for software development.
+
+## Social activity, trainings, courses, awards
+
+### 2020
 
 * Recorded [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) podcast. [Ansible good ot not](https://music.yandex.ru/album/10318378/track/65562747).
 * Made speech at [T@Home](https://www.t-systems.com/). [Time management in real life](life/time-management-irl-en.md).
@@ -12,7 +17,7 @@
 * Made speech at [DevConf.CZ 2020](https://www.devconf.info/cz/) in Brno, CZ. [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md).
 * [Got](assets/2020_gym.jpg) the 3rd place in the gym competition.
 
-## 2019
+### 2019
 
 * Finished upper-intermediate english course.
 * [Got](assets/2019_devops_battle.jpg) the award as best team player at DevOps Battle 2.0.
@@ -25,7 +30,7 @@
 * Made speech at [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/). [Let us deploy to openshift](it/deploy2openshift-en.md).
 * Completed course [Storytelling tools - instruments for speakers](assets/2019_storytelling.png?raw=true)
 
-## 2018
+### 2018
 
 * [Finished](assets/2018_english.jpg?raw=true) intermediate english course.
 * [Finished](assets/2018_azure.jpg) Microsoft course 20533 _Implementing Microsoft Azure Infrastructure Solutions_.
@@ -37,55 +42,55 @@
 * Made speech about vagrant at internal conference devops days t-systems.
 * Made speech at [hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) about [testing custom linux distributive]((it/how-to-test-custom-os-distr-en.md)).
 
-## 2016
+### 2016
 
 * Was awarded [certificate of honor](assets/2016_rcntec.jpg).
 * Made speech about SDS development at internal conference.
 
-## 2015
+### 2015
 
 * Did volunteer photography at [surf camp](https://vk.com/aloha74).
 * Made speech about [migration from monolith to microservices](it/monolith-to-microservices.md) at internal meetup.
 * Made speech [about monitoring](it/about-monitoring-ru.md) at internal meetup.
 
-## 2014
+### 2014
 
 * Made speech at [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) about [migration from monolith to microservices](it/monolith-to-microservices.md).
 
-## 2013
+### 2013
 
 * Made speech at [Microsoft Patterns&Practice](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) club about Windows server 2012 features.
 
-## 2012
+### 2012
 
 * [UK trip by car](life/UK-trip-by-car.md).
 
-## 2011
+### 2011
 
 * Graduated from [CSU](http://www.csu.ru/) with a  masters degree in computer science.
 * Finished linguaphone intermediate course in English club.
 * [Finished](assets/2011_english.jpg) intermediate course in English club.
 
-## 2010
+### 2010
 
 * Created & conducted information security course.
 * Participated at CTF competitions (team wildride): [UralCTF](assets/2010_uralctg.jpg), [RuCTF](assets/2010_ructf.jpg),
 
-## 2009
+### 2009
 
 * Created & conducted Freebsd administration course.
 * Participated at CTF competitions (team wildride): [UfoCTF](assets/2009_ufoctf.jpg), CIPHER, HARCTF, RuCTF, RuCTFE.
 
-## 2005
+### 2005
 
 * Graduated from school.
 * [Got](assets/2005_crypto.jpg) the award for great results in regional math-cryptography olympiad.
 * [Got](assets/2005_base.jpg) the award for great results in regional physics olympiad.
 
-## 2001
+### 2001
 
 * [Got](assets/2001_chess.jpg) the 3rd junior category in chess.
 
-## 2000
+### 2000
 
 * [Got](assets/2001_chess.jpg) the 4rd junior category in chess.
