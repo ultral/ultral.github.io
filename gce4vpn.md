@@ -3,6 +3,7 @@
 ## Openvpn inside kubernetes inside google cloud platform
 
 * [$500 for google cloud platform](https://about.gitlab.com/2018/04/05/gke-gitlab-integration/)
+* [video from hashicorp meetup](https://www.youtube.com/watch?v=BgOvc3pIJXo)
 * [slides for chaos constructions](https://cloud.mail.ru/public/gNZx/GqqMTbB61)
 * [slides for hashicorp meetup](https://cloud.mail.ru/public/EEkM/jthv4Bv6d)
 * [github.com/ultral/gce4vpn](https://github.com/ultral/gce4vpn)
