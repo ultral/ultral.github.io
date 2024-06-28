@@ -16,9 +16,12 @@
 
 ### 2024
 
+* Conducted multiple [IaC courses](https://gitlab.com/t-systems-devops-school/5-IAC) in International Devops School.
+* Finished course [Prompt Engineering for ChatGPT](assets/2024_chatgpt.png).
+* Wrote Article(RU) [How to make a designer renovation without a designer in 15 months and make a 10% mistake in the budget](https://vas3k.club/post/21985/).
 * [Added domain_ou support for windows customization](https://github.com/hashicorp/terraform-provider-vsphere/pull/2181) for [terraform-provider-vsphere](https://github.com/hashicorp/terraform-provider-vsphere).
 * [Added handling ANSIBLE_FILTER_PLUGINS env var](https://github.com/ansible/molecule/pull/4135) in [ansible/molecule](https://github.com/ansible/molecule).
-* Hiked [via francigena](assets/2024_Camino.png?raw=true).
+* Hiked [via Francigena](assets/2024_Camino.png?raw=true).
 
 ### 2023
 

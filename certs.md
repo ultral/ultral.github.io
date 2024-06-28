@@ -1,3 +1,4 @@
+![Prompt Engineering for ChatGPT](assets/2024_chatgpt.png?raw=true)
 ![via francigena](assets/2024_Camino.png?raw=true)
 ![camino de Santiago](assets/2023_Camino.png?raw=true)
 ![Espanol A2](assets/2023_EspanolA2.png?raw=true)
