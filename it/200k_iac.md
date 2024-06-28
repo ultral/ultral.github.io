@@ -20,7 +20,7 @@ It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W
 
 ![Infrastructure as bash history](assets/200k_iabh.png?raw=true "Infrastructure as bash history")
 
-Let us imagine that you are onboarding on a project and you hear something like: "We use *Infrastructure as Code* approach". Unfortunately, what they really mean is *Infrastructure as bash history* or *Documentation as bash history*. This is almost a real situation. For example, Denis Lysenko described this situation in his speech [How to replace infrastructure and stop worrying(RU)](https://www.youtube.com/watch?v=Qf5xHuiYgN4). Denis shared the story on how to convert bash history into an upscale infrastructure. 
+Let us imagine that you are on-boarding on a project and you hear something like: "We use *Infrastructure as Code* approach". Unfortunately, what they really mean is *Infrastructure as bash history* or *Documentation as bash history*. This is almost a real situation. For example, Denis Lysenko described this situation in his speech [How to replace infrastructure and stop worrying(RU)](https://www.youtube.com/watch?v=Qf5xHuiYgN4). Denis shared the story on how to convert bash history into an upscale infrastructure. 
 
 Let us check source code definition: `a text listing of commands to be compiled or assembled into an executable computer program`. If we want we can present *Infrastructure as bash history* like code. This is a text & a list of commands. It describes how a server was configured. Moreover, it is: 
 1. *Reproducible*: you can get bash history, execute commands and probably get working infrastructure.
@@ -39,19 +39,19 @@ On the one hand, this abnormal case, *Infrastructure as bash history*, can be pr
 
 ![DRY](assets/200k_iac_code_dry_1.png?raw=true "DRY")
 
-We were developing SDS (software-defined storage). The SDS consists of custom OS distributive, upscale servers, a lot of business logic, as a result, it has to use real hardware. There was sub-task periodically [install SDS](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html): before publishing new release we had to install it and check. At first look it is a very simple task:
+We were developing SDS (software-defined storage). The SDS consisted of custom OS distributive, upscale servers, a lot of business logic, as a result, it had to use real hardware. Periodically, there was a sub-task [install SDS](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html). Before publishing new release, we had to install it and check out. At first, it looked as if it was a very simple task:
 * SSH to host and run command.
 * SCP a file.
-* Modify a config.
+* Modify a configuration.
 * Run a service.
 * ...
 * PROFIT!
 
-I was believing [Make CM, not bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html) is a good point of view, however, there was no complex logic, so bash was a pretty good and reasonable choice.  Time was ticking, we were facing different requests to create new installations in a slightly different configuration. We were SSHing into installations,  and running the commands to install all needed software, editing the configuration files by scripts, and finally configuring SDS via Web HTTP rest API. After all that the installation was configured and working. This was pretty common practice, but there is a lot of bash scripts. 
+I believe that [Make CM, not bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html) is a good approach. However, bash is only used in extreme, limited cases, like at the very beginning of a project. So, bash was a pretty good and reasonable choice at the very beginning of the project. Time was ticking. We were facing different requests to create new installations in a slightly different configuration. We were SSHing into installations,  and running the commands to install all needed software, editing the configuration files by scripts and, finally, configuring SDS via Web HTTP rest API. After all that the installation was configured and working. This was a pretty common practice, but there were a lot of bash scripts and installation logic was becoming more complex every day.
 
-Unfortunately, each script was like a little snowflake depending on who was copy-pasted it. It was also a real pain when we were creating or recreating installation.
+Unfortunately, each script was like a little snowflake depending on who was copy-pasting it. It was also a real pain when we were creating or recreating the installation.
 
-I hope you have got the main idea, that at this stage we had to constantly tweak scripts logic until the service is ok. There is a solution for that. It is D.R.Y
+I hope you have got the main idea, that at this stage we had to constantly tweak scripts logic until the service was OK. But, there was a solution for that. It was D.R.Y.
 
 ![DRY](assets/200k_iac_code_dry_2.png?raw=true "DRY")
 
