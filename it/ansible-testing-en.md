@@ -98,7 +98,7 @@ The next idea was not to reinvent the wheel & use production-ready solution, i.e
 
 ![Ansible refactoring](assets/at_kitchen_2.png?raw=true "Ansible refactoring")
 
-In general, it was a stable solution. However, when we increased the number of tested roles to 15(13 base roles + 2 meta roles) we faced an issue. The speed of tests felt down dramatically to 70 minutes. It was to slow. We were not able to think about XP (extreme programming) practices.
+In general, it was a stable solution. However, when we increased the number of tested roles to 15(13 base roles + 2 meta roles) we faced an issue. The speed of tests felt down dramatically to 70 minutes. It was too slow. We were not able to think about XP (extreme programming) practices.
 
 ##### Day № -601: Ansible & molecule
 
@@ -114,11 +114,11 @@ We increased the number of tested roles to 17 & linted playbooks to 45. It laste
 
 ![Ansible refactoring](assets/at_yac_shaving_1.png?raw=true "Ansible refactoring")
 
-It was a bad idea to test all roles from the very beginning. Because it was an immense change. We wanted to change the project little by little and avoid problems. So, we arranged the S.M.A.R.T. goal lint all roles. We were enabling linting roles/playbooks one by one. It was yak shaving: we were slowly improving the project and creating the culture.
+It was a bad idea to test all roles from the very beginning, because it was an immense change. We wanted to change the project little by little and avoid problems. So, we arranged the S.M.A.R.T. goal lint all roles. We were enabling linting roles/playbooks one by one. It was yak shaving: we were slowly improving the project and creating the culture.
 
 ![Ansible refactoring](assets/at_yac_shaving_2.png?raw=true "Ansible refactoring")
 
-*It is not really important how to shave the yak. It might be stickers on the wardrobe, tasks in the Jira or spreadsheet in the google docs. The main idea you should track current status & understand how it is going. You should not burn out during refactoring, because it is a long boring journey.*
+*It is not really important how to shave the yak. It might be stickers on the wardrobe, tasks in the Jira or spreadsheet in the google docs. The main idea is to track current status & understand how it is going. You should not burn out during refactoring, because it is a long boring journey.*
 
 *Refactoring is easy as pie:*
 
@@ -126,37 +126,37 @@ It was a bad idea to test all roles from the very beginning. Because it was an i
 * *Sleep.*
 * *Code.*
 * *IaC test.*
-* *Repeat*
+* *Repeat...*
 
 ![Ansible refactoring](assets/at_lint.png?raw=true "Ansible refactoring")
 
-So, we with started from the linting. It was a good start point.
+So we started from the linting. It was a good starting point.
 
 ### Day № 181: Green Build Master
 
 ![Ansible refactoring](assets/200k_int_code_gbm.png?raw=true "Ansible refactoring")
 
-Linting was the very first step to the Green Build Master. I costed almost nothing, but it created good habits & processes inside the team:
+Linting was the very first step to the Green Build Master. It cost almost nothing, but it created good habits & processes inside the team:
 
 * Red test is bad, you should fix it.
 * If you see code smell - improve it.
-* Code must be better after you.
+* Code must be better after your changes.
 
 ### Day № 193: Linting -> Unit tests
 
 ![Ansible refactoring](assets/at_molecule_unit_3.png?raw=true "Ansible refactoring")
 
-We had processes how to change the master branch. The next step was to replace linting via real roles applying. We had to understand how roles were implemented and why.
+We had processes for changing the master branch. The next step was to replace linting via real roles applying. We had to understand how roles were implemented and why.
 
 ### Day № 211: Unit tests -> Integration tests
 
 ![Ansible refactoring](assets/at_integration_1.png?raw=true "Ansible refactoring")
 
-We finished with unit tests. The vas majority of roles were tested after each commit. The next step was the integration tests. We had to test the combination of simple bricks which creates the building - whole server configuration.
+We finished with unit tests. The vast majority of roles were tested after each commit. The next step was the integration tests. We had to test the combination of simple bricks which created the building - whole server configuration.
 
 ![Ansible refactoring](assets/at_integration_2.png?raw=true "Ansible refactoring")
 
-We were generating bunch of stages. The stages were executing simultaneously.
+We were generating bunch of stages. The stages were executing simultaneously. Let's take a look onto this pipeline.
 
 #### Jenkins + Docker + Ansible = Tests
 
@@ -171,20 +171,20 @@ We were generating bunch of stages. The stages were executing simultaneously.
     2. Check dependency on other roles.
     3. Check syntax.
     4. Create docker instance
-    5. Run molecule/default/playbook.yml.
+    5. Run `molecule/default/playbook.yml`.
     6. Check idempotency.
-6. Run integration tests
-7. Finish
+6. Run integration tests.
+7. Finish.
 
 ### Day № 271: Bus Factor
 
 ![Ansible refactoring](assets/at_review_1.png?raw=true "Ansible refactoring")
 
-At the beginning of the project, there were a small amount of people. They were reviewers. Time was ticking and knowledge on how to write ansible roles were spread across all teams members. The interesting thing was that we were rotating reviewer on the 2 weeks basis.
+At the beginning of the project, there was a small amount of people. They were reviewers. Time was ticking and knowledge on how to write ansible roles were spread across all teams members. The interesting thing was that we were rotating reviewers on a 2 weeks basis.
 
 ![Ansible refactoring](assets/at_review_2.png?raw=true "Ansible refactoring")
 
-The review had to be simple & reviewer friendly. So, we integrated Jenkins + bitbucket + Jira for that. Unfortunately, the review is not a silver bullet. I.e. we missed bad code to the master and had flapped unstable tests.
+The review process had to be simple & reviewer friendly. So, we integrated Jenkins + bitbucket + Jira for that. Unfortunately, the review is not a silver bullet. i.e. we missed bad code to the master and had flapped unstable tests.
 
 ```YML
 - get_url:
@@ -230,7 +230,7 @@ get_url:
 
 ![Ansible refactoring](assets/at_integration_4.png?raw=true "Ansible refactoring")
 
-Amount of tests was increasing, the project was growing. As a result, in the bad case out tests were executing for 60 minutes. For dealing with that we decided to remove integration tests via VMs & use the only docker. Also, we replaced testinfra via ansible verifier for unifying toolset.
+The amount of tests was increasing. The project was growing. As a result, in the worst case our tests were executing for 60 minutes. To deal with that we decided to remove integration tests via VMs & use just the docker. Also, we replaced testinfra via Ansible verifier for unifying toolset.
 
 ![Ansible refactoring](assets/at_integration_5.png?raw=true "Ansible refactoring")
 
@@ -240,11 +240,11 @@ We made some changes:
 2. Removed duplicated tests & simplified dependencies.
 3. Increased amount of Jenkins slaves.
 4. Changed test execution order.
-5. Added ability lint all via a single command, it helped to lint all locally via 1 command.
+5. Added ability lint all roles & playbooks via a single command. It helped to lint all locally via the same command.
 
 ![Ansible refactoring](assets/at_integration_6.png?raw=true "Ansible refactoring")
 
-As a result, of that changes, the Jenkins pipeline also was changed
+As a result, of those changes, the Jenkins pipeline also was changed:
 
 1. Generate build stages.
 2. Lint all in parallel.
@@ -257,7 +257,7 @@ Let me share some lessons learned
 
 ### Avoid global variables
 
-Ansible uses the global variable namespace. I know about workaround via [private_role_vars](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-private-role-vars), but it is not a silver bullet.
+Ansible uses the global variable namespace. I know about a workaround via [private_role_vars](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-private-role-vars), but it is not a silver bullet.
 
 Let us create two roles `role_a` & `role_b`
 
@@ -299,7 +299,7 @@ msg: b
 
 ![Ansible refactoring](assets/at_global_vars.png?raw=true "Ansible refactoring")
 
-We often need some variables to be accessible globally and shared between different role. One obvious example is JAVA_HOME. Ansible has a flat namespace, and this can lead to variable names collisions. For example, two roles (say, webserver and mailserver) may use the same variable named 'port'; such a variable may be accidentally overwritten with the same value in both roles. It's better to prefix variable names in your roles either by a role name, or some short form of it.
+We often need some variables to be accessible globally and shared between different roles. One obvious example is `JAVA_HOME`. Ansible has a flat namespace, and this can lead to variable names collisions. For example, two roles (say, webserver and mailserver) may use the same variable named 'port'; such a variable may be accidentally overwritten with the same value in both roles. It's better to prefix variable names in your roles either by a role name, or some short form of it.
 
 **BAD**: use a global variable.
 
@@ -327,7 +327,7 @@ debug:
 
 ### Prefix role variables
 
-It makes sense to use the role name as the prefix for a variable. it helps to understand the source inventory easier.
+It makes sense to use the role name as the prefix for a variable. It helps to understand the source inventory easier.
 
 **BAD**: use a global variable.
 
@@ -379,7 +379,7 @@ some_role__db_port: 5432
 
 ### Check input variables
 
-If your role requires input roles it makes sense to raise if they are not presented.
+If your role requires input roles it makes sense to raise when they are not presented.
 
 **GOOD**: Check variables.
 
@@ -397,13 +397,13 @@ If your role requires input roles it makes sense to raise if they are not presen
     - ahs_item3
 ```
 
-### Avoid hashes dictionaries, use a flat structure
+### Avoid hashes dictionaries. Use a flat structure
 
 While dictionaries may seem like a good fit for your variables, you should minimize their usage due to the following:
 
 * It's not possible for a user to change only one element of a dictionary.
 * Dictionary elements cannot take values from other elements.
-Example: A dictionary that stores some OS user:
+Example: A dictionary that stores some OS user.
 
 **BAD**: Use hash/dictionary.
 
@@ -414,7 +414,7 @@ user:
   group: admin
 ```
 
-Downsides: you cannot set the default group name to the user name; if a person using your role wants to customize only the name, they must also supply the group. With regular variables, those issues are gone: Both variables can be changed independently, and the default group name matches the user name.
+Downside: you cannot set the default group name to the user name; if a person using your role wants to customize only the name, they must also supply the group. With regular variables, those issues are gone: Both variables can be changed independently, and the default group name matches the user name.
 
 **GOOD**: Use flatten structure & prefix variable.
 
@@ -426,19 +426,19 @@ user_group: "{{ user_name }}"
 
 ### Create idempotent playbooks & roles
 
-Roles and playbooks have to be idempotent. It decreases your fear to run a role. As a resul, configuration drift is a minimum as possible.
+Roles and playbooks have to be idempotent. It decreases your fear to run a role. As a result, configuration drift is as minimum as possible.
 
-### Avoid using command shell modules
+### Avoid using command or shell modules
 
-Imperative approach via command / shell modules is instead of declarative ansible nature. 
+Imperative approach via command / shell modules is againsts the declarative ansible nature.
 
 ### Test your roles via molecule
 
-The molecule is pretty flexible, let me show some examples:
+The molecule is pretty flexible. Let me show some examples:
 
 #### Molecule Multiple instances
 
-In the `molecule.yml` in the `platforms` you can describe a bunch of instances:
+In the `molecule.yml` in the `platforms` section you can describe a bunch of instances:
 
 ```YAML
 ---
@@ -527,7 +527,7 @@ Or you can start the service & perform a smoke test:
 
 ### Put complex logic into modules & plugins
 
-Ansible nature is a declarative approach & YAML. It is extremely hard to use standard developers patterns as is because there is no syntax sugar for that. If you want to implement complex not straight logic in a playbook usually it will be ugly. Fortunately, you can customize ansible via creating your own modules & plugins.
+Ansible nature is a declarative approach & YAML. It is extremely hard to use standard developers patterns because there is no syntax sugar for that. If you want to implement complex logic (not straight) in a playbook it will usually be ugly. Fortunately, you can customize ansible via creating your own modules & plugins.
 
 ### Summarize Tips & Tricks
 
@@ -535,7 +535,7 @@ Ansible nature is a declarative approach & YAML. It is extremely hard to use sta
 2. Prefix role variables.
 3. Use the loop control variable.
 4. Check input variables.
-5. Avoid hashes dictionaries, use a flat structure.
+5. Avoid hashes dictionaries. Use a flat structure.
 6. Create idempotent playbooks & roles.
 7. Avoid using command shell modules.
 8. Test your roles via molecule.
@@ -554,7 +554,7 @@ One does not simply refactor agreements & infrastructure. It is a long interesti
 Let me clarify about the plot.
 
 * **Ansible tests** = amount of tested roles/playbooks.
-* **SLOC** = Source lines of code in YAML files.
+* **SLOC** = Source Lines Of Code in YAML files.
 
 Lessons learned:
 

@@ -9,10 +9,10 @@ redirect_from:
 
 * [Russian Version](coreos2centos-ru.md)
 
-It is text version of my speech at [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) and [SPbLUG 2019-09-25](http://spblug.org/) [slides](https://cloud.mail.ru/public/UDCZ/WM4Y9Qv3j).
+It is a text version of my speech at [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) and [SPbLUG 2019-09-25](http://spblug.org/) [slides](https://cloud.mail.ru/public/UDCZ/WM4Y9Qv3j).
 
 There was a custom configuration management solution.
-*I would like to share the story about a project. The project used to use a custom configuration management solution. Migration lasted 18 months. You can ask me 'Why?'. There are some answers below about changing processes, agreements and workflows.*
+*I would like to share the story about a project. The project used to use a custom configuration management solution. Migration lasted 18 months. You can ask me: 'Why?'. There are some answers below about it and it is related to changing processes, agreements and workflows.*
 
 ## Day № -ХХХ: Before the beginning
 
@@ -31,25 +31,25 @@ It was a partially automated process. Unfortunately, we had to manage used resou
 
 ![CFM 2 Ansible](assets/c2a_vm_mgmt_workflow_1.png?raw=true "CFM 2 Ansible")
 
-I guess the original approach was to have IaC. It had to be a bunch of stateless VMs. Those VMs had reset they state after reboot. How did it look like?
+I guess the original approach was to have IaC. It had to be a bunch of stateless VMs. Those VMs had to reset state after reboot. How did it look like?
 
-1. We create MAC address reservation.
-2. We mount ISO & special bootable hard drive to a VM.
-3. CoreOS starts OS customization: download the appropriate script(based on the IP) from a web server.
-4. The script downloads the rest of configuration via SCP.
-5. The rest of the configuration is a bunch of systemd units, compose files & bash scripts.
+1. We created MAC address reservation.
+2. We mounted ISO & special bootable hard drive to a VM.
+3. CoreOS started OS customization: downloaded the appropriate script(based on the IP) from a web server.
+4. The script downloaded the rest of the configuration via SCP.
+5. The rest of the configuration was a bunch of systemd units, compose files & bash scripts.
 
 ![CFM 2 Ansible](assets/c2a_kernel_panic.png?raw=true "CFM 2 Ansible")
 
 There were some flaws:
 
-1. ISO was CoreOS deprecated way of booting for CoreOS.
+1. ISO was a deprecated way of booting for CoreOS.
 2. Too many manual actions.
 3. Hard to update, tricky to maintain.
 4. Nightmare in case of installing specific kernel modules.
 5. State full VMs instead of original approach with stateless VMs.
-6. From time to time people created broken dependencies across systemd unit files, as a result, CoreOS was not able to reboot without magic sys rq.
-7. secret management.
+6. From time to time people created broken dependencies across systemd unit files. As a result, CoreOS was not able to reboot without magic sys rq.
+7. Secret management.
 
 It was possible to say that there was no CM. There was a pile of organized bash scripts & systemd unit files.
 
@@ -57,12 +57,12 @@ It was possible to say that there was no CM. There was a pile of organized bash 
 
 ![CFM 2 Ansible](assets/c2a_map.png?raw=true "CFM 2 Ansible")
 
-It was a standard environment for developing and testing: Jenkins, test environments, monitoring, registry, etc. CoreOS developes created it as a underlying OS for k8s or rancher. So, we had a problem what we used a good tool, in the wrong way. The first step was to determine the desired technologies stack. Our idea was:
+It was a standard environment for developing and testing: Jenkins, test environments, monitoring, registry, etc. CoreOS developers created it as a underlying OS for k8s or rancher. So, we had a problem: we used a good tool, in the wrong way. The first step was to determine the desired technology stack. Our idea was:
 
-1. **CentOS** as base OS, because it was close enough to a productions environments.
+1. **CentOS** as base OS, because it was close enough to a production environments.
 2. **Ansible** for configuration management, because we had enough expertise.
-3. **Jenkins** as a framework for automating our workflow, agreements and process. We used it because we had it before as part release workflow.
-4. **Hyper-V** virtualization platform. There were some reasons out of scope. To make a short story long: we were not allowed to use public clouds & we had to use MS in our infrastructure.
+3. **Jenkins** as a framework for automating our workflows, agreements and process. We used it because we had it before as part of release workflow.
+4. **Hyper-V** virtualization platform. There were some reasons out of scope. To make a long story short: we were not allowed to use public clouds & we had to use MS in our infrastructure.
 
 ### Day №30: Agreements as Code
 
