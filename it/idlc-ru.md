@@ -52,7 +52,7 @@
 
 ### Design
 
-![Design](assets/idlc_22.png?raw=true)
+![Design](assets/idlc_21.png?raw=true)
 
 Родилась идея, мы ее проанализировали и теперь начинаем продумывать как и что делать, спускаться в детали:
 
