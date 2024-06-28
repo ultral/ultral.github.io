@@ -18,13 +18,13 @@ One of the bests ways is to go to an English school, usually, they can estimate 
 * [ITALKI (OXFORD PLACEMENT TEST)](https://www.italki.com/p/oet)
 * [CAMBRIDGE ENGLISH WRITE & IMPROVE](https://writeandimprove.com/)
 
-The main problem is that there are no free online audition tests. 
+The main problem is that there are no free online audition tests.
 
 ## Let's begin
 
-Vocabulary, grammar, reading & audition are possible to train at home without a teacher. It depends on your patience, determination & systematicity. Let's go to tools. 
+Vocabulary, grammar, reading & audition are possible to train at home without a teacher. It depends on your patience, determination & systematicity. Let's go to tools.
 
-1. **Vocabulary**: 
+1. **Vocabulary**:
     * [lingualeo.com](https://lingualeo.com). It is a great service with good enough web user interface & mobile applications. I use it for improving passive vocabulary (from texts & videos). 
     * However, some persons prefer Anki or [quizlet](https://quizlet.com/230973999/toefl-flash-cards/).
     * Dictionaries:
@@ -53,7 +53,7 @@ Vocabulary, grammar, reading & audition are possible to train at home without a 
 4. **Reading**: just read. I found out that it's really easy to read Harry Potter.
 5. **Grammar**:
     * On one hand, [lingualeo.com](https://lingualeo.com) has some grammar courses, but on the other hand, it's not enough.
-    * You should write a diary, it might be a private diary. 
+    * You should write a diary, it might be a private diary.
 
 Few months or years later, as a result, you should have big enough passive vocabulary & be able to understand the English voice. 
 
@@ -65,7 +65,7 @@ At the next stage, I suppose that you would like to improve your speaking. First
 2. You should write, i.e. private diary. You can use [grammarly](https://app.grammarly.com/) for checking your texts.
 3. **Speak**.
 
-**Q:** Is it possible to speak English without speaking? 
+**Q:** Is it possible to speak English without speaking?
 
 **A:** No.
 
@@ -87,7 +87,7 @@ How to learn continuously? It's a sophisticated question. I use something like G
 ## P.S.
 ### English learn story
 
-When I was in primary school, I visited a private English coach for a year or two. However, there were no major results. A bit later, there were English lessons, when I was in secondary school, unfortunately, I was not really good in English learning. As a result, when I had graduated from school, I heard that grammar exist, could not talk at all, was able to read with a dictionary. When I was studying at a university, I had been involved in IT, so I started to read IT docs in English. Sometimes, I used to do it with a dictionary. 
+When I was in primary school, I visited a private English coach for a year or two. However, there were no major results. A bit later, there were English lessons, when I was in secondary school, unfortunately, I was not really good in English learning. As a result, when I had graduated from school, I heard that grammar exist, could not talk at all, was able to read with a dictionary. When I was studying at a university, I had been involved in IT, so I started to read IT docs in English. Sometimes, I used to do it with a dictionary.
 
 Just before I graduate, I had applied for international IT company. It was funny & frightful. I had to talk & chat with workmates during the day, so my English was improving forcedly & sharply. i.e. 
 
