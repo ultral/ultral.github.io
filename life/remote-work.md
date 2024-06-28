@@ -67,6 +67,7 @@ redirect_from:
 Нет какой-то серебряной пули, которая решит все проблемы, но как минимум можно попробовать.. 
 
 # Links
+* подкаст [Работаем дома в принудительном порядке](http://nsfw.co.in/episodes/01.html)
 * [cross post](https://habr.com/en/post/494238/)
 * [russian version](http://www.goncharov.xyz/life/remote-work.html)
 * [english version](http://www.goncharov.xyz/life/remote-work-en.html)
