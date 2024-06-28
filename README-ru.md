@@ -21,6 +21,9 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
+| 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) |  [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) |  [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2020-01-03 | Подкаст Александра Кадырова №2 | [Подкаст Александра Кадырова](https://podcast.kadyrov.dev/senior-yaml-developer/) |
 | 2019-11-08 | Осенний марафон | [Статья и выступление. Две стороны одной медали](life/how-to-make-speech.md) |
 | 2019-11-08 | [Linkmeup №22](https://linkmeup.ru/blog/495.html) | [Шоты №22. Лев Гончаров. DevOpsConf](https://linkmeup.ru/blog/495.html) |
 | 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](it/coreos2centos.md) |
@@ -37,7 +40,7 @@
 | 2018-03-02 | [DevOps days T-systems](https://www.t-systems.com/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr.m) |
 | 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr.m) |
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](it/monolith-to-microservices.md) |
-| 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 | 
+| 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 |
 
 # Life
 * [Изучение английского](life/how-to-english.md)
