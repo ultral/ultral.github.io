@@ -1,12 +1,17 @@
+---
+redirect_from:
+    - /lfl
+---
 # How to learn English
 
 [Russian version](how-to-english.md)
 
 One one hand I don't want to be the final authority, but on the other hand, I'd like to share my point of view on how to learn English. The English language is not secret knowledge; it is just a lot of hard training. One of the most important bullets is constantly improving English. You should do it from day to day if you want to approach result. It must not loathe torture for you, It means that you should find out something interesting in that process.
 
-# How to estimate your level
+## How to estimate your level
 
 One of the bests ways is to go to an English school, usually, they can estimate your level for free before a course. However, there are a lot of online tests:
+
 * [BRITISH COUNCIL](https://learnenglish.britishcouncil.org/content)
 * [KAPLAN](https://www.kaplaninternational.com/free-english-test-online)
 * [EDUCATION FIRST](https://www.ef.ru/test3/#/)
@@ -15,7 +20,7 @@ One of the bests ways is to go to an English school, usually, they can estimate 
 
 The main problem is that there are no free online audition tests. 
 
-# Let's begin
+## Let's begin
 
 Vocabulary, grammar, reading & audition are possible to train at home without a teacher. It depends on your patience, determination & systematicity. Let's go to tools. 
 
@@ -42,7 +47,7 @@ Vocabulary, grammar, reading & audition are possible to train at home without a 
         * [Software engineering daily podcast](https://softwareengineeringdaily.com/).
         * [The bike shed podcast](http://bikeshed.fm/).
     * There are a lot of free different audiobooks at [openculture](http://www.openculture.com/freeaudiobooks).
-3. **Speaking**: 
+3. **Speaking**:
     * [lyricstraining.com](https://lyricstraining.com/) I don't sure that it's possible to really improve your English, However, you can try to catch English pace & word stresses.
     * [Sounds American](https://www.youtube.com/channel/UC-MSYk9R94F3TMuKAnQ7dDg) - how to pronounce.
 4. **Reading**: just read. I found out that it's really easy to read Harry Potter.
@@ -52,7 +57,7 @@ Vocabulary, grammar, reading & audition are possible to train at home without a 
 
 Few months or years later, as a result, you should have big enough passive vocabulary & be able to understand the English voice. 
 
-# Show must go on
+## Show must go on
 
 At the next stage, I suppose that you would like to improve your speaking. First of all, you should convert thoughts into English speech(**not translate!!!**). How to deal with it?
 
@@ -69,6 +74,7 @@ Well, you can read & write at home without help, but for speaking you must talk.
 # Conclusion
 
 How to learn continuously? It's a sophisticated question. I use something like GTD/S.M.A.R.T. 
+
 1. Goals have to be **S**pecific **M**easurable **A**ssignable **R**elevant **T**ime-based: 
     * I will read Harry Potter book to the end of the current month.
     * I'm listening English made simple podcast №100 during today commute. 
@@ -78,21 +84,23 @@ How to learn continuously? It's a sophisticated question. I use something like G
     * You cook dinner - watch extr@ English.
 3. Don't wait for a result after 1 week/month, don't compare yourself with another, just learn.
 
-# P.S.
-## English learn story
+## P.S.
+### English learn story
 
 When I was in primary school, I visited a private English coach for a year or two. However, there were no major results. A bit later, there were English lessons, when I was in secondary school, unfortunately, I was not really good in English learning. As a result, when I had graduated from school, I heard that grammar exist, could not talk at all, was able to read with a dictionary. When I was studying at a university, I had been involved in IT, so I started to read IT docs in English. Sometimes, I used to do it with a dictionary. 
 
 Just before I graduate, I had applied for international IT company. It was funny & frightful. I had to talk & chat with workmates during the day, so my English was improving forcedly & sharply. i.e. 
+
 * My workmate stay with me & my during week or two.
 * I [visited the UK by a car](http://www.goncharov.xyz/life/UK-trip-by-car.html).
 * I called to DataCenter & talked with Indian support.
 As a result, I finished English intermediate course in 2011. However, I decided to resign in 2012 and applied for a new job without sufficient English practise.
 
-In 2017 I applied for an international IT company and started an intermediate course again... On one hand It was strange because I finished it 6 years ago, but on the other hand, I finished it without any major efforts. However, I've been doing English tasks myself. i.e.: 
+In 2017 I applied for an international IT company and started an intermediate course again... On one hand It was strange because I finished it 6 years ago, but on the other hand, I finished it without any major efforts. However, I've been doing English tasks myself. i.e.:
+
 * I read books(I've read 10 books(all Harry Potter, DevOps handbooks etc) since last year).
 * I write articles/docs(not really a lot, but it is).
 * I listen to podcasts, watch movies without subs.
 * I learn online with a native teacher.
 
-No pain, no gain. 
+No pain, no gain.
