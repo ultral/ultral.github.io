@@ -22,6 +22,7 @@
 * [From monolith to microservices](it/monolith-to-microservices.md)
 * [About outsourcing](it/about-it-en.md)
 * [Hard vs soft skills](it/hard-soft-skills-en.md)
+* [How to configure VsCode](it/vscode.md)
 * [How to configure Sublime](it/sublime.md)
 * [Arithmometer Felix M review](it/felix-m-review.md)
 
