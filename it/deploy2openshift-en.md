@@ -6,6 +6,8 @@ redirect_from: "/d2o.html"
 
 It is the transcription of my presentation at [kubernetes SPB meetup #3](https://www.meetup.com/kubernetes-spb/events/258970186/).
 
+* [slides](https://cloud.mail.ru/public/3VkE/F2H78LtZw).
+
 # Our story
 
 I'd like to share my story about migration an application to Openshift. Also, as a result, I will compare some of the most popular solutions and tools for managing your application inside Openshift. 
@@ -20,7 +22,7 @@ First of all, let's talk about our application. It is out of box enterprise solu
 
 ![Deploy](assets/deploy2openshift-deploy.png?raw=true "Deploy")
 
-The application is the product with a long history, it should work out of the box in completely different environments. As a result, there are a lot of pages in our installations guides. However, the top level schema is easy as pie, you just should:
+The application is the product with a long history, it should work out of the box in completely different environments. As a result, there are a lot of page in our installations guides. However, the top level schema is easy as pie, you just should:
 * Apply DB schema.
 * Prepare application server configuration.
 * Install your license.
@@ -28,7 +30,7 @@ The application is the product with a long history, it should work out of the bo
 
 ![Deploy](assets/one-does-not-simply.png?raw=true "Deploy")
 
-Unfortunate, the world is cruel, there were some important prerequisites.
+Unfortunately, the world is cruel, there were some important prerequisites.
 * We could build the application only at a special Jenkins slave, because of security restrictions
 * There was no access from the client's Openshift installation to the private developers' docker registry.
 * We were not able to re-use existing docker images, because they were created for developing & testing needs only.
@@ -46,8 +48,8 @@ We already had written some Ansible roles for installing the application at VMs,
 
 There was no major issue with ansible-container because [Openshift creating images guidlines](https://docs.openshift.com/container-platform/3.3/creating_images/guidelines.html) is awesome. However, I'd like to notice:
 * We modified our ansible roles, because `Docker + systemd = pain`.
-* There is no ability to use chroot, sudo inside Openshift, because of security. Just read [CVE-2019-5736](https://seclists.org/oss-sec/2019/q1/119).
-* Openshift runs containers with random UID.
+* There is no ability to use chroot, sudo inside Openshift by default, because of security. Just read [CVE-2019-5736](https://seclists.org/oss-sec/2019/q1/119).
+* For security reasons Openshift be default also generate random UID for each container, in other words openshift ignores the USER option from a Dockerfile.
 
 The main point is that ansible-container helped us to create a demo very fast, because of reusing. 
 
@@ -99,11 +101,12 @@ There a lot of already exists for managing openshift.
 * [Ansible-container](https://blog.openshift.com/ansible-container/)
 * [Ansible + k8s module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html)
 * [Ansible Playbook Bundle](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle)
+* [Ansible bender](https://blog.tomecek.net/post/road-to-ansible-bender-0-2-0/)
 * [operator](https://blog.openshift.com/introducing-the-operator-framework/)
 * [source2image](https://github.com/openshift/source-to-image)
 * [kustomize](https://github.com/kubernetes-sigs/kustomize)
 * [helm](https://github.com/helm/helm)
-* [automationbroker](http://automationbroker.io/)
+* [Automation broker](http://automationbroker.io/)
 
 During the migration, I've tested some of them. I'd like to share my results.
 
@@ -163,6 +166,8 @@ During the migration, I've tested some of them. I'd like to share my results.
 * Huge images, because of a single layer.
 * Looks abandon & out of date.
 
+Ansible container was replaced by [Ansible bender](https://blog.tomecek.net/post/road-to-ansible-bender-0-2-0/).
+
 ## Ansible k8s module
 
 ![Ansible k8s module](assets/deploy2openshift-ansible.png?raw=true "Ansible k8s module")
@@ -212,3 +217,4 @@ One one hand I don't want to be the final authority, but on the other hand, I'd 
 * [www.meetup.com/kubernetes-spb](https://www.meetup.com/kubernetes-spb)
 * [t.me/k8spb](https://t.me/k8spb)
 * [learn.openshift.com](https://learn.openshift.com/operatorframework)
+* [Automate kubernetes with Ansible](http://ftp.belnet.be/mirror/FOSDEM/2019/UB2.252A/automate_kubernetes_ansible.mp4)
