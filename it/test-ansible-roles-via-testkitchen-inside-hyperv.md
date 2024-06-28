@@ -46,7 +46,7 @@ We decided not to [reinvent the wheel](https://habr.com/post/342216/) & get prod
 ![kitchen-ci schema](assets/kitchen-ci-schema.png?raw=true "kitchen-ci schema")
 
 # Green Build Policy
-![Green build policy schema](assets/Green-build-policy?raw=true "Green build policy schema")
+![Green build policy schema](assets/Green-build-policy.png?raw=true "Green build policy schema")
 
 # Nested virtualization
 As you remember, we had a private cloud with limited possibility to create VMs on demand. We decided to create VMs inside VMs.
