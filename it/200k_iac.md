@@ -65,7 +65,7 @@ The project was growing, as a result, we decided to use Ansible. There were reas
 1. [Bash should not contain complex logic](http://www.goncharov.xyz/it/make-cm-not-bash-en.html).
 2. We had some amount of expertise in Ansible.
 
-There was an amount of business logic inside Ansible code. There is an approach for putting things in source code during the software development process. It is called *S.O.L.I.D.*. From my point of view, we can re-use *S.O.L.I.D.* for *Infrastructure as Code*. Let me explain step by step.
+There was an amount of business logic inside the Ansible code. There is an approach for putting things in source code during the software development process. It is called *S.O.L.I.D.*. From my point of view, we can re-use *S.O.L.I.D.* for *Infrastructure as Code*. Let me explain step by step.
 
 ### The Single Responsibility Principle
 
@@ -81,7 +81,7 @@ You should not create a Spaghetti Code inside your infrastructure code. Your inf
 
 *Software entities ... should be open for extension, but closed for modification.*
 
-In the beginning, we were deploying the SDS at virtual machines, a bit later we added deploy to bare metal servers. We had done it was as easy as pie for us because we just added an implementation for bare metal specific parts without modifying the SDS installation logic.
+In the beginning, we were deploying the SDS at virtual machines, a bit later we added *deploy to bare metal servers*. We had done it. It was as easy as pie for us because we just added an implementation for bare metal specific parts without modifying the SDS installation logic.
 
 ### The Liskov Substitution Principle
 
@@ -89,11 +89,11 @@ In the beginning, we were deploying the SDS at virtual machines, a bit later we 
 
 *Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.*
 
-Let us look wilder. *S.O.L.I.D.* it is possible to use in CFM in general, it was not a lucky project. I would like to describe another project. It is an out of box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. I am going to use this example for describing the rest of *S.O.L.I.D.*.
+Let us be open-minded. *S.O.L.I.D.* is possible to use in CFM in general, it was not a lucky project. I would like to describe another project. It is an out of box enterprise solution. It supports different databases, application servers and integration interfaces with third-party systems. I am going to use this example for describing the rest of *S.O.L.I.D.*
 
-I.e. in our case, inside infrastructure team there is an agreement: if you deploy ibm java role or oracle java or openjdk, you will have executable java binary. We need  it because top*level Ansible roles depend on that. Also, it allows us to swap java implementation without modifying application installing logic.
+For example in our case, there is an agreement inside infrastructure team : if you deploy ibm java role or oracle java or openjdk, you will have executable java binary. We need  it because top*level Ansible roles depend on that. Also, it allows us to swap java implementation without modifying application installing logic.
 
-Unfortunately, there is no syntax sugar for that in Ansible playbooks it means that you must keep it in mind during developing Ansible roles. 
+Unfortunately, there is no syntax sugar for that in Ansible playbooks. It means that you must keep it in mind while developing Ansible roles. 
 
 ### The Interface Segregation Principle
 
