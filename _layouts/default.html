@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google tag (gtag.js) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
-    <script async data-cookiecategory="analytics" src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
     <script type="module" >
       import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.umd.js';
 
@@ -50,12 +50,42 @@
         }
     });
     </script>
-    <script type="text/plain" data-cookiecategory="analytics">
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+	  gtag('consent', 'default', { 'ad_storage': 'denied', 'analytics_storage': 'denied' });
+    </script>
+	    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		    })(window,document,'script','dataLayer','G-KYDK0KTRF9');
+		</script>
+    <!-- End Google Tag Manager -->
 
-      gtag('config', 'G-KYDK0KTRF9');
+    <script type="text/plain" data-category="analytics">
+        gtag('consent', 'update', {
+            'analytics_storage': 'granted'
+        });
+    </script>
+
+    <script type="text/plain" data-category="!analytics">
+        gtag('consent', 'update', {
+            'analytics_storage': 'denied'
+        });
+    </script>
+
+    <script type="text/plain" data-category="ads">
+        gtag('consent', 'update', {
+            'ad_storage': 'granted'
+        });
+    </script>
+
+    <script type="text/plain" data-category="!ads">
+        gtag('consent', 'update', {
+            'ad_storage': 'denied'
+        });
     </script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
