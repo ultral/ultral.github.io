@@ -7,8 +7,8 @@
 * [Finished](assets/2018_english.jpg?raw=true) intermidiate english course.
 * [Finished](assets/2018_azure.jpg) Microsoft course 20533 _Implementing Microsoft Azure Infrastructure Solutions_.
 * [Created & conducted internal course](assets/2018_ansible.jpg) _introduction to ansible_.
-* Created & conducted [k8s/terraform/gcp workshop](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) at [hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/).
-* Created & conducted [k8s/terraform/gcp workshop](https://cloud.mail.ru/public/gNZx/GqqMTbB61) at [chaos constructions](https://chaosconstructions.ru/).
+* Created & conducted [k8s/terraform/gcp workshop](https://cloud.mail.ru/public/F193/yjoC7irob) at [hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/).
+* Created & conducted [k8s/terraform/gcp workshop](https://cloud.mail.ru/public/MK6G/DgNtrv5x5) at [chaos constructions](https://chaosconstructions.ru/).
 * Made speech at [Geekpicnic](https://vk.com/geekpicnicspb2018) about [Time management in real life](life/time-management-irl.md).
 * Made public speech at [SpbLUG](http://spblug.org/) about [ansible roles testing](it/test-ansible-roles-via-testkitchen-inside-hyperv.md).
 * Made speech about vagrant at internal conference devops days t-systems.

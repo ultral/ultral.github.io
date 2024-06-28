@@ -3,7 +3,7 @@ redirect_from: "/tm.html"
 ---
 # тайм менеджмент в домашних условиях
 
-[English version](time-management-irl.md) & [слайды с выступления](https://cloud.mail.ru/public/3c18/Uzx3QtU7X)
+[English version](time-management-irl.md) & [слайды с выступления](https://cloud.mail.ru/public/BsRX/gJfQUEuEm)
 
 * Выкинуть все из головы
 * Создать контексты

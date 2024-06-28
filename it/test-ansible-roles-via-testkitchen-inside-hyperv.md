@@ -3,7 +3,7 @@ redirect_from: "/ymldev.html"
 ---
 
 # Test me if you can. Do YML developers Dream of testing ansible?
-It is text version of [presentation](https://cloud.mail.ru/public/2Rc8/EywUuHHp2) from [Saint-Petersburg Linux User Group](http://spblug.org/). Configuration example locates at [https://github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
+It is text version of [presentation](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) from [Saint-Petersburg Linux User Group](http://spblug.org/). Configuration example locates at [https://github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
 
 # Introduction
 I suppose that that you [make configuration management, not bash](make-cm-not-bash-en.md). It means that you have to test it some how. Have you ever tested ansible roles? How do you do it? 
@@ -76,7 +76,7 @@ On one hand, current implementation works, but on the other hand, there are some
 As a result, molecule & docker might be pretty interesting solution.
 
 # Links
-* [presentation](https://cloud.mail.ru/public/2Rc8/EywUuHHp2)
+* [presentation](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
 * [simple example](https://github.com/ultral/ansible-role-testing)
 * [http://kitchen.ci/](http://kitchen.ci/)
 * [https://t.me/pro_ansible](https://t.me/pro_ansible)
