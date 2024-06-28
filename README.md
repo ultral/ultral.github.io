@@ -19,14 +19,21 @@
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [From monolith to microservices / От авгиевых конюшен к звездам](https://cloud.mail.ru/public/AQgP/pJKNrcbp2) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features | 
 
-# Different
-* [Изучение английского](how-to-english.md)
-* [Как похудеть](how-to-lose-weight.md)
-* [Как улучшать городскую инфраструктуру](how-to-improve-your-town.md)
-* [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
-* [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
-* [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
-* [Аналитика рынка труда в IT](about-it.md)
-* [Аналитика недвижимости в Санкт-Петербурге](about-aparts.md)
+# Landings for presentations
 * [Тайм менеджмент в домашних условиях](tm.md)
 * [Openvpn inside kubernetes inside google cloud platform](gce4vpn.md)
+
+# About IT
+* [Аналитика рынка труда в IT](it/about-it.md)
+* [How to configure Sublime](it/sublime.md)
+* [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
+
+# Life
+* [Изучение английского](life/how-to-english.md)
+* [Как похудеть](life/how-to-lose-weight.md)
+* [Как улучшать городскую инфраструктуру](life/how-to-improve-your-town.md)
+* [Аналитика недвижимости в Санкт-Петербурге](life/about-aparts.md)
+
+# Trips
+* [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
+* [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
