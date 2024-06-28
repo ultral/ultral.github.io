@@ -1,5 +1,5 @@
 ---
-redirect_from: "/d2o.html"
+redirect_from: "/d2o"
 ---
 
 # Let's deploy to Openshift
