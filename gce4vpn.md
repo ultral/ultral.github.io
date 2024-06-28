@@ -2,7 +2,8 @@
 
 Openvpn inside kubernetes inside google cloud platform
 
-* [slides](https://cloud.mail.ru/public/gNZx/GqqMTbB61)
+* [slides for chaos constructions](https://cloud.mail.ru/public/gNZx/GqqMTbB61)
+* [slides for hashicorp meetup](https://cloud.mail.ru/public/EEkM/jthv4Bv6d)
 * [github.com/ultral/gce4vpn](https://github.com/ultral/gce4vpn)
 
 ## Links
