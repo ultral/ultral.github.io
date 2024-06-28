@@ -1,4 +1,4 @@
-# Intro
+# How to learn english
 
 [Russian version](how-to-english.md)
 
