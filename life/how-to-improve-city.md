@@ -1,9 +1,10 @@
 ---
 redirect_from: 
-    - /life/how-to-contact-with-uk-en.html
+    - /life/how-to-contact-with-uk.html
     - /life/how-to-improve-your-town.html
-    - /life/how-to-mange-tasks-en.html
+    - /life/how-to-mange-tasks.html
     - /how-to-improve-your-town.html
+    - /imporve-towm
 ---
 # Как улучшать город вокруг себя и не свихнуться
 

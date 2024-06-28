@@ -1,18 +1,21 @@
 # How to lose weight?
+
 [Russian version](how-to-lose-weight.md)
-I lost 45-50kg. Let me share my story. **Eat less, move more** 
+I lost 45-50kg. Let me share my story. **Eat less, move more**
 
 ![weight](assets/weight.jpg?raw=true)
 
-# Introduction
+## Introduction
 
 First of all I googled couple of a calorie calculator. I tracked my diet: food weight & calories. I received information about my total daily energy expenditure - how many calories I consumed per day. After that:
+
 1. I slightly decreased my diet. 
-2. I looked at my weight. 
+2. I looked at my weight.
 3. Di it decrease? NO - go to step #1.
 4. I found daily balance between my activity & diet.
 
 Nothing special, just math:
+
 * D - Daily energy expenditure
 * A - Additional activity(walking, cycling, swimming, etc) per day.
 * C - consumed calories per day.
@@ -21,11 +24,11 @@ Nothing special, just math:
 X = D + A - C
 ```
 
-**Х** should be less than 200 calories per day. It means that you should move more for 200 calories than eat. 
+**Х** should be less than 200 calories per day. It means that you should move more for 200 calories than eat.
 
-**Eat less, move more** 
+**Eat less, move more**
 
-# More details
+## More details
 
 1. On one hand you don't have to reduce your diet more than for 200 calories, but on the other hand if you do it, you might feel bad because it is stressful for your body.
 2. Stress is not allowed!!!
@@ -59,5 +62,6 @@ X = D + A - C
 * Eat frequently.
 * Keep calm and be patient.
 
-# links
+## links
+
 * [Correlations found from tracking myself Activity, Weight & Expenses for 7 years or how to lose 50kg / 110 lbs](https://www.reddit.com/r/dataisbeautiful/comments/f8tkzb/oc_correlations_found_from_tracking_myself/)
