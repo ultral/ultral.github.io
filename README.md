@@ -26,6 +26,7 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
+| 2019-04-24 | [SPbLUG](http://spblug.org/) | [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2019-03-23 | [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
 | 2019-02-25 | [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/) | [Let us deploy to openshift](it/deploy2openshift-en.md) |
 | 2018-08-29 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md) |
