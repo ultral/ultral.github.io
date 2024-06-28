@@ -17,3 +17,8 @@
 * [About vagrant](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/)
 * [From monolith to microservices from](http://dotnetconf.ru/materialy/monitoringandalerting)
 * [Microsoft Patterns&Practices. About Windows server 2012 features](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30)
+
+# Different
+* [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
+* [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
+* [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
