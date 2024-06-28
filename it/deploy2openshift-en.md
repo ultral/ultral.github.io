@@ -7,6 +7,8 @@ redirect_from: "/d2o.html"
 It is the transcription of my presentation at [kubernetes SPB meetup #3](https://www.meetup.com/kubernetes-spb/events/258970186/).
 
 * [slides](https://cloud.mail.ru/public/3VkE/F2H78LtZw).
+* [English version](deploy2openshift-en.md)
+* [Russian version](deploy2openshift-ru.md)
 
 # Our story
 
