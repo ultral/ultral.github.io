@@ -1,4 +1,7 @@
+![Gym](assets/2020_gym.jpg?raw=true)
 ![DevopsConf](assets/2019_devopsconf.jpg?raw=true)
+![Devops Battle 2.0](assets/2019_devops_battle.jpg?raw=true)
+![DevopsConf](assets/2019_devopsconf_2.jpg?raw=true)
 ![Story telling](assets/2019_storytelling.png?raw=true)
 ![ansible](assets/2018_ansible.jpg?raw=true)
 ![azure](assets/2018_azure.jpg?raw=true)
@@ -11,5 +14,3 @@
 ![crypto](assets/2005_crypto.jpg?raw=true)
 ![base](assets/2005_base.jpg?raw=true)
 ![chess](assets/2001_chess.jpg?raw=true)
-
-
