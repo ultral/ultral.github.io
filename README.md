@@ -4,7 +4,8 @@
 * [Сerts](certs.md)
 
 # Publications
-* [About ansible](it/ansible.md)
+* [About ansible](it/ansible.md).
+* [Docker testing](it/docker-testing.md).
 * [How-to test your own OS distribution](it/how-to-improve-your-town-en.md).
 * [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/).
 * [About monitoring (RU)](https://habr.com/post/339330/).
