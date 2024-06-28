@@ -1,5 +1,5 @@
 ---
-redirect_from: "/200k_iac.html"
+redirect_from: "/iac"
 ---
 
 * [How-to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
