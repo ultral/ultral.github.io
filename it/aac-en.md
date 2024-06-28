@@ -148,7 +148,7 @@ You can the whole story in the article [How to test Ansible and don't go nuts](a
 
 ![Ansible testing](assets/at_integration_6.png?raw=true "Ansible testing")
 
-*Fo historical reasons, there was molith repository with all Ansible roles. The jenkins multi branch pipeline was created.*
+*For historical reasons, there was monolith repository with all Ansible roles. The jenkins multi branch pipeline was created.*
 
 The pipeline top level overview is:
 
