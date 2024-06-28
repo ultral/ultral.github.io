@@ -60,21 +60,22 @@ I've written [the article](http://www.goncharov.xyz/life/how-to-lose-weight-en.h
 
 ## 4. Create a schedule & follow it
 
-You shouldn’t spend all time working. If you work from home you have 3 additional hours: 2 commute hours & 1 hour for lunch. It's extremely easy to waste that time like a couch potato. Unfortunately, in the future, it will be hard to get rid of bad habits. It's better to prevent them. You can invest free time into something fundamental: [learn a foreign language](http://www.goncharov.xyz/life/how-to-english-en.html), gain six-pack abs, create old school PC from scratch, read a book, create a pet project. You should plan time for that activity & make some preparations:
+You shouldn’t spend all the time working. If you work from home you have 3 additional hours: 2 commute hours & 1 hour for lunch. It's extremely easy to waste that time like a couch potato. Unfortunately, in the future, it will be hard to get rid of bad habits. It's better to prevent them. You can invest free time into something fundamental: [learn a foreign language](http://www.goncharov.xyz/life/how-to-english-en.html), gain six-pack abs, create old school PC from scratch, read a book, create a pet project. You should plan time for that activity & make some preparations:
 
-1. Move everything out of your mind.
+1. Free your mind.
 2. Create contexts.
 3. Write down everything.
 4. Use a calendar.
 5. Create habits, not goals.
 
-That simple advice can help you, there is the article [Time management in real life](http://www.goncharov.xyz/life/time-management-irl.html).
+That simple advice can help you. You can read a bit more in [Time management in real life](http://www.goncharov.xyz/life/time-management-irl.html).
 
 ## 5. Improve microclimate at home
 
-It was funny to realize that mind activity & ability to solve problems depends on the amount of CO2 in room air. If there are too many CO2 you feel exhausted and out of color. The cheapest way to solve it is to open a window from time to time mount a fresh air valve.
+It was funny to realize that mind activity & ability to solve problems depends on the amount of CO2 in room air. If there are too many CO2 you feel exhausted and out of color. The cheapest way to solve it is to open a window from time to time. You can also mount a fresh air valve.
 
 ## 6. Children
+
 It's an extremely hard question. From my experience, your workmates usually stay calm if children cry during a meeting. You have to minimize situations like that. You should sync time inside the family just to avoid the situation that nobody looks after the children. Also, it might be a good idea to learn with children: 'father at a meeting please stay calm'. It might be a good idea to use a headset with active noise cancellation.
 
 ## Conclusion
