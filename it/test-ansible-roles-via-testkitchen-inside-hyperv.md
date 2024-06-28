@@ -4,7 +4,7 @@ It is text version of [presentation](https://cloud.mail.ru/public/2Rc8/EywUuHHp2
 # Introduction
 Have you ever tested ansible roles? How do you do it? 
 
-In my case we have:
+In my case, we have:
 * A lot of different ansible roles.
 * Hyper-V hosts as hypervisor.
 * A private cloud with limited possibility to create VMs on demand.
@@ -14,20 +14,20 @@ In my case we have:
 
 # How to do it?
 
-Let's compare solutions for testing.
+Let us compare solutions for testing.
 
-|name          | [Test Kitchen](https://kitchen.ci/) | [Molecule](https://molecule.readthedocs.io) | Create new |
+| Name         | [Test Kitchen](https://kitchen.ci/) | [Molecule](https://molecule.readthedocs.io) | Create new |
 |--------------|-------------------------------------|---------------------------------------------|------------|
-| language     | ruby                                | python                                      | bash/ruby  |
+| Language     | ruby                                | python                                      | bash/ruby  |
 | Watchers     | 132                                 | 126                                         | 0          |
 | Stars        | 1413                                | 1154                                        | 1          |
 | Forks        | 502                                 | 174                                         | 2          |
-| license      | Apache 2.0                          | MIT                                         | Any        |
+| License      | Apache 2.0                          | MIT                                         | Any        |
 | Commits      | 1929                                | 1264                                        | 0          |
-| Celeases     | 101                                 | 121                                         | 0          |
+| Releases     | 101                                 | 121                                         | 0          |
 | Contributors | 109                                 | 82                                          | 5          |
 
-| name         | [testinfra](https://testinfra.readthedocs.io) | [serverspec](https://serverspec.org/) | [inspec](https://www.inspec.io/) | Goss |
+| Name         | [testinfra](https://testinfra.readthedocs.io) | [serverspec](https://serverspec.org/) | [inspec](https://www.inspec.io/) | Goss |
 |--------------|---|---|---|
 | Github       | [philpep/testinfra](https://github.com/philpep/testinfra) | [mizzy/serverspec](https://github.com/mizzy/serverspec) | [chef/inspec](https://github.com/chef/inspec) | [aelsabbahy/goss](https://github.com/aelsabbahy/goss) |
 | Language     | python     | ruby | ruby       | go   |
@@ -53,16 +53,16 @@ As you remember, we had a private cloud with limited possibility to create VMs o
 
 ![we need to go deeper](assets/we-need-to-go-deeper.jpeg?raw=true "we need to go deeper")
 
-First of all we tried to run Virtualbox x32 without nested. It was bad idea because of kernel panic. Also vast majority of our VMs in our infrastructure are x86_64, so we decided to continue research. As a result we decided to use nested virtualization. Hopefully it was supported by our our host servers.
+First of all we tried to run Virtualbox x32 without nested. It was bad idea because of kernel panic. Also vast majority of our VMs in our infrastructure are x86_64, so we decided to continue research. As a result we decided to use nested virtualization. Hopefully it was supported by our host servers.
 
 # Faced issues
-I was implementing testkitchen and faced with some issues. I'd like to describe them. 
+I was implementing testkitchen and faced with some issues. I would like to describe them. 
 
 ## Pass proxy settings from host into testkitchen guest VM
 
-In some test suits we setuped proxy client setings inside VMs created by testkitchen. However proxy wasn't configured on testkitchen host & ansible can't use extra vars with empty values
+In some test suits, we configured proxy client settings inside VM created by testkitchen. However, proxy was not configured on testkitchen host & ansible cannot use extra variables with empty values
 
-*Solution:* create erb template for setting default proxy if ENV vars is not set
+*Solution:* create erb template for setting default proxy if ENV variables is not set
 
 ```
 <%= ENV['http_proxy'].to_s.empty? ? 'http://proxy.example.com:3128' : ENV['http_proxy'] %>
@@ -81,12 +81,12 @@ Some roles was configured network interfaces. Test suit was looked like:
 
 Virtualbox can't use "_" in a vm name
 
-*Solution:* rename suit cases "vm_" => "vm-"
+*Solution:* rename suitcases "vm_" => "vm-"
 
-## Oracle test fail without "." at the end of VM name
+## Oracle test fails without "." at the end of VM name
 We use role in production, however when we decided to test it, it was failed. We reproduced it. 
 
-I'd like to show clue. 
+I would like to show clue. 
 
 ```
 [root@vm-oracle vagrant]# getent ahosts vm-oracle
@@ -116,14 +116,14 @@ It is tricky bug:
 4. Vagrant created VM & updated `/etc/hosts`
 
 I'd like to clarify it a bit more:
-what's happened in case *vm-oracle*? 
+What has happened in case *vm-oracle*? 
 1. vagrant created vm 
 2. vagrant updated `/etc/hosts`(*vm-oracle* x2)
 3. oracle listener listened IPv4
 4. oracle listeners resolved *vm-oracle.* & geted IPv6
 5. FAILED
 
-what's happened in case *vm-oracle.*? 
+What has happened in case *vm-oracle.*? 
 1. vagrant created vm 
 2. vagrant updated /etc/hosts ( *vm-oracle* &  *vm-oracle.*)
 3. oracle listener listened IPv4
@@ -131,12 +131,12 @@ what's happened in case *vm-oracle.*? 
 5. OK
 
 ## OOM is coming
-OOM randomly was kiiling VMs. Testkitchen was failed with strange errors.
+OOM randomly was killing VMs. Testkitchen was failed with strange errors.
 
 *Solution:*  increase RAM
 
 ## Slow builds
-It was working slow
+It was working slowly
 
 *Solutions:*
 * [Packer](https://www.packer.io/). Prebuilded vagrant box with common tasks
