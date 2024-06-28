@@ -25,9 +25,9 @@ Usually they forward issues to housing and utilities service providers. They rea
 
 
 Links:
-* https://gorod.gov.spb.ru/
-* https://itunes.apple.com/ru/app/наш-санкт-петербург/id826286401
-* https://play.google.com/store/apps/details?id=ru.spb.iac.ourspb&hl=ru
+* [gorod.gov.spb.ru](https://gorod.gov.spb.ru/)
+* [itunes app](https://itunes.apple.com/ru/app/наш-санкт-петербург/id826286401)
+* [android app](https://play.google.com/store/apps/details?id=ru.spb.iac.ourspb&hl=ru)
 
 ## government
 It works slow & not user friendly, but it works & solves not standard issues.
@@ -35,16 +35,16 @@ It works slow & not user friendly, but it works & solves not standard issues.
 * Create new road.
 
 Links:
-* https://letters.gov.spb.ru/reception/form/
+* [letters.gov.spb.ru](https://letters.gov.spb.ru/reception/form/)
 
 ## Road police
 
 If you want to organize road traffic or crosswalk
 
 Links:
-* http://www.gibdd.ru/letter/
-* https://гибдд.рф/request_main
-* info@gudodd.ru
+* [www.gibdd.ru](http://www.gibdd.ru/letter/)
+* [гибдд.рф](https://гибдд.рф/request_main)
+* `info@gudodd.ru`
 
 ## GIS GKH
 
@@ -58,14 +58,14 @@ Links:
 Usually they provide templates for different standard cases.
 
 Links:
-* https://roszkh.ru/ 
-* http://xn--80accfiasjf8cghbfut2k.xn--p1ai
+* [roszkh.ru](https://roszkh.ru/)
+* [красивыйпетербург.рф](http://красивыйпетербург.рф)
 
 ## reformagkh
 
 A portal contains official infromation about each house in the country.
 
 Links:
-* https://www.reformagkh.ru
+* [www.reformagkh.ru](https://www.reformagkh.ru)
 
 
