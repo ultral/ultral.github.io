@@ -2,7 +2,7 @@
 It is text version of [presentation](https://cloud.mail.ru/public/2Rc8/EywUuHHp2) from [Saint-Petersburg Linux User Group](http://spblug.org/). Configuration example locates at [https://github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
 
 # Introduction
-I suppose that that you [make configuration management, not bash](it/make-cm-not-bash-en.md). It means that you have to test it some how. Have you ever tested ansible roles? How do you do it? 
+I suppose that that you [make configuration management, not bash](make-cm-not-bash-en.md). It means that you have to test it some how. Have you ever tested ansible roles? How do you do it? 
 
 In my case, we have:
 * A lot of different ansible roles.
