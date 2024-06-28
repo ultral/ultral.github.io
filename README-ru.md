@@ -6,6 +6,7 @@
 
 ## Publications
 
+* [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](it/ansible-testing-ru.md)
 * [По следам DevConf и CfgMgmtCamp или что можно узнать съездив спикером на 2 международные конференции за 2 недели](https://habr.com/en/post/487432/)
 * [Что я узнал, протестировав 200 000 строк инфраструктурного кода](it/200k_iac.md)
 * [Запускаем приложение в Openshift и сравниваем существующий инструментарий](it/deploy2openshift-ru.md)
@@ -14,7 +15,7 @@
 * [Мониторинг головного мозга](https://habr.com/post/339330/)
 * [Подключаем NTFS на запись в Mac OS X Yosemite 10.10](https://habr.com/post/246517/)
 * [Перехват системных вызовов в linux под x86-64](https://habr.com/post/110369)
-* [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible? (EN)](it/test-ansible-roles-via-testkitchen-inside-hyperv.md)
+* [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.md).
 * [Почему bash это плохо](it/make-cm-not-bash-ru.md)
 * [Аналитика рынка труда в IT](it/about-it.md)
 * [Хард и софт скиллз](it/hard-soft-skills.md)
@@ -25,7 +26,11 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
-| 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [How to test Ansible and don't go nuts](it/ansible-testing.md) |
+| 2018-04-22 | [T дома](https://www.t-systems.com/) | [Тайм менеджмент в домашних условиях](life/time-management-irl.md) |
+| 2018-04-09 | [T дома](https://www.t-systems.com/) | [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](life/remote-work.md) |
+| 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/01.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
+| 2020-03-31 | [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) | [Работаем дома в принудительном порядке](https://music.yandex.ru/album/10318378/track/64324269) |
+| 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек](it/ansible-testing-ru.md) |
 | 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2020-01-03 | Подкаст Александра Кадырова №2 | [Подкаст Александра Кадырова](https://podcast.kadyrov.dev/senior-yaml-developer/) |
@@ -42,8 +47,8 @@
 | 2018-08-26 | [Chaos Constructions](https://chaosconstructions.ru/) | [Openvpn внутри kubernetes внутри google cloud через terraform](it/gce4vpn.md1) |
 | 2018-08-19 | [Geekpicnic](https://vk.com/geekpicnicspb2018) | [Тайм менеджмент в домашних условиях](life/time-management-irl.md) |
 | 2018-04-25 | [SPbLUG](http://spblug.org/) | [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv.md) |
-| 2018-03-02 | [DevOps days T-systems](https://www.t-systems.com/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr.m) |
-| 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr.m) |
+| 2018-03-02 | [DevOps days T-systems](https://www.t-systems.com/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr-ru.md) |
+| 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Страшная сказка про vagrant](it/how-to-test-custom-os-distr-ru.md) |
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [От авгиевых конюшен к звездам](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 |
 
