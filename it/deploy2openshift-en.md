@@ -12,13 +12,13 @@ It is the transcription of my presentation at [kubernetes SPB meetup #3](https:/
 
 # Our story
 
-I'd like to share my story about migration an application to Openshift. Also, as a result, I will compare some of the most popular solutions and tools for managing your application inside Openshift. 
+I'd like to share my story about migrating application to Openshift. Also, as a result, I will compare some of the most popular solutions and tools for managing your application inside Openshift. 
 
 ## What should we do?
 
 ![This is fine](assets/deploy2openshift-this_is_fine.png?raw=true "This is fine")
 
-First of all, let's talk about our application. It is out of box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. Usually, our clients were installing on dedicated servers, however, we faced the issue. We had to tun the application inside Openshift.
+First of all, let's talk about our application. It is an out of box enterprise solution, it supports different databases, application servers and integration interfaces with third-party systems. Usually, our clients were installing on dedicated servers, however, we faced the issue. We had to tun the application inside Openshift.
 
 ## Prerequisites
 

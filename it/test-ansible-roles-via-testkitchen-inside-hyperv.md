@@ -62,6 +62,19 @@ First of all we tried to run Virtualbox x32 without nested. It was bad idea beca
 # Faced issues
 I was implementing testkitchen and faced with some issues. You can read it [here](testkitchen-issues.md)
 
+# Conclusion
+
+![molecule](assets/molecule.png?raw=true "molecule")
+
+On one hand, current implementation works, but on the other hand, there are some issues
+* is not user friendly.
+* we mix ruby & python.
+* there is no indepotence check.
+* it works slow.
+* it is hard to trace logs at single job.
+
+As a result, molecule & docker might be pretty interesting solution.
+
 # Links
 * [presentation](https://cloud.mail.ru/public/2Rc8/EywUuHHp2)
 * [simple example](https://github.com/ultral/ansible-role-testing)
