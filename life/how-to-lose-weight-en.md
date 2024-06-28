@@ -58,3 +58,6 @@ X = D + A - C
 * Stress is not allowed.
 * Eat frequently.
 * Keep calm and be patient.
+
+# links
+* [Correlations found from tracking myself Activity, Weight & Expenses for 7 years or how to lose 50kg / 110 lbs](https://www.reddit.com/r/dataisbeautiful/comments/f8tkzb/oc_correlations_found_from_tracking_myself/)

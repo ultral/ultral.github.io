@@ -2,7 +2,7 @@
 
 ![remote](assets/remote.jpg?raw=true)
 
-You must find out your work-life balance because without that you will burn out. It happens because work is like gas. If you don't control it then work fill all available time little by little. I.e. I used to work 11 hours per day from home. Hopefully, I understood that it had been a bad idea. Let me share some peace of pieces of advice:
+You must find out your work-life balance because without that you will burn out. It happens because work is like gas. If you don't control it then work fill all available time little by little. I.e. I used to work 11 hours per day from home. Hopefully, I understood that it had been a bad idea. Let me share some pieces of advice:
 1. Find out a work-life balance.
 2. Do exercises.
 3. Eat healthy food.
@@ -13,8 +13,8 @@ You must find out your work-life balance because without that you will burn out.
 
 First of all, you should split your work & home activities. Your brain should understand if it is working time or home time. There are some simple examples:
 * Don't eat in front of the laptop. Do it in a dining room.
-* Create a workspace: a comfortable chair, table, lamp etc.
-* Walk alongside you block before work.
+* Create a workspace: a comfortable chair, table, lamp, etc.
+* Walk alongside your block before work.
 * Walk during lunch.
 
 The main idea is to create a trigger. You have to switch your mind from home mode to work mode and back. I use life hack for that: slippers. Let me clarify:
@@ -25,16 +25,16 @@ It's my trigger. It helps me to switch between home and work modes.
 
 # 2. Do exercises
 
-There is basal metabolic rate. It means the number of spent calories per day if you do nothing. Usually, the rate is about 1500 kilocalories. However, if you eat a chocolate bar you gain approx 500 kilocalories. As a result, there is a problem.
+There is a basal metabolic rate. It means the number of spent calories per day if you do nothing. Usually, the rate is about 1500 kilocalories. However, if you eat a chocolate bar you gain approx 500 kilocalories. As a result, there is a problem.
 * You work from home.
 * You move less than usual.
 * You eat the same amount of food.
 * You gain weight.
 
-My weight was 120kg. However, during remote work [I lost 50kg](http://www.goncharov.xyz/life/how-to-lose-weight-en.html). In short, It's long prune journey. My advice is to avoid situations like that. Hopefully, there are a lot of online services or videos at youtube, as a result, you can create your fitness program without heavies and use your weight. 
+My weight was 120kg. However, during remote work, [I lost 50kg](http://www.goncharov.xyz/life/how-to-lose-weight-en.html). In short, It's a long tedious journey. My advice is to avoid situations like that. Hopefully, there are a lot of online services or videos on youtube, as a result, you can create your fitness program without heavies and use your weight. 
 
 ## Fitness program
-I use fitness workout tabata program: (20 sec exercies + 10 sec rest) х  8 + 60 sec rest
+I use fitness workout tabata program: (20 sec exercises + 10 sec rest) х  8 + 60 sec rest
 
 My fitness program:
 1. Push-ups.
@@ -54,7 +54,7 @@ I've written [the article](http://www.goncharov.xyz/life/how-to-lose-weight-en.h
 
 # 4. Create a schedule & follow it
 
-Work shouldn't spend all the time on working. If you work from home you have 3 additional hours: 2 commute hours & 1 hour for lunch. It's extremely easy to waste that time like a couch potato. Unfortunately, in the future, it will be hard to cut down coach potato. It's better to prevent. You can invest free time into something fundamental: [learn foreign language](http://www.goncharov.xyz/life/how-to-english-en.html), gain six-pack abs, create old school PC from scratch, read a book, create a pet project. You should plan time for that activity & make some preparations:
+You shouldn’t spend all time working. If you work from home you have 3 additional hours: 2 commute hours & 1 hour for lunch. It's extremely easy to waste that time like a couch potato. Unfortunately, in the future, it will be hard to rid of bad habits. It's better to prevent it. You can invest free time into something fundamental: [learn a foreign language](http://www.goncharov.xyz/life/how-to-english-en.html), gain six-pack abs, create old school PC from scratch, read a book, create a pet project. You should plan time for that activity & make some preparations:
 1. Move everything out of your mind.
 2. Create contexts.
 3. Write down everything.
@@ -65,13 +65,13 @@ That simple advice can help you, there is the article [Time management in real l
 
 # 5. Improve microclimate at home
 
-It was funny to realize that mind activity & ability to solve problems depends on the amount of CO2 in room air. If there are too many CO2 you feel exhausted and out of colour. The cheapest way to solve it is to open a window from time to time or mount plenum valve (fresh air valve).
+It was funny to realize that mind activity & ability to solve problems depends on the amount of CO2 in room air. If there are too many CO2 you feel exhausted and out of color. The cheapest way to solve it is to open a window from time to time mount a fresh air valve.
 
 # 6. Children
-It's an extremely hard question. From my experience, your workmates usually stay calm if children cry during a meeting. You have to minimize situations like that. You should sync time inside the family just to avoid the situation that nobody looks after the children. Also, it might be a good idea to learn with children 'father at a meeting, please stay calm'. It might be a good idea to use a headset with active noise cancellation.
+It's an extremely hard question. From my experience, your workmates usually stay calm if children cry during a meeting. You have to minimize situations like that. You should sync time inside the family just to avoid the situation that nobody looks after the children. Also, it might be a good idea to learn with children: 'father at a meeting please stay calm'. It might be a good idea to use a headset with active noise cancellation.
 
 # Conclusion
-There is no silver bullet, but at least you can try, because *a journey of a thousand li starts with a single step*(c)
+There is no silver bullet, but at least you can try because *a journey of a thousand li starts with a single step*(c)
 
 # Links
 * [cross post](https://habr.com/en/post/494238/)
