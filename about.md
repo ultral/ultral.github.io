@@ -14,15 +14,42 @@
 
 * [Сerts](certs.md)
 
+### 2024
+
+* Hiked [via francigena](assets/2024_Camino.png?raw=true).
+* [Added domain_ou support for windows customization](https://github.com/hashicorp/terraform-provider-vsphere/pull/2181) for [terraform-provider-vsphere](https://github.com/hashicorp/terraform-provider-vsphere).
+* [Added handling ANSIBLE_FILTER_PLUGINS env var](https://github.com/ansible/molecule/pull/4135) in [ansible/molecule](https://github.com/ansible/molecule).
+
+### 2023
+
+* Made speech how to use terraform with Vmware and migrate 300 VMs to terraform.
+* Write Article(RU) [How to organize archive at home](https://vas3k.club/post/2193574/).
+* Write article(RU) [Relocation guide to Spain](https://vas3k.club/post/1941225/).
+* Made speech [How to make a speech and don't go nuts](life/how-to-make-speech.md) at Valencia Tech Camp.
+* Made speech [IDLC = SDLC + IaC: IaC Development Life Cycle](it/idlc-en.md) at [T-Systems Iberia Technical Meetup](https://www.linkedin.com/posts/tsystems-iberia_technical-meet-up-granadareus-de-t-systems-activity-7132642287020388352-1RoA).
+* Hiked [camino de Santiago](assets/2023_Camino.png?raw=true) & write article(RU) [How to hike Camino de Santiago with children](https://vas3k.club/post/19315/).
+* Finished [spanish A2 course](assets/2023_EspanolA2.png).
+
+### 2022
+
+* Recorded Paper podcast about [How to get work/life balance](life/remote-work-en.md).
+* Finished A2 german course.
+* Finished A1 Spanish course.
+* [Participated in internal startup incubator](assets/2022_kickbox.png)
+* Create telegram channel(RU) about [relocation to spain](https://t.me/lev2tarragona)
+* Added [support path with spaces](https://github.com/gardenlinux/gardenlinux/pull/1378) in [gardenlinux](https://github.com/gardenlinux/gardenlinux) OS distro.
+* Fixed bug [build fails on mac because there is no /bin/true](https://github.com/gardenlinux/gardenlinux/pull/1156) in [gardenlinux](https://github.com/gardenlinux/gardenlinux) OS distro.
+
 ### 2021
 
+* Made speech [How to make an internal educational course](life/how-to-make-speech.md) at Christmas Marathon.
 * Conducted configuration management course in [Devops School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/).
 * Made speech(RU) at [T-Meetup: DevOps Life Cycle](http://devopsconf.io/2021/dt-meetup). [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md).
 * Gave [the interview](https://www.youtube.com/watch?v=V54ZkGEnzfI) at [DevopsConf](https://devopsconf.io/moscow/2021)
 
 ### 2020
 
-* Finished [elementary german course](assets/2021_deutch.jpg?raw=true).
+* Finished [elementary A1 german course](assets/2021_deutch.jpg?raw=true).
 * Conducted Ansible(RU) course.
 * Conducted & Organized [Devops School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/)
 * Made speech(ENG) at [T Community days](https://www.t-systems.com/). [Agreements as Code](it/aac-en.md).
