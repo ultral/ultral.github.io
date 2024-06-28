@@ -187,13 +187,13 @@
 
 #### Проект №1
 
-![IaC testing](assets/aac_111_tests.png.png?raw=true "IaC testing")
+![IaC testing](assets/aac_111_tests.png?raw=true "IaC testing")
 
 Начали с интеграционных тестов и оно задалось тяжко т.к. поддерживать сложно, работают медленно. В итоге было принято волевое решение начать с основ, с линтинга и только потом юнит тестов.
 
 #### Проект №2
 
-![IaC testing](assets/aac_112_tests.png.png?raw=true "IaC testing")
+![IaC testing](assets/aac_112_tests.png?raw=true "IaC testing")
 
 На другом проекте рефакторинг начался с линтинга и весьма бодро пошёл. Но и кодовая база была скромная.
 
