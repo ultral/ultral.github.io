@@ -101,7 +101,7 @@ Unfortunately, there is no syntax sugar for that in Ansible playbooks. It means 
 
 *Many client-specific interfaces are better than one general-purpose interface.*
 
-In the beginning, we were putting application installation logic into the single playbook, we were trying to cover all cases and cutting edges. We had faced the issue that it is hard to maintain, so we changed our approach. We understood that a client needs an interface from us(i.e. https at 443 port) and we were able to combine our Ansible roles for each specific environment.
+In the beginning, we were putting application installation logic into the single playbook, we were trying to cover all cases and cutting edges. We had faced the issue that it is hard to maintain, so we changed our approach. We understood that a client needs an interface from us (i.e. https at 443 port) and we were able to combine our Ansible roles for each specific environment.
 
 ### The Dependency Inversion Principle
 
@@ -124,21 +124,21 @@ In other words, we were not able to reuse our IaC in another cloud because top-l
 
 ![Interaction](assets/200k_int.png?raw=true "Interaction")
 
-Infrastructure it is not only code, it is also about interaction code <-> DevOps, DevOps <-> DevOps, IaC <-> people.
+Infrastructure is not only code, it is also about interaction code <-> DevOps, DevOps <-> DevOps, IaC <-> people.
 
 ## Bus factor
 
 ![Bus factor](assets/200k_int_bus.png?raw=true "Bus factor")
 
-Let us imagine, there is DevOps engineer John. John knows everything about your infrastructure. If John got hit by a bus, what would happen? Unfortunately, it is almost a real case. Some time things happen. If it has happened and you do not share knowledge about IaC, Infrastructure among your team members you will face a lot of unpredictable & awkward consequences. There are some approaches for dealing with that. Let us chat about them.
+Let us imagine, there is DevOps engineer John. John knows everything about your infrastructure. If John gets hit by a bus, what will happen with your infrastructure? Unfortunately, it is almost a real case. Some time things happen. If it has happened and you do not share knowledge about IaC, Infrastructure among your team members you will face a lot of unpredictable & awkward consequences. There are some approaches for dealing with that. Let us chat about them.
 
 ## Pair DevOpsing
 
 ![Pair DevOpsing](assets/200k_int_pair.png?raw=true "Pair DevOpsing")
 
-It is like pair programming. In other words, there are two DevOps engineers and they use single laptop\keyboard for configuring infrastructure: configuring a server, creating Ansible role, etc. It sounds great, however, it did not work for us. There were some custom cases then it partially worked.
-* *Onboarding*: mentor & new person get a real task from a backlog and work together - transfer knowledge from mentor to the person.
-* *incident call*: During troubleshooting, there is a group of engineers, they are looking for a solution. The key point is that there is a person who leads this incident. The person shares screen & ideas. Other people are carefully following him and noticing bash tricks, mistakes, logs parsing etc.
+It is like pair programming. In other words, there are two DevOps engineers and they use single laptop\keyboard for configuring infrastructure: configuring a server, creating Ansible role, etc. It sounds great, however, it did not work for us. There were some custom cases when it partially worked.
+* *Onboarding*: Mentor & new person get a real task from a backlog and work together - transfer knowledge from mentor to the person.
+* *Incident call*: During troubleshooting, there is a group of engineers, they are looking for a solution. The key point is that there is a person who leads this incident. The person shares screen & ideas. Other people are carefully following him and noticing bash tricks, mistakes, logs parsing etc.
 
 ## Code Review
 
