@@ -2,7 +2,8 @@
 
 ![intro](assets/distr-intro.png?raw=true)
 
-[Russian version](https://habr.com/post/342216/)
+* [Russian version](https://habr.com/post/342216/)
+* [Crosspost Engglish version][https://habr.com/en/all/]
 
 Let's imagine that you are developing software and hardware appliance. The appliance consists of custom OS distributive, upscale servers, a lot of business logic, as a result, it has to use real hardware. If you release broken appliance, your users will not be happy. How to do stable releases?
 
@@ -12,7 +13,7 @@ I'd like to share my story how we dealt with it.
 
 ![POC](assets/distr-poc.png?raw=true)
 
-If you don't know a gaol it will be really hard to whip through the task. The first deploy variant was looked like [bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html):
+If you don't know a goal it will be really hard to whip through the task. The first deploy variant was looked like [bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html):
 
 ```
 make dist

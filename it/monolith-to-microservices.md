@@ -116,6 +116,13 @@ All logical steps were identical for staging/preprod/productions environments, h
 
 # Conclusion 
 
-![Conclusion](assets/monolith2microservices_49.png?raw=true "Conclusion")
+|                  | 2012  | 2014   |
+|------------------|-------|--------|
+| Servers          | 3     | 60     |
+| RAM GB           | 72    | 800    |
+| SSD GB           | 200   | 10000  |
+| MsSQL GB         | 150   | 700    |
+| MongoDB GB       | 0     | 700    |
+| Articles per day | 10000 | 150000 |
 
 It was an amazing story about moving 3 desktop PC into reliable infrastructure. Be patient & do plans.
