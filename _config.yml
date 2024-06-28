@@ -2,6 +2,6 @@ plugins:
   - jekyll-redirect-from
 theme: jekyll-theme-minimal
 title: Lev Goncharov
-description: Devops
+description: DevOps Engineer
 show_downloads: false
 google_analytics: UA-123437676-1
