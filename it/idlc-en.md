@@ -12,6 +12,7 @@ This page will contain the translation of my speech at [T-Meetup: DevOps Life Cy
 
 * [SLides](https://cloud.mail.ru/public/oG2P/TrHx9XToU)
 * [Video](https://youtu.be/FZ2LpiUNopU?t=6511)
+* [IaC Development Life Cycle [RU]](idlc-ru.md)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)
 * [How to test Ansible and don't go nuts](ansible-testing-en.md)
 * [Agreements as Code: how to refactor IaC and save your sanity?](aac-en.md)
