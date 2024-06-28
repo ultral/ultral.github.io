@@ -45,7 +45,7 @@
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | Новые возможности Windows server 2012 |
 
 # Life
-* [Уроки выученные за 3 года удаленно так, что бы остаться в трезвом уме и светлой памяти](life/remote-work.md)
+* [Уроки выученные за 3 года удаленной работы так, что бы оставаться в трезвом уме и светлой памяти](life/remote-work.md)
 * [Микроклимат в квартире](life/microclimate.md)
 * [Изучение английского](life/how-to-english.md)
 * [Как похудеть](life/how-to-lose-weight.md)
