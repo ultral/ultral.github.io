@@ -342,16 +342,16 @@ This scheme had been working quiet log period of time when during [openshift res
 
 ![IaC End to End Tests](assets/200k_testing_e2e_3.png?raw=true "IaC End to End Tests")
 
-We continue to research and found [APB](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle) (Ansible Playbook Bundle). The main idea is that you pack all needed things into a container and run the container inside Openshift. It means that you have reproducible and testable solution.
+We continue to research and found [APB](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle) (Ansible Playbook Bundle). The main idea is that you pack all needed things into a container and run the container inside Openshift. It means that you have a reproducible and testable solution.
 
 ![IaC End to End Tests](assets/200k_testing_e2e_4.png?raw=true "IaC End to End Tests")
 
-Everything was fine, until we faced one more issue: we had to maintain heterogeneous infrastructure for testing evironments. As the result we store our knowledge how to create infrastructure and run tests in the Jenkins jobs.
+Everything was fine until we faced one more issue: we had to maintain heterogeneous infrastructure for testing environments. As a result, we store our knowledge of how to create infrastructure and run tests in the Jenkins jobs.
 
 # Conclusion
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
-Infrastructure as Code it is combination of: 
+Infrastructure as Code it is a combination of: 
 * Code.
 * People interaction.
 * Infrastructure testing.
