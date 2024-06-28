@@ -1,7 +1,7 @@
 # About
 
 * [Russian version](README-ru.md)
-* [Eevents](about.md)
+* [Events](about.md)
 * [Сerts](certs.md)
 
 ## Publications

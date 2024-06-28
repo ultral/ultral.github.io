@@ -24,30 +24,32 @@ It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
 
-# Infrastructure as bash history
+## Infrastructure as bash history
 
 ![Infrastructure as bash history](assets/200k_iabh.png?raw=true "Infrastructure as bash history")
 
 Let us imagine that you are on-boarding on a project and you hear something like: "We use *Infrastructure as Code* approach". Unfortunately, what they really mean is *Infrastructure as bash history* or *Documentation as bash history*. This is almost a real situation. For example, Denis Lysenko described this situation in his speech [How to replace infrastructure and stop worrying(RU)](https://www.youtube.com/watch?v=Qf5xHuiYgN4). Denis shared the story on how to convert bash history into an upscale infrastructure. 
 
-Let us check source code definition: `a text listing of commands to be compiled or assembled into an executable computer program`. If we want we can present *Infrastructure as bash history* like code. This is a text & a list of commands. It describes how a server was configured. Moreover, it is: 
+Let us check source code definition: `a text listing of commands to be compiled or assembled into an executable computer program`. If we want we can present *Infrastructure as bash history* like code. This is a text & a list of commands. It describes how a server was configured. Moreover, it is:
+
 1. *Reproducible*: you can get bash history, execute commands and probably get working infrastructure.
 2. *Versioning*: you know who logged in, when and what was done.
 Unfotunately, if you lose server, you will be able to do nothing because there is no bash history, you lost it with the server.
 
 What is to be done?
 
-# Infrastructure as Code
+## Infrastructure as Code
 
 ![Infrastructure as Code](assets/200k_iac_code.png?raw=true "Infrastructure as Code")
 
 On the one hand, this abnormal case, *Infrastructure as bash history*, can be presented as *Infrastructure as Code*, but on the other hand, if you want to do something more complex than LAMP server, you have to manage, maintain and modify the code. Let us chat about parallels between *Infrastructure as Code* development and software development.
 
-## D.R.Y.
+### D.R.Y.
 
 ![DRY](assets/200k_iac_code_dry_1.png?raw=true "DRY")
 
 We were developing SDS (software-defined storage). The SDS consisted of custom OS distributive, upscale servers, a lot of business logic, as a result, it had to use real hardware. Periodically, there was a sub-task [install SDS](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html). Before publishing new release, we had to install it and check out. At first, it looked as if it was a very simple task:
+
 * SSH to host and run command.
 * SCP a file.
 * Modify a configuration.
@@ -65,17 +67,18 @@ I hope you have got the main idea, that at this stage we had to constantly tweak
 
 There is D.R.Y. (Do not Repeat Yourself) approach. The main idea is to reuse already existing code. It sounds extremely simple. In our case, D.R.Y. was meaning: split configs and scripts.
 
-## S.O.L.I.D. for CFM
+### S.O.L.I.D. for CFM
 
 ![SOLID](assets/200k_iac_solid.png?raw=true "SOLID")
 
 The project was growing, as a result, we decided to use Ansible. There were reasons for that:
+
 1. [Bash should not contain complex logic](http://www.goncharov.xyz/it/make-cm-not-bash-en.html).
 2. We had some amount of expertise in Ansible.
 
 There was an amount of business logic inside the Ansible code. There is an approach for putting things in order in source code during the software development process. It is called *S.O.L.I.D.*. From my point of view, we can re-use *S.O.L.I.D.* for *Infrastructure as Code*. Let me explain step by step.
 
-### The Single Responsibility Principle
+#### The Single Responsibility Principle
 
 ![SOLID](assets/200k_iac_solid_s.png?raw=true "SOLID")
 
@@ -83,7 +86,7 @@ There was an amount of business logic inside the Ansible code. There is an appro
 
 You should not create a Spaghetti Code inside your infrastructure code. Your infrastructure should be made from simple predictable bricks. In other words, it might be a good idea to split immense Ansible playbook into independent Ansible roles. It will be easier to maintain.
 
-### The Open-Closed Principle
+#### The Open-Closed Principle
 
 ![SOLID](assets/200k_iac_solid_o.png?raw=true "SOLID")
 
@@ -91,7 +94,7 @@ You should not create a Spaghetti Code inside your infrastructure code. Your inf
 
 In the beginning, we were deploying the SDS at virtual machines, a bit later we added *deploy to bare metal servers*. We had done it. It was as easy as pie for us because we just added an implementation for bare metal specific parts without modifying the SDS installation logic.
 
-### The Liskov Substitution Principle
+#### The Liskov Substitution Principle
 
 ![SOLID](assets/200k_iac_solid_l.png?raw=true "SOLID")
 
@@ -101,9 +104,9 @@ Let us be open-minded. *S.O.L.I.D.* is possible to use in CFM in general, it was
 
 For example in our case, there is an agreement inside infrastructure team : if you deploy ibm java role or oracle java or openjdk, you will have executable java binary. We need  it because top*level Ansible roles depend on that. Also, it allows us to swap java implementation without modifying application installing logic.
 
-Unfortunately, there is no syntax sugar for that in Ansible playbooks. It means that you must keep it in mind while developing Ansible roles. 
+Unfortunately, there is no syntax sugar for that in Ansible playbooks. It means that you must keep it in mind while developing Ansible roles.
 
-### The Interface Segregation Principle
+#### The Interface Segregation Principle
 
 ![SOLID](assets/200k_iac_solid_i.png?raw=true "SOLID")
 
@@ -111,7 +114,7 @@ Unfortunately, there is no syntax sugar for that in Ansible playbooks. It means 
 
 In the beginning, we were putting application installation logic into the single playbook, we were trying to cover all cases and cutting edges. We had faced the issue that it is hard to maintain, so we changed our approach. We understood that a client needs an interface from us (i.e. https at 443 port) and we were able to combine our Ansible roles for each specific environment.
 
-### The Dependency Inversion Principle
+#### The Dependency Inversion Principle
 
 ![SOLID](assets/200k_iac_solid_d.png?raw=true "SOLID")
 
@@ -128,50 +131,54 @@ I would like to describe this principle via anti-pattern.
 
 In other words, we were not able to reuse our IaC in another cloud because top-level deploying logic was depending on the lower-level implementation. **Please, don't do it**
 
-# Interaction
+## Interaction
 
 ![Interaction](assets/200k_int.png?raw=true "Interaction")
 
 Infrastructure is not only code, it is also about interaction code <-> DevOps, DevOps <-> DevOps, IaC <-> people.
 
-## Bus factor
+### Bus factor
 
 ![Bus factor](assets/200k_int_bus.png?raw=true "Bus factor")
 
 Let us imagine, there is DevOps engineer John. John knows everything about your infrastructure. If John gets hit by a bus, what will happen with your infrastructure? Unfortunately, it is almost a real case. Some time things happen. If it has happened and you do not share knowledge about IaC, Infrastructure among your team members you will face a lot of unpredictable & awkward consequences. There are some approaches for dealing with that. Let us chat about them.
 
-## Pair DevOpsing
+### Pair DevOpsing
 
 ![Pair DevOpsing](assets/200k_int_pair.png?raw=true "Pair DevOpsing")
 
 It is like pair programming. In other words, there are two DevOps engineers and they use single laptop\keyboard for configuring infrastructure: configuring a server, creating Ansible role, etc. It sounds great, however, it did not work for us. There were some custom cases when it partially worked.
+
 * *Onboarding*: Mentor & new person get a real task from a backlog and work together - transfer knowledge from mentor to the person.
 * *Incident call*: During troubleshooting, there is a group of engineers, they are looking for a solution. The key point is that there is a person who leads this incident. The person shares screen & ideas. Other people are carefully following him and noticing bash tricks, mistakes, logs parsing etc.
 
-## Code Review
+### Code Review
 
 ![Code review](assets/200k_int_code_review.png?raw=true "Code review")
 
 From my point of view, *Code review* is one of the most efficient ways to share knowledge inside a team about your infrastructure. How does it work?
+
 * There is a repository which contains your infrastructure description.
 * Everyone is doing their changes in a dedicated branch.
 * During merge request, you are able to review delta of changes in your infrastructure.
 
 The most interesting thing is that we were rotating a reviewer. It means that every couple of days we elected a new reviewer and the reviewer was looking through all merge requests. As a result, theoretically, every person had to touch a new part of the infrastructure and had an average knowledge about our infrastructure in general.
 
-### Code Style
+#### Code Style
 
 ![Code style](assets/200k_int_code_style.png?raw=true "Code style")
 
 Time was ticking, we were sometimes arguing during the review because the reviewer and the committer might use a  different code style: 2 spaces or 4, *camelCase* or *snake_case*. We implemented it, however, it was not a picnic.
+
 * The first idea was to recommend using linters. Everyone had his own development environment: IDE, OS.. it was tricky to sync & unify everything.
 * The idea evolved into a slack bot. After each commit, the bot was checking source code & pushing into slack messages with a list of problems. Unfortunately, in the vast majority of cases, there were no source code changes after the messages.
 
-### Green Build Master
+#### Green Build Master
 
 ![Green Build Master](assets/200k_int_code_gbm.png?raw=true "Green Build Master")
 
 Next, the most painful step was to restrict pushing to the master branch for everyone. Only via merge requests & green tests have to be ok. This is called *Green Build Master*. In other words, you are 100% sure that you can deploy your infrastructure from the master branch. It is a pretty common practice in software development:
+
 * There is a repository which contains your infrastructure description.
 * Everyone is doing their changes in a dedicated branch.
 * For each branch, we are running tests.
@@ -179,7 +186,7 @@ Next, the most painful step was to restrict pushing to the master branch for eve
 
 It was a tough decision. Hopefully, as a result during review process, there was no arguing about the code style and the amount of code smell was decreasing.
 
-# IaC Testing
+## IaC Testing
 
 ![IaC testing](assets/200k_testing.png?raw=true "IaC testing")
 
@@ -187,51 +194,57 @@ Besides code style checking, you are able to check that you can deploy or recrea
 
 On the one hand, it is possible to test the script & infrastructure, but on the other hand, you are increasing an amount of code and making the infrastructure more complex. However, the real reason under the hood for that is that you are putting your knowledge about infrastructure to the tests. You are describing how things should work together.
 
-## IaC Testing Pyramid
+### IaC Testing Pyramid
 
 ![IaC testing pyramid](assets/200k_testing_pyramid.png?raw=true "IaC testing pyramid")
 
-### IaC Testing: Static Analysis
+#### IaC Testing: Static Analysis
 
 You can create the whole infrastructure from scratch for each commit, but, usually, there are some obstacles:
+
 * The price is stratospheric.
 * It requires a lot of time.
 
 Hopefully, there are some tricks. You should have a lot of simple, rapid, primitive tests in your foundation.
 
-#### Bash is tricky 
+##### Bash is tricky
 
 Let us take a look at an extremely simple example. I would like to create a backup script:
+
 * Get all files from the current directory.
 * Copy the files into another directory with a modified name.
 
 The first idea is:
-```
-for i in * ; do 
+
+```bash
+for i in * ; do
     cp $i /some/path/$i.bak
 done
 ```
 
 Pretty good. However, what if the filename contains _space_? We are clever guys, we use quotes:
-```
+
+```bash
 for i in * ; do 
     cp "$i" "/some/path/$i.bak"
 done
 ```
 
 Are we finished? Nope! What if the directory is empty? Globing fails in this case.
-```
+
+```bash
 find . -type f -exec mv -v {} dst/{}.bak \;
 ```
 
 Have we finished? Not yet... We forgot that filename might contain `\n` character.
-```
+
+```bash
 touch x
 mv x  "$(printf "foo\nbar")"
 find . -type f -print0 | xargs -0 mv -t /path/to/target-dir
 ```
 
-#### Static analysis tools
+##### Static analysis tools
 
 You can catch some issues from the previous example via [Shellcheck](https://www.shellcheck.net/). There are a lot of tools like that, they are called linters and you can find out the most suitable for your IDE, stack and environment.
 
@@ -242,13 +255,14 @@ You can catch some issues from the previous example via [Shellcheck](https://www
 | python | [Pylint](https://www.pylint.org/) |
 | Ansible  | [Ansible Lint](https://github.com/ansible/ansible-lint) |
 
-### IaC Testing: Unit Tests
+#### IaC Testing: Unit Tests
 
 ![IaC unit tests](assets/200k_testing_unit.png?raw=true "IaC unit tests")
 
 As you can see linters can not catch everything, they can only predict. If we continue to think about parallels between software development and Infrastructure as Code we should mention unit tests. There are a lot of unit tests systems like [shunit](https://github.com/kward/shunit2), [JUnit](https://junit.org), [RSpec](https://rspec.info/), [pytest](https://docs.pytest.org). But have you ever heard about unit tests for Ansible, Chef, Saltstack, CFengine?
 
 When we were talking about *S.O.L.I.D.* for CFM, I mentioned that our infrastructure should be made from simple bricks/modules. Now the time has come to point out that:
+
 1. Split infrastructure into simple modules/bricks (i.e. Ansible roles).
 2. Create an environment (i.e. Docker or VM).
 3. Apply your one simple brick/module to the environment.
@@ -256,7 +270,7 @@ When we were talking about *S.O.L.I.D.* for CFM, I mentioned that our infrastruc
 ...
 6. PROFIT!
 
-#### IaC Testing: Unit Testing tools
+##### IaC Testing: Unit Testing tools
 
 What is the tests for CFM and your infrastructure? For example, you can just run a script or you can use a production-ready solution like:
 
@@ -268,7 +282,8 @@ What is the tests for CFM and your infrastructure? For example, you can just run
 | saltstack | [Goss](https://github.com/aelsabbahy/goss) |
 
 Let us take a look at *Testinfra*. I would like to check that users `test1`, `test2` exist and they are part of `sshusers` group:
-```
+
+```python
 def test_default_users(host):
     users = ['test1', 'test2' ]
     for login in users:
@@ -280,7 +295,7 @@ What is the best solution? There is no single answer for that question, however,
 
 ![IaC unit tests](assets/200k_testing_unit_compare.png?raw=true "IaC unit tests tools")
 
-#### IaC Testing frameworks
+##### IaC Testing frameworks
 
 After that, you can face a question: how to run it all together? On the one hand, you can [do everything on your own](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html) if you have enough great engineers, but, on the other hand, you can use opensource production-ready solutions:
 
@@ -294,20 +309,22 @@ I created the heat map and compared changes in this projects during 2018-2019:
 
 ![IaC unit tests](assets/200k_testing_framework_compare.png?raw=true "IaC testing frameworks")
 
-#### Molecule vs. KitchenCI
+##### Molecule vs. KitchenCI
 
 ![Molecule vs. KitchenCI](assets/200k_testing_unit_kitchen.png?raw=true "Molecule vs. Testkitchen")
 
 In the beginning, we tried to [test Ansible roles via KitchenCI inside Hyper-V](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html) this way:
+
 1. Creating VMs.
 2. Applying Ansible roles.
-3. Runing Inspec.
- 
+3. Running Inspec.
+
 It took 40-70 minutes to do this for 25-35 Ansible roles. It was too long for us.
 
 ![Molecule vs. KitchenCI](assets/200k_testing_unit_molecule.png?raw=true "Molecule vs. Testkitchen")
 
 The next step was using Jenkins / docker / Ansible / molecule. It is approximately the same idea:
+
 1. Lint Ansible playbooks.
 2. Lint Ansible roles.
 3. Run a docker container.
@@ -323,21 +340,22 @@ Linting for 40 roles and testing for ten of them took about 15 minutes.
 
 What is the best solution? On the one hand, I do not want to be the final authority, but, on the other hand, I would like to share my point of view. There is no silver bullet. However, in the case of Ansible, molecule is a more suitable solution then KitchenCI. 
 
-### IaC Testing: Integration Tests
+#### IaC Testing: Integration Tests
 
 ![IaC Integration Tests](assets/200k_testing_integration.png?raw=true "IaC Integration Tests")
 
 On the next level of *IaC testing pyramid*, there are *integration tests*. Integration tests for infrastructure look like unit tests. Let's look at the integration tests flow:
-1. Split infrastructure into simple modules/briks (i.e. Ansible roles).
+
+1. Split infrastructure into simple modules/bricks (i.e. Ansible roles).
 2. Create an environment (i.e. Docker or VM).
-3. Apply *a combination* of simple briks/modules to the environment.
+3. Apply *a combination* of simple bricks/modules to the environment.
 4. Check that everything is OK or not.
 ...
 6. PROFIT!
 
 In other words, during unit tests, we check one simple module (i.e. Ansible role, python script, Ansible module, etc) of an infrastructure, but in the case of integration tests, we check the whole server configuration.
 
-### IaC Testing: End to End Tests
+#### IaC Testing: End to End Tests
 
 ![IaC testing pyramid](assets/200k_testing_pyramid.png?raw=true "IaC testing pyramid")
 
@@ -359,16 +377,18 @@ We continued to research and found [APB](https://github.com/ansibleplaybookbundl
 
 Everything was fine until we faced one more issue: we had to maintain heterogeneous infrastructure for testing environments. As a result, we store our knowledge of how to create infrastructure and run tests in the Jenkins jobs.
 
-# Conclusion
+## Conclusion
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
 
-*Infrastructure as Code* is a combination of: 
+*Infrastructure as Code* is a combination of:
+
 * Code.
 * People interaction.
 * Infrastructure testing.
 
-# Links
+## Links
+
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
 * Dry run 2019-04-24 [SpbLUG](http://spblug.org)
