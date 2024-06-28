@@ -6,10 +6,10 @@ I lost 45-50kg. Let me share my story. **Eat less, move more**
 
 # Introduction
 
-First of all I googled couple of calorie calculator. I tracked my diet: food weight & calorie. I received knowledge about my total daily energy expenditure - how much calories I consumed per day. After that:
+First of all I googled couple of a calorie calculator. I tracked my diet: food weight & calories. I received information about my total daily energy expenditure - how many calories I consumed per day. After that:
 1. I slightly decreased my diet. 
 2. I looked at my weight. 
-3. was it decreased? NO - go to step #1.
+3. Di it decrease? NO - go to step #1.
 4. I found daily balance between my activity & diet.
 
 Nothing special, just math:
