@@ -57,7 +57,7 @@ On one hand, it sounds great, but on the other hand, it means nothing without ex
 
 # Tools
 
-![Tools](assets/tm-tm-tools.png?raw=true "Tools")
+![Tools](assets/tm-tools.png?raw=true "Tools")
 
 ## Task tracker
 

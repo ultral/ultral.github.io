@@ -54,3 +54,21 @@ How to learn continuously? It's the sophisticated question. I use something like
   * You cook dinner - watch extr@ English.
 3. Don't wait for a result after 1 week/month, don't compare yourself with another, just learn.
 
+# P.S.
+## English learn story
+
+When I was in primary school, I visited a private English coach for a year or two. However, there were no major results. A bit later, there were English lessons, when I was in secondary school, unfortunately, I was not really good in English learning. As a result, when I had graduated from school, I heard that grammar exist, could not talk at all, was able to read with a dictionary. When I was studying at a university, I had been involved in IT, so I started to read IT docs in English. Sometimes, I used to do it with a dictionary. 
+
+Just before I graduate, I had applied for international IT company. It was funny & frightful. I had to talk & chat with workmates during the day, so my English was improving forcedly & sharply. i.e. 
+* My workmate stay with me & my during week or two.
+* I visited the UK by a car http://www.goncharov.xyz/life/UK-trip-by-car.html .
+* I called to DataCenter & talked with Indian support.
+As a result, I finished English intermediate course in 2011. However, I decided to resign in 2012 and applied for a new job without sufficient English practise.
+
+In 2017 I applied for an international IT company and started intermediate course again... On one hand It was strange because I finished it 6 years ago, but on the other hand, I finished it without any major efforts. However, I've been doing English tasks myself. i.e.: 
+* I read books(I've read 5-6 books(Harry Potter, DevOps handbooks etc) since last year).
+* I write articles/docs(not really a lot, but it is).
+* I listen to podcasts, watch movies without subs.
+* I learn online with a native teacher.
+
+No pain, no gain. 

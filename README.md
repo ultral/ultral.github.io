@@ -30,6 +30,7 @@
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features | 
 
 # About IT
+* [About outsourcing](it/about-it-en.md)
 * [Hard vs soft skills](it/hard-soft-skills-en.md)
 * [How to configure Sublime](it/sublime.md)
 * [Arithmometer Felix M review](it/felix-m-review.md)
