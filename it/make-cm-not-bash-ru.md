@@ -1,4 +1,5 @@
 # Make configuration management not bash
+[English version](make-cm-not-bash-en.md)
 
 Configuration management зачем оно надо? 
 
