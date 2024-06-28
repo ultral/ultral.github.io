@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
-title: [The title of your site]
-description: [A short description of your site's purpose]
+title: Read it
+description: Содержит подборку моих публикаций
+show_downloads: false
