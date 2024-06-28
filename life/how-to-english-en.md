@@ -2,7 +2,7 @@
 
 [Russian version](how-to-english.md)
 
-One one hand I don't want to be the final authority, but on the other hand I'd like to share my point of view how to learn English. The English language is not secret knowledge; it is just a lot of hard training. One of the most important bullets is constantly improving English. You should do it from day to day if you want to approach result. It must not loathe torture for you, It means that you should find out something interesting in that process.
+One one hand I don't want to be the final authority, but on the other hand, I'd like to share my point of view how to learn English. The English language is not secret knowledge; it is just a lot of hard training. One of the most important bullets is constantly improving English. You should do it from day to day if you want to approach result. It must not loathe torture for you, It means that you should find out something interesting in that process.
 
 # Let's begin
 
@@ -27,7 +27,7 @@ Vocabulary, grammar, reading & audition are possible to train at home without a 
 4. **Reading**: just read. I found out that it's really easy to read Harry Potter.
 5. **Grammar**:
   * On one hand, [lingualeo.com](https://lingualeo.com) has some grammar courses, but on the other hand, it's not enough.
-  * You should write a diary, it might be the private diary. 
+  * You should write a diary, it might be a private diary. 
 
 Few months or years later, as a result, you should have big enough passive vocabulary & be able to understand the English voice. 
 
