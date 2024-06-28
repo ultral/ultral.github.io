@@ -1,6 +1,6 @@
 # About Lev Goncharov
 
-![about](about.png?raw=true)
+![about](assets/about.png?raw=true)
 
 * **In real life**: cyclist, camper, engineer & coffee person.
 * **At work**: Innovative Senior DevOps Engineer with broad knowledge and understanding of modern technologies, 11+ years of experience in designing, automating and implementing IaC approaches. I believe that infrastructure is a code & we must use the same philosophy for infrastructure as for software development.
