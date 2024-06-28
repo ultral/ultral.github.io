@@ -4,6 +4,7 @@
 * [Сerts](certs.md)
 
 # Publications
+* [Let us deploy to openshift](it/deploy2openshift-en.md)
 * [About ansible](it/ansible.md).
 * [Docker testing](it/docker-testing.md).
 * [How-to test your own OS distribution](it/how-to-test-custom-os-distr.md).

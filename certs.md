@@ -1,5 +1,6 @@
 ![ansible](assets/2018_ansible.jpg?raw=true)
 ![azure](assets/2018_azure.jpg?raw=true)
+![english](assets/2018_english.jpg?raw=true)
 ![rcntec](assets/2016_rcntec.jpg?raw=true)
 ![english](assets/2011_english.jpg?raw=true)
 ![ructf](assets/2010_ructf.jpg?raw=true)
