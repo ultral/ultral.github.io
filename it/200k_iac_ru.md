@@ -4,11 +4,12 @@
 
 Подход **IaC** (Infrastructure as Code) состоит не только из кода, который хранится в репозитории, но еще людей и процессов, которые этот код окружают. Можно ли переиспользовать подходы из разработки ПО в управление и описание инфраструктуры? Будет не лишним держать в голове эту идею, пока будете читать статью.
 
-Это расшифровка моего [выступления](https://www.youtube.com/watch?v=W53jMaebVJw) на [DevopsConf 2019](http://devopsconf.io/moscow-rit/2019/abstracts/4906).
+Это расшифровка моего [выступления](https://www.youtube.com/watch?v=W53jMaebVJw) на [DevopsConf 2019-05-28](http://devopsconf.io/moscow-rit/2019/abstracts/4906).
 
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
-* [Video](https://www.youtube.com/watch?v=W53jMaebVJw)
+* [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
+* [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
 * [Slides](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
 
 # Infrastructure as bash history
@@ -330,11 +331,13 @@ Infrastructure as Code это
 * Тестирование инфраструктуры.
 
 # Links
-* [Video](https://www.youtube.com/watch?v=W53jMaebVJw)
-* [Slides](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
-* [How-to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
-* [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
+* [English version](http://www.goncharov.xyz/iac)
+* [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
+* [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
+* [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
 * [Let us deploy to openshift](http://www.goncharov.xyz/it/deploy2openshift-en.html)
+* [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
+* [How-to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
 * [Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://www.youtube.com/watch?v=RTEgE2lcyk4) & [text version](https://www.hashicorp.com/resources/lessons-learned-300000-lines-code)
 * [Integrating Infrastructure as Code into a Continuous Delivery Pipeline](https://www.youtube.com/watch?v=wTunI1mZyp8)
 * [Тестируем инфраструктуру как код](http://rootconf.ru/2015/abstracts/1761)

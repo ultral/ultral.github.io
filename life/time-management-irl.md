@@ -4,7 +4,7 @@
 
 [Russian version](time-management.md)
 
-It is text version of the [presentation](https://cloud.mail.ru/public/BsRX/gJfQUEuEm) at [Geekpicnic](https://vk.com/geekpicnicspb2018). 
+It is text version of the [presentation](https://cloud.mail.ru/public/BsRX/gJfQUEuEm) at [Geekpicnic 2018-08-19](https://vk.com/geekpicnicspb2018). 
 
 Have you ever noticed that you were busy all day, however, you've done nothing or at X-mas evening you experience an epiphany that nothing was done during the year? If your answer is "yes", you should improve your time management skills. According to Wikipedia, time management is the process of planning and exercising conscious control of time spent on specific activities, especially to increase effectiveness, efficiency and productivity. Nevertheless, how can we deal with it?
 
