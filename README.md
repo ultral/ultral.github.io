@@ -1,9 +1,11 @@
 # About
+
 * [Russian version](README-ru.md)
 * [Eevents](about.md)
 * [Сerts](certs.md)
 
-# Publications
+## Publications
+
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md)
 * [Let us deploy to openshift](it/deploy2openshift-en.md)
 * [About ansible](it/ansible.md).
@@ -23,7 +25,7 @@
 * [How to configure Sublime](it/sublime.md)
 * [Arithmometer Felix M review](it/felix-m-review.md)
 
-# Speeches
+## Speeches
 
 | date       | event | theme        |
 |------------|-------|--------------|
@@ -49,7 +51,8 @@
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [From monolith to microservices](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features |
 
-# Life
+## Life
+
 * [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-en.md)
 * [Time management in real life](life/time-management-irl.md)
 * [How to learn English](life/how-to-english-en.md)
