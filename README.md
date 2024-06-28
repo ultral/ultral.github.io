@@ -10,8 +10,8 @@
 
 | date       | where/link | theme/slides | notes | 
 |------------|-------|--------------|-------|
-| 2018-08-26 | [Hashicorp user group](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [gce4vpn](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) | Openvpn inside kubernetes inside google cloud via terraform  | 
-| 2018-08-26 | [chaos constructions](https://chaosconstructions.ru/) | [gce4vpn-hashicorp](https://cloud.mail.ru/public/gNZx/GqqMTbB61) | Openvpn inside kubernetes inside google cloud via terraform  | 
+| 2018-08-26 | [Hashicorp user group](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/) | [gce4vpn-hashicorp](https://cloud.mail.ru/public/EEkM/jthv4Bv6d) | Openvpn inside kubernetes inside google cloud via terraform  | 
+| 2018-08-26 | [chaos constructions](https://chaosconstructions.ru/) | [gce4vpn](https://cloud.mail.ru/public/gNZx/GqqMTbB61) | Openvpn inside kubernetes inside google cloud via terraform  | 
 | 2018-08-19 | [Geekpicnic](https://vk.com/geekpicnicspb2018) | [Тайм менеджмент в домашних условиях](https://cloud.mail.ru/public/3c18/Uzx3QtU7X) | Time management in real life  | 
 | 2018-04-25 | [SpbLUG](http://spblug.org/) | [Test me if you can или мечтают ли YML программисты о тестирование](https://cloud.mail.ru/public/2Rc8/EywUuHHp2) |  if our infrastructure is a code then we have to use TDD for developing infrastructure |
 | 2018-03-02 | [Devopsdays T-systems](https://www.t-systems.com/) | [Scary tale about vagrant](https://habr.com/post/342216/) | |
