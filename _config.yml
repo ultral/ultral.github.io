@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 title: Lev Goncharov
-description: Содержит подборку моих публикаций
+logo: logo.png
+description: Devops
 show_downloads: false
 google_analytics: UA-123437676-1
