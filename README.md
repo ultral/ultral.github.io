@@ -7,6 +7,8 @@
 * [Interception of system calls in linux kernel x64](https://habr.com/post/110369)
 * [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv.md)
     - [Faced technical issues](it/testkitchen-issues.md)
+* [Make configuration management, not bash](it/make-cm-not-bash.md.md)
+
 
 # Speeches
 
