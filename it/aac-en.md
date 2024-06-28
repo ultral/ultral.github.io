@@ -65,7 +65,7 @@ There is approximately the same situation with Jira tickets. Let's image somebod
 
 ![Agreements as Code](assets/aac_31_aac_en.png?raw=true "Agreements as Code")
 
-*Does it makes sense to automate agreements?* I use the decision-making matrix for answering the question. Conceptually it looks like Eisenhower box.
+*Does it make sense to automate agreements?* I use the decision-making matrix for answering the question. Conceptually it looks like Eisenhower box.
 
 * _Problem_ - How big is your problem? Is it discomfort or apocalypse?
 * _$$$_ - How much does it cost to deal with the problem?
@@ -74,8 +74,8 @@ There is approximately the same situation with Jira tickets. Let's image somebod
 
 Let me share some:
 
-* **Big** problem, **small** price - **do it**. Usually, you can easily replace instruction "how to *grant permissions* to an user" via script. It formalizes your agreements.
-* **Small** problem, **small** price - **think**. If you have free time it makes sense. On the one hand, it might be worthless to get knowledge about rare uniq REST API service if you want to *update DNS* annually. But on the other hand, it might be longterm investment & make sense.
+* **Big** problem, **small** price - **do it**. Usually, you can easily replace instruction "how to *grant permissions* to a user" via script. It formalizes your agreements.
+* **Small** problem, **small** price - **think**. If you have free time it makes sense. On the one hand, it might be worthless to get knowledge about rare unique REST API service if you want to *update DNS* annually. But on the other hand, it might be longterm investment & make sense.
 * **Small** problem, **big** price - **ignore**. How often should you *email footer*? annually? once time per 3 years?
 * **Big** problem, **big** price - **think twice**. If you don't have enough experience you might do situation worse. Let's imagine that scripts for automating your routine have become standard in the company. Everyone uses it. Nobody knows how it works. You face the *apocalypse*. It's time for *IaC refactoring*.
 
@@ -122,7 +122,7 @@ You can ask me: 'Why so long?'. There are some answers in the article [Ansible: 
 
 ![CFM 2 Ansible](assets/c2a_yac_shaving.png?raw=true "CFM 2 Ansible")
 
-However, from top-level perspective it is as easy as pie:
+However, from a top-level perspective it is as easy as pie:
 
 1. Create a list of servers.
 2. Select the first one.
@@ -135,7 +135,7 @@ However, from top-level perspective it is as easy as pie:
 
 ![Ansible refactoring](assets/at_intro.png?raw=true "Ansible refactoring")
 
-*There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a problem: each team tried to do it uniquely. They had decided to deal with it & use Ansible as the source of the truth. Sooner or later, they realized that playbooks were not stable, they were crashing occasionally. As a result, there was the task stabilize it.*
+*There was a project. It was a casual project, nothing special. There were operations engineers and developers. They were dealing with exactly the same task: how to provision an application. However, there was a problem: each team tried to do it uniquely. They had decided to deal with it & use Ansible as the source of the truth. Sooner or later, they realized that playbooks were not stable, they were crashing occasionally. As a result, there was a task to stabilize it.*
 
 You can the whole story in the article [How to test Ansible and don't go nuts](ansible-testing-en.md). To make a long story short:
 
@@ -150,7 +150,7 @@ You can the whole story in the article [How to test Ansible and don't go nuts](a
 
 *For historical reasons, there was a monolith repository with all Ansible roles. The Jenkins multi-branch pipeline was created.*
 
-The pipeline top level overview is:
+The pipeline top-level overview is:
 
 1. Checkout repo.
 2. Read configs.
@@ -169,14 +169,14 @@ It's totally ok that infrastructure is changing and evolving into a huge pile of
 
 1. Measure.
 2. Check that you have enough knowledge & time.
-3. Select small piece of infrastructure.
+3. Select a small piece of infrastructure.
 4. Understand how it works.
 5. Formalize agreements
 6. Cover IaC by tests.
 7. Take a rest.
 8. Repeat...
 
-It is not really important how to shave the yak. It might be stickers on the wardrobe, tasks in the Jira or spreadsheet in the google docs. The main idea is to track current status & understand how it is going. By nature this process is similar to code refactoring but with some limitations with tooling. You should not burn out during refactoring, because it is a long boring journey. Also, I'd like to emphasize that you should have:
+It is not really important how to shave the yak. It might be stickers on the wardrobe, tasks in the Jira or spreadsheet in the google docs. The main idea is to track current status & understand how it is going. By , this process is similar to code refactoring but with some limitations with tooling. You should not burn out during refactoring, because it is a long boring journey. Also, I'd like to emphasize that you should have:
 
 * *Goal* - You should understand the reason & desired target. You understand then time to stop has come.
 * *Time* - It should be part of the daily routine. It should be planned in your schedule. Without that, you try to rid of refactoring burthen in the middle of the journey.
@@ -188,15 +188,15 @@ It is not really important how to shave the yak. It might be stickers on the war
 
 * **Horizontal axis** - timeline.
 * **Right vertical axis** - SLOC for Ansible roles(*blue line*).
-* **Left vertical axis** - the amount of tested/linted roles/playbooks.
+* **Left vertical axis** - the number of tested/linted roles/playbooks.
 * *Blue line* - Source Lines Of Code in YAML files.
 * *Red filler* - the amount of tested roles/playbooks.
-* *Magenta line* - number of engineers.
+* *Magenta line* - the number of engineers.
 
-With age, the velocity of changing infrastructure might go down. It is totally ok. From my point of view, there is correlation between the number of agreements & SLOC of your IaC. I'm not 100% sure that it's the best way to visualize agreements but it looks like there are some remarks:
+With age, the velocity of changing infrastructure might go down. It is totally ok. From my point of view, there is a correlation between the number of agreements & SLOC of your IaC. I'm not 100% sure that it's the best way to visualize agreements but it looks like there are some remarks:
 
-* The amount of code is a constantly growing.
-* The amount of tests is an exponentially growing.
+* The amount of code is constantly growing.
+* The amount of tests is exponentially growing.
 * The amount of tests correlates with the amount of code with a time gap.
 * The number of engineers is constant.
 
@@ -206,7 +206,7 @@ There is a conclusion from that. We can support IaC growth with a constant amoun
 
 ![IaC testing pyramid](assets/200k_testing_pyramid.png?raw=true "IaC testing pyramid")
 
-In 2019 I made the speech [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md). It was about the similarity between *IaC* and code development. Especially, I was talking about *IaC testing pyramid*. You can create the whole infrastructure from scratch for each commit, but, usually, there are some obstacles: The price is stratospheric & it requires a lot of time. It makes to re-use testing pyramid from the software development world:
+In 2019 I made the speech [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md). It was about the similarity between *IaC* and code development. Especially, I was talking about the *IaC testing pyramid*. You can create the whole infrastructure from scratch for each commit, but, usually, there are some obstacles: The price is stratospheric & it requires a lot of time. It makes to re-use testing pyramid from the software development world:
 
 * *Static Analysis* - a lot of simple, rapid, primitive tests in your foundation. Linters like shellchek, ansible lint, yamllint.
 * *Unit* - you run something to validate your code molecule / kitchen + testinfra / inspec. So, your *IaC* should be constructed from simple bricks: roles, modules.
@@ -225,8 +225,8 @@ Ok, We can present our agreements as code. In other words, we have **IaC** (Infr
 * **Right vertical axis** - SLOC for Ansible roles(*blue line*).
 * **Left vertical axis** - the amount of tested/linted roles/playbooks. It's used for the stacked area(integration tests, unit tests, linting).
 * *Blue line* - Source Lines Of Code in YAML files.
-* *Red filler* - the amount of tested roles/playbooks.
-* *Magenta line* - number of DevOps engineers.
+* *Red filler* - the number of tested roles/playbooks.
+* *Magenta line* - the number of DevOps engineers.
 
 *We started from integration tests. It was hard to maintain & it was working to slow for developing IaC. As a result, we decided to rebuild the process from scratch. We started from linting. After that our process evolute to unit tests.*
 
@@ -255,7 +255,7 @@ Let me share my estimations about numbers of SLOC:
 2. Think before you code your agreements.
 3. Manual work -> Mechanization -> Automation.
 4. Infrastructure can be refactored, but think twice before that.
-5. IaC simplifies refactoring & increases velocity of changes.
+5. IaC simplifies refactoring & increases the velocity of changes.
 6. Use IaC testing pyramid. Don't wait!
 
 ## Links
