@@ -6,8 +6,10 @@
 
 ## Publications
 
+* [How to test Ansible and don't go nuts](it/ansible-testing.md)
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md)
 * [Let us deploy to openshift](it/deploy2openshift-en.md)
+* [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos-en.md)
 * [How-to test your own OS distribution](it/how-to-test-custom-os-distr-en.md)
 * [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md)
 * [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/)
