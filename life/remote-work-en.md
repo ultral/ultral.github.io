@@ -2,41 +2,47 @@
 
 ![remote](assets/remote.jpg?raw=true)
 
-You must find out your work-life balance because without that you will burn out. It happens because work is like gas. If you don't control it then work fill all available time little by little. I.e. I used to work 11 hours per day from home. Hopefully, I understood that it had been a bad idea. Let me share some pieces of advice:
+You must find out your work-life balance because without that you will burn out. It happens because work is like gas. If you don't control it, then work fill all your available time little by little. For example, I used to work 11 hours per day from home. Hopefully, I understood that it was a bad idea. Let me share some pieces of advice:
+
 1. Find out a work-life balance.
 2. Do exercises.
 3. Eat healthy food.
 4. Create a schedule & follow it.
 5. Improve microclimate at home.
 
-# 1. Find out work-life balance
+## 1. Find out work-life balance
 
 First of all, you should split your work & home activities. Your brain should understand if it is working time or home time. There are some simple examples:
+
 * Don't eat in front of the laptop. Do it in a dining room.
 * Create a workspace: a comfortable chair, table, lamp, etc.
 * Walk alongside your block before work.
-* Walk during lunch.
+* Walk during lunch time.
 
-The main idea is to create a trigger. You have to switch your mind from home mode to work mode and back. I use life hack for that: slippers. Let me clarify:
-* If I put on sleepers it means that I'm in the office. 
-* If I take off sleepers it means I'm at home.
+The main idea is to create a trigger. You have to switch your mind from home mode to work mode and back. I use a life hack for that: slippers. Let me clarify:
+
+* If I put on sleepers, it means that I'm in the office. 
+* If I take off sleepers, it means I'm at home.
 
 It's my trigger. It helps me to switch between home and work modes.
 
-# 2. Do exercises
+## 2. Do exercises
 
 There is a basal metabolic rate. It means the number of spent calories per day if you do nothing. Usually, the rate is about 1500 kilocalories. However, if you eat a chocolate bar you gain approx 500 kilocalories. As a result, there is a problem.
+
 * You work from home.
 * You move less than usual.
 * You eat the same amount of food.
 * You gain weight.
 
-My weight was 120kg. However, during remote work, [I lost 50kg](http://www.goncharov.xyz/life/how-to-lose-weight-en.html). In short, It's a long tedious journey. My advice is to avoid situations like that. Hopefully, there are a lot of online services or videos on youtube, as a result, you can create your fitness program without heavies and use your weight. 
+My weight was 120kg. However, during remote work, [I lost 50kg](http://www.goncharov.xyz/life/how-to-lose-weight-en.html). In short, it's a long tedious journey. My advice is to avoid situations like that. Hopefully, there are a lot of online fitness  services or videos on youtube. As a result, you can create your fitness program without dumbbells and use your body weight. 
 
-## Fitness program
-I use fitness workout tabata program: (20 sec exercises + 10 sec rest) х  8 + 60 sec rest
+### Fitness program
+
+I use a fitness workout tabata program: (20 sec exercises + 10 sec rest) х  8 + 60 sec rest
 
 My fitness program:
+
 1. Push-ups.
 2. Squats.
 3. Pull-ups.
@@ -48,13 +54,14 @@ My fitness program:
 9. Supermans.
 10. Leg lifts.
 
-# 3. Eat healthy food
+## 3. Eat healthy food
 
 I've written [the article](http://www.goncharov.xyz/life/how-to-lose-weight-en.html). In short: reduce sugar and fat; increase vegetables, not fat meat & porridge.
 
-# 4. Create a schedule & follow it
+## 4. Create a schedule & follow it
 
 You shouldn’t spend all time working. If you work from home you have 3 additional hours: 2 commute hours & 1 hour for lunch. It's extremely easy to waste that time like a couch potato. Unfortunately, in the future, it will be hard to rid of bad habits. It's better to prevent it. You can invest free time into something fundamental: [learn a foreign language](http://www.goncharov.xyz/life/how-to-english-en.html), gain six-pack abs, create old school PC from scratch, read a book, create a pet project. You should plan time for that activity & make some preparations:
+
 1. Move everything out of your mind.
 2. Create contexts.
 3. Write down everything.
@@ -63,17 +70,18 @@ You shouldn’t spend all time working. If you work from home you have 3 additio
 
 That simple advice can help you, there is the article [Time management in real life](http://www.goncharov.xyz/life/time-management-irl.html).
 
-# 5. Improve microclimate at home
+## 5. Improve microclimate at home
 
 It was funny to realize that mind activity & ability to solve problems depends on the amount of CO2 in room air. If there are too many CO2 you feel exhausted and out of color. The cheapest way to solve it is to open a window from time to time mount a fresh air valve.
 
-# 6. Children
+## 6. Children
 It's an extremely hard question. From my experience, your workmates usually stay calm if children cry during a meeting. You have to minimize situations like that. You should sync time inside the family just to avoid the situation that nobody looks after the children. Also, it might be a good idea to learn with children: 'father at a meeting please stay calm'. It might be a good idea to use a headset with active noise cancellation.
 
-# Conclusion
+## Conclusion
 There is no silver bullet, but at least you can try because *a journey of a thousand li starts with a single step*(c)
 
-# Links
+## Links
+
 * [cross post](https://habr.com/en/post/494238/)
 * [russian version](http://www.goncharov.xyz/life/remote-work.html)
 * [english version](http://www.goncharov.xyz/life/remote-work-en.html)
