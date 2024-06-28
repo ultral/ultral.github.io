@@ -29,3 +29,4 @@
 * [Аналитика рынка труда в IT](about-it.md)
 * [Аналитика недвижимости в Санкт-Петербурге](about-aparts.md)
 * [Тайм менеджмент в домашних условиях](tm.md)
+* [Openvpn inside kubernetes inside google cloud platform](gce4vpn.md)
