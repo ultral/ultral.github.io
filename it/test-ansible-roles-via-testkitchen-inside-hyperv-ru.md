@@ -5,13 +5,13 @@
 Это текстовая версия [выступления](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) 2018-04-25 на [Saint-Petersburg Linux User Group](http://spblug.org/).
 
 * [Slides](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
-* [Russian version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
-* [English version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
+* [Russian version](test-ansible-roles-via-testkitchen-inside-hyperv-ru.md)
+* [English version](test-ansible-roles-via-testkitchen-inside-hyperv-en.md)
 * [Crosspost Russian version](https://habr.com/en/post/437004/)
 * [Crosspost English version](https://habr.com/en/post/436960/)
 * Пример кода: [github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
 
-Полагаю что вы используете [configuration mangement, а не bash](http://www.goncharov.xyz/it/make-cm-not-bash-ru.html). Т.е. ваша конфигурация это код. Если мы говорим, что инфраструктура это код, то к её созданию должна применяться та же философия, что и для разработки ПО. Вы задумывались об этом? Как у вас это сделано? А у других?
+Полагаю что вы используете [configuration mangement, а не bash](make-cm-not-bash-ru.md). Т.е. ваша конфигурация это код. Если мы говорим, что инфраструктура это код, то к её созданию должна применяться та же философия, что и для разработки ПО. Вы задумывались об этом? Как у вас это сделано? А у других?
 
 ## Пререквизиты
 
@@ -49,7 +49,7 @@
 | Releases     | 35         | 282  | 346        | 47 |
 | Contributors | 43         | 110  | 159        | 31 |
 
-Мы решили не [изобретать велосипед](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html) и взять готовое решение. Наша инфраструктурная команда умеет в ruby поэтому был выбран [Test Kitchen](https://kitchen.ci/) & [inspec](https://www.inspec.io/)
+Мы решили не [изобретать велосипед](how-to-test-custom-os-distr-ru.md) и взять готовое решение. Наша инфраструктурная команда умеет в ruby поэтому был выбран [Test Kitchen](https://kitchen.ci/) & [inspec](https://www.inspec.io/)
 
 ## Kitchen-CI
 
@@ -182,8 +182,8 @@ OOM случайным образом убивал виртуальные маш
 ## Ссылки
 
 * [Slides](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
-* [Russian version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
-* [English version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
+* [Russian version](test-ansible-roles-via-testkitchen-inside-hyperv-ru.md)
+* [English version](test-ansible-roles-via-testkitchen-inside-hyperv-en.md)
 * [Crosspost Russian version](https://habr.com/en/post/437004/)
 * [Crosspost English version](https://habr.com/en/post/436960/)
 * Пример кода: [github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
@@ -192,3 +192,4 @@ OOM случайным образом убивал виртуальные маш
 * [https://docs.chef.io/config_yml_kitchen.html](https://docs.chef.io/config_yml_kitchen.html)
 * [https://docs.chef.io/ctl_kitchen.html](https://docs.chef.io/ctl_kitchen.html)
 * [https://github.com/neillturner/kitchen-ansible/blob/master/provisioner_options.md](https://github.com/neillturner/kitchen-ansible/blob/master/provisioner_options.md)
+* [How to test Ansible and don't go nuts](ansible-testing-en.md)

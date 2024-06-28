@@ -11,7 +11,7 @@ Some years ago system administrators thought that servers are their pets. World 
 
 If we think that our infrastructure is code, then we should not reinvent the wheel. There are a lot of good practices exist:
 
-* [Write tests](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html).
+* [Write tests](ansible-testing-en.md).
 * Don't produce "write only" code. Vast majority of time we read code instead of write.
 * Do not reinvent the wheel, Use & improve existing patterns/ roles / cookbooks / ...
 * No man is an island. Only team can create production ready product
@@ -53,7 +53,7 @@ mv x  "$(printf "foo\nbar")"
 find . -type f -print0 | xargs -0 mv -t /path/to/target-dir
 ```
 
-It is only one of billions examples. Have you ever heard that bash has _hash_ structure? 
+It is only one of billions examples. Have you ever heard that bash has _hash_ structure?
 
 ```bash
 #!/bin/bash
@@ -75,4 +75,5 @@ print_animals "$(declare -p animals)"
 ```
 
 ## Conclusion
+
 Configuration management allows do decrease entrance level in particular parts of system, tasks. It means that you do not need to have only gurus in your projects/teams. It is enough to have some gurus who understand whole picture and understand how to split it into easy tasks. In case of bash, everyone in your team must understand that it is cunning  thing. *Make configuration management not bash*

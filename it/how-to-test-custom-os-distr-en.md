@@ -9,10 +9,10 @@ redirect_from:
 
 It is text version of speech at [Devopsdays T-systems 2018-03-02](https://www.t-systems.com/) and [Hashicorp meetup 2018-02-08](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/).
 
-* [Russian version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
-* [English version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
+* [Russian version](how-to-test-custom-os-distr-en.md)
+* [English version](how-to-test-custom-os-distr-ru.md)
 * [Crosspost Russian version](https://habr.com/post/342216/)
-* [Crosspost English version](https://habr.com/en/all/)
+* [Crosspost English version](https://habr.com/en/post/436864/)
 
 Let's imagine that you are developing software and hardware appliance. The appliance consists of custom OS distributive, upscale servers, a lot of business logic, as a result, it has to use real hardware. If you release broken appliance, your users will not be happy. How to do stable releases?
 
@@ -22,7 +22,7 @@ I'd like to share my story how we dealt with it.
 
 ![POC](assets/distr-poc.png?raw=true)
 
-If you don't know a goal it will be really hard to whip through the task. The first deploy variant was looked like [bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html):
+If you don't know a goal it will be really hard to whip through the task. The first deploy variant was looked like [bash](make-cm-not-bash-en.md):
 
 ```bash
 make dist
@@ -78,7 +78,7 @@ We changed the flows & process:
 
 1. We had created RPM meta package & removed dependency hell.
 2. We created a development VM template via vagrant.
-3. We [moved bash scripts into ansible](http://www.goncharov.xyz/it/make-cm-not-bash-en.html).
+3. We [moved bash scripts into ansible](make-cm-not-bash-en.md).
 4. On one hand, we created an integration tests framework, but on the other hands, we used *serverspec*.
 
 As a result for the current stage we received:
@@ -127,7 +127,7 @@ The result was not ideal, but *a journey of a thousand li starts with a single s
 
 ## Links
 
-* [Russian version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
-* [English version](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
+* [Russian version](how-to-test-custom-os-distr-en.md)
+* [English version](how-to-test-custom-os-distr-ru.md)
 * [Crosspost Russian version](https://habr.com/post/342216/)
-* [Crosspost English version](https://habr.com/en/all/)
+* [Crosspost English version](https://habr.com/en/post/436864/)

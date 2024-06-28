@@ -58,9 +58,9 @@ Your goals should be SMART:
 
 On one hand, it sounds great, but on the other hand, it means nothing without examples. So, I'd like to share some examples from my life. How all that things have helped me:
 
-* [How to lose weight](http://www.goncharov.xyz/life/how-to-english-en.html).
-* [How to learn english](http://www.goncharov.xyz/life/how-to-lose-weight-en.html).
-* [How to do improve your town](http://www.goncharov.xyz/life/how-to-mange-tasks-en.html).
+* [How to lose weight](how-to-lose-weight-en.md).
+* [How to learn english](how-to-english-en.md).
+* [How to do improve your town](how-to-improve-city-en.md).
 
 ## Tools
 

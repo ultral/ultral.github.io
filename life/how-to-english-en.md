@@ -25,7 +25,7 @@ The main problem is that there are no free online audition tests.
 Vocabulary, grammar, reading & audition are possible to train at home without a teacher. It depends on your patience, determination & systematicity. Let's go to tools.
 
 1. **Vocabulary**:
-    * [lingualeo.com](https://lingualeo.com). It is a great service with good enough web user interface & mobile applications. I use it for improving passive vocabulary (from texts & videos). 
+    * [lingualeo.com](https://lingualeo.com). It is a great service with good enough web user interface & mobile applications. I use it for improving passive vocabulary (from texts & videos).
     * However, some persons prefer Anki or [quizlet](https://quizlet.com/230973999/toefl-flash-cards/).
     * Dictionaries:
         * You can use [multitran](https://www.multitran.ru/c/m.exe?l1=2&l2=1&s=) for translating idioms.
@@ -55,7 +55,7 @@ Vocabulary, grammar, reading & audition are possible to train at home without a 
     * On one hand, [lingualeo.com](https://lingualeo.com) has some grammar courses, but on the other hand, it's not enough.
     * You should write a diary, it might be a private diary.
 
-Few months or years later, as a result, you should have big enough passive vocabulary & be able to understand the English voice. 
+Few months or years later, as a result, you should have big enough passive vocabulary & be able to understand the English voice.
 
 ## Show must go on
 
@@ -71,13 +71,13 @@ At the next stage, I suppose that you would like to improve your speaking. First
 
 Well, you can read & write at home without help, but for speaking you must talk. There are some services for that, i.e. [preply](https://preply.com), [skyeng](https://skyeng.ru/), [italki](https://www.italki.com/), etc. From my point of view, at the beginning you don't have to speak with a native speaker, it's ok just talk with somebody with C2 level.
 
-# Conclusion
+## Conclusion
 
-How to learn continuously? It's a sophisticated question. I use something like GTD/S.M.A.R.T. 
+How to learn continuously? It's a sophisticated question. I use something like GTD/S.M.A.R.T.
 
-1. Goals have to be **S**pecific **M**easurable **A**ssignable **R**elevant **T**ime-based: 
+1. Goals have to be **S**pecific **M**easurable **A**ssignable **R**elevant **T**ime-based:
     * I will read Harry Potter book to the end of the current month.
-    * I'm listening English made simple podcast №100 during today commute. 
+    * I'm listening English made simple podcast №100 during today commute.
 2. I don't have enough time for that. Don't be a lier.
     * You commute by subway – do X tasks at lingualeo.
     * You go to walk with children or cycle – listen to podcasts.
@@ -85,14 +85,15 @@ How to learn continuously? It's a sophisticated question. I use something like G
 3. Don't wait for a result after 1 week/month, don't compare yourself with another, just learn.
 
 ## P.S.
+
 ### English learn story
 
 When I was in primary school, I visited a private English coach for a year or two. However, there were no major results. A bit later, there were English lessons, when I was in secondary school, unfortunately, I was not really good in English learning. As a result, when I had graduated from school, I heard that grammar exist, could not talk at all, was able to read with a dictionary. When I was studying at a university, I had been involved in IT, so I started to read IT docs in English. Sometimes, I used to do it with a dictionary.
 
-Just before I graduate, I had applied for international IT company. It was funny & frightful. I had to talk & chat with workmates during the day, so my English was improving forcedly & sharply. i.e. 
+Just before I graduate, I had applied for international IT company. It was funny & frightful. I had to talk & chat with workmates during the day, so my English was improving forcedly & sharply. i.e.
 
 * My workmate stay with me & my during week or two.
-* I [visited the UK by a car](http://www.goncharov.xyz/life/UK-trip-by-car.html).
+* I [visited the UK by a car](UK-trip-by-car.md).
 * I called to DataCenter & talked with Indian support.
 As a result, I finished English intermediate course in 2011. However, I decided to resign in 2012 and applied for a new job without sufficient English practise.
 

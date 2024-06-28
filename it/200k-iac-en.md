@@ -15,7 +15,7 @@ It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W
 
 ![Infrastructure as bash history](assets/200k_iabh.png?raw=true "Infrastructure as bash history")
 
-Let us imagine that you are on-boarding on a project and you hear something like: "We use *Infrastructure as Code* approach". Unfortunately, what they really mean is *Infrastructure as bash history* or *Documentation as bash history*. This is almost a real situation. For example, Denis Lysenko described this situation in his speech [How to replace infrastructure and stop worrying(RU)](https://www.youtube.com/watch?v=Qf5xHuiYgN4). Denis shared the story on how to convert bash history into an upscale infrastructure. 
+Let us imagine that you are on-boarding on a project and you hear something like: "We use *Infrastructure as Code* approach". Unfortunately, what they really mean is *Infrastructure as bash history* or *Documentation as bash history*. This is almost a real situation. For example, Denis Lysenko described this situation in his speech [How to replace infrastructure and stop worrying(RU)](https://www.youtube.com/watch?v=Qf5xHuiYgN4). Denis shared the story on how to convert bash history into an upscale infrastructure.
 
 Let us check source code definition: `a text listing of commands to be compiled or assembled into an executable computer program`. If we want we can present *Infrastructure as bash history* like code. This is a text & a list of commands. It describes how a server was configured. Moreover, it is:
 
@@ -35,7 +35,7 @@ On the one hand, this abnormal case, *Infrastructure as bash history*, can be pr
 
 ![DRY](assets/200k_iac_code_dry_1.png?raw=true "DRY")
 
-We were developing SDS (software-defined storage). The SDS consisted of custom OS distributive, upscale servers, a lot of business logic, as a result, it had to use real hardware. Periodically, there was a sub-task [install SDS](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html). Before publishing new release, we had to install it and check out. At first, it looked as if it was a very simple task:
+We were developing SDS (software-defined storage). The SDS consisted of custom OS distributive, upscale servers, a lot of business logic, as a result, it had to use real hardware. Periodically, there was a sub-task [install SDS](how-to-test-custom-os-distr-en.md). Before publishing new release, we had to install it and check out. At first, it looked as if it was a very simple task:
 
 * SSH to host and run command.
 * SCP a file.
@@ -44,7 +44,7 @@ We were developing SDS (software-defined storage). The SDS consisted of custom O
 * ...
 * PROFIT!
 
-I believe that [Make CM, not bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html) is a good approach. However, bash is only used in extreme, limited cases, like at the very beginning of a project. So, bash was a pretty good and reasonable choice at the very beginning of the project. Time was ticking. We were facing different requests to create new installations in a slightly different configuration. We were SSHing into installations,  and running the commands to install all needed software, editing the configuration files by scripts and, finally, configuring SDS via Web HTTP rest API. After all that the installation was configured and working. This was a pretty common practice, but there were a lot of bash scripts and installation logic was becoming more complex every day.
+I believe that [Make CM, not bash](make-cm-not-bash-en.md) is a good approach. However, bash is only used in extreme, limited cases, like at the very beginning of a project. So, bash was a pretty good and reasonable choice at the very beginning of the project. Time was ticking. We were facing different requests to create new installations in a slightly different configuration. We were SSHing into installations,  and running the commands to install all needed software, editing the configuration files by scripts and, finally, configuring SDS via Web HTTP rest API. After all that the installation was configured and working. This was a pretty common practice, but there were a lot of bash scripts and installation logic was becoming more complex every day.
 
 Unfortunately, each script was like a little snowflake depending on who was copy-pasting it. It was also a real pain when we were creating or recreating the installation.
 
@@ -60,7 +60,7 @@ There is D.R.Y. (Do not Repeat Yourself) approach. The main idea is to reuse alr
 
 The project was growing, as a result, we decided to use Ansible. There were reasons for that:
 
-1. [Bash should not contain complex logic](http://www.goncharov.xyz/it/make-cm-not-bash-en.html).
+1. [Bash should not contain complex logic](make-cm-not-bash-en.md).
 2. We had some amount of expertise in Ansible.
 
 There was an amount of business logic inside the Ansible code. There is an approach for putting things in order in source code during the software development process. It is called *S.O.L.I.D.*. From my point of view, we can re-use *S.O.L.I.D.* for *Infrastructure as Code*. Let me explain step by step.
@@ -212,7 +212,7 @@ done
 Pretty good. However, what if the filename contains _space_? We are clever guys, we use quotes:
 
 ```bash
-for i in * ; do 
+for i in * ; do
     cp "$i" "/some/path/$i.bak"
 done
 ```
@@ -284,7 +284,7 @@ What is the best solution? There is no single answer for that question, however,
 
 ##### IaC Testing frameworks
 
-After that, you can face a question: how to run it all together? On the one hand, you can [do everything on your own](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html) if you have enough great engineers, but, on the other hand, you can use opensource production-ready solutions:
+After that, you can face a question: how to run it all together? On the one hand, you can [do everything on your own](how-to-test-custom-os-distr-en.md) if you have enough great engineers, but, on the other hand, you can use opensource production-ready solutions:
 
 | CFM | Tool |
 | --- | --- |
@@ -300,7 +300,7 @@ I created the heat map and compared changes in this projects during 2018-2019:
 
 ![Molecule vs. KitchenCI](assets/200k_testing_unit_kitchen.png?raw=true "Molecule vs. Testkitchen")
 
-In the beginning, we tried to [test Ansible roles via KitchenCI inside Hyper-V](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html) this way:
+In the beginning, we tried to [test Ansible roles via KitchenCI inside Hyper-V](test-ansible-roles-via-testkitchen-inside-hyperv-en.md) this way:
 
 1. Creating VMs.
 2. Applying Ansible roles.
@@ -325,7 +325,7 @@ Linting for 40 roles and testing for ten of them took about 15 minutes.
 
 ![Molecule vs. KitchenCI](assets/200k_testing_molecule_vs_testkitchen.png?raw=true "Molecule vs. Testkitchen")
 
-What is the best solution? On the one hand, I do not want to be the final authority, but, on the other hand, I would like to share my point of view. There is no silver bullet. However, in the case of Ansible, molecule is a more suitable solution then KitchenCI. 
+What is the best solution? On the one hand, I do not want to be the final authority, but, on the other hand, I would like to share my point of view. There is no silver bullet. However, in the case of Ansible, molecule is a more suitable solution then KitchenCI.
 
 #### IaC Testing: Integration Tests
 
@@ -354,7 +354,7 @@ First of all, I would like to describe the context. It is an out of the box ente
 
 ![IaC End to End Tests](assets/200k_testing_e2e_2.png?raw=true "IaC End to End Tests")
 
-This scheme had been working for quiet log period of time. During [openshift research](http://www.goncharov.xyz/it/deploy2openshift-en.html) we tried to migrate it into Openshift. We used approximately the same containers (D.R.Y. helped again) and change the surrounding environment only.
+This scheme had been working for quiet log period of time. During [openshift research](deploy2openshift-en.md) we tried to migrate it into Openshift. We used approximately the same containers (D.R.Y. helped again) and change the surrounding environment only.
 
 ![IaC End to End Tests](assets/200k_testing_e2e_3.png?raw=true "IaC End to End Tests")
 
@@ -386,20 +386,6 @@ Everything was fine until we faced one more issue: we had to maintain heterogene
   * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
   * [Slides for DevopConf (RU)](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
 * 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](http://spblug.org)
-* [English version](http://www.goncharov.xyz/iac)
-* [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
-
-* Dry run 2019-04-24 [SpbLUG](http://spblug.org)
-* [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
-* [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
-* [Let us deploy to openshift](http://www.goncharov.xyz/it/deploy2openshift-en.html)
-* [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
-* [How-to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
-* [Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://www.youtube.com/watch?v=RTEgE2lcyk4) & [text version](https://www.hashicorp.com/resources/lessons-learned-300000-lines-code)
-* [Integrating Infrastructure as Code into a Continuous Delivery Pipeline](https://www.youtube.com/watch?v=wTunI1mZyp8)
-* [Infrastructure as Code for Software Engineers](https://www.youtube.com/watch?v=2zrhcyv9Yiw)
-* [Тестируем инфраструктуру как код](http://rootconf.ru/2015/abstracts/1761)
-* [Эффективная разработка и сопровождение Ansible-ролей](https://www.youtube.com/watch?v=IzJsBUPXfkE)
-* [Ansible — это вам не bash!](https://www.youtube.com/watch?v=LApKSi5tUYo)
-* [Ansible идемпотентный](https://www.youtube.com/watch?v=1-lRS05NrLc)
-* [Infrastructure as Code: как побороть проблемы с помощью XP](https://habr.com/en/company/dodopizzaio/blog/470620/)
+* [English version](200k-iac-en.md)
+* [Russian version](200k-iac-ru.md)
+* [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)

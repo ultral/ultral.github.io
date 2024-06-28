@@ -1,5 +1,5 @@
 ---
-redirect_from: 
+redirect_from:
     - /ymldev
     - /ymldev.html
     - /it/testkitchen-issues.html
@@ -10,13 +10,11 @@ redirect_from:
 
 ![kitchen-ci schema](assets/kitchen-ci-schema.png?raw=true "kitchen-ci schema")
 
-* [Russian version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
-
 It is text version of [presentation 2018-04-25](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) from [Saint-Petersburg Linux User Group](http://spblug.org/).
 
 * [Slides](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
-* [Russian version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
-* [English version](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
+* [Russian version](test-ansible-roles-via-testkitchen-inside-hyperv-ru.md)
+* [English version](test-ansible-roles-via-testkitchen-inside-hyperv-en.md)
 * [Crosspost Russian version](https://habr.com/en/post/437004/)
 * [Crosspost English version](https://habr.com/en/post/436960/)
 * Configuration example: [github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
@@ -61,7 +59,7 @@ Let us compare solutions for testing.
 | Releases     | 35         | 282  | 346        | 47 |
 | Contributors | 43         | 110  | 159        | 31 |
 
-We decided not to [reinvent the wheel](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html) & get production ready solution. Our infrastructure team had strong ruby skills & great experience with ruby, as a result we chose [Test Kitchen](https://kitchen.ci/) & [inspec](https://www.inspec.io/)
+We decided not to [reinvent the wheel](how-to-test-custom-os-distr-en.md) & get production ready solution. Our infrastructure team had strong ruby skills & great experience with ruby, as a result we chose [Test Kitchen](https://kitchen.ci/) & [inspec](https://www.inspec.io/)
 
 ### Kitchen-CI
 
@@ -111,7 +109,7 @@ Virtualbox can't use "_" in a vm name
 
 ### Oracle test fails without "." at the end of VM name
 
-We use role in production, however when we decided to test it, it was failed. We reproduced it. 
+We use role in production, however when we decided to test it, it was failed. We reproduced it.
 
 I would like to show clue.
 
@@ -145,7 +143,7 @@ It is tricky bug:
 I'd like to clarify it a bit more:
 What has happened in case *vm-oracle*?
 
-1. vagrant created vm 
+1. vagrant created vm
 2. vagrant updated `/etc/hosts`(*vm-oracle* x2)
 3. oracle listener listened IPv4
 4. oracle listeners resolved *vm-oracle.* & geted IPv6
@@ -160,6 +158,7 @@ What has happened in case *vm-oracle.*?
 5. OK
 
 ### OOM is coming
+
 OOM randomly was killing VMs. Testkitchen was failed with strange errors.
 
 *Solution:*  increase RAM

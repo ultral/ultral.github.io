@@ -6,8 +6,8 @@
 
 * [Slides](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * [Video](https://www.youtube.com/watch?v=GdrJv5oypfg)
-* [Russian version](http://www.goncharov.xyz/it/ansible-testing-ru.html)
-* [English version](http://www.goncharov.xyz/it/ansible-testing.html)
+* [Russian version](ansible-testing-ru.md)
+* [English version](ansible-testing-en.md)
 
 Начиная со второго коммита любой код становится legacy, т.к. изначальные задумки начинают расходиться с суровой реальностью. Это не хорошо и не плохо, это данность с которой сложно спорить и необходимо уживаться. Частью этого процесса является рефакторинг. Рефакторинг Infrastructure as Code. Да начнется история как отрефакторить Ansible за год и не слететь с катушек.
 
@@ -60,7 +60,7 @@
 2. Есть ли у вас время?
 3. Достаточно ли знаний?
 
-Если вы не знаете как ответить на вопросы, то рефакторинг закончится так и не начавшись или может получиться только хуже. Т.к. был опыт( [Что я узнал, протестировав 200 000 строк инфраструктурного кода](http://www.goncharov.xyz/it/200k_iac_ru.html)), то от проекта пришел запрос помощи исправить роли и покрыть их тестами.
+Если вы не знаете как ответить на вопросы, то рефакторинг закончится так и не начавшись или может получиться только хуже. Т.к. был опыт( [Что я узнал, протестировав 200 000 строк инфраструктурного кода](200k-iac-ru.md)), то от проекта пришел запрос помощи исправить роли и покрыть их тестами.
 
 ### День № 149: Подготовка рефакторинга
 
@@ -81,13 +81,13 @@
 ![Ansible refactoring](assets/at_ostest.png?raw=true "Ansible refactoring")
 
 Первый раз тестировать Ansible довелось на проекте по разработке SDS (Software Defined Storage). Есть отдельная статья на эту тему
-[Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html), но если кратко, то у нас получилась перевернутая пирамида тестирования и тестирование мы тратили 60-90 минут на одну роль, что есть долго. Основа была e2e тесты, т.е. мы разворачивали полноценную инсталляцию, и потом ее тестировали. Еще отягчающим было изобретение своего велосипеда. Но надо признаться это решение работало и позволяло стабильно релизиться.
+[Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](how-to-test-custom-os-distr-ru.md), но если кратко, то у нас получилась перевернутая пирамида тестирования и тестирование мы тратили 60-90 минут на одну роль, что есть долго. Основа была e2e тесты, т.е. мы разворачивали полноценную инсталляцию, и потом ее тестировали. Еще отягчающим было изобретение своего велосипеда. Но надо признаться это решение работало и позволяло стабильно релизиться.
 
 ##### День № -701: Ansible и test kitchen
 
 ![Ansible refactoring](assets/at_kitchen_1.png?raw=true "Ansible refactoring")
 
-Развитием идеи тестирования Ansible стало использование готовых инструментов, а именно test kitchen / kitchen-ci и inspec. Выбор был обусловен знанием Ruby ( подробней: [Мечтают ли YML программисты о тестировании ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)) работало быстрее порядка 40 минут на 10 ролей. Мы создавали пачку виртуальных машин и внутри гоняли тесты.
+Развитием идеи тестирования Ansible стало использование готовых инструментов, а именно test kitchen / kitchen-ci и inspec. Выбор был обусловен знанием Ruby ( подробней: [Мечтают ли YML программисты о тестировании ansible?](test-ansible-roles-via-testkitchen-inside-hyperv-ru.md)) работало быстрее порядка 40 минут на 10 ролей. Мы создавали пачку виртуальных машин и внутри гоняли тесты.
 
 ![Ansible refactoring](assets/at_kitchen_2.png?raw=true "Ansible refactoring")
 В целом решение работало, но был осадочек из-за неоднородности. Когда же увеличили количество тестируемых до 13 базовых ролей и 2 мета ролей комбинирующие более мелкие роли, то вдруг тесты стали бежать 70 минут, что почти в 2 раза дольше. Об XP (extreme programming) практиках было сложно говорить т.к. никто не захочет ждать 70 минут. Это стало подоводом для изменения подхода
@@ -124,7 +124,7 @@
 
 ![Ansible refactoring](assets/at_lint.png?raw=true "Ansible refactoring")
 
-Все сразу начать тестировать может не получится, поэтому у нас первой задачей было начать с линтовки и проверки синтаксиса. 
+Все сразу начать тестировать может не получится, поэтому у нас первой задачей было начать с линтовки и проверки синтаксиса.
 
 ### День № 181: Green Build Master
 
@@ -250,7 +250,7 @@ get_url:
 
 ### Avoid global variables
 
-Ansible использует глобальные переменные, есть частичный workaround в виде [private_role_vars](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-private-role-vars), но это не панацея. 
+Ansible использует глобальные переменные, есть частичный workaround в виде [private_role_vars](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-private-role-vars), но это не панацея.
 
 Приведу пример. Пусть у нас есть `role_a` и `role_b`
 
@@ -548,10 +548,10 @@ Ansible проповедует декларативный подход, поэт
 * [Кросс пост](https://habr.com/en/post/500058/)
 * Slides [How to test Ansible and don't go nuts](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * Video [How to test Ansible and don't go nuts](https://www.youtube.com/watch?v=GdrJv5oypfg)
-* [Что я узнал, протестировав 200 000 строк инфраструктурного кода](http://www.goncharov.xyz/it/200k_iac_ru.html)
-* [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](http://www.goncharov.xyz/it/coreos2centos-ru.html)
-* [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-ru.html)
-* [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html)
-* [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos.html)
-* [Monolith to microservices](http://www.goncharov.xyz/it/monolith-to-microservices.html)
+* [Что я узнал, протестировав 200 000 строк инфраструктурного кода](200k-iac-ru.md)
+* [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](coreos2centos-ru.md)
+* [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](how-to-test-custom-os-distr-ru.md)
+* [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](test-ansible-roles-via-testkitchen-inside-hyperv-ru.mdl)
+* [Ansible: Coreos to centos, 18 months long journey](coreos2centos-ru.md)
+* [Monolith to microservices](monolith-to-microservices.md)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)

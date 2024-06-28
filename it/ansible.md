@@ -35,11 +35,11 @@ I hope you've received basic knowledge about the ansible and we can continue. Le
 
 ### Manage VMs
 
-The first one use case is [Linux virtual machines configuration management](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html).
+The first one use case is [Linux virtual machines configuration management](test-ansible-roles-via-testkitchen-inside-hyperv-en.md).
 
-![Green build policy schema](assets/Green-build-policy.png?raw=true "Green build policy schema") 
+![Green build policy schema](assets/Green-build-policy.png?raw=true "Green build policy schema")
 
-You have a git repo & it contains some playbooks. You can implement [a green build policy](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html) for the repository. It means that for each commit to master your CI/CD runs ansible roles tests. If the tests are ok, CI/CD will apply ansible playbooks.
+You have a git repo & it contains some playbooks. You can implement [a green build policy](test-ansible-roles-via-testkitchen-inside-hyperv-en.md) for the repository. It means that for each commit to master your CI/CD runs ansible roles tests. If the tests are ok, CI/CD will apply ansible playbooks.
 
 ### Create VM templates
 
@@ -49,11 +49,11 @@ In general, it is based on the previous workflow. For example, you can create a 
 
 ## Conclusion
 
-On one hand, it is possible to use bash for described purpose, but on the other hand, [it is a sophisticated question](http://www.goncharov.xyz/it/make-cm-not-bash-en.html). I hope it was interesting for you and you have received some new knowledge about the ansible.
+On one hand, it is possible to use bash for described purpose, but on the other hand, [it is a sophisticated question](make-cm-not-bash-en.md). I hope it was interesting for you and you have received some new knowledge about the ansible.
 
 # Links
 
-* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/iac)
+* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md)
 * [Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code](https://www.youtube.com/watch?v=RTEgE2lcyk4) & [text version](https://www.hashicorp.com/resources/lessons-learned-300000-lines-code)
 * [Better Ansible Network Automation with Roles and Custom Modules](https://www.youtube.com/watch?v=gWM68qAfg8Y)
 * [DevOps: How to Be an Ansible Contributor - John McDonough (DevNet Create 2018)](https://www.youtube.com/watch?v=VAbnJcyIMYA)
@@ -66,5 +66,5 @@ On one hand, it is possible to use bash for described purpose, but on the other 
 * [Эффективная разработка и сопровождение Ansible-ролей](https://www.youtube.com/watch?v=IzJsBUPXfkE)
 * [Ansible — это вам не bash!](https://www.youtube.com/watch?v=LApKSi5tUYo)
 * [Ansible идемпотентный](https://www.youtube.com/watch?v=1-lRS05NrLc)
-* [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv.html)
-* [How-to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr.html)
+* [Test me if you can. Do YML developers Dream of testing ansible?](how-to-test-custom-os-distr-en.md)
+* [How-to test your own OS distribution](how-to-test-custom-os-distr-en.md)
