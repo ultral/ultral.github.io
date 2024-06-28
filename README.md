@@ -1,6 +1,7 @@
 # Articles
 
 [Изучение английского](how-to-english.md)
+[Как похудеть](how-to-lose-weight.md)
 
 # Publications
 * [How-to test your own OS distributive](https://habr.com/post/342216/)
