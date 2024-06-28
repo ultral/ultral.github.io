@@ -4,67 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
-    <script>
-      function loadGAonConsent() {
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-KYDK0KTRF9');
-      }
-      window.cookieconsent.initialise({
-        container: document.getElementById("content"),
-        palette: {
-          popup: {
-            background: "#000"
-          },
-          button: {
-            background: "#f1d600"
-          }
-        },
-        type: "opt-in",
-        content: {
-          message: "This website uses cookies to ensure you get the best experience here.",
-        },
-        onInitialise: function (status) {
-          var type = this.options.type;
-          var didConsent = this.hasConsented();
-          if (type == 'opt-in' && didConsent) {
-            // enable cookies
-            loadGAonConsent();
-          }
-          if (type == 'opt-out' && !didConsent) {
-            // disable cookies
-          }
-        },
-        onStatusChange: function(status, chosenBefore) {
-          var type = this.options.type;
-          var didConsent = this.hasConsented();
-          if (type == 'opt-in' && didConsent) {
-            // enable cookies
-            loadGAonConsent();
-          }
-          if (type == 'opt-out' && !didConsent) {
-            // disable cookies
-          }
-        },
-        onRevokeChoice: function() {
-          var type = this.options.type;
-          if (type == 'opt-in') {
-            // disable cookies
-          }
-          if (type == 'opt-out') {
-            // enable cookies
-            loadGAonConsent();
-          }
-        }
-      });
-    </script>
     <!-- Google tag (gtag.js) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
+    <script async data-cookiecategory="analytics" src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
+    <script >
+      import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.umd.js';
 
+      CookieConsent.run({
+
+        categories: {
+            necessary: {
+                enabled: true,  // this category is enabled by default
+                readOnly: true  // this category cannot be disabled
+            },
+            analytics: {}
+        },
+
+        language: {
+            default: 'en',
+            translations: {
+                en: {
+                    consentModal: {
+                        title: 'We use cookies',
+                        description: 'Cookie modal description',
+                        acceptAllBtn: 'Accept all',
+                        acceptNecessaryBtn: 'Reject all',
+                        showPreferencesBtn: 'Manage Individual preferences'
+                    },
+                    preferencesModal: {
+                        title: 'Manage cookie preferences',
+                        acceptAllBtn: 'Accept all',
+                        acceptNecessaryBtn: 'Reject all',
+                        savePreferencesBtn: 'Accept current selection',
+                        closeIconLabel: 'Close modal',
+                        sections: [
+                            {
+                                title: 'Performance and Analytics',
+                                description: 'These cookies collect information about how you use our website. All of the data is anonymized and cannot be used to identify you.',
+                                linkedCategory: 'analytics'
+                            },
+                        ]
+                    }
+                }
+            }
+        }
+    });
+    </script>
+    <script type="text/plain" data-cookiecategory="analytics">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KYDK0KTRF9');
+    </script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
