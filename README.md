@@ -37,7 +37,12 @@
 * [Обзор арифмометра Феликс М](https://habr.com/post/169629/)
 
 # Life
+
+## English
 * [How to lose weight](life/how-to-lose-weight-en.md)
+* [How to interact with housing and utilities service provider and don't go nut](life/how-to-mange-tasks-en.md)
+
+## Russian
 * [Изучение английского](life/how-to-english.md)
 * [Как похудеть](life/how-to-lose-weight.md)
 * [Как улучшать город вокруг себя](life/how-to-improve-your-town.md)
