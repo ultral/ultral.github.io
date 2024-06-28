@@ -1,6 +1,6 @@
 # How to lose weight?
 
-[Russian version](how-to-lose-weight.md)
+[Russian version](how-to-lose-weight-ru.md)
 I lost 45-50kg. Let me share my story. **Eat less, move more**
 
 ![weight](assets/weight.jpg?raw=true)

@@ -1,3 +1,7 @@
+---
+redirect_from:
+  - /it/200k_iac_ru.html
+---
 # Что я узнал, протестировав 200 000 строк инфраструктурного кода
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")

@@ -1,6 +1,10 @@
+---
+redirect_from:
+  - /life/time-management.html
+---
 # тайм менеджмент в домашних условиях
 
-[English version](time-management-irl.md) & [слайды с выступления 2018-08-19](https://cloud.mail.ru/public/BsRX/gJfQUEuEm)
+[English version](time-management-irl-en.md) & [слайды с выступления 2018-08-19](https://cloud.mail.ru/public/BsRX/gJfQUEuEm)
 
 * Выкинуть все из головы
 * Создать контексты
@@ -10,7 +14,7 @@
 
 ## links
 
-* [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](remote-work.md)
+* [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](remote-work-ru.md)
 * [Как похудеть](http://www.goncharov.xyz/life/how-to-lose-weight.html)
 * [Как выучить английский](http://www.goncharov.xyz/life/how-to-english.html)
 * [Как улучшать городскую инфраструктуру](http://www.goncharov.xyz/life/how-to-improve-your-town.html)

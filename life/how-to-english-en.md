@@ -4,7 +4,7 @@ redirect_from:
 ---
 # How to learn English
 
-[Russian version](how-to-english.md)
+[Russian version](how-to-english-ru.md)
 
 One one hand I don't want to be the final authority, but on the other hand, I'd like to share my point of view on how to learn English. The English language is not secret knowledge; it is just a lot of hard training. One of the most important bullets is constantly improving English. You should do it from day to day if you want to approach result. It must not loathe torture for you, It means that you should find out something interesting in that process.
 

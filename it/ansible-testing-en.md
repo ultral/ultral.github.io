@@ -1,4 +1,9 @@
-# Как начать тестировать Ansible, отрефакторить проект за год и не слететь с катушек
+---
+redirect_from:
+  - /ar
+  - /it/ansible-testing.html
+---
+# How to test Ansible and don't go nuts
 
 ![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
 

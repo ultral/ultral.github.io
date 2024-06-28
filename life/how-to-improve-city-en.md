@@ -3,29 +3,30 @@ redirect_from:
     - /life/how-to-contact-with-uk-en.html
     - /life/how-to-improve-your-town-en.html
     - /life/how-to-mange-tasks.html
+    - /imporve-town
 ---
 # How to improve your town and don't go nuts
 
-[Russian version](how-to-improve-city.md)
+[Russian version](how-to-improve-city-ru.md)
 
 I'd like to share my experience how to interact with housing and utilities service provider and be sane.
 
 ![manage it](assets/uk.jpg?raw=true "manage it")
- 
+
 ## Before beginning
 
 1. I created [trello](https://trello.com) dashboard.
 2. I configured trello to collect emails from `blahblah_trello_import@example.com` & create cards from an email. 
 3. I synced trello & google calendar.
- 
+
 ## How it looks?
- 
+
 1. There are two ways to create new card: 
     * Write email to housing and utilities service provider & BCC `blahblah_trello_import@example.com`. 
     * Write complain to [letters.gov.spb.ru](https://letters.gov.spb.ru/) & manually create card via [trello web site](https://trello.com) or mobile app.
 2. I episodically look through trello dashboard & update due date & labels for new cards. 
 3. If I get result or new information then I update status in trello for related card. 
- 
+
 ## Workflow
 
 1. TODO - backlog.

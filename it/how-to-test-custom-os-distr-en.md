@@ -1,5 +1,7 @@
 ---
-redirect_from: "/ostest.html"
+redirect_from:
+  - /ostest.html
+  - /it/how-to-test-custom-os-distr.html
 ---
 # How to test your own OS distribution
 
