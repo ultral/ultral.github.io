@@ -21,6 +21,7 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
+| 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) |  [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) |  [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2020-01-03 | Подкаст Александра Кадырова №2 | [Подкаст Александра Кадырова](https://podcast.kadyrov.dev/senior-yaml-developer/) |
 | 2019-11-08 | Осенний марафон | [Статья и выступление. Две стороны одной медали](life/how-to-make-speech.md) |
