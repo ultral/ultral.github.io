@@ -3,14 +3,12 @@
 
 @import "{{ site.theme }}";
 
-header {
-  width: auto;
-  float: none;
-  position: static;
-  padding-bottom: 50px;
+.wrapper {
+  width: 100%
 }
 
-section {
-  width: auto;
+.header, .section {
   float: none;
+  width: 100%;
+  position: relative;
 }
