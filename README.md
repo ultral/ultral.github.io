@@ -8,31 +8,21 @@
 
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md)
 * [Let us deploy to openshift](it/deploy2openshift-en.md)
-* [About ansible](it/ansible.md).
-* [Docker testing](it/docker-testing.md).
-* [How-to test your own OS distribution](it/how-to-test-custom-os-distr-en.md).
+* [How-to test your own OS distribution](it/how-to-test-custom-os-distr-en.md)
 * [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md)
-* [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/).
-* [About monitoring](it/about-monitoring-en.md).
-* [How to mount NTFS on MAC for RW (RU)](https://habr.com/post/246517/).
-* [System call interception in linux-kernel module](it/system-call-interception-in-linux-kernel-module.md).
-* [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv-en.md).
-* [Faced issues with testkitchen](it/testkitchen-issues.md).
-* [Make configuration management, not bash](it/make-cm-not-bash-en.md).
+* [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/)
+* [System call interception in linux-kernel module](it/system-call-interception-in-linux-kernel-module-en.md)
+* [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv-en.md)
 * [From monolith to microservices](it/monolith-to-microservices.md)
-* [About outsourcing](it/about-it-en.md)
-* [Hard vs soft skills](it/hard-soft-skills-en.md)
-* [How to configure VsCode](it/vscode.md)
-* [How to configure Sublime](it/sublime.md)
-* [Arithmometer Felix M review](it/felix-m-review.md)
 
 ## Speeches
 
-| date       | event | theme        |
-|------------|-------|--------------|
-| 2018-04-22 | [T@Home](https://www.t-systems.com/) | [Time management in real life](life/time-management-irl-en.md) |
-| 2018-04-09 | [T@Home](https://www.t-systems.com/) | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-ru.md) |
-| 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/01.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
+| Date       | Event | Article        |
+|------------|-------|----------------|
+| 2020-04-29 | [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) | [Ansible good ot not](https://music.yandex.ru/album/10318378/track/65562747) |
+| 2020-04-22 | [T@Home](https://www.t-systems.com/) | [Time management in real life](life/time-management-irl-en.md) |
+| 2020-04-09 | [T@Home](https://www.t-systems.com/) | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-ru.md) |
+| 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/02.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
 | 2020-03-31 | [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) | [Work from home](https://music.yandex.ru/album/10318378/track/64324269) |
 | 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [How to test Ansible and don't go nuts](it/ansible-testing.md) |
 | 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md) |
@@ -53,8 +43,22 @@
 | 2018-04-25 | [SPbLUG](http://spblug.org/) | [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv-en.md) |
 | 2018-03-02 | [DevOps days T-systems](https://www.t-systems.com/) | [How to test your own OS distribution](it/how-to-test-custom-os-distr-en.md) |
 | 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Scary tale about vagrant](it/how-to-test-custom-os-distr-en.md)|
+| 2015-02-06 | [Rcntec internal meetup](https://www.rcntec.com/en) | [About monitoring](it/about-monitoring-ru.md) |
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [From monolith to microservices](it/monolith-to-microservices.md) |
 | 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features |
+
+## Notes
+
+* [Arithmometer Felix M review](it/felix-m-review-en.md)
+* [About monitoring](it/about-monitoring-en.md).
+* [About ansible](it/ansible.md)
+* [Docker testing](it/docker-testing.md)
+* [How to mount NTFS on MAC for RW (RU)](https://habr.com/post/246517/)
+* [Make configuration management, not bash](it/make-cm-not-bash-en.md)
+* [About outsourcing](it/about-it-en.md)
+* [Hard vs soft skills](it/hard-soft-skills-en.md)
+* [How to configure VsCode](it/vscode.md)
+* [How to configure Sublime](it/sublime.md)
 
 ## Life
 

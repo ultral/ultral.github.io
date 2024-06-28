@@ -1,9 +1,11 @@
-# Hard vs soft skills 
+# Hard vs soft skills
+
 ![2chairs](assets/2chairs.jpg?raw=true)
 
-[Russian version](hard-soft-skills.md)
+[Russian version](hard-soft-skills-ru.md)
 
 Ages ago one person or small group of friends could create successful completed project. It was possible because they could understand whole technical stack from hardware to UI, i.e.:
+
 1. There were some laser pointer, assembler knowledge, com-port & distance 1.5 between PCs. One person decided to mix it up & create a network. It is real story.
 2. Only one person could create whole kernel.
 3. Small group of friends could create a PC.
