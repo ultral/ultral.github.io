@@ -4,22 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Google tag (gtag.js) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>
-        (function(g,d,p,r){g[p]=g[p]||function(a,b,c){
-        g[d]=g[d]||{};g[d][a]=g[d][a]||[];g[d][a].push([b,c]);};
-        })(window,'GDPRGoogleAnalytics','gdpr');
-
-        gdpr('dependency', 'https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9');
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#f1d600"
+          }
+        },
+        "type": "opt-in",
+        "content": {
+          "message": "This website uses cookies to ensure you get the best experience here.",
+        },
+        onInitialise: function (status) {
+          var type = this.options.type;
+          var didConsent = this.hasConsented();
+          if (type == 'opt-in' && didConsent) {
+            // enable cookies
+            loadGAonConsent();
+          }
+          if (type == 'opt-out' && !didConsent) {
+            // disable cookies
+          }
+        },
+        onStatusChange: function(status, chosenBefore) {
+          var type = this.options.type;
+          var didConsent = this.hasConsented();
+          if (type == 'opt-in' && didConsent) {
+            // enable cookies
+            loadGAonConsent();
+          }
+          if (type == 'opt-out' && !didConsent) {
+            // disable cookies
+          }
+        },
+        onRevokeChoice: function() {
+          var type = this.options.type;
+          if (type == 'opt-in') {
+            // disable cookies
+          }
+          if (type == 'opt-out') {
+            // enable cookies
+            loadGAonConsent();
+          }
+        }
+      });
+  onInitialise: function (status) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      loadGAonConsent();
+    }
+    if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+    }
+  }
     </script>
-    <script src="_layouts/analytics.js"></script>
-    <script src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYDK0KTRF9"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function loadGAonConsent() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-KYDK0KTRF9');
+        gtag('config', 'G-KYDK0KTRF9');
+      }
     </script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
