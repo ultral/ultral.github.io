@@ -2,9 +2,11 @@
 [Russian version](how-to-lose-weight.md)
 I lost 45-50kg. Let me share my story. **Eat less, move more** 
 
-# Intruduction
+![weight](assets/weight.jpg?raw=true)
 
-First of all I googled couple of calorie calculator. I tracked my diet: food weight & calorie. I received knowledge about my total daily energy expenditure - how much calorie I consumed per day. After that:
+# Introduction
+
+First of all I googled couple of calorie calculator. I tracked my diet: food weight & calorie. I received knowledge about my total daily energy expenditure - how much calories I consumed per day. After that:
 1. I slightly decreased my diet. 
 2. I looked at my weight. 
 3. was it decreased? NO - go to step #1.
