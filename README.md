@@ -35,16 +35,11 @@
 * [Arithmometer Felix M review](it/felix-m-review.md)
 
 # Life
+* [Time management in real life](life/time-management-irl.md)
 * [How to learn English](life/how-to-english-en.md)
 * [How to lose weight](life/how-to-lose-weight-en.md)
 * [How to improve your town](life/how-to-improve-your-town-en.md)
 * [How to contact with housing and utilities service provider](life/how-to-contact-with-uk-en.md)
 * [How to interact with housing and utilities service provider and don't go nut](life/how-to-mange-tasks-en.md)
-
-# Trips
 * [UK trip by car](life/UK-trip-by-car.md)
 * [Baikal](life/baikal.md)
-
-# Landings for presentations
-* [Time management in real life (RU)](tm.md)
-* [Openvpn inside kubernetes inside google cloud platform](gce4vpn.md)
