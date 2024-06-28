@@ -7,7 +7,7 @@
 * Made speech at [T@Home](https://www.t-systems.com/). [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-ru.md).
 * Recorded [nsfw.co.in/02](http://nsfw.co.in/episodes/02.html) podcast. [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722).
 * Recorded [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) podcast. [Work from home](https://music.yandex.ru/album/10318378/track/64324269).
-* Made speech at [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/). [How to test Ansible and don't go nuts](it/ansible-testing.md).
+* Made speech at [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/). [How to test Ansible and don't go nuts](it/ansible-testing-en.md).
 * Made speech at [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) in Ghent, BE. [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md).
 * Made speech at [DevConf.CZ 2020](https://www.devconf.info/cz/) in Brno, CZ. [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md).
 * [Got](assets/2020_gym.jpg) the 3rd place in the gym competition.

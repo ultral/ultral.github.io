@@ -6,7 +6,7 @@
 
 ## Publications
 
-* [How to test Ansible and don't go nuts](it/ansible-testing.md)
+* [How to test Ansible and don't go nuts](it/ansible-testing-en.md)
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md)
 * [Let us deploy to openshift](it/deploy2openshift-en.md)
 * [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos-en.md)
@@ -26,7 +26,7 @@
 | 2020-04-09 | [T@Home](https://www.t-systems.com/) | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-ru.md) |
 | 2020-04-06 | [nsfw.co.in/02](http://nsfw.co.in/episodes/02.html) | [HardSoft Skills , DevOps interview, management RU vs EN](https://music.yandex.ru/album/10318378/track/64443722) |
 | 2020-03-31 | [nsfw.co.in/01](http://nsfw.co.in/episodes/01.html) | [Work from home](https://music.yandex.ru/album/10318378/track/64324269) |
-| 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [How to test Ansible and don't go nuts](it/ansible-testing.md) |
+| 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [How to test Ansible and don't go nuts](it/ansible-testing-en.md) |
 | 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md) |
 | 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md) |
 | 2020-01-03 | Alexander Kadyrov podcast №2 | [Alexander Kadyrov podcast №2](https://podcast.kadyrov.dev/senior-yaml-developer/) |

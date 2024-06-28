@@ -2,6 +2,7 @@
 redirect_from:
   - /ar
   - /it/ansible-testing.html
+  - /it/ansible-testing.md
 ---
 # How to test Ansible and don't go nuts
 
