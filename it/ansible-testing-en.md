@@ -32,13 +32,13 @@ Time was ticking, they were doing as much as possible, unfortunately, they got l
 
 * There were a bunch of ASAP tasks.
 * It was ok do not write the documentation.
-* They didn't have enough knowledge about ansible.
+* They didn't have enough knowledge about Ansible.
 * Maybe, there were some Full Stack Overflow Developers - it was ok to copy-paste a solution from the StackOverflow.
 * There was lack communication.
 
 The reasons were well known. There was nothing special. It was a standard process. IaC was behaving like code: it was becoming outdated, it had to be maintained & actualized.
 
-### Day № 109: Ok, we have. What's next?
+### Day № 109: Ok, we have the problem. What's next?
 
 ![Ansible refactoring](assets/at_road_to_success.png?raw=true "Ansible refactoring")
 
@@ -135,7 +135,7 @@ So, we with started from the linting. It was a good start point.
 
 ![Ansible refactoring](assets/200k_int_code_gbm.png?raw=true "Ansible refactoring")
 
-Linting was the very first step to the Green Build Master. I coted almost nothing, but it created good habits & processes inside the team:
+Linting was the very first step to the Green Build Master. I costed almost nothing, but it created good habits & processes inside the team:
 
 * Red test is bad, you should fix it.
 * If you see code smell - improve it.
