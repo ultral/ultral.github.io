@@ -2,6 +2,7 @@
 redirect_from: "/how-to-lose-weight.html"
 ---
 # Как похудеть
+[English version](how-to-lose-weight-en.md)
 отвечая на многочисленные вопросы просьбы рассказываю как похудеть примерно 40-45кг за 1-2 года.
 
 ## введение
