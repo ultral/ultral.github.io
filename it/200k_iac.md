@@ -363,6 +363,7 @@ Infrastructure as Code it is a combination of:
 # Links
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
+* Dry run 2019-04-24 [SpbLUG](http://spblug.org)
 * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
 * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
 * [Let us deploy to openshift](http://www.goncharov.xyz/it/deploy2openshift-en.html)
