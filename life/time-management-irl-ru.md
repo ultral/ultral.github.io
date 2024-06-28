@@ -15,7 +15,7 @@ redirect_from:
 ## links
 
 * [Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти](remote-work-ru.md)
-* [Как похудеть](how-to-improve-city-ru.md)
+* [Как похудеть](how-to-lose-weight-ru.md)
 * [Как выучить английский](how-to-english-ru.md)
 * [Как улучшать городскую инфраструктуру](how-to-improve-city-ru.md)
 
