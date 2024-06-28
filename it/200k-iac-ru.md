@@ -4,24 +4,13 @@ redirect_from:
 ---
 # Что я узнал, протестировав 200 000 строк инфраструктурного кода
 
+* English version: [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/iac)
+
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
 
 Подход **IaC** (Infrastructure as Code) состоит не только из кода, который хранится в репозитории, но еще людей и процессов, которые этот код окружают. Можно ли переиспользовать подходы из разработки ПО в управление и описание инфраструктуры? Будет не лишним держать в голове эту идею, пока будете читать статью.
 
 Это расшифровка моего [выступления](https://www.youtube.com/watch?v=W53jMaebVJw) на [DevopsConf 2019-05-28](http://devopsconf.io/moscow-rit/2019/abstracts/4906).
-
-* [2020-02-04](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) [cfgmgmtcamp.eu](https://cfgmgmtcamp.eu/ghent2020/)
-  * [Slides for Configuration Management Camp](https://cloud.mail.ru/public/3qrv/62LWLvytM)
-* [2020-01-24](https://devconfcz2020a.sched.com/event/YS73/lessons-learned-from-testing-over-200000-lines-of-infrastructure-code) [DevConf.CZ](https://www.devconf.info/cz/)
-  * [Slides for Devconf](https://cloud.mail.ru/public/5Lg7/5JBnK6cBn)
-* [2019-06-20](https://dins.timepad.ru/event/995147/) [DevOps EVENING!](https://vk.com/wall-55518582_883)
-  * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
-* 2019-05-28 [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906)
-  * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
-  * [Slides for DevopConf (RU)](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
-* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](http://spblug.org)
-* [English version](http://www.goncharov.xyz/iac)
-* [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
 
 ## Infrastructure as bash history
 
@@ -363,8 +352,19 @@ Infrastructure as Code это
 
 ## Links
 
+* [2020-02-04](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) [cfgmgmtcamp.eu](https://cfgmgmtcamp.eu/ghent2020/)
+  * [Slides for Configuration Management Camp](https://cloud.mail.ru/public/3qrv/62LWLvytM)
+* [2020-01-24](https://devconfcz2020a.sched.com/event/YS73/lessons-learned-from-testing-over-200000-lines-of-infrastructure-code) [DevConf.CZ](https://www.devconf.info/cz/)
+  * [Slides for Devconf](https://cloud.mail.ru/public/5Lg7/5JBnK6cBn)
+* [2019-06-20](https://dins.timepad.ru/event/995147/) [DevOps EVENING!](https://vk.com/wall-55518582_883)
+  * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
+* 2019-05-28 [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906)
+  * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
+  * [Slides for DevopConf (RU)](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
+* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](http://spblug.org)
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
+
 * Dry run 2019-04-24 [SpbLUG](http://spblug.org)
 * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
 * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)

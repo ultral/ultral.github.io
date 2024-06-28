@@ -58,7 +58,7 @@ Original idea / model of IaC became outdated & stuck. IaC did not meet business 
 
 *If your answers are no, then refactoring might be a problem or challenge for you. You can do things worse.*
 
-In our case the project knew that our infrastructure team had pretty good experience in the IaC refactoring ([Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_ru.html)), so our infrastructure team kindly agreed to help with refactoring. It was part of our daily routine to refactor the project.
+In our case the project knew that our infrastructure team had pretty good experience in the IaC refactoring ([Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_en.html)), so our infrastructure team kindly agreed to help with refactoring. It was part of our daily routine to refactor the project.
 
 ### Day № 149: Prepare refactoring
 
@@ -425,7 +425,7 @@ user_group: "{{ user_name }}"
 
 ### Create idempotent playbooks & roles
 
-Roles and playboks has to be idempotent. It decreases you fear to run a role. As a result configuration drift is minimum as possible.
+Roles and playbooks has to be idempotent. It decreases you fear to run a role. As a result configuration drift is minimum as possible.
 
 ### Avoid using command shell modules
 
@@ -551,7 +551,7 @@ One does not simply refactor agreements & infrastructure. It is long interesting
 * [Кросс пост](https://habr.com/en/post/500058/)
 * Slides [How to test Ansible and don't go nuts](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * Video [How to test Ansible and don't go nuts](https://www.youtube.com/watch?v=GdrJv5oypfg)
-* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_ru.html)
+* [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_en.html)
 * [How to test your own OS distribution](http://www.goncharov.xyz/it/how-to-test-custom-os-distr-en.html)
 * [Test me if you can. Do YML developers Dream of testing ansible?](http://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-en.html)
 * [Ansible: Coreos to centos, 18 months long journey](http://www.goncharov.xyz/it/coreos2centos-en.html)
