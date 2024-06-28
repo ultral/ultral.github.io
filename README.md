@@ -40,16 +40,18 @@
 
 ## English
 * [How to lose weight](life/how-to-lose-weight-en.md)
+* [How to improve your town](life/how-to-improve-your-town-en.md)
 * [How to interact with housing and utilities service provider and don't go nut](life/how-to-mange-tasks-en.md)
 
 ## Russian
 * [Изучение английского](life/how-to-english.md)
 * [Как похудеть](life/how-to-lose-weight.md)
 * [Как улучшать город вокруг себя](life/how-to-improve-your-town.md)
-* [Варианты взаидоействия с Управляющей компанией](life/how-to-contact-with-uk.md)
-* [Как структурировать общение с госорганами и не свихнуться](life/how-to-mange-tasks.md)
+* [Варианты взаидоействия с управляющей компанией](life/how-to-contact-with-uk.md)
+* [Как структурировать общение с управляющей компанией и не свихнуться](life/how-to-mange-tasks.md)
 * [Аналитика недвижимости в Санкт-Петербурге](life/about-aparts.md)
 
 # Trips
+
 * [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
 * [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
