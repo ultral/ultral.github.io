@@ -4,11 +4,12 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-  width: 100%
+  width: 100%;
+  padding-top: 95
 }
 
 .header, .section {
   float: none;
   width: 100%;
-  position: relative;
+  position: fixed;
 }
