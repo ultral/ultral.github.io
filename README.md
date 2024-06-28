@@ -1,3 +1,7 @@
+# About
+
+[about](about.md)
+
 # Publications
 
 * [How-to test your own OS distributive](https://habr.com/post/342216/)
