@@ -6,7 +6,7 @@ redirect_from: "/gce4vpn.html"
 ![gce4vpn](assets/gce4vpn-intro.png?raw=true "gce4vpn")
 
 It is text version of my [presentation](https://cloud.mail.ru/public/MK6G/DgNtrv5x5) at [chaos constructions](https://chaosconstructions.ru/) & [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/). This project was created just for luls:
-* [video from hashicorp meetup](https://www.youtube.com/watch?v=BgOvc3pIJXo).
+* [video(RU) from hashicorp meetup](https://www.youtube.com/watch?v=BgOvc3pIJXo).
 * [slides for chaos constructions](https://cloud.mail.ru/public/MK6G/DgNtrv5x5).
 * [slides for hashicorp meetup](https://cloud.mail.ru/public/F193/yjoC7irob).
 * [github.com/ultral/gce4vpn](https://github.com/ultral/gce4vpn).
