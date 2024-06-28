@@ -50,7 +50,7 @@
 
 ## Рефакторинг IaC
 
-### День № 139: А вам точно нужен рефакторинг? 
+### День № 139: А вам точно нужен рефакторинг?
 
 ![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
 
@@ -529,6 +529,19 @@ Ansible проповедует декларативный подход, поэт
 ![Ansible refactoring](assets/at_refactoring.png?raw=true "Ansible refactoring")
 
 Нельзя просто так взять и отрефакторить инфраструктуру на проекте, даже если у вас IaC. Это долгий процесс требующий терпения, времени и знаний.
+
+## P.S.
+
+![Ansible testing](assets/ansible-testing-retro.jpg?raw=true "Ansible testing")
+
+* **Ansible tests** = amount of tested roles/playbooks.
+* **SLOC** = Source lines of code in YAML files.
+
+Выявленные закономерности:
+
+1. Линтинг применять сразу.
+2. Если у вас 2000 SLOC и не запускаете molecule = можно считать что у вас намечаются проблемы.
+3. Начиная с 6000 SLOC необходимо думать об E2E тестах.
 
 ## Links
 

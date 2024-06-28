@@ -547,9 +547,24 @@ Ansible nature is a declarative approach & YAML. It is extremely hard to use sta
 
 One does not simply refactor agreements & infrastructure. It is a long interesting journey.
 
+## P.S.
+
+![Ansible testing](assets/ansible-testing-retro.jpg?raw=true "Ansible testing")
+
+Let me clarify about the plot.
+
+* **Ansible tests** = amount of tested roles/playbooks.
+* **SLOC** = Source lines of code in YAML files.
+
+Lessons learned:
+
+1. Start linting from the very beginning.
+2. If there are 2000 SLOC and you don’t run molecule you will have problems.
+3. After 6000 SLOC you should implement e2e tests.
+
 ## Links
 
-* [Кросс пост](https://habr.com/en/post/500058/)
+* [Cross post](https://habr.com/en/post/500058/)
 * Slides [How to test Ansible and don't go nuts](https://cloud.mail.ru/public/266x/3hJ2mQBzf)
 * Video [How to test Ansible and don't go nuts](https://www.youtube.com/watch?v=GdrJv5oypfg)
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](http://www.goncharov.xyz/it/200k_iac_en.html)
