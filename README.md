@@ -27,8 +27,9 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
-| 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) |  [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
-| 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) |  [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2020-03-18 | [DevOps-40](https://www.meetup.com/DevOps-40/events/269140089/) | [How to test Ansible and don't go nut](it/200k_iac.md) |
+| 2020-02-04 | [Configuration Management Camp](https://cfp.cfgmgmtcamp.be/2020/talk/VQGZUG/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2020-01-24 | [DevConf.CZ 2020](https://www.devconf.info/cz/) | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k_iac.md) |
 | 2020-01-03 | Alexander Kadyrov podcast №2 | [Alexander Kadyrov podcast №2](https://podcast.kadyrov.dev/senior-yaml-developer/) |
 | 2019-11-08 | Fall marathon | [A technical article and a speech are sides of the same coin](life/how-to-make-speech.md) |
 | 2019-11-08 | [Linkmeup №22](https://linkmeup.ru/blog/495.html) | [Linkmeup podcast №22](https://linkmeup.ru/blog/495.html) |
