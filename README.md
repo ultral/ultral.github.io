@@ -27,6 +27,7 @@
 
 | date       | event | theme        |
 |------------|-------|--------------|
+| 2020-01-03 | Alexander Kadyrov podcast №2 | [Alexander Kadyrov podcast №2](https://podcast.kadyrov.dev/senior-yaml-developer/) |
 | 2019-11-08 | Fall marathon | [A technical article and a speech are sides of the same coin](life/how-to-make-speech.md) |
 | 2019-11-08 | [Linkmeup №22](https://linkmeup.ru/blog/495.html) | [Linkmeup podcast №22](https://linkmeup.ru/blog/495.html) |
 | 2019-10-01 | [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050) | [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos.md) |
@@ -43,7 +44,7 @@
 | 2018-03-02 | [DevOps days T-systems](https://www.t-systems.com/) | [How to test your own OS distribution](it/how-to-test-custom-os-distr.md) |
 | 2018-02-08 | [Hashicorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) | [Scary tale about vagrant](it/how-to-test-custom-os-distr.md)|
 | 2014-10-12 | [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) | [From monolith to microservices](it/monolith-to-microservices.md) |
-| 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features | 
+| 2013-03-20 | [Microsoft Patterns&Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) | About Windows server 2012 features |
 
 # Life
 * [Time management in real life](life/time-management-irl.md)
