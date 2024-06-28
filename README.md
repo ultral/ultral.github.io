@@ -6,7 +6,7 @@
 # Publications
 * [About ansible](it/ansible.md).
 * [Docker testing](it/docker-testing.md).
-* [How-to test your own OS distribution](it/how-to-improve-your-town-en.md).
+* [How-to test your own OS distribution](it/how-to-test-custom-os-distr.md).
 * [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/).
 * [About monitoring (RU)](https://habr.com/post/339330/).
 * [How to mount NTFS on MAC for RW (RU)](https://habr.com/post/246517/).
