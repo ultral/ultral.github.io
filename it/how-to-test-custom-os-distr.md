@@ -94,7 +94,7 @@ We solved a lot different issues:
 
 As a result at the current stage scheme looked like:
 
-![flow](assets/distr-flow-light.png?raw=true)
+![flow](assets/distr-flow-hard.png?raw=true)
 
 1. There were a lot of RPM/DEB repos for packages.
 2. There was s3 as artifacts warehouse.
