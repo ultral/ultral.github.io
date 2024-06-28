@@ -2,6 +2,7 @@
 redirect_from: "/iac"
 ---
 # Lessons learned from testiting Over 200 000 lines of Infrastructure Code
+
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
 
 It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W53jMaebVJw)) at [DevopsConf 2019-05-28](http://devopsconf.io/moscow-rit/2019/abstracts/4906). 
@@ -10,6 +11,7 @@ It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W
 
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
+* Dry run 2019-04-24 [SpbLUG](http://spblug.org)
 * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
 * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
 * [Slides](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
@@ -52,6 +54,7 @@ Unfortunately, each script was like a little snowflake depending on who was copy
 I hope you have got the main idea, that at this stage we had to constantly tweak scripts logic until the service is ok. There is a solution for that. It is D.R.Y
 
 ![DRY](assets/200k_iac_code_dry_2.png?raw=true "DRY")
+
 There is D.R.Y. (Do not Repeat Yourself) approach. The main idea is to reuse already existing code. It sounds extremely simple. In our case, D.R.Y. was meaning: split configs and scripts.
 
 ## S.O.L.I.D. for CFM
@@ -351,6 +354,7 @@ Everything was fine until we faced one more issue: we had to maintain heterogene
 # Conclusion
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
+
 Infrastructure as Code it is a combination of: 
 * Code.
 * People interaction.

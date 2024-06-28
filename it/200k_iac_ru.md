@@ -8,6 +8,7 @@
 
 * [English version](http://www.goncharov.xyz/iac)
 * [Russian version](http://www.goncharov.xyz/it/200k_iac_ru.html)
+* Dry run 2019-04-24 [SpbLUG](http://spblug.org)
 * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
 * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
 * [Slides](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
@@ -28,6 +29,7 @@
 # Infrastructure as Code
 
 ![Infrastructure as Code](assets/200k_iac_code.png?raw=true "Infrastructure as Code")
+
 Даже такой странный случай как *Infrastructure as bash history* можно притянуть за уши к *Infrastructure as Code*, но когда мы захотим сделать что-нибудь посложнее чем старый добрый LAMPовый сервер, мы прийдем к тому, что этот код необходимо как-то модифицировать, изменять, дорабатывать. Далее хотелось мы будем рассматривать параллели между *Infrastructure as Code* и разработкой ПО.
 
 ## D.R.Y.
@@ -45,6 +47,7 @@
 Для описанной логики более чем достаточно bash, особенно на ранних стадиях проекта, когда он только стартует. Это [не плохо что вы используете bash](http://www.goncharov.xyz/it/make-cm-not-bash-en.html), но со временем появляются запросы развернуть нечто похожее, но чуть-чуть отличающиеся. Первое что приходит в голову: copy-paste. И вот у нас уже два очень похожих скрипта, которые делают почти тоже самое. Со временем кол-во скриптов выросло, и мы столкнулись с тем, что есть некая бизнес логика развертывания инсталляции, которую необходимо синхронизировать между разными скриптами, это достаточно сложно. 
 
 ![DRY](assets/200k_iac_code_dry_2.png?raw=true "DRY")
+
 Оказывается, есть такая практика D.R.Y. (Do not Repeat Yourself). Идея в том, чтобы переиспользовать существующий код. Звучит просто, но пришли к этому не сразу. В нашем случае это была банальная идея: отделить конфиги от скриптов. Т.е. бизнес логика как разворачивается инсталляция отдельно, конфиги отдельно.
 
 ## S.O.L.I.D. for CFM
@@ -243,6 +246,7 @@ def test_default_users(host):
 ```
 
 Что выбрать? вопрос сложный и не однозначный, вот пример изменения в проектах на github за 2018-2019 года:
+
 ![IaC unit tests](assets/200k_testing_unit_compare.png?raw=true "IaC unit tests tools")
 
 #### IaC Testing frameworks
@@ -256,6 +260,7 @@ def test_default_users(host):
 | Terraform | [Terratest](https://github.com/gruntwork-io/terratest) |
 
 Пример изменения в проектах на github за 2018-2019 года:
+
 ![IaC unit tests](assets/200k_testing_framework_compare.png?raw=true "IaC testing frameworks")
 
 #### Molecule vs. Testkitchen
@@ -325,6 +330,7 @@ def test_default_users(host):
 # Conclusion
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
+
 Infrastructure as Code это 
 * Код в репозитории.
 * Взаимодействие людей.
