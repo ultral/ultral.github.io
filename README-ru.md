@@ -21,7 +21,7 @@
 
 | date       | event | theme/slides |
 |------------|-------|--------------|
-| 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md) |
+| 2019-06-20 | [DevOps EVENING!](https://vk.com/wall-55518582_883) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac.md) |
 | 2019-05-28 | [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac.md) |
 | 2019-04-24 | [SPbLUG](http://spblug.org/) | [Что я узнал протестировав 200 000 строк IaC](it/200k_iac.md) |
 | 2019-03-23 | [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889) | [Let us deploy to openshift](it/deploy2openshift-ru.md) |

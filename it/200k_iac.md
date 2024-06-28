@@ -1,7 +1,7 @@
 ---
 redirect_from: "/iac"
 ---
-# Lessons learned from testiting Over 200 000 lines of Infrastructure Code
+# Lessons learned from testing Over 200 000 lines of Infrastructure Code
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
 
