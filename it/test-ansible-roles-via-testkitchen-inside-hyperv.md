@@ -15,6 +15,7 @@ In my case we have:
 # How to do it?
 
 Let's compare solutions for testing.
+
 |name          | [Test Kitchen](https://kitchen.ci/) | [Molecule](https://molecule.readthedocs.io) | Create new |
 |--------------|-------------------------------------|---------------------------------------------|------------|
 | language     | ruby                                | python                                      | bash/ruby  |
@@ -42,7 +43,7 @@ Let's compare solutions for testing.
 We decided not to [reinvent the wheel](https://habr.com/post/342216/) & get production ready solution. Our infrastructure team had strong ruby skills & great experience with ruby, as a result we chose [Test Kitchen](https://kitchen.ci/) & [inspec](https://www.inspec.io/)
 
 # Kitchen-CI
-![kitchen-ci schema](it/assets/kitchen-ci-schema.png?raw=true "kitchen-ci schema")
+![kitchen-ci schema](assets/kitchen-ci-schema.png?raw=true "kitchen-ci schema")
 
 # Green Build Policy
-![Green build policy schema](it/assets/kitchen-ci-schema.png?raw=true "Green build policy schema")
+![Green build policy schema](assets/kitchen-ci-schema.png?raw=true "Green build policy schema")
