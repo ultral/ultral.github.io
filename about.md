@@ -5,6 +5,8 @@
 
 ## Social activity, trainings, courses, awards
 
+* [Сerts](certs.md)
+
 ### 2020
 
 * Recorded [nsfw.co.in/03](http://nsfw.co.in/episodes/01.html) podcast. [Ansible good ot not](https://music.yandex.ru/album/10318378/track/65562747).
