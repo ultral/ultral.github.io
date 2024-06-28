@@ -1,6 +1,7 @@
 # Social activity, tranings, courses, awards, articles
 
 # 2019
+* Made [speech](assets/2019_devopsconf.jpg?raw=true) at [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906). [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k_iac.md).
 * Made speech at [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889). [Let us deploy to openshift](it/deploy2openshift-en.md) 
 * Made speech at [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/). [Let us deploy to openshift](it/deploy2openshift-en.md) 
 * Completed course [Storytelling tools - instruments for speakers](assets/2019_storytelling.png?raw=true)

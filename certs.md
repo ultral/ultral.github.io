@@ -1,3 +1,4 @@
+![DevopsConf](assets/2019_devopsconf.jpg?raw=true)
 ![Story telling](assets/2019_storytelling.png?raw=true)
 ![ansible](assets/2018_ansible.jpg?raw=true)
 ![azure](assets/2018_azure.jpg?raw=true)
