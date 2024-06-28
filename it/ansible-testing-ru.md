@@ -552,6 +552,5 @@ Ansible проповедует декларативный подход, поэт
 * [Ansible: Миграция конфигурации 120 VM c Coreos на Centos за 18 месяцев](coreos2centos-ru.md)
 * [Как наломать велосипедов поверх костылей при тестировании своего дистрибутива](how-to-test-custom-os-distr-ru.md)
 * [Протестируй меня если сможешь или мечтают ли YML программисты о тестирование ansible?](test-ansible-roles-via-testkitchen-inside-hyperv-ru.mdl)
-* [Ansible: Coreos to centos, 18 months long journey](coreos2centos-ru.md)
 * [Monolith to microservices](monolith-to-microservices.md)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)

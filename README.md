@@ -6,6 +6,7 @@
 
 ## Publications
 
+* [Agreements as Code: how to refactor IaC and don't go nuts](it/aac-en.md)
 * [How to test Ansible and don't go nuts](it/ansible-testing-en.md)
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md)
 * [Let us deploy to openshift](it/deploy2openshift-en.md)
