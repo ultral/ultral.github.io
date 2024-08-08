@@ -86,7 +86,6 @@
 | 2010-12-20 | [Перехват системных вызовов в linux под x86-64](https://habr.com/en/articles/110369/)                                                                                                                | IT       |
 | 2010-09-12 | [Цена пользования Chevrolet lanos](https://autokadabra.ru/shouts/36497)                                                                                                                              | Auto     |
 
-
 ## Notes
 
 * [Мониторинг головного мозга](it/about-monitoring-ru.md)

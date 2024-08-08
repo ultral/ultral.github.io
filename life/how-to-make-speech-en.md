@@ -1,29 +1,34 @@
-# Как подготовиться к выступлению на технической коференции и не слететь с катушек?
+---
+redirect_from:
+    - /hms
+    - /life/how-to-make-speech.html
+---
+# How to make a technical speech and don't go nuts
 
-У меня [в копилке сотня технических выступлений](https://www.goncharov.xyz/) на английском и русском разной степени публичности. Вещал на международных конференциях, подкастах, делал с нуля курс по [Infrastructure as Code](https://gitlab.com/t-systems-devops-school/5-IAC), занимался [DevOps школой](https://habr.com/en/companies/deutschetelekomitsolutions/articles/521648/), подготовил несколько туторов. И знаете что? Я заметил некий паттерн в подготовке к техническим выступлениям. Вот, кстати, он:
+I have made [100 technical speeches](https://www.goncharov.xyz/) in English, Russian, Spanish at international coferences, meetups, podcats etc.. I have created [Infrastructure as Code](https://gitlab.com/t-systems-devops-school/5-IAC) course from scratch, pushed up [DevOps school](https://habr.com/en/companies/deutschetelekomitsolutions/articles/521648/), metored couple of tutors. Believe me or not, however, I have spotted the pattern:
 
 ![roadmap](assets/hms_roadmap.jpg?raw=true)
-
-**P.S.** Сразу извиняюсь за англицизмы, но изначально это было выступление, которое было на английском, плюс статью пишу на двух языках. Так как это не является моей основной работой и мне жалко времени, то делаю так, чтобы проще синхронизировать было. Когда-нибудь, возможно, перепишу, заменив термины, но пока так.
 
 ## Why?
 
 ![why?](assets/hms_why.jpg?raw=true)
 
-Прежде чем готовиться, вам надо ответить для себя на простой вопрос: **зачем оно мне?** Ответы могут быть разные, и они похожи на пирамиду Маслоу (холиварно, но всё же):
+Before start, you should have clear answer for question: **why do I need it?**. There are a lot of possible answers & there is no silver bullet. However, it's possible to organize them into something like [Maslow's hierarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs):
 
-* **Structurize experience** — желание привести в порядок свои знания. Есть такая штука, что пока объяснишь — сам поймёшь. Например, выступить на митапе.
-* **Knowledge** — формализация своего опыта, поисков ответов, почему было принято то или иное решение. Превращение опыта в знание. Обычно это уровень региональных конференций.
-* **HR-brand** — в какой-то момент качество материала подрастает, что начинает помогать формировать HR-бренд: "Смотрите, у нас классные задачи, идите к нам работать". Как правило, это большие и международные конференции.
-* **Meta** — это что-то на уровне devrel/евангелизм, когда несёте светлое людям, чтобы сделать мир лучше: ["Верите ли вы в Infrastructure as Code так, как в неё верю я?"](https://www.goncharov.xyz/it/idlc-ru.html).
-Может быть множество других ответов:
+* **Structurize experience** — one wants to structurize and organize experience.
+* **Knowledge** — one transforms his experience into something bigger, into fundomental knowledge.
+* **HR-brand** — at some point of time, the knowledge and skills are cool enough to push forward HR-brand of the company. Speeches promote companies and i.e. help to stuff people.
+* **Meta** — one becomes devreal or some technologies advocate. One wants to make better wold: ["Do you believe in IaC as your saviour?"](https://www.goncharov.xyz/it/idlc-ru.html).
+There are a lot of other possible answers:
 
-* Хочу дороже продать себя на собеседовании.
-* Начальник сказал надо сходить, иначе премии лишит
-* Хочу съездить на конференцию бесплатно.
+* One wants to earn more money .
+* The ones teamlead said to make a speech.
+* One desires to visit another city.
 * ...
 
 ### Test
+
+Answers are not static. Time flies and answers can be changed. It is crucial to reflixate about
 
 Ответ, кстати, может меняться со временем, и это нормально. Рефлексировать полезно в данной теме. Каждый шаг надо валидировать (это значок **Test** на схеме), чтобы иметь обратную связь и улучшать. Это будет применимо и ко всем последующим шагам:
 
@@ -465,11 +470,7 @@ xx.xx.2023
 ## Links
 
 * [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint)
-* [How to create a post for a corporate blog](https://habr.com/ru/info/topics/toolkit/)
-* [Пилим статью на Хабр](https://habr.com/en/post/473632/)
-* [Конференции: начало пути](https://habr.com/en/company/tinkoff/blog/472046)
-* [Хорошее публичное выступление: 11 простых советов](https://habr.com/en/post/476342/)
-* [Авторам технических текстов: как писать о сложном и не быть занудой?](https://habr.com/en/article/478548/)
+* [How to create a post for a corporate blog](https://habr.com/en/info/topics/toolkit/)
 * [Cross post](https://vas3k.club/post/25231)
 * [Russian version](how-to-make-speech-ru.md)
 * [English version](how-to-make-speech-en.md)

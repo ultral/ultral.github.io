@@ -3,7 +3,7 @@
 ![about](assets/about.png?raw=true)
 
 * **In real life**: cyclist, camper, engineer & coffee person.
-* **At work**: Innovative Senior DevOps Engineer with broad knowledge and understanding of modern technologies, 18+ years of experience in designing, automating and implementing IaC approaches. I believe that infrastructure is a code & we must use the same philosophy for infrastructure as for software development.
+* **At work**: As an infrastructure simplifying engineer, I've seen infrastructure from completely different points of view: as a system administrator, software-defined storage developer, and DevOps engineer. Fortunately, there's an unchanged part. I believe that infrastructure is code and therefore we must use the same philosophy for infrastructure as for software development.
 
 ## Contacts
 
@@ -16,6 +16,8 @@
 
 ### 2024
 
+* Wrote Article(RU) [How to make a technical speech and don't go nuts](llife/how-to-make-speech-ru.md).
+* Wrote Article(RU) [Tarragona Travel Guide](https://vas3k.club/guide/25136/).
 * Conducted multiple [IaC courses](https://gitlab.com/t-systems-devops-school/5-IAC) in International Devops School.
 * Finished course [Prompt Engineering for ChatGPT](assets/2024_chatgpt.png).
 * Wrote Article(RU) [How to make a designer renovation without a designer in 15 months and make a 10% mistake in the budget](https://vas3k.club/post/21985/).

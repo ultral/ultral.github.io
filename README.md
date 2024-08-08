@@ -25,7 +25,7 @@
 | Date       | Event | Article        |
 |------------|-------|----------------|
 | 2023-11-16 | [T-Systems Iberia Technical Meetup](https://www.linkedin.com/posts/tsystems-iberia_technical-meet-up-granadareus-de-t-systems-activity-7132642287020388352-1RoA) | [IDLC = SDLC + IaC: IaC Development Life Cycle](it/idlc-en.md) |
-| 2023-09-20 | Valencia Tech Camp | [How to make a speech and don't go nuts](life/how-to-make-speech.md) |
+| 2023-09-20 | Valencia Tech Camp | [How to make a speech and don't go nuts](life/how-to-make-speech-en.md) |
 | 2022-02-21 | Paper podcast | [How to get work/life balance](life/remote-work-en.md) |
 | 2021-12-20 | Christmas Marathon | [How to make an internal educational course](life/how-to-make-speech.md) |
 | 2021-10-09 | [Devoops conf](https://devoops.ru/talks/6P9ChMRFJZAnFaXcgQq9xU/?referer=/persons/4ZlY7zf0QSKl4fGJJjOB8N/archive/2021/) | 5 devops things that make me crazy |
