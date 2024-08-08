@@ -1,5 +1,5 @@
 ---
-redirect_from: ""
+redirect_from:
     - /hms
     - /life/how-to-make-speech.html
 ---
@@ -7,49 +7,48 @@ redirect_from: ""
 
 У меня [в копилке сотня технических выступлений](https://www.goncharov.xyz/) на английском и русском разной степени публичности. Вещал на международных конференциях, подкастах, делал с нуля курс по [Infrastructure as Code](https://gitlab.com/t-systems-devops-school/5-IAC), занимался [DevOps школой](https://habr.com/en/companies/deutschetelekomitsolutions/articles/521648/), подготовил несколько туторов. И знаете что? Я заметил некий паттерн в подготовке к техническим выступлениям. Вот, кстати, он:
 
-![](https://i.vas3k.club/44c8d27d09344e2106f6f89197c132da9c27a7a292273f4f74c3c4f2b40b595d.jpg)
+![roadmap](assets/hms_roadmap.jpg?raw=true)
 
 * [Why?](#Why)
 * [Test](#Test)
 * [Which topic should I choose?](#Which-topic-should-I-cho)
-	* [Хорошие темы](#Khoroshie-temy)
-	* [Спорные темы](#Spornye-temy)
-	* [Плохие темы](#Plokhie-temy)
-
+  * [Хорошие темы](#Khoroshie-temy)
+  * [Спорные темы](#Spornye-temy)
+  * [Плохие темы](#Plokhie-temy)
 * [Materials](#Materials)
 * [Abstracts](#Abstracts)
 * [Scenario](#Scenario)
 * [Requisites](#Requisites)
-	* [Create content](#Create-content)
-		* [Extend the speech via slides](#Extend-the-speech-via-sl)
-			* [Text on slides](#Text-on-slides)
-			* [Screenshots](#Screenshots)
-			* [Text on screenshots](#Text-on-screenshots)
-		* [Code](#Code)
-		* [Roadmap](#Roadmap)
-		* [5±2](#5-2)
-	* [Presentation as Code](#Presentation-as-Code)
+  * [Create content](#Create-content)
+    * [Extend the speech via slides](#Extend-the-speech-via-sl)
+      * [Text on slides](#Text-on-slides)
+      * [Screenshots](#Screenshots)
+      * [Text on screenshots](#Text-on-screenshots)
+    * [Code](#Code)
+    * [Roadmap](#Roadmap)
+    * [5±2](#5-2)
+  * [Presentation as Code](#Presentation-as-Code)
 * [Show](#Show)
-	* [Interaction with organizators](#Interaction-with-organiz)
-		* [Apply](#0-Apply)
-		* [Initial call](#1-Initial-call)
-		* [Demo](#2-Demo)
-		* [Accept](#3-Accept)
-		* [Dry Run](#4-Dry-run)
-		* [Show](#5-Show)
-			* [Offline](#Offline)
-			* [Online](#Online)
+  * [Interaction with organizators](#Interaction-with-organiz)
+    * [Apply](#0-Apply)
+    * [Initial call](#1-Initial-call)
+    * [Demo](#2-Demo)
+    * [Accept](#3-Accept)
+    * [Dry Run](#4-Dry-run)
+    * [Show](#5-Show)
+      * [Offline](#Offline)
+      * [Online](#Online)
 * [Results](#Results)
-	* [Landing](#Landing)
-	* [Writing](#Writing)
-	* [PR](#PR)
+  * [Landing](#Landing)
+  * [Writing](#Writing)
+  * [PR](#PR)
 * [Вместо заключения](#Vmesto-zakliucheniia)
 
 **P.S.** Сразу извиняюсь за англицизмы, но изначально это было выступление, которое было на английском, плюс статью пишу на двух языках. Так как это не является моей основной работой и мне жалко времени, то делаю так, чтобы проще синхронизировать было. Когда-нибудь, возможно, перепишу, заменив термины, но пока так.
 
-# Why?
+## Why?
 
-![](https://i.vas3k.club/a22997f8715dbc4c06329435522db4a4ded49a22195ab32ba2172cb518fc7506.jpg)
+![why?](assets/hms_why.jpg?raw=true)
 
 Прежде чем готовиться, вам надо ответить для себя на простой вопрос: **зачем оно мне?** Ответы могут быть разные, и они похожи на пирамиду Маслоу (холиварно, но всё же):
 
@@ -64,7 +63,7 @@ redirect_from: ""
 * Хочу съездить на конференцию бесплатно.
 * ...
 
-## Test
+### Test
 
 Ответ, кстати, может меняться со временем, и это нормально. Рефлексировать полезно в данной теме. Каждый шаг надо валидировать (это значок **Test** на схеме), чтобы иметь обратную связь и улучшать. Это будет применимо и ко всем последующим шагам:
 
@@ -72,11 +71,11 @@ redirect_from: ""
 * Не уверены в материале? Можно сделать звонок у себя в компании с коллегами, даже если их двое.
 * Едете на конференцию? Сходить попробовать на митапе будет отличной идеей.
 
-# Which topic should I choose?
+## Which topic should I choose?
 
 Порой сложно выбрать готовую тему. У меня примерно такое деление:
 
-## Хорошие темы
+### Хорошие темы
 
 Это беспроигрышные варианты:
 
@@ -88,7 +87,7 @@ redirect_from: ""
 * **Technologies around us** — интересно выходят рассказы про технологии вокруг, которые обыватель не замечает, но там оказывается целый мир: *как устроен мир выращивания лабораторных хомячков*.
 * **How-to for a viral topic** — взять хайповую тему и рассказать о ней, пока другие не успели.
 
-## Спорные темы
+### Спорные темы
 
 Тут очень сильно зависит от автора и качества материала. Надо быть очень аккуратным. По первой, в эти темы лучше не лезть.
 
@@ -96,14 +95,14 @@ redirect_from: ""
 * **General theory** — теория всего и вся с момента большого взрыва у неопытного человека получится скучно и долго.
 * **Overview of everything** — пересказ того, что есть в мире. Без центральной идеи/структуры обречен на провал.
 
-## Плохие темы
+### Плохие темы
 
 * **Spam / Advertising** — открытая реклама, как правило, воспринимается в штыки.
 * **Poor quality** — если плохой звук, картинка, материал, то закидают помидорами. Надеюсь, после этой статьи данный пункт не будет проблемой.
 
-# Materials
+## Materials
 
-![](https://i.vas3k.club/4c0d460e3af61b89194de92b433bd860af1349317386d903e6190af4ea2a2c9e.jpg)
+![Materials](assets/hms_materials.jpg?raw=true)
 
 Что видите на фото? Это куча несортированного непонятно чего. Это сырые заметки по теме, которую подумываете рассказать. Они могут быть совершенно разными:
 
@@ -119,7 +118,7 @@ redirect_from: ""
 
 Их задача — копиться, и когда вам надо будет пример: выдернуть, причесать и презентовать.
 
-![](https://i.vas3k.club/abb2ed543f410e94556cbe3b2866fbb3bef53396db84f0a1e53c6131949d94fc.jpg)
+![Trello](assets/hms_trello.jpg?raw=true)
 
 Где и как хранить, каждый решает сам. Нет готовых стандартов:
 
@@ -134,9 +133,9 @@ redirect_from: ""
 
 У меня изначально была связка Trello + Google Docs. В итоге пришёл к Obsidian + Git.
 
-# Abstracts
+## Abstracts
 
-![](https://i.vas3k.club/ebcfe4a60c6a2a6cf6585deacb44d8591b2cfb3a9c1f834e9d72e9a3b31add5a.jpg)
+![Abstracts](assets/hms_abstracts.jpg?raw=true)
 
 На данном этапе задача сводится к тому, чтобы из той кучи сырых заметок вычленить главные тезисы. Они понадобятся для разного:
 
@@ -146,9 +145,9 @@ redirect_from: ""
 
 Согласитесь, то, что на картинке выше, выглядит криво и замороченно, но это была подготовка к первой серьёзной конференции, и делал как мог. В следующей главе будет лучше, кстати. Ныне я так не заморачиваюсь. Накидал несколько тезисов/названий слайдов и хватит.
 
-# Scenario
+## Scenario
 
-![](https://i.vas3k.club/0d17933e14738996a028d971799f055610c0414ef895dbce19e24016483a82a5.jpg)
+![Scenario](assets/hms_scenario.jpg?raw=true)
 
 Готовим историю. Тут всё просто, так как основная работа была ранее сделана, и нам остается пройти по алгоритму:
 
@@ -159,9 +158,9 @@ redirect_from: ""
 
 В качестве пруфа для этого утверждения привожу ссылку на расшифровку выступления [Что я узнал, протестировав 200 000 строк инфраструктурного кода](https://www.goncharov.xyz/it/200k-iac-ru.html) и предлагаю поискать матчинг между схемой для выступления и выступлением.
 
-# Requisites
+## Requisites
 
-![](https://i.vas3k.club/2d3b2deb381c4fd4e965a4c2016a784fc5a17649f97cdf6b9be7a7d562c9bf01.jpg)
+![Requisites](assets/hms_requisites.jpg?raw=true)
 
 Готовим слайды на раз-два:
 
@@ -171,28 +170,29 @@ redirect_from: ""
 * © **Copyright** — это важно, но лучше делегировать.
 
 * [Create content](#Create-content)
-    * [Extend the speech via slides](#Extend-the-speech-via-sl)
-	    * [Text on slides](#Text-on-slides)
-    	* [Screenshots](#Screenshots)
-	    * [Text on screenshots](#Text-on-screenshots)
-        * [Code](#Code)
-    * [Roadmap](#Roadmap)
-    * [5±2](#5-2)
+  * [Extend the speech via slides](#Extend-the-speech-via-sl)
+    * [Text on slides](#Text-on-slides)
+    * [Screenshots](#Screenshots)
+    * [Text on screenshots](#Text-on-screenshots)
+      * [Code](#Code)
+  * [Roadmap](#Roadmap)
+  * [5±2](#5-2)
 * [Presentation as Code](#Presentation-as-Code)
 
-## Create content
+### Create content
 
 * Extend the speech via slides
 * Use simple code examples
 * Add roadmaps
 * 5±2
 
-### Extend the speech via slides
+#### Extend the speech via slides
 
 Так что же должно быть на слайдах? Есть прекрасная презентация [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint) — рекомендую к изучению.
 
-#### Text on slides
-![](https://i.vas3k.club/b7084c0fafb4b81f1f79381f00374d3461ad52446a5b0171f88d889772a3c0f9.jpg)
+##### Text on slides
+
+![Bad](assets/hms_text_bad.jpg?raw=true)
 
 Слайды с кучей мелкого текста смотрятся ужасно по многим причинам:
 
@@ -201,7 +201,7 @@ redirect_from: ""
 
 Такое решение работает только как раздатка, но вы же не будете делать два варианта слайдов, правда?
 
-![](https://i.vas3k.club/cb89a8a860b794037921f5ba665c43386e5ef49fb728e2b8712b19e9504f892c.jpg)
+![Good](assets/hms_text_good.jpg?raw=true)
 
 Основные задачи слайда:
 
@@ -217,31 +217,31 @@ redirect_from: ""
 
 Из бонусов — это копирайты: их достаточно указать на самом последнем слайде, и его даже можно не показывать (если ничего в условиях использования сервисом не поменялось).
 
-#### Screenshots
+##### Screenshots
 
 Фото и скриншоты желательно подрезать/растягивать на весь слайд и не оставлять белых полей, так смотрится целостней.
 
-![](https://i.vas3k.club/65627f9edc6e31029f0a3da40aeaee4bd1a77aad8b3399743fc24d9257a5fc27.jpg)
+![Screenshots 1](assets/hms_screenshots_1.jpg?raw=true)
 
 Нормально заходят скриншоты известных тулов, чтобы человек быстро погрузился в контекст. Опционально можно подсветить лупой важный элемент.
 
-![](https://i.vas3k.club/86c55f54edd73be5e4caf58c2c94f4402647697f6f268284e818e04e93fa0c1c.jpg)
+![Screenshots 2](assets/hms_screenshots_2.jpg?raw=true)
 
 А вот скриншоты неизвестных программ плохо — человек теряется. Вот многие из вас работали с https://galaxy.ansible.com?
 
-#### Text on screenshots
+##### Text on screenshots
 
-![](https://i.vas3k.club/797308a95563bf1700dbc9c8299d304ed4d55083b03cd3a4a82c750e21efcb2c.jpg)
+![Screenshots 3](assets/hms_screenshots_3.jpg?raw=true)
 
 Текст без подложки трудно читаем.
 
-![](https://i.vas3k.club/bcbe091bfb77630a26fd342c03b170bce97bda2407366520f0408269fdb3a638.jpg)
+![Screenshots 4](assets/hms_screenshots_4.jpg?raw=true)
 
 Если же её подкрасить, то сразу более читаемо.
 
-### Code
+#### Code
 
-![](https://i.vas3k.club/edbbd90885f5161f1665939a1fe3beca5d44bc357eae5f0121cdf917a549631c.jpg)
+![Code](assets/hms_code.jpg?raw=true)
 
 Много кода не читаемо, так как человеку надо загрузить его в голову. Поэтому убираем всё лишнее:
 
@@ -257,13 +257,13 @@ redirect_from: ""
 * Шрифт максимально большой, чтобы с последнего ряда было видно
 * Если очень сильно хочется, то можно подсветить что-то одно конкретное на слайде другим цветом.
 
-### Roadmap
+#### Roadmap
 
-![](https://i.vas3k.club/03676c12009816da6ccd891cfe694d8d275983015ed740299084c7614d905e2c.jpg)
+![roadmap](assets/hms_roadmap_partial.jpg?raw=true)
 
 Хорошо себя показывают дорожные карты, они выступают напоминалкой, где мы, как долго ещё и склеивают части рассказа между собой.
 
-### 5±2
+#### 5±2
 
 Есть [Магическое число семь плюс-минус два](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE_%D1%81%D0%B5%D0%BC%D1%8C_%D0%BF%D0%BB%D1%8E%D1%81-%D0%BC%D0%B8%D0%BD%D1%83%D1%81_%D0%B4%D0%B2%D0%B0) — человек не может удержать в голове слишком много, поэтому:
 
@@ -271,7 +271,7 @@ redirect_from: ""
 2. На каждый слайд добавляем по 1, максимум 2 новых элемента. Их можно подсветить.
 3. В целом не надо стараться больше 7 идей донести, а лучше 4.
 
-## Presentation as Code
+### Presentation as Code
 
 Немного технической стороны вопроса, это не обязательно, но не могу не поделиться.
 
@@ -327,19 +327,19 @@ style: |
 </style>
 <!-- _paginate: skip !-->
 
-# Terraform 4 VmWare in XXX
+## Terraform 4 VmWare in XXX
 
 lev@xxxx
 xx.xx.2023
 
 ---
 <!-- _paginate: hide !-->
-# IaC: use cases
+## IaC: use cases
 
 ![bg contain](./assets/IaC_usecases.svg)
 ```
 
-# Show
+## Show
 
 Есть разные форматы мероприятий, но в общих чертах это:
 
@@ -347,31 +347,31 @@ xx.xx.2023
 * **Meetups** — хорошее место накинуть на вентилятор в поисках решения проблемы. Можно валидировать материалы перед конференциями.
 * **Conferences** — [есть разница между международными и СНГ](https://habr.com/en/articles/487432/), но как правило сюда сложнее попасть, поэтому опишу, как выглядит в среднем процесс.
 
-## Interaction with organizers
+### Interaction with organizers
 
-### 0. Apply
+#### 0. Apply
 
 Ищем площадку, готовим тезисы и подаемся. Иногда есть готовые порталы, иногда нужно писать на почту. Стандартного нет. Полезно приложить ссылки на другие выступления, если есть, чтобы организаторы могли оценить уровень.
 
-### 1. Initial call
+#### 1. Initial call
 
 Крупные площадки могут захотеть созвониться, а может и переписки хватит.
 
-### 2. Demo
+#### 2. Demo
 
 Это редкий зверь, у меня ни разу не было, но люди говорят, встречается в природе.
 
-### 3. Accept
+#### 3. Accept
 
 В какой-то момент оргкомитет принимает решение брать или нет в программу. На серьёзных площадках прикрепляют ментора, который ведет человека до выступления.
 
-### 4. Dry-run
+#### 4. Dry-run
 
-![](https://i.vas3k.club/cc6026859255356bd8e47d2c97bd5f7edf54f8659819be42328816b2a2944280.jpg)
+![Dry-run](assets/hms_dryrun.jpg?raw=true)
 
 Это активная фаза подготовки, материал обкатывается/тестируется на аудитории. Фидбэк тщательно собирается, структурируется и рефлексируется.
 
-### 5. Show
+#### 5. Show
 
 Есть небольшая разница между офлайн и онлайн выступлениями, но есть общие советы:
 
@@ -388,9 +388,9 @@ xx.xx.2023
 * За 2 минуты до узнал, что в Dropbox и на флэшке лежит не та версия, помогло то, что на сайт выложил PDF.
 * Во время выступления отказал экран презентера, и рассказывал по памяти.
 
-#### Offline
+##### Offline
 
-![](https://i.vas3k.club/6cb8055c7a7eeac06334de713e9646d77d6d18917f3a38da66e202c04a66e9c5.jpg)
+![Offline](assets/hms_offline.jpg?raw=true)
 
 Кстати, про экран презентера, на больших эвентах у вас может быть такое:
 
@@ -412,9 +412,9 @@ xx.xx.2023
 * Не надо читать, представьте, что вы с другом в баре рассказываете захватывающую историю (но без перегибов).
 * Если забудете что-то — не страшно.
 
-### Online
+#### Online
 
-![](https://i.vas3k.club/6de086c40a0d6a53214cd9108a2af1ad42fef93879dc4e9fd7351b1c4e7085ff.jpg)
+![Online](assets/hms_online.jpg?raw=true)
 
 Основная проблема online — это беспроводные технологии и канал. Поэтому:
 
@@ -425,27 +425,30 @@ xx.xx.2023
 
 Но еще большая проблема — это сложность обратной связи в режиме реального времени; аудитория не чувствуется. Тут у меня только предложение просить людей кидать эмоджи, чтобы хоть как-то оценить, что с аудиторией.
 
-# Results
+## Results
 
-![](https://i.vas3k.club/b12d896008d95d024bad5902161c23238781cc7c9e90e40f83ab7a26979bd5b6.jpg)
+![Results](assets/hms_results.jpg?raw=true)
 
 Как ни странно, но выступление не заканчивается после выступления. Подумайте сами: вы уже структурировали материал, наклепали мемасиков — остается только написать текст, который и так знаете наизусть.
 
-## Landing
+### Landing
 
-![](https://i.vas3k.club/03a02bee4dd8428fea951b33a93d1c54388428c70279ec35a044feff5079ed81.jpg)
+![Landing](assets/hms_landing.jpg?raw=true)
+
 Последний слайд выступления обычно самый фотографируемый. Поэтому на него выношу:
+
 1. Основную идею / roadmap выступления.
 2. Контакты, ссылку на **лэндинг**.
 
 Где хостить **лэндинг**?
+
 * https://habr.com
 * https://reddit.com
 * https://linkedin.com
 * https://medium.com
 * https://pages.github.com
 
-Основная проблема здесь в том, что ссылка на лэндинг нужна в момент выступления, а расшифровка будет когда-то потом (про образ этого выступления я делал почти 5 лет назад, и вот только дошли руки напечатать).
+Основная проблема здесь в том, что ссылка на лэндинг нужна в момент выступления, а расшифровка будет когда-то потом (про образ этого выступления я делал почти 5 лет назад, и вот только дошли руки напечатать...).
 
 Поэтому у меня такая связка:
 
@@ -466,9 +469,9 @@ xx.xx.2023
 * **У слушателей** — возможность уточнить упущенные моменты.
 * **У пользователей интернета** — прочитать то, куда они не ходили.
 
-## Writing
+### Writing
 
-![](https://i.vas3k.club/38911408525b4e5dcff1c5b3129656e7789b0af784d56ccefafe02ac67b132ec.jpg)
+![Writing](assets/hms_writing.jpg?raw=true)
 
 Есть неплохой [гайд от Хабра](https://habr.com/ru/docs/companies/design/), как писать, но если кратко:
 
@@ -476,7 +479,8 @@ xx.xx.2023
 * **Related pic** — выбираем лучший мемасик из фактуры, надо зацепить, чтобы не прошли мимо.
 * **Lead** — самый сок, как правило это тезисы, но в интересных формулировках. А формулировки определяются через итеративное собирание обратной связи.
 * **Main part** — собственно текст, ниже разбрем как его готовить.
-![](https://i.vas3k.club/8e66947755f1807d8ec6ccb9c9fadb1a3c8e83bd1f945146880df8ecab86cda9.jpg)
+
+![Writing](assets/hms_writing_draft_1.jpg?raw=true)
 
 В целом все как со слайдами:
 
@@ -486,11 +490,12 @@ xx.xx.2023
 * © **Copyright** — это важно, но лучше делегировать.
 
 Вначале пишем драфт, он может быть кривым. Это нормально.
-![](https://i.vas3k.club/c1dafbbe3f4aca91a778e1aabd8c7003e8301ef59e0f793d8d77ff172818c620.jpg)
+
+![Writing](assets/hms_writing_draft_2.jpg?raw=true)
 
 На следующий день/неделю/месяц его перечитываем, причесываем и публикуем.
 
-## PR
+### PR
 
 Если хочется заморочиться, то можно постить на разные площадки:
 
@@ -501,13 +506,13 @@ xx.xx.2023
 
 Но по моим наблюдениям, оно в итоге будет проиндексировано и люди будут приходить читать, говорить спасибо.
 
-# Вместо заключения
+## Вместо заключения
 
-![](https://i.vas3k.club/44c8d27d09344e2106f6f89197c132da9c27a7a292273f4f74c3c4f2b40b595d.jpg)
+![roadmap](assets/hms_roadmap.jpg?raw=true)
 
 Не надо стесняться выступать, не надо накручивать себя и придумывать синдром самозванца. Горшки не боги обжигают, и выступления/писанина такой же скилл. Он помогает привести мысли в порядок и яснее доносить свои идеи.
 
-# Links
+## Links
 
 * [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint)
 * [How to create a post for a corporate blog](https://habr.com/en/info/topics/toolkit/)
@@ -516,4 +521,3 @@ xx.xx.2023
 * [Хорошее публичное выступление: 11 простых советов](https://habr.com/en/post/476342/)
 * [Авторам технических текстов: как писать о сложном и не быть занудой?](https://habr.com/en/article/478548/)
 * [Cross post](https://vas3k.club/post/25231)
-
