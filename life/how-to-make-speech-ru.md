@@ -166,7 +166,7 @@ redirect_from:
 
 Я обычно делаю так:
 
-* Выбираю первую попавшуюся картинку на https://www.flaticon.com/
+* Выбираю первую попавшуюся картинку на [flaticon.com](https://www.flaticon.com/)
 * Возможно комбинирую несколько
 * Спустя какое-то время мб вернусь и заменю
 
@@ -182,7 +182,7 @@ redirect_from:
 
 ![Screenshots 2](assets/hms_screenshots_2.jpg?raw=true)
 
-А вот скриншоты неизвестных программ плохо — человек теряется. Вот многие из вас работали с https://galaxy.ansible.com?
+А вот скриншоты неизвестных программ плохо — человек теряется. Вот многие из вас работали с [galaxy.ansible.com](https://galaxy.ansible.com)?
 
 ##### Text on screenshots
 
@@ -239,15 +239,15 @@ redirect_from:
 
 В данный момент перехожу на подход **Presentation as Code**.
 
-1. Создаю презентацию в синтаксисе Markdown: https://marpit.marp.app/markdown
+1. Создаю презентацию в синтаксисе Markdown: [marpit.marp.app](https://marpit.marp.app/markdown).
 2. Рисую изображения через приложение draw.io в формате SVG.
 3. Храню всё в Git.
 4. Экспортирую презентацию в PDF.
 
 Интеграция с VS Code:
 
-* https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
-* https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
+* [marp-team.marp-vscode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+* [hediet.vscode-drawio](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
 У решения есть минусы:
 
@@ -397,11 +397,11 @@ xx.xx.2023
 
 Где хостить **лэндинг**?
 
-* https://habr.com
-* https://reddit.com
-* https://linkedin.com
-* https://medium.com
-* https://pages.github.com
+* [habr.com](https://habr.com)
+* [reddit.com](https://reddit.com)
+* [linkedin.com](https://linkedin.com)
+* [medium.com](https://medium.com)
+* [pages.github.com](https://pages.github.com)
 
 Основная проблема здесь в том, что ссылка на лэндинг нужна в момент выступления, а расшифровка будет когда-то потом (про образ этого выступления я делал почти 5 лет назад, и вот только дошли руки напечатать...).
 
@@ -412,7 +412,7 @@ xx.xx.2023
 3. Взял публичный бесплатный почтовый сервис.
 4. Прикрутил Google Analytics.
 
-То есть https://www.goncharov.xyz хостится на https://github.com/ultral/ultral.github.io . Его также можно посмотреть через https://github.com/ultral/ultral.github.io/blob/master/README.md , и оно автоматически публикуется. Сплошные плюсы:
+То есть [www.goncharov.xyz](https://www.goncharov.xyz) хостится на [github.com/ultral/ultral.github.io](https://github.com/ultral/ultral.github.io) . Его также можно посмотреть через [github.com/ultral/ultral.github.io/blob/master/README.md](https://github.com/ultral/ultral.github.io/blob/master/README.md), и оно автоматически публикуется. Сплошные плюсы:
 
 1. Есть прикольная почта.
 2. Когда делаю презентацию, сразу делаю лэндинг на последней странице (последний слайд самый фотографируемый, не считая мемов) и перевожу аудиторию в онлайн. А так как есть Google Analytics, видно, сколько народу пришло.
@@ -455,9 +455,9 @@ xx.xx.2023
 Если хочется заморочиться, то можно постить на разные площадки:
 
 * Instagram / Facebook / LinkedIn / Twitter
-* https://reddit.com
-* https://news.ycombinator.com
-* Telegram
+* [reddit.com](https://reddit.com).
+* [news.ycombinator.com](https://news.ycombinator.com).
+* Telegram.
 
 Но по моим наблюдениям, оно в итоге будет проиндексировано и люди будут приходить читать, говорить спасибо.
 
