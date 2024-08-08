@@ -9,41 +9,6 @@ redirect_from:
 
 ![roadmap](assets/hms_roadmap.jpg?raw=true)
 
-* [Why?](#Why)
-* [Test](#Test)
-* [Which topic should I choose?](#Which-topic-should-I-cho)
-  * [Хорошие темы](#Khoroshie-temy)
-  * [Спорные темы](#Spornye-temy)
-  * [Плохие темы](#Plokhie-temy)
-* [Materials](#Materials)
-* [Abstracts](#Abstracts)
-* [Scenario](#Scenario)
-* [Requisites](#Requisites)
-  * [Create content](#Create-content)
-    * [Extend the speech via slides](#Extend-the-speech-via-sl)
-      * [Text on slides](#Text-on-slides)
-      * [Screenshots](#Screenshots)
-      * [Text on screenshots](#Text-on-screenshots)
-    * [Code](#Code)
-    * [Roadmap](#Roadmap)
-    * [5±2](#5-2)
-  * [Presentation as Code](#Presentation-as-Code)
-* [Show](#Show)
-  * [Interaction with organizators](#Interaction-with-organiz)
-    * [Apply](#0-Apply)
-    * [Initial call](#1-Initial-call)
-    * [Demo](#2-Demo)
-    * [Accept](#3-Accept)
-    * [Dry Run](#4-Dry-run)
-    * [Show](#5-Show)
-      * [Offline](#Offline)
-      * [Online](#Online)
-* [Results](#Results)
-  * [Landing](#Landing)
-  * [Writing](#Writing)
-  * [PR](#PR)
-* [Вместо заключения](#Vmesto-zakliucheniia)
-
 **P.S.** Сразу извиняюсь за англицизмы, но изначально это было выступление, которое было на английском, плюс статью пишу на двух языках. Так как это не является моей основной работой и мне жалко времени, то делаю так, чтобы проще синхронизировать было. Когда-нибудь, возможно, перепишу, заменив термины, но пока так.
 
 ## Why?
@@ -168,16 +133,6 @@ redirect_from:
 * 💩 **Put some raw data** — уже готовые пруфы с предыдущего шага накидываем на слайд как есть.
 * 📝 **Create content** — сделать красивости можно попробовать делегировать, если есть кому. Но, как правило, самому.
 * © **Copyright** — это важно, но лучше делегировать.
-
-* [Create content](#Create-content)
-  * [Extend the speech via slides](#Extend-the-speech-via-sl)
-    * [Text on slides](#Text-on-slides)
-    * [Screenshots](#Screenshots)
-    * [Text on screenshots](#Text-on-screenshots)
-      * [Code](#Code)
-  * [Roadmap](#Roadmap)
-  * [5±2](#5-2)
-* [Presentation as Code](#Presentation-as-Code)
 
 ### Create content
 
