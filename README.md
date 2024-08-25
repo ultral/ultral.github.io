@@ -99,6 +99,7 @@
 
 ## Life
 
+* [How to make a speech and don't go nuts](life/how-to-make-speech-en.md)
 * [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-en.md)
 * [Time management in real life](life/time-management-irl-en.md)
 * [How to learn English](life/how-to-english-en.md)

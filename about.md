@@ -16,7 +16,7 @@
 
 ### 2024
 
-* Wrote Article(RU) [How to make a technical speech and don't go nuts](llife/how-to-make-speech-ru.md).
+* Wrote Article(RU) [How to make a speech and don't go nuts](life/how-to-make-speech-en.md).
 * Wrote Article(RU) [Tarragona Travel Guide](https://vas3k.club/guide/25136/).
 * Conducted multiple [IaC courses](https://gitlab.com/t-systems-devops-school/5-IAC) in International Devops School.
 * Finished course [Prompt Engineering for ChatGPT](assets/2024_chatgpt.png).
