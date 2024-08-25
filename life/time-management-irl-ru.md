@@ -1,6 +1,7 @@
 ---
 redirect_from:
   - /life/time-management.html
+  - /life/time-management-irl.html
 ---
 # тайм менеджмент в домашних условиях
 

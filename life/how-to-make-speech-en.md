@@ -28,48 +28,48 @@ There are a lot of other possible answers:
 
 ### Test
 
-Answers are not static. Time flies and answers can be changed. It is crucial to reflixate about
+Answers are not static. Time flies and answers can be changed. It is crucial to reflixate about them for having feedback loop. It allows to improve. Moreover, **Test** idea is applicable for each step on the roadmap:
 
-Ответ, кстати, может меняться со временем, и это нормально. Рефлексировать полезно в данной теме. Каждый шаг надо валидировать (это значок **Test** на схеме), чтобы иметь обратную связь и улучшать. Это будет применимо и ко всем последующим шагам:
-
-* Появилась идея? Обсудите с коллегой за кофе.
-* Не уверены в материале? Можно сделать звонок у себя в компании с коллегами, даже если их двое.
-* Едете на конференцию? Сходить попробовать на митапе будет отличной идеей.
+* Have a new idea? Grab a cup of coffee and discuss it with workmates.
+* No sure about materials? It's totally ok to schedule the call with colegues (who also drives speeches).
+* Go to a conference? It makes sense to check local meet up comunities and have dry-run.
 
 ## Which topic should I choose?
 
-Порой сложно выбрать готовую тему. У меня примерно такое деление:
+There are no out the box solutions. However, there are some clues:
 
-### Хорошие темы
+### Good
 
-Это беспроигрышные варианты:
+I almost 100% sure that you will prepare good enough materials for:
 
-* **Problem solving** — у нас была проблема А (*хомячок полосатый, а заказчик попросил монотонного*), мы её решили так и сяк (*мелировали хомячка*). Хорошая, универсальная тема. Вероятно, к вам придут те, кто имеет схожую проблему, и либо вы ему расскажете решение, либо вам расскажут, как правильно.
-* **Practical advises** — рассказать реальный опыт использования технологии, показать плюсы и минусы: *если попробовать мелировать светлых хомячков, то они становятся фиолетовыми. Не надо так*.
-* **Digest / Top** — пощупали технологии, сравнили, пришли к выводам: *красить хомячков из пульверизатора быстрее, чем мелировать*.
-* **Something painful** — люди ~~учатся на~~ слушать про чужие ошибки: *красить хомячков из пульверизатора быстро, но к нам пришли зоозащитники, и мы осознали глубину глубин. Так что мелирование наше всё*.
-* **How does it work?** — как правило, никому не интересно слушать про свои велосипеды, которые не переносимы. Но если сделать разбор технологии, то как она работает под капотом, то будет ок: *как устроен пульверизатор?*
-* **Technologies around us** — интересно выходят рассказы про технологии вокруг, которые обыватель не замечает, но там оказывается целый мир: *как устроен мир выращивания лабораторных хомячков*.
-* **How-to for a viral topic** — взять хайповую тему и рассказать о ней, пока другие не успели.
+* **Problem solving** — Business had problem **А**, we failed with **B** approach, however, **C** provided good enough numbers **D**. Usually, people with same pain/problem will attend your speech. As a result, you will be able to take a look onto your problem from different prespective or help somebody solve the problem.
+* **Practical advises** — Hands on experience is crucial because people should not re-invent the wheel. It can be:
+  * Lessons learned ...
+  * Best practices for ...
+* **Digest / Top** — If you compare different technologies / approaches and make some conclusions it can simplify somebody life.
+* **Something painful** — People like ~~learn from~~ listen about somebody else ~~fu**ups~~ findings.
+* **How does it work?** — If you are not FAANG / MANGA when almost nobody likes to listen about kludges your cludges. However, deep dive into the techologies and understanding underlaying foundations.
+* **Technologies around us** — It is quite interesting to read about technologies in real world and on the edge of different areas. But also, it requires deep understanding, broad knowledge and non standard prespective / angle of view.
+* **How-to for a viral topic** — If you catch hype wave you can get quite big audience.
 
-### Спорные темы
+### + / -
 
-Тут очень сильно зависит от автора и качества материала. Надо быть очень аккуратным. По первой, в эти темы лучше не лезть.
+Those topics really depends on the material quality and author's expertice, soft-skills. One must be very accurate and pation. If you are beginner or not confident enough then just avoid them
 
-* **Tutorial** — это полезно, но очень сложно.
-* **General theory** — теория всего и вся с момента большого взрыва у неопытного человека получится скучно и долго.
-* **Overview of everything** — пересказ того, что есть в мире. Без центральной идеи/структуры обречен на провал.
+* **Tutorial** are very needed usually, but it is really hard to create them.
+* **General theory** — It it quite tricky to create not boring speech and have.
+* **Overview of everything** — Story without concrete theme is interested for wide audience with completely different expectations. It will be almost unreal to met all expectations.
 
-### Плохие темы
+### Bad
 
-* **Spam / Advertising** — открытая реклама, как правило, воспринимается в штыки.
-* **Poor quality** — если плохой звук, картинка, материал, то закидают помидорами. Надеюсь, после этой статьи данный пункт не будет проблемой.
+* **Spam / Advertising** — Nobody likes spam or advertising.
+* **Poor quality** — If it can be googled in 5 minutes it is not the case. Bad mic, internet connection, slides also can lead to bad feedback.
 
 ## Materials
 
 ![Materials](assets/hms_materials.jpg?raw=true)
 
-Что видите на фото? Это куча несортированного непонятно чего. Это сырые заметки по теме, которую подумываете рассказать. Они могут быть совершенно разными:
+What can you see at the picture? It is huge unsorted pile of something. It is raw notes about your theme. There are some examples:
 
 * Images
 * Links
@@ -81,11 +81,11 @@ Answers are not static. Time flies and answers can be changed. It is crucial to 
 * Go live cases
 * Benchmarks
 
-Их задача — копиться, и когда вам надо будет пример: выдернуть, причесать и презентовать.
+The goal is to store facturas and when it is required you just: find, puy things in order and present
 
 ![Trello](assets/hms_trello.jpg?raw=true)
 
-Где и как хранить, каждый решает сам. Нет готовых стандартов:
+There is no silver bullet how to organize that:
 
 * Google Docs
 * Trello / Jira / Your track
@@ -96,43 +96,43 @@ Answers are not static. Time flies and answers can be changed. It is crucial to 
 * Miro
 * Obsidian
 
-У меня изначально была связка Trello + Google Docs. В итоге пришёл к Obsidian + Git.
+Originally I used Trello + Google Docs. Nowadays, I have been using Obsidian + Git.
 
 ## Abstracts
 
 ![Abstracts](assets/hms_abstracts.jpg?raw=true)
 
-На данном этапе задача сводится к тому, чтобы из той кучи сырых заметок вычленить главные тезисы. Они понадобятся для разного:
+At this stage you should grab the gist from your notes and prepare good abstracts from it. They will be required a bit later for:
 
-* Подача в оргкомитет
-* Понять, о чём рассказывать
-* Валидировать идеи
+* Call for papers.
+* Understand your guiding line.
+* Validate your idea.
 
-Согласитесь, то, что на картинке выше, выглядит криво и замороченно, но это была подготовка к первой серьёзной конференции, и делал как мог. В следующей главе будет лучше, кстати. Ныне я так не заморачиваюсь. Накидал несколько тезисов/названий слайдов и хватит.
+You shall agree that mind map looks a bit ugly and unstructured. It was one preparation for the first big conference. I did my best. The idea is that it should not be perfect at this stage. Moreover, nowadays I do not create mind maps. I just write down thesis and that is it.
 
 ## Scenario
 
 ![Scenario](assets/hms_scenario.jpg?raw=true)
 
-Готовим историю. Тут всё просто, так как основная работа была ранее сделана, и нам остается пройти по алгоритму:
+At this stage abstracts are transforming to the fully completed story. Hopefully, the vast majority of work has been done previously. One just follow the algorithm:
 
-* **State** — делаем утверждение. Зачастую это один из тезисов из предыдущей главы.
-* **Explain** — подбираем слова, чтобы донести до слушателя/читателя, в чём суть нашего тезиса, может привести аналогию или пример (привет фактура с сырыми заметками).
-* **Prove** — рыщем в фактуре, подбираем результаты тестов, историю из жизни. Что-то, что убедит аудиторию в тезисе.
-* **Conclude** — делаем вывод из пруфов. Как правило, совпадает с утверждением, но не обязательно.
+* **State it** — Just select one theses from the previous stage.
+* **Explain it** — Find right words to simply eplain your statement. Share an example. Check your factura one more time maybe you have something.
+* **Prove it** — The concrete facts, proves, benchmarks, stories from real life are required.
+* **Conclude it** — Usually you just repeat the initial statement, however, it is not obligatory.
 
-В качестве пруфа для этого утверждения привожу ссылку на расшифровку выступления [Что я узнал, протестировав 200 000 строк инфраструктурного кода](https://www.goncharov.xyz/it/200k-iac-ru.html) и предлагаю поискать матчинг между схемой для выступления и выступлением.
+As the prove I provide link to my speech [Lessons learned from testing Over 200,000 lines of Infrastructure Code](https://www.goncharov.xyz/it/200k-iac-en.html) and propose to compare it withe roadmap.
 
 ## Requisites
 
 ![Requisites](assets/hms_requisites.jpg?raw=true)
 
-Готовим слайды на раз-два:
+Prepare slides as easy as pie:
 
-* 💬 **Empty slides & headers** — берём тезисы и делаем их заголовками для слайдов.
-* 💩 **Put some raw data** — уже готовые пруфы с предыдущего шага накидываем на слайд как есть.
-* 📝 **Create content** — сделать красивости можно попробовать делегировать, если есть кому. Но, как правило, самому.
-* © **Copyright** — это важно, но лучше делегировать.
+* 💬 **Empty slides & headers** — Create headers for empty slides from thesis.
+* 💩 **Put some raw data** — Copy proves from the previous step as is.
+* 📝 **Create content** — Make something beatifull and readable. Delegate if you can.
+* © **Copyright** — Important but not blocker, Delegate if you can.
 
 ### Create content
 
@@ -143,118 +143,117 @@ Answers are not static. Time flies and answers can be changed. It is crucial to 
 
 #### Extend the speech via slides
 
-Так что же должно быть на слайдах? Есть прекрасная презентация [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint) — рекомендую к изучению.
+What should be presented on the slides? I recomend to go through [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint).
 
 ##### Text on slides
 
 ![Bad](assets/hms_text_bad.jpg?raw=true)
 
-Слайды с кучей мелкого текста смотрятся ужасно по многим причинам:
+Slides with enormous amount of text are not participant friendly:
 
-* Люди читают быстрее, чем вы говорите.
-* Люди не могут и слушать, и читать одновременно (анимэшники молчать!).
+* People read faster then you talk.
+* People can not read read and listen simolteneously.
 
-Такое решение работает только как раздатка, но вы же не будете делать два варианта слайдов, правда?
+However, there are some important notes:
+
+* It can make sense as a printed out materials after meetings.
+* For non-native listeners and speakers will be much more easier to be in the same page.
 
 ![Good](assets/hms_text_good.jpg?raw=true)
 
-Основные задачи слайда:
+The main goals of slides are:
 
-* Быть дополнением вашей речи.
-* Визуализировать смыслы.
-* Быть путеводной картой.
+* Extend your speech.
+* Visualize ideas.
+* Be the roadmap.
 
-Я обычно делаю так:
+My algorithm:
 
-* Выбираю первую попавшуюся картинку на [flaticon.com](https://www.flaticon.com/)
-* Возможно комбинирую несколько
-* Спустя какое-то время мб вернусь и заменю
-
-Из бонусов — это копирайты: их достаточно указать на самом последнем слайде, и его даже можно не показывать (если ничего в условиях использования сервисом не поменялось).
+* Select the first relevant picture at [flaticon.com](https://www.flaticon.com/). I do not spent more 5 mins for that.
+* It is totally fine to combine different images together.
+* Maybe later I will replace it later.
 
 ##### Screenshots
 
-Фото и скриншоты желательно подрезать/растягивать на весь слайд и не оставлять белых полей, так смотрится целостней.
+Fotos and screenshots look better if they are fitted to the slide size without white margins.
 
 ![Screenshots 1](assets/hms_screenshots_1.jpg?raw=true)
 
-Нормально заходят скриншоты известных тулов, чтобы человек быстро погрузился в контекст. Опционально можно подсветить лупой важный элемент.
+It is ok to make screenshots of well know tools / web sites because participants will be in the context. Optionally you can emphasize something with arrows or a magnifying glass.
 
 ![Screenshots 2](assets/hms_screenshots_2.jpg?raw=true)
 
-А вот скриншоты неизвестных программ плохо — человек теряется. Вот многие из вас работали с [galaxy.ansible.com](https://galaxy.ansible.com)?
+If you present screenshots of barely known programs / web sites then you can lost the audience. For example are you familiar with [galaxy.ansible.com](https://galaxy.ansible.com) on the screen?
 
 ##### Text on screenshots
 
 ![Screenshots 3](assets/hms_screenshots_3.jpg?raw=true)
 
-Текст без подложки трудно читаем.
+Text without underlying print can be hard to read.
 
 ![Screenshots 4](assets/hms_screenshots_4.jpg?raw=true)
 
-Если же её подкрасить, то сразу более читаемо.
+If you colorize it then you can increase readability.
 
 #### Code
 
 ![Code](assets/hms_code.jpg?raw=true)
 
-Много кода не читаемо, так как человеку надо загрузить его в голову. Поэтому убираем всё лишнее:
+Huge amount of code is not readable. People should load into the mind, understand the context. So, the solution is to cut down all not important pats. The peace of code can be un compiliable but it must share the gist. To sum up:
 
-* Подсветку синтаксиса.
-* Нумерацию строк.
-* Пишем псевдокод.
-* Убираем ненужный синтаксический сахар.
+* Disable syntax highlight.
+* Remove string numbers.
+* Write pseudo code.
+* Drop syntax sugar.
 
-Как надо:
+Good:
 
-* На слайде пара-тройка строк кода, и они показывают самую суть.
-* Моноширинный шрифт
-* Шрифт максимально большой, чтобы с последнего ряда было видно
-* Если очень сильно хочется, то можно подсветить что-то одно конкретное на слайде другим цветом.
+* There are 3-10 lines of code.
+* Monowidth font
+* The maximum size of the font
+* If it is really required you can highlight the important words / strings.
 
 #### Roadmap
 
 ![roadmap](assets/hms_roadmap_partial.jpg?raw=true)
 
-Хорошо себя показывают дорожные карты, они выступают напоминалкой, где мы, как долго ещё и склеивают части рассказа между собой.
+Road maps are really cool way to be on the same page with the audience. Also, it helps to glue dferent parts of your story together.
 
 #### 5±2
 
-Есть [Магическое число семь плюс-минус два](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE_%D1%81%D0%B5%D0%BC%D1%8C_%D0%BF%D0%BB%D1%8E%D1%81-%D0%BC%D0%B8%D0%BD%D1%83%D1%81_%D0%B4%D0%B2%D0%B0) — человек не может удержать в голове слишком много, поэтому:
+There is [The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) — the one can not keep to much in the head, so:
 
-1. Списки — наш друг.
-2. На каждый слайд добавляем по 1, максимум 2 новых элемента. Их можно подсветить.
-3. В целом не надо стараться больше 7 идей донести, а лучше 4.
+1. Lists are our friends. The key benefit is that they are simple.
+2. Tne only one new thing / idea must be introduced at each slide. It is ok to highlight it with another color.
+3. One should not present more than 4-5 ideas at the speech.
 
 ### Presentation as Code
 
-Немного технической стороны вопроса, это не обязательно, но не могу не поделиться.
+In the past I used to use PowerPoint for presentations. There are some problem with it:
 
-Изначально я делал всё в PowerPoint и страдал:
+* Versioning.
+* There is no coloborative mode.
+* I have to convert my notes from Markdown to pptx somehow.
+* Immense file size.
 
-* Версионировать это ад.
-* Нет совместного редактирования.
-* Формат отличается от Markdown, в котором все мои заметки.
-* Объемные файлы.
+It looks like there is pretty cool replacement of powerpoint which allows to have **Presentation as Code**.
 
-В данный момент перехожу на подход **Presentation as Code**.
+1. Create a presentation in markdown syntax [marpit.marp.app](https://marpit.marp.app/markdown).
+2. Draw images via draw.io app in svg format
+3. Store it in git
+4. Export presentation as a pdf
 
-1. Создаю презентацию в синтаксисе Markdown: [marpit.marp.app](https://marpit.marp.app/markdown).
-2. Рисую изображения через приложение draw.io в формате SVG.
-3. Храню всё в Git.
-4. Экспортирую презентацию в PDF.
-
-Интеграция с VS Code:
+also it can be easily integrated with vscode
 
 * [marp-team.marp-vscode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 * [hediet.vscode-drawio](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
-У решения есть минусы:
+There are some downsides:
 
-* Выше порог входа.
-* Нет режима презентера с подсказками.
+* The entry level is much more higher.
+* There is no presenter mode.
 
-Пример куска презентации:
+*Slides sources example:*
 
 ```md
 ---
@@ -296,106 +295,106 @@ xx.xx.2023
 
 ## Show
 
-Есть разные форматы мероприятий, но в общих чертах это:
+There are some common type of events:
 
-* **Corporate events** — безопасная площадка для валидации идеи.
-* **Meetups** — хорошее место накинуть на вентилятор в поисках решения проблемы. Можно валидировать материалы перед конференциями.
-* **Conferences** — [есть разница между международными и СНГ](https://habr.com/en/articles/487432/), но как правило сюда сложнее попасть, поэтому опишу, как выглядит в среднем процесс.
+* **Corporate events** — very safe place to validate your ideas.
+* **Meetups** — good place for hooly wars. Also it make sense to make dry run before a conference.
+* **Conferences** — it is not that easy to reach them, so I would like to describe the algorithm.
 
 ### Interaction with organizers
 
 #### 0. Apply
 
-Ищем площадку, готовим тезисы и подаемся. Иногда есть готовые порталы, иногда нужно писать на почту. Стандартного нет. Полезно приложить ссылки на другие выступления, если есть, чтобы организаторы могли оценить уровень.
+Just search for an interesting conference, prepare abstracts and apply. Sometimes, there is the web portal for apply. Sometimes, it is enough to send emails to the org team. There is no uniq way. It make sense to attach links to you speeches if you have it.
 
 #### 1. Initial call
 
-Крупные площадки могут захотеть созвониться, а может и переписки хватит.
+Usually big conference's org team plans warm up call. However, it might be enough to have the email conversation.
 
 #### 2. Demo
 
-Это редкий зверь, у меня ни разу не было, но люди говорят, встречается в природе.
+It is quite rare, I had the only 2 times for 100 speeches.
 
 #### 3. Accept
 
-В какой-то момент оргкомитет принимает решение брать или нет в программу. На серьёзных площадках прикрепляют ментора, который ведет человека до выступления.
+At some point of time or team decides to put or not to put your the speech in the program. The mentor can be assigned to you to prepare the speech.
 
 #### 4. Dry-run
 
 ![Dry-run](assets/hms_dryrun.jpg?raw=true)
 
-Это активная фаза подготовки, материал обкатывается/тестируется на аудитории. Фидбэк тщательно собирается, структурируется и рефлексируется.
+It is the hot phase. The speech should be validate & tested in front the audience. The feedback must be collected, proceed & reflexed.
 
 #### 5. Show
 
-Есть небольшая разница между офлайн и онлайн выступлениями, но есть общие советы:
+On the one hande, there is quite huge difference between online & offline, but on the other hand there is something in common
 
-1. Сконвертировать презентацию в PDF.
-2. Разослать всем причастным:
-    * Организаторам.
-    * Положить на флэшку.
-    * Выложить в публичный доступ.
-3. Взять стакан воды или бутылку с водой.
+1. Convert your presentation to the PDF.
+2. The presentation should be:
+    * Sent org-team.
+    * Uploaded to a usb stick.
+    * Shared in the internet.
+3. Get bottle of water.
 
-Как-то был прекрасный опыт:
+In the past I had awkward experience:
 
-* За 5 минут до презентации узнал, что не та версия на ноутбуке организаторов.
-* За 2 минуты до узнал, что в Dropbox и на флэшке лежит не та версия, помогло то, что на сайт выложил PDF.
-* Во время выступления отказал экран презентера, и рассказывал по памяти.
+* 5 mins before the speech I realized that the org team uploaded the wrong version to the laptop.
+* 2 mins before the speech, I realized that the old version was uploaded to my usb stick. Hopefully, I downloaded the right version from my website.
+* During the speech presenter's display dead.
 
 ##### Offline
 
 ![Offline](assets/hms_offline.jpg?raw=true)
 
-Кстати, про экран презентера, на больших эвентах у вас может быть такое:
+BTW, there some notes about presenter's display. At big conferences you might also find:
 
-1. Беспроводной микрофон, возможно петличка.
-2. Почти всегда есть кликер.
-3. В ногах часы с таймером обратного отсчета.
-4. В ногах или перед глазами дублирующий монитор с тем, что видят зрители.
+1. Wireless mice to have free hands.
+2. Clicker for changing slides.
+3. Clocks somewhere in the bottom.
+4. Display in the mirror mode in front of you.
 
-А может этого всего и не быть, если мероприятие попроще. Обычно я с собой вожу:
+However, it is possible to make a speech without all those extensions. Usually I bring:
 
-* Переходники Type-C -> VGA, VGA -> HDMI, HDMI -> VGA и всякое такое разное.
-* Флэшка, зарядка, ноутбук.
-* Вместо кликера использую мышку или мини беспроводную клавиатуру.
+* Type-C -> VGA, VGA -> HDMI, HDMI -> VGA and other adapters.
+* Usb stick, chargers, laptop.
+* Use mouse or mini keyboard as a cliecker.
 
-Но это всё баловство. Из лайфхаков:
+Let me also share some useful life hacks:
 
-* Прийти чуть заранее в место проведения и побродить. Как бы "пометить" и освоиться.
-* Во время выступления можно "выбрать жертву" и как бы рассказывать историю конкретному человеку, смотреть его реакцию.
-* Не надо читать, представьте, что вы с другом в баре рассказываете захватывающую историю (но без перегибов).
-* Если забудете что-то — не страшно.
+* Come 10-30 mins before the speech in the audiences and walk around.
+* During the speech you can "select somebody" in the audience and track the feedback.
+* Do not read, just imagine that you are in a bar with you workmate and you are sharing a funny story.
+* If you forget something it is not the end of the world. Show must go on.
 
 #### Online
 
 ![Online](assets/hms_online.jpg?raw=true)
 
-Основная проблема online — это беспроводные технологии и канал. Поэтому:
+The biggest headache of online events are wireless technologies, so:
 
-1. Подключаем интернет проводом и держим запасной вариант связи.
-2. Используем проводную гарнитуру.
-3. Заранее проверяем задний фон.
-4. Искусственное освещение лучше дневного, так как зашло солнце — освещение поехало.
+1. Connect to internet by landline or wire.
+2. Use wired headset.
+3. Check background.
+4. Aritificial lights are better than natural because they are predictable.
 
-Но еще большая проблема — это сложность обратной связи в режиме реального времени; аудитория не чувствуется. Тут у меня только предложение просить людей кидать эмоджи, чтобы хоть как-то оценить, что с аудиторией.
+The most intrigue challenge is the realtime feedback from the audience. It is really hard to feel the audience. Usually I ask to share some emojies.
 
 ## Results
 
 ![Results](assets/hms_results.jpg?raw=true)
 
-Как ни странно, но выступление не заканчивается после выступления. Подумайте сами: вы уже структурировали материал, наклепали мемасиков — остается только написать текст, который и так знаете наизусть.
+The fun fact is that the speech does not end after the last slide. Just think a little bit: you've already put things in order, prepared the materials, created the memes, learned the text by heart. There is the only one missing thing: transcribe speech to text. It is as easy as pie.
 
 ### Landing
 
 ![Landing](assets/hms_landing.jpg?raw=true)
 
-Последний слайд выступления обычно самый фотографируемый. Поэтому на него выношу:
+The last slide is the most valuable. Usually participants take the picture of it. It would be nice to put on the last slide:
 
-1. Основную идею / roadmap выступления.
-2. Контакты, ссылку на **лэндинг**.
+1. The main idea / roadmap .
+2. Contacts, the link to your **landing page**.
 
-Где хостить **лэндинг**?
+Were can I host my **landing page**?
 
 * [habr.com](https://habr.com)
 * [reddit.com](https://reddit.com)
@@ -403,69 +402,62 @@ xx.xx.2023
 * [medium.com](https://medium.com)
 * [pages.github.com](https://pages.github.com)
 
-Основная проблема здесь в том, что ссылка на лэндинг нужна в момент выступления, а расшифровка будет когда-то потом (про образ этого выступления я делал почти 5 лет назад, и вот только дошли руки напечатать...).
+The main problem here is that the lunk must exist during the speech, but the transcription can be done 2 year later. In that case I really advise to:
 
-Поэтому у меня такая связка:
+1. Use GitHub Pages.
+2. Buy domain for approx 2€.
+3. As a benefit you can have useful email address and collect feedback via google analitcs.
 
-1. GitHub Pages — там в Markdown пишу посты всякие.
-2. Купил домен за 2€.
-3. Взял публичный бесплатный почтовый сервис.
-4. Прикрутил Google Analytics.
+I.e. [www.goncharov.xyz](https://www.goncharov.xyz) is hosted as [github.com/ultral/ultral.github.io](https://github.com/ultral/ultral.github.io). Also it is reachable via [github.com/ultral/ultral.github.io/blob/master/README.md](https://github.com/ultral/ultral.github.io/blob/master/README.md):
 
-То есть [www.goncharov.xyz](https://www.goncharov.xyz) хостится на [github.com/ultral/ultral.github.io](https://github.com/ultral/ultral.github.io) . Его также можно посмотреть через [github.com/ultral/ultral.github.io/blob/master/README.md](https://github.com/ultral/ultral.github.io/blob/master/README.md), и оно автоматически публикуется. Сплошные плюсы:
+The situation is win-win:
 
-1. Есть прикольная почта.
-2. Когда делаю презентацию, сразу делаю лэндинг на последней странице (последний слайд самый фотографируемый, не считая мемов) и перевожу аудиторию в онлайн. А так как есть Google Analytics, видно, сколько народу пришло.
-3. После спича выкладываю расшифровку на лэндинг.
-
-Получается win-win:
-
-* **У меня** — понимание качества материала и возможность его улучшения.
-* **У слушателей** — возможность уточнить упущенные моменты.
-* **У пользователей интернета** — прочитать то, куда они не ходили.
+* **I** have feedback and measarable results.
+* **Participants** have ability to re cap missed information.
+* **Internet users** can read without visiting the event.
 
 ### Writing
 
 ![Writing](assets/hms_writing.jpg?raw=true)
 
-Есть неплохой [гайд от Хабра](https://habr.com/ru/docs/companies/design/), как писать, но если кратко:
+There is [quite good guide](https://habr.com/en/docs/companies/design/), how to write a good article. Let me share the gist:
 
-* **Headline** — заголовок очень важен. Потратьте время, поищите продающее название. Можно добавить реальные цифры, чтобы человек примерил на себя.
-* **Related pic** — выбираем лучший мемасик из фактуры, надо зацепить, чтобы не прошли мимо.
-* **Lead** — самый сок, как правило это тезисы, но в интересных формулировках. А формулировки определяются через итеративное собирание обратной связи.
-* **Main part** — собственно текст, ниже разбрем как его готовить.
+* **Headline** is crucial. You have couple of seconds during scrolling to catch the audience. Think twice.
+* **Related pic** is quite similar to the headline. You should catch the audience. So select the best mems from the factura and think twice.
+* **Lead** is the gist from your speech / article. You can use your re phrased abstracts.
+* **Main part** is the easiest part. Let me share the algorithm.
 
 ![Writing](assets/hms_writing_draft_1.jpg?raw=true)
 
-В целом все как со слайдами:
+It is quite similar to the slide preparations
 
-* 💬 **Empty slides & headers** — берем тезисы и делаем их заголовками для слайдов.
-* 💩 **Put some raw data** — уже готовые пруфы с предыдущего шага накидываем на слайд как есть.
-* 📝 **Create content** — сделать красивости можно попробовать делегировать, если есть кому. Но, как правило, самому.
-* © **Copyright** — это важно, но лучше делегировать.
+* 💬 **Empty slides & headers** — Create headers for empty slides from thesis.
+* 💩 **Put some raw data** — Copy proves from the previous step as is.
+* 📝 **Create content** — Make something beatifull and readable. Delegate if you can.
+* © **Copyright** — Important but not blocker, Delegate if you can.
 
-Вначале пишем драфт, он может быть кривым. Это нормально.
+Just start writing draft. It can be ugly & it is totally ok.
 
 ![Writing](assets/hms_writing_draft_2.jpg?raw=true)
 
-На следующий день/неделю/месяц его перечитываем, причесываем и публикуем.
+At the next day / week/ month re read, re phrase, re think and publish.
 
 ### PR
 
-Если хочется заморочиться, то можно постить на разные площадки:
+If you have free time you can promote your article at:
 
 * Instagram / Facebook / LinkedIn / Twitter
 * [reddit.com](https://reddit.com).
 * [news.ycombinator.com](https://news.ycombinator.com).
 * Telegram.
 
-Но по моим наблюдениям, оно в итоге будет проиндексировано и люди будут приходить читать, говорить спасибо.
+From my experience people say *thank you* sooner or later.
 
-## Вместо заключения
+## PS
 
 ![roadmap](assets/hms_roadmap.jpg?raw=true)
 
-Не надо стесняться выступать, не надо накручивать себя и придумывать синдром самозванца. Горшки не боги обжигают, и выступления/писанина такой же скилл. Он помогает привести мысли в порядок и яснее доносить свои идеи.
+Do not be shy. Start writing an speaking. It is a skill like driving or reading.
 
 ## Links
 

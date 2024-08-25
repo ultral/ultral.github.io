@@ -16,22 +16,22 @@ I'd like to share my experience how to interact with housing and utilities servi
 ## Before beginning
 
 1. I created [trello](https://trello.com) dashboard.
-2. I configured trello to collect emails from `blahblah_trello_import@example.com` & create cards from an email. 
+2. I configured trello to collect emails from `blahblah_trello_import@example.com` & create cards from an email.
 3. I synced trello & google calendar.
 
 ## How it looks?
 
-1. There are two ways to create new card: 
-    * Write email to housing and utilities service provider & BCC `blahblah_trello_import@example.com`. 
+1. There are two ways to create new card:
+    * Write email to housing and utilities service provider & BCC `blahblah_trello_import@example.com`.
     * Write complain to [letters.gov.spb.ru](https://letters.gov.spb.ru/) & manually create card via [trello web site](https://trello.com) or mobile app.
-2. I episodically look through trello dashboard & update due date & labels for new cards. 
-3. If I get result or new information then I update status in trello for related card. 
+2. I episodically look through trello dashboard & update due date & labels for new cards.
+3. If I get result or new information then I update status in trello for related card.
 
 ## Workflow
 
 1. TODO - backlog.
 2. Sended - issue was sended to housing and utilities service provider.
-3. WIP - housing and utilities service provider got it. 
+3. WIP - housing and utilities service provider got it.
 4. Supervisory - housing and utilities service provider ignores the issue, it was redirected to related supervisory authorities.
 5. Police - supervisory authorities ignore or overdue the issue, it was redirected to police
 6. DONE - the issue was fixed.
@@ -90,7 +90,7 @@ Links:
 It is web portal which has to contain all information about utility bills, also you can complain on your housing and utilities service provider.
 
 Links:
-* https://my.dom.gosuslugi.ru/citizen-cabinet/#!/appeal/card/create/?isApplicant=true
+* [my.dom.gosuslugi.ru](https://my.dom.gosuslugi.ru/citizen-cabinet/#!/appeal/card/create/?isApplicant=true)
 
 #  Not commercial services
 
@@ -119,7 +119,7 @@ There are a lot of different ways. I'd like to share my experience in that quest
 *cons:*
 * There is no history, it is actual in case of tough, longterm issues.
 * You have to call during working hours only.
-* Your words might be interpreted in a wrong way. 
+* Your words might be interpreted in a wrong way.
 * You can't estimate time in a queue.
 * You have to interrupt somebody.
 * A status of your issue isn't clear, you should call if you want to get an update.
@@ -132,10 +132,10 @@ There are a lot of different ways. I'd like to share my experience in that quest
 
 *cons:*
 * There is no history, it is actual in case of tough, longterm issues. Well, it is, however you don't have access to that.
-* Your words might be interpreted in a wrong way. 
+* Your words might be interpreted in a wrong way.
 * You can't estimate time in a queue.
 * A status of your issue isn't clear, you should call if you want to get an update.
- 
+
 ## Face-to-face visit
 
 *pros:*
@@ -188,7 +188,7 @@ i.e [letters.gov.spb.ru/reception/form](https://letters.gov.spb.ru/reception/for
 * There are a lot of red tapes.
 
 ## Housing and utility provider mobile app
-  
+
 *pros:*
 * It's very user friendly service, take a picture & send. That's all.
 * Yun are able to send issues whenever you want.
