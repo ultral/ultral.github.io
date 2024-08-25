@@ -3,9 +3,9 @@ redirect_from:
     - /hms
     - /life/how-to-make-speech.html
 ---
-# How to make a technical speech and don't go nuts
+# How to Make a Technical Speech and Not Go Nuts
 
-I have made [100 technical speeches](https://www.goncharov.xyz/) in English, Russian, Spanish at international coferences, meetups, podcats etc.. I have created [Infrastructure as Code](https://gitlab.com/t-systems-devops-school/5-IAC) course from scratch, pushed up [DevOps school](https://habr.com/en/companies/deutschetelekomitsolutions/articles/521648/), metored couple of tutors. Believe me or not, however, I have spotted the pattern:
+I have made [100 technical speeches](https://www.goncharov.xyz/) in English, Russian, and Spanish at international conferences, meetups, podcasts, etc. I have created the [Infrastructure as Code](https://gitlab.com/t-systems-devops-school/5-IAC) course from scratch, pushed up [DevOps school](https://habr.com/en/companies/deutschetelekomitsolutions/articles/521648/), and mentored a couple of tutors. Believe it or not, I have spotted a pattern:
 
 ![roadmap](assets/hms_roadmap.jpg?raw=true)
 
@@ -13,63 +13,64 @@ I have made [100 technical speeches](https://www.goncharov.xyz/) in English, Rus
 
 ![why?](assets/hms_why.jpg?raw=true)
 
-Before start, you should have clear answer for question: **why do I need it?**. There are a lot of possible answers & there is no silver bullet. However, it's possible to organize them into something like [Maslow's hierarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs):
+Before starting, you should have a clear answer to the question: **Why do I need it?** There are many possible answers, and there is no silver bullet. However, it's possible to organize them into something like [Maslow's hierarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs):
 
-* **Structurize experience** — one wants to structurize and organize experience.
-* **Knowledge** — one transforms his experience into something bigger, into fundomental knowledge.
-* **HR-brand** — at some point of time, the knowledge and skills are cool enough to push forward HR-brand of the company. Speeches promote companies and i.e. help to stuff people.
-* **Meta** — one becomes devreal or some technologies advocate. One wants to make better wold: ["Do you believe in IaC as your saviour?"](https://www.goncharov.xyz/it/idlc-ru.html).
-There are a lot of other possible answers:
+* **Structurize experience** — You want to structure and organize your experience.
+* **Knowledge** — You transform your experience into something bigger, into fundamental knowledge.
+* **HR-brand** — At some point, your knowledge and skills are cool enough to enhance the HR brand of your company. Speeches promote companies and help with staffing.
+* **Meta** — You become a devrel or a technology advocate. You want to make a better world: ["Do you believe in IaC as your saviour?"](https://www.goncharov.xyz/it/idlc-ru.html).
 
-* One wants to earn more money .
-* The ones teamlead said to make a speech.
-* One desires to visit another city.
+There are many other possible answers:
+
+* You want to earn more money.
+* Your team lead told you to make a speech.
+* You desire to visit another city.
 * ...
 
 ### Test
 
-Answers are not static. Time flies and answers can be changed. It is crucial to reflixate about them for having feedback loop. It allows to improve. Moreover, **Test** idea is applicable for each step on the roadmap:
+Answers are not static. Time flies, and answers can change. It is crucial to reflect on them to create a feedback loop. This allows for improvement. Moreover, the **Test** idea is applicable to each step on the roadmap:
 
 * Have a new idea? Grab a cup of coffee and discuss it with workmates.
-* No sure about materials? It's totally ok to schedule the call with colegues (who also drives speeches).
-* Go to a conference? It makes sense to check local meet up comunities and have dry-run.
+* Not sure about materials? It's totally okay to schedule a call with colleagues (who also give speeches).
+* Going to a conference? It makes sense to check local meetup communities and have a dry run.
 
-## Which topic should I choose?
+## Which Topic Should I Choose?
 
-There are no out the box solutions. However, there are some clues:
+There are no out-of-the-box solutions. However, there are some clues:
 
 ### Good
 
-I almost 100% sure that you will prepare good enough materials for:
+I am almost 100% sure that you will prepare good enough materials for:
 
-* **Problem solving** — Business had problem **А**, we failed with **B** approach, however, **C** provided good enough numbers **D**. Usually, people with same pain/problem will attend your speech. As a result, you will be able to take a look onto your problem from different prespective or help somebody solve the problem.
-* **Practical advises** — Hands on experience is crucial because people should not re-invent the wheel. It can be:
+* **Problem solving** — Business had problem **A**, we failed with approach **B**, however, approach **C** provided good enough numbers **D**. Usually, people with the same pain/problem will attend your speech. As a result, you will be able to look at your problem from a different perspective or help somebody solve the problem.
+* **Practical advice** — Hands-on experience is crucial because people should not reinvent the wheel. It can be:
   * Lessons learned ...
   * Best practices for ...
-* **Digest / Top** — If you compare different technologies / approaches and make some conclusions it can simplify somebody life.
-* **Something painful** — People like ~~learn from~~ listen about somebody else ~~fu**ups~~ findings.
-* **How does it work?** — If you are not FAANG / MANGA when almost nobody likes to listen about kludges your cludges. However, deep dive into the techologies and understanding underlaying foundations.
-* **Technologies around us** — It is quite interesting to read about technologies in real world and on the edge of different areas. But also, it requires deep understanding, broad knowledge and non standard prespective / angle of view.
-* **How-to for a viral topic** — If you catch hype wave you can get quite big audience.
+* **Digest / Top** — If you compare different technologies/approaches and make some conclusions, it can simplify somebody's life.
+* **Something painful** — People like to ~~learn from~~ listen about somebody else's ~~screw-ups~~ findings.
+* **How does it work?** — If you are not FAANG / MANGA, almost nobody likes to listen about your kludges. However, a deep dive into the technologies and understanding the underlying foundations is interesting.
+* **Technologies around us** — It is quite interesting to read about technologies in the real world and on the edge of different areas. But it also requires deep understanding, broad knowledge, and a non-standard perspective/angle of view.
+* **How-to for a viral topic** — If you catch a hype wave, you can get a quite big audience.
 
 ### + / -
 
-Those topics really depends on the material quality and author's expertice, soft-skills. One must be very accurate and pation. If you are beginner or not confident enough then just avoid them
+These topics really depend on the material quality and the author's expertise and soft skills. One must be very accurate and patient. If you are a beginner or not confident enough, then just avoid them:
 
-* **Tutorial** are very needed usually, but it is really hard to create them.
-* **General theory** — It it quite tricky to create not boring speech and have.
-* **Overview of everything** — Story without concrete theme is interested for wide audience with completely different expectations. It will be almost unreal to met all expectations.
+* **Tutorials** are very much needed usually, but it is really hard to create them.
+* **General theory** — It is quite tricky to create an interesting speech that is not boring.
+* **Overview of everything** — A story without a concrete theme is interesting for a wide audience with completely different expectations. It will be almost impossible to meet all expectations.
 
 ### Bad
 
 * **Spam / Advertising** — Nobody likes spam or advertising.
-* **Poor quality** — If it can be googled in 5 minutes it is not the case. Bad mic, internet connection, slides also can lead to bad feedback.
+* **Poor quality** — If it can be googled in 5 minutes, it is not worth presenting. A bad mic, poor internet connection, and bad slides can also lead to bad feedback.
 
 ## Materials
 
 ![Materials](assets/hms_materials.jpg?raw=true)
 
-What can you see at the picture? It is huge unsorted pile of something. It is raw notes about your theme. There are some examples:
+What can you see in the picture? It is a huge unsorted pile of something. It represents raw notes about your theme. Here are some examples:
 
 * Images
 * Links
@@ -78,17 +79,17 @@ What can you see at the picture? It is huge unsorted pile of something. It is ra
 * Memes
 * Code
 * Test results
-* Go live cases
+* Go-live cases
 * Benchmarks
 
-The goal is to store facturas and when it is required you just: find, puy things in order and present
+The goal is to store factual information so that, when needed, you can find, organize, and present it.
 
 ![Trello](assets/hms_trello.jpg?raw=true)
 
-There is no silver bullet how to organize that:
+There is no silver bullet for how to organize this information:
 
 * Google Docs
-* Trello / Jira / Your track
+* Trello / Jira / Your tracker
 * Stickers on the wall
 * Git repo
 * OneNote / Evernote
@@ -96,68 +97,68 @@ There is no silver bullet how to organize that:
 * Miro
 * Obsidian
 
-Originally I used Trello + Google Docs. Nowadays, I have been using Obsidian + Git.
+Originally, I used Trello + Google Docs. Nowadays, I use Obsidian + Git.
 
 ## Abstracts
 
 ![Abstracts](assets/hms_abstracts.jpg?raw=true)
 
-At this stage you should grab the gist from your notes and prepare good abstracts from it. They will be required a bit later for:
+At this stage, you should distill the essence from your notes and prepare good abstracts from it. They will be required later for:
 
-* Call for papers.
-* Understand your guiding line.
-* Validate your idea.
+* Calls for papers.
+* Understanding your guiding line.
+* Validating your idea.
 
-You shall agree that mind map looks a bit ugly and unstructured. It was one preparation for the first big conference. I did my best. The idea is that it should not be perfect at this stage. Moreover, nowadays I do not create mind maps. I just write down thesis and that is it.
+You might agree that mind maps can look a bit ugly and unstructured. The one shown was preparation for my first big conference. I did my best. The idea is that it should not be perfect at this stage. Moreover, nowadays I no longer create mind maps. I just write down theses, and that's it.
 
 ## Scenario
 
 ![Scenario](assets/hms_scenario.jpg?raw=true)
 
-At this stage abstracts are transforming to the fully completed story. Hopefully, the vast majority of work has been done previously. One just follow the algorithm:
+At this stage, abstracts transform into a fully completed story. Hopefully, the vast majority of the work has been done previously. Just follow this algorithm:
 
-* **State it** — Just select one theses from the previous stage.
-* **Explain it** — Find right words to simply eplain your statement. Share an example. Check your factura one more time maybe you have something.
-* **Prove it** — The concrete facts, proves, benchmarks, stories from real life are required.
-* **Conclude it** — Usually you just repeat the initial statement, however, it is not obligatory.
+* **State it** — Select one thesis from the previous stage.
+* **Explain it** — Find the right words to simply explain your statement. Share an example. Check your factual information one more time; maybe you have something relevant.
+* **Prove it** — Concrete facts, proofs, benchmarks, and stories from real life are required.
+* **Conclude it** — Usually, you just repeat the initial statement, but it is not obligatory.
 
-As the prove I provide link to my speech [Lessons learned from testing Over 200,000 lines of Infrastructure Code](https://www.goncharov.xyz/it/200k-iac-en.html) and propose to compare it withe roadmap.
+As proof, I provide a link to my speech [Lessons learned from testing Over 200,000 lines of Infrastructure Code](https://www.goncharov.xyz/it/200k-iac-en.html) and propose comparing it with the roadmap.
 
 ## Requisites
 
 ![Requisites](assets/hms_requisites.jpg?raw=true)
 
-Prepare slides as easy as pie:
+Preparing slides is as easy as pie:
 
-* 💬 **Empty slides & headers** — Create headers for empty slides from thesis.
-* 💩 **Put some raw data** — Copy proves from the previous step as is.
-* 📝 **Create content** — Make something beatifull and readable. Delegate if you can.
-* © **Copyright** — Important but not blocker, Delegate if you can.
+* 💬 **Empty slides & headers** — Create headers for empty slides from theses.
+* 💩 **Put some raw data** — Copy proofs from the previous step as is.
+* 📝 **Create content** — Make something beautiful and readable. Delegate if you can.
+* © **Copyright** — Important but not a blocker. Delegate if you can.
 
-### Create content
+### Create Content
 
-* Extend the speech via slides
-* Use simple code examples
-* Add roadmaps
-* 5±2
+* Extend the speech via slides.
+* Use simple code examples.
+* Add roadmaps.
+* 5±2.
 
-#### Extend the speech via slides
+#### Extend the Speech via Slides
 
-What should be presented on the slides? I recomend to go through [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint).
+What should be presented on the slides? I recommend going through [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint).
 
-##### Text on slides
+##### Text on Slides
 
 ![Bad](assets/hms_text_bad.jpg?raw=true)
 
-Slides with enormous amount of text are not participant friendly:
+Slides with an enormous amount of text are not participant-friendly:
 
-* People read faster then you talk.
-* People can not read read and listen simolteneously.
+* People read faster than you talk.
+* People cannot read and listen simultaneously.
 
 However, there are some important notes:
 
-* It can make sense as a printed out materials after meetings.
-* For non-native listeners and speakers will be much more easier to be in the same page.
+* It can make sense as printed-out material after meetings.
+* For non-native listeners and speakers, it will be much easier to follow along.
 
 ![Good](assets/hms_text_good.jpg?raw=true)
 
@@ -165,27 +166,27 @@ The main goals of slides are:
 
 * Extend your speech.
 * Visualize ideas.
-* Be the roadmap.
+* Serve as the roadmap.
 
 My algorithm:
 
-* Select the first relevant picture at [flaticon.com](https://www.flaticon.com/). I do not spent more 5 mins for that.
+* Select the first relevant picture on [flaticon.com](https://www.flaticon.com/). I do not spend more than 5 minutes on that.
 * It is totally fine to combine different images together.
-* Maybe later I will replace it later.
+* Maybe later I will replace it.
 
 ##### Screenshots
 
-Fotos and screenshots look better if they are fitted to the slide size without white margins.
+Photos and screenshots look better if they are fitted to the slide size without white margins.
 
 ![Screenshots 1](assets/hms_screenshots_1.jpg?raw=true)
 
-It is ok to make screenshots of well know tools / web sites because participants will be in the context. Optionally you can emphasize something with arrows or a magnifying glass.
+It is okay to make screenshots of well-known tools/websites because participants will be in the context. Optionally, you can emphasize something with arrows or a magnifying glass.
 
 ![Screenshots 2](assets/hms_screenshots_2.jpg?raw=true)
 
-If you present screenshots of barely known programs / web sites then you can lost the audience. For example are you familiar with [galaxy.ansible.com](https://galaxy.ansible.com) on the screen?
+If you present screenshots of barely known programs/websites, you might lose the audience. For example, are you familiar with [galaxy.ansible.com](https://galaxy.ansible.com) shown on the screen?
 
-##### Text on screenshots
+##### Text on Screenshots
 
 ![Screenshots 3](assets/hms_screenshots_3.jpg?raw=true)
 
@@ -193,64 +194,64 @@ Text without underlying print can be hard to read.
 
 ![Screenshots 4](assets/hms_screenshots_4.jpg?raw=true)
 
-If you colorize it then you can increase readability.
+If you colorize it, you can increase readability.
 
 #### Code
 
 ![Code](assets/hms_code.jpg?raw=true)
 
-Huge amount of code is not readable. People should load into the mind, understand the context. So, the solution is to cut down all not important pats. The peace of code can be un compiliable but it must share the gist. To sum up:
+A huge amount of code is not readable. People need to load it into their minds and understand the context. The solution is to cut down all unimportant parts. The piece of code might be uncompilable, but it must convey the gist. To sum up:
 
-* Disable syntax highlight.
-* Remove string numbers.
-* Write pseudo code.
+* Disable syntax highlighting.
+* Remove line numbers.
+* Write pseudocode.
 * Drop syntax sugar.
 
 Good:
 
 * There are 3-10 lines of code.
-* Monowidth font
-* The maximum size of the font
-* If it is really required you can highlight the important words / strings.
+* Monospaced font.
+* The maximum size of the font.
+* If it is really required, you can highlight the important words/strings.
 
 #### Roadmap
 
 ![roadmap](assets/hms_roadmap_partial.jpg?raw=true)
 
-Road maps are really cool way to be on the same page with the audience. Also, it helps to glue dferent parts of your story together.
+Roadmaps are a really cool way to stay on the same page with the audience. They also help to glue different parts of your story together.
 
 #### 5±2
 
-There is [The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) — the one can not keep to much in the head, so:
+There is [The Magical Number Seven, Plus or Minus Two](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) — one cannot keep too much in the head, so:
 
 1. Lists are our friends. The key benefit is that they are simple.
-2. Tne only one new thing / idea must be introduced at each slide. It is ok to highlight it with another color.
-3. One should not present more than 4-5 ideas at the speech.
+2. Only one new thing/idea should be introduced on each slide. It is okay to highlight it with another color.
+3. One should not present more than 4-5 ideas in a speech.
 
 ### Presentation as Code
 
-In the past I used to use PowerPoint for presentations. There are some problem with it:
+In the past, I used PowerPoint for presentations. There are some problems with it:
 
 * Versioning.
-* There is no coloborative mode.
+* There is no collaborative mode.
 * I have to convert my notes from Markdown to pptx somehow.
 * Immense file size.
 
-It looks like there is pretty cool replacement of powerpoint which allows to have **Presentation as Code**.
+It looks like there is a pretty cool replacement for PowerPoint that allows having **Presentation as Code**.
 
-1. Create a presentation in markdown syntax [marpit.marp.app](https://marpit.marp.app/markdown).
-2. Draw images via draw.io app in svg format
-3. Store it in git
-4. Export presentation as a pdf
+1. Create a presentation in markdown syntax using [marpit.marp.app](https://marpit.marp.app/markdown).
+2. Draw images via the draw.io app in SVG format.
+3. Store it in git.
+4. Export the presentation as a PDF.
 
-also it can be easily integrated with vscode
+It can also be easily integrated with VSCode:
 
 * [marp-team.marp-vscode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 * [hediet.vscode-drawio](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
 There are some downsides:
 
-* The entry level is much more higher.
+* The entry level is much higher.
 * There is no presenter mode.
 
 *Slides sources example:*
@@ -281,7 +282,7 @@ style: |
 </style>
 <!-- _paginate: skip !-->
 
-## Terraform 4 VmWare in XXX
+## Terraform 4 VMware in XXX
 
 lev@xxxx
 xx.xx.2023
@@ -295,106 +296,106 @@ xx.xx.2023
 
 ## Show
 
-There are some common type of events:
+There are some common types of events:
 
-* **Corporate events** — very safe place to validate your ideas.
-* **Meetups** — good place for hooly wars. Also it make sense to make dry run before a conference.
-* **Conferences** — it is not that easy to reach them, so I would like to describe the algorithm.
+* **Corporate events** — A very safe place to validate your ideas.
+* **Meetups** — A good place for discussions. It makes sense to do a dry run before a conference.
+* **Conferences** — It is not easy to get into these, so I would like to describe the algorithm.
 
-### Interaction with organizers
+### Interaction with Organizers
 
 #### 0. Apply
 
-Just search for an interesting conference, prepare abstracts and apply. Sometimes, there is the web portal for apply. Sometimes, it is enough to send emails to the org team. There is no uniq way. It make sense to attach links to you speeches if you have it.
+Just search for an interesting conference, prepare abstracts, and apply. Sometimes, there is a web portal for applications. Other times, it is enough to send emails to the organizing team. There is no unique way. It makes sense to attach links to your previous speeches if you have them.
 
-#### 1. Initial call
+#### 1. Initial Call
 
-Usually big conference's org team plans warm up call. However, it might be enough to have the email conversation.
+Usually, a big conference's organizing team plans a warm-up call. However, sometimes an email conversation is sufficient.
 
 #### 2. Demo
 
-It is quite rare, I had the only 2 times for 100 speeches.
+This is quite rare. I have only had to do this twice out of 100 speeches.
 
-#### 3. Accept
+#### 3. Acceptance
 
-At some point of time or team decides to put or not to put your the speech in the program. The mentor can be assigned to you to prepare the speech.
+At some point, the organizing team decides whether or not to include your speech in the program. A mentor may be assigned to help you prepare the speech.
 
-#### 4. Dry-run
+#### 4. Dry Run
 
 ![Dry-run](assets/hms_dryrun.jpg?raw=true)
 
-It is the hot phase. The speech should be validate & tested in front the audience. The feedback must be collected, proceed & reflexed.
+This is the crucial phase. The speech should be validated and tested in front of an audience. Feedback must be collected, processed, and reflected upon.
 
 #### 5. Show
 
-On the one hande, there is quite huge difference between online & offline, but on the other hand there is something in common
+On one hand, there is a significant difference between online and offline presentations, but on the other hand, there are some commonalities:
 
-1. Convert your presentation to the PDF.
+1. Convert your presentation to a PDF.
 2. The presentation should be:
-    * Sent org-team.
-    * Uploaded to a usb stick.
-    * Shared in the internet.
-3. Get bottle of water.
+    * Sent to the organizing team.
+    * Uploaded to a USB stick.
+    * Shared on the internet.
+3. Get a bottle of water.
 
-In the past I had awkward experience:
+In the past, I had awkward experiences:
 
-* 5 mins before the speech I realized that the org team uploaded the wrong version to the laptop.
-* 2 mins before the speech, I realized that the old version was uploaded to my usb stick. Hopefully, I downloaded the right version from my website.
-* During the speech presenter's display dead.
+* 5 minutes before the speech, I realized that the organizing team uploaded the wrong version to the laptop.
+* 2 minutes before the speech, I realized that the old version was uploaded to my USB stick. Fortunately, I downloaded the right version from my website.
+* During the speech, the presenter's display went dead.
 
 ##### Offline
 
 ![Offline](assets/hms_offline.jpg?raw=true)
 
-BTW, there some notes about presenter's display. At big conferences you might also find:
+By the way, here are some notes about the presenter's display. At big conferences, you might also find:
 
 1. Wireless mice to have free hands.
-2. Clicker for changing slides.
-3. Clocks somewhere in the bottom.
-4. Display in the mirror mode in front of you.
+2. Clickers for changing slides.
+3. Clocks somewhere at the bottom.
+4. A display in mirror mode in front of you.
 
-However, it is possible to make a speech without all those extensions. Usually I bring:
+However, it is possible to make a speech without all these extensions. Usually, I bring:
 
-* Type-C -> VGA, VGA -> HDMI, HDMI -> VGA and other adapters.
-* Usb stick, chargers, laptop.
-* Use mouse or mini keyboard as a cliecker.
+* Type-C -> VGA, VGA -> HDMI, HDMI -> VGA, and other adapters.
+* USB stick, chargers, laptop.
+* Use a mouse or mini keyboard as a clicker.
 
 Let me also share some useful life hacks:
 
-* Come 10-30 mins before the speech in the audiences and walk around.
-* During the speech you can "select somebody" in the audience and track the feedback.
-* Do not read, just imagine that you are in a bar with you workmate and you are sharing a funny story.
-* If you forget something it is not the end of the world. Show must go on.
+* Come 10-30 minutes before the speech and walk around the audience area.
+* During the speech, you can "select somebody" in the audience and track their feedback.
+* Do not read; just imagine you are in a bar with your workmate and you are sharing a funny story.
+* If you forget something, it is not the end of the world. The show must go on.
 
-#### Online
+##### Online
 
 ![Online](assets/hms_online.jpg?raw=true)
 
-The biggest headache of online events are wireless technologies, so:
+The biggest headache of online events is wireless technologies, so:
 
-1. Connect to internet by landline or wire.
-2. Use wired headset.
-3. Check background.
-4. Aritificial lights are better than natural because they are predictable.
+1. Connect to the internet via a wired connection.
+2. Use a wired headset.
+3. Check your background.
+4. Artificial lights are better than natural because they are predictable.
 
-The most intrigue challenge is the realtime feedback from the audience. It is really hard to feel the audience. Usually I ask to share some emojies.
+The most intriguing challenge is the real-time feedback from the audience. It is really hard to feel the audience. Usually, I ask them to share some emojis.
 
 ## Results
 
 ![Results](assets/hms_results.jpg?raw=true)
 
-The fun fact is that the speech does not end after the last slide. Just think a little bit: you've already put things in order, prepared the materials, created the memes, learned the text by heart. There is the only one missing thing: transcribe speech to text. It is as easy as pie.
+The fun fact is that the speech does not end after the last slide. Just think a little bit: you've already put things in order, prepared the materials, created the memes, and learned the text by heart. The only thing missing is transcribing the speech to text. It is as easy as pie.
 
 ### Landing
 
 ![Landing](assets/hms_landing.jpg?raw=true)
 
-The last slide is the most valuable. Usually participants take the picture of it. It would be nice to put on the last slide:
+The last slide is the most valuable. Usually, participants take a picture of it. It would be nice to put on the last slide:
 
-1. The main idea / roadmap .
-2. Contacts, the link to your **landing page**.
+1. The main idea/roadmap.
+2. Contacts, and the link to your **landing page**.
 
-Were can I host my **landing page**?
+Where can I host my **landing page**?
 
 * [habr.com](https://habr.com)
 * [reddit.com](https://reddit.com)
@@ -402,62 +403,62 @@ Were can I host my **landing page**?
 * [medium.com](https://medium.com)
 * [pages.github.com](https://pages.github.com)
 
-The main problem here is that the lunk must exist during the speech, but the transcription can be done 2 year later. In that case I really advise to:
+The main problem here is that the link must exist during the speech, but the transcription can be done 2 years later. In that case, I really advise:
 
 1. Use GitHub Pages.
-2. Buy domain for approx 2€.
-3. As a benefit you can have useful email address and collect feedback via google analitcs.
+2. Buy a domain for approximately 2€.
+3. As a benefit, you can have a useful email address and collect feedback via Google Analytics.
 
-I.e. [www.goncharov.xyz](https://www.goncharov.xyz) is hosted as [github.com/ultral/ultral.github.io](https://github.com/ultral/ultral.github.io). Also it is reachable via [github.com/ultral/ultral.github.io/blob/master/README.md](https://github.com/ultral/ultral.github.io/blob/master/README.md):
+For example, [www.goncharov.xyz](https://www.goncharov.xyz) is hosted as [github.com/ultral/ultral.github.io](https://github.com/ultral/ultral.github.io). It is also reachable via [github.com/ultral/ultral.github.io/blob/master/README.md](https://github.com/ultral/ultral.github.io/blob/master/README.md):
 
 The situation is win-win:
 
-* **I** have feedback and measarable results.
-* **Participants** have ability to re cap missed information.
-* **Internet users** can read without visiting the event.
+* **I** have feedback and measurable results.
+* **Participants** have the ability to recap missed information.
+* **Internet users** can read without attending the event.
 
 ### Writing
 
 ![Writing](assets/hms_writing.jpg?raw=true)
 
-There is [quite good guide](https://habr.com/en/docs/companies/design/), how to write a good article. Let me share the gist:
+There is a [quite good guide](https://habr.com/en/docs/companies/design/) on how to write a good article. Let me share the gist:
 
-* **Headline** is crucial. You have couple of seconds during scrolling to catch the audience. Think twice.
-* **Related pic** is quite similar to the headline. You should catch the audience. So select the best mems from the factura and think twice.
-* **Lead** is the gist from your speech / article. You can use your re phrased abstracts.
+* **Headline** is crucial. You have a couple of seconds while scrolling to catch the audience's attention. Think twice.
+* **Related pic** is quite similar to the headline. You should catch the audience's attention. So select the best memes from the factual information and think twice.
+* **Lead** is the gist of your speech/article. You can use your rephrased abstracts.
 * **Main part** is the easiest part. Let me share the algorithm.
 
 ![Writing](assets/hms_writing_draft_1.jpg?raw=true)
 
-It is quite similar to the slide preparations
+It is quite similar to slide preparations:
 
-* 💬 **Empty slides & headers** — Create headers for empty slides from thesis.
-* 💩 **Put some raw data** — Copy proves from the previous step as is.
-* 📝 **Create content** — Make something beatifull and readable. Delegate if you can.
-* © **Copyright** — Important but not blocker, Delegate if you can.
+* 💬 **Empty slides & headers** — Create headers for empty slides from theses.
+* 💩 **Put some raw data** — Copy proofs from the previous step as is.
+* 📝 **Create content** — Make something beautiful and readable. Delegate if you can.
+* © **Copyright** — Important but not a blocker. Delegate if you can.
 
-Just start writing draft. It can be ugly & it is totally ok.
+Just start writing a draft. It can be ugly, and that is totally okay.
 
 ![Writing](assets/hms_writing_draft_2.jpg?raw=true)
 
-At the next day / week/ month re read, re phrase, re think and publish.
+On the next day/week/month, reread, rephrase, rethink, and then publish.
 
 ### PR
 
-If you have free time you can promote your article at:
+If you have free time, you can promote your article on:
 
 * Instagram / Facebook / LinkedIn / Twitter
-* [reddit.com](https://reddit.com).
-* [news.ycombinator.com](https://news.ycombinator.com).
-* Telegram.
+* [reddit.com](https://reddit.com)
+* [news.ycombinator.com](https://news.ycombinator.com)
+* Telegram
 
-From my experience people say *thank you* sooner or later.
+From my experience, people will say *thank you* sooner or later.
 
 ## PS
 
 ![roadmap](assets/hms_roadmap.jpg?raw=true)
 
-Do not be shy. Start writing an speaking. It is a skill like driving or reading.
+Do not be shy. Start writing and speaking. It is a skill like driving or reading.
 
 ## Links
 
