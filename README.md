@@ -80,7 +80,7 @@
 | 2019-01-26 | [Arithmometer Felix M review](https://habr.com/en/articles/437454/)                                                            |
 | 2019-01-25 | [Monolith to microservices. Infrastructure point of view](https://habr.com/en/articles/437186/)                                |
 | 2019-01-24 | [About monitoring](https://habr.com/en/articles/437190/)                                                                       |
-| 2019-01-23 | [System call interception in Linux-kernel module](https://habr.com/en/articles/437182/)                                        |
+| 2019-01-23 | [System call interception in Linux-kernel module](it/system-call-interception-in-linux-kernel-module-en.md)                                        |
 | 2019-01-22 | [Test me if you can. Do YML developers Dream of testing ansible?](https://habr.com/en/articles/436960/)                        |
 | 2019-01-21 | [How to test your own OS distribution](https://habr.com/en/articles/436864/)                                                   |
 

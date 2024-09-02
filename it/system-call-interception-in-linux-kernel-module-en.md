@@ -1,3 +1,8 @@
+---
+redirect_from:
+  - /system-call-interception-in-linux-kernel-module.html
+  - /it/system-call-interception-in-linux-kernel-module.html
+---
 # System call interception in Linux-kernel module (kernel 2.6.34.7-61.fc13.x86_64)
 
 ## Preface
@@ -17,9 +22,9 @@ How can we intercept a system call?
 
 ### Syscall table address
 
-IDT (**I**nterrupt **D**escription **T**able) bounds *interrupt handler* & *interruption code*. In protected mode, IDT is an array of descriptors stored in memory. Each processor has a special **IDTR** register. The register consist of IDT physical address and IDT length. The first assumption was to get IDT address from IDTR register and after that calculate syscall tables address. However, the assumption was wrong, because, in that case, we got x32 handler address. 
+IDT (**I**nterrupt **D**escription **T**able) bounds *interrupt handler* & *interruption code*. In protected mode, IDT is an array of descriptors stored in memory. Each processor has a special **IDTR** register. The register consist of IDT physical address and IDT length. The first assumption was to get IDT address from IDTR register and after that calculate syscall tables address. However, the assumption was wrong, because, in that case, we got x32 handler address.
 
-The second assumption was more interesting. Before continue, I'd like to Describe MSR (**M**odel-**S**pecific **R**egister). A MSR is any of various control registers in the x86 instruction set used for debugging, program execution tracing, computer performance monitoring, and toggling certain CPU features. Let's talk about  `MSR_LSTAR` — `0xc0000082` (long mode SYSCALL target). You can get full list at `/usr/include/asm/msr-index.h`.  
+The second assumption was more interesting. Before continue, I'd like to Describe MSR (**M**odel-**S**pecific **R**egister). A MSR is any of various control registers in the x86 instruction set used for debugging, program execution tracing, computer performance monitoring, and toggling certain CPU features. Let's talk about  `MSR_LSTAR` — `0xc0000082` (long mode SYSCALL target). You can get full list at `/usr/include/asm/msr-index.h`.
 
 The `MSR_LSTAR` stores system call entry for x86-64 architecture. You can get the address:
 
@@ -29,7 +34,7 @@ asm volatile("rdmsr" : "=a" (lo), "=d" (hi) : "c" (MSR_LSTAR));
 system_call = (void*)(((long)hi<<32) | lo);
 ```
 
-Let's go further. I had got the address & was searching `\xff\x14\xc5`. `\xff\x14\xc5` is a magic numbers. If you look through kernel 2.6.34.7-61.fc13.x86_64 code, especially, function `system_call`, you will find out that the next 4 bytes are syscall_table address. 
+Let's go further. I had got the address & was searching `\xff\x14\xc5`. `\xff\x14\xc5` is a magic numbers. If you look through kernel 2.6.34.7-61.fc13.x86_64 code, especially, function `system_call`, you will find out that the next 4 bytes are syscall_table address.
 
 We knew the syscall table address, it meant that we could get a syscall handler address & replace/intercept it.
 
