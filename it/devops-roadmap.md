@@ -14,7 +14,7 @@
 * The DevOps Adoption Playbook: A Guide to Adopting DevOps in a Multi-Speed IT Enterprise
 * Operations Anti-Patterns, DevOps Solutions
 
-#### Intro: Web
+#### Intro: articles
 
 * [DevOps Roadmap №1](https://roadmap.sh/devops)
 * [DevOps Roadmap №2](https://github.com/milanm/DevOps-Roadmap)
@@ -25,9 +25,13 @@
 * [Scaled Agile Framework SAFe 6.0 Framework](https://scaledagileframework.com/)
 * [Apply agile practices to manage your work](https://university.atlassian.com/student/path/1113130-apply-agile-practices-to-manage-your-work)
 
+#### Intro: Courses
+
+* [SRE](https://www.coursera.org/learn/site-reliability-engineering-slos/home/welcome)
+
 #### Intro: Videos
 
-* [What is SRE | Tasks and Responsibilities of an SRE | SRE vs DevOps](https://www.youtube.com/watch?v=OnK4IKgLl24)
+* [What is SRE - Tasks and Responsibilities of an SRE - SRE vs DevOps](https://www.youtube.com/watch?v=OnK4IKgLl24)
 * [Cloud Engineer vs DevOps Engineer - Differences and Overlaps of tasks and responsibilities](https://www.youtube.com/watch?v=N1-mhvUghb0)
 * [What is Platform Engineering and how it fits into DevOps and Cloud world](https://www.youtube.com/watch?v=ghzsBm8vOms)
 
@@ -104,9 +108,30 @@
 * [Tuesday Tech Tip - The State of Copy-On-Write File Systems](https://www.youtube.com/watch?v=Vg8Tq-uHX_c)
 * [Performance Test (Btrfs, ext4, f2fs and xfs) on Linux](https://www.youtube.com/watch?v=_fkxBD2L61c)
 * [Linux Crash Course - The lsof Command](https://www.youtube.com/watch?v=n9nZ1ellaV0)
-* [Demystifying the Top Command in Linux | Linux Crash Course Series](https://www.youtube.com/watch?v=WsR11EGF9PA)
+* [Demystifying the Top Command in Linux - Linux Crash Course Series](https://www.youtube.com/watch?v=WsR11EGF9PA)
 * [3 Important Tweaks for Improving OpenSSH Security on Your Cloud Instance](https://www.youtube.com/watch?v=xVW1fGRlRkE&list=PLT98CRl2KxKHVD7tCyn8heKS-RJdnlbHg&index=3)
 * [5 Must Have Tweaks to Secure OpenSSH](https://www.youtube.com/watch?v=sBrAVQumqjs&list=PLT98CRl2KxKHVD7tCyn8heKS-RJdnlbHg&index=7)
 * [5 Easy Tweaks to increase your Linux Server's Security](https://www.youtube.com/watch?v=OVsMaXQkktQ&list=PLT98CRl2KxKHVD7tCyn8heKS-RJdnlbHg&index=5)
 * [you need to learn BASH Scripting RIGHT NOW!! // EP 1](https://www.youtube.com/watch?v=SPwyp2NG-bE&list=PLIhvC56v63IKioClkSNDjW7iz-6TFvLwS&index=2)
 * [BASH scripting will change your life](https://www.youtube.com/watch?v=7qd5sqazD7k)
+
+### Soft-skills
+
+#### Soft-skills: courses
+
+* [Science of excersice](https://www.coursera.org/learn/science-exercise)
+* [How to learn](https://www.coursera.org/learn/learning-how-to-learn)
+
+### Development
+
+#### Development: courses
+
+* [Programming languages](https://www.coursera.org/learn/programming-languages)
+* [Algorithms part 1](https://www.coursera.org/learn/algorithms-part1) & [part 2](https://www.coursera.org/learn/algorithms-part2)
+* [Competitive programming core skills](https://www.coursera.org/learn/competitive-programming-core-skills)
+* [Build a computer](https://www.coursera.org/learn/build-a-computer)
+* [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0)
+* [Computer science](https://www.coursera.org/degrees/bachelor-of-science-computer-science-london)
+* [Programming in python](https://www.coursera.org/specializations/programming-in-python)
+* [Google IT automation](https://www.coursera.org/professional-certificates/google-it-automation)
+* [Programming with Google Go Specialization](https://www.coursera.org/specializations/google-golang)
