@@ -46,7 +46,7 @@
 
 #### Network: courses
 
-* [FREE CCNA 200-301 | complete course 2023](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
+* [FREE CCNA 200-301 - complete course 2023](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
 #### Network: articles
 
