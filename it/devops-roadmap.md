@@ -17,6 +17,10 @@
 #### Intro: courses
 
 * [SRE](https://www.coursera.org/learn/site-reliability-engineering-slos/home/welcome)
+* [IBM Applied DevOps Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-applied-devops-engineering)
+* [Information Technology (IT) and Cloud Fundamentals Specialization](https://www.coursera.org/specializations/it-cloud-fundamentals)
+* [DevOps Mastery Specialization](https://www.coursera.org/specializations/devops-mastery)
+* [DevOps Complete Course Specialization](https://www.coursera.org/specializations/packt-devops-complete-course)
 
 #### Intro: articles
 
@@ -29,8 +33,6 @@
 * [Live the DevOps Dream!](https://devops.games/)
 * [Scaled Agile Framework SAFe 6.0 Framework](https://scaledagileframework.com/)
 * [Apply agile practices to manage your work](https://university.atlassian.com/student/path/1113130-apply-agile-practices-to-manage-your-work)
-
-
 
 #### Intro: videos
 
@@ -257,6 +259,7 @@
 * [Agreements as Code: how to refactor IaC and save your sanity?](https://www.goncharov.xyz/it/aac-en.html)
 * [How to test Ansible and don’t go nuts](https://www.goncharov.xyz/it/ansible-testing-en.html)
 * [Lessons learned from testing Over 200,000 lines of Infrastructure Code](https://www.goncharov.xyz/it/200k-iac-en.html)
+* [A list of awesome IaC testing articles, speeches & links. ](https://github.com/ultral/awesome-iac-testing)
 * [Ansible: CoreOS to CentOS, 18 months long journey](https://www.goncharov.xyz/it/coreos2centos-en.html)
 * [20 Terraform Best Practices to Improve your TF workflow](https://spacelift.io/blog/terraform-best-practices)
 * [Terraform tips & tricks: loops, if-statements, and gotchas](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9)
