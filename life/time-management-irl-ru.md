@@ -5,6 +5,8 @@ redirect_from:
 ---
 # тайм менеджмент в домашних условиях
 
+*Date: 2019-01-30*
+
 [English version](time-management-irl-en.md) & [слайды с выступления 2018-08-19](https://cloud.mail.ru/public/BsRX/gJfQUEuEm)
 
 * Выкинуть все из головы

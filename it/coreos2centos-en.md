@@ -6,7 +6,9 @@ redirect_from:
 # Ansible: CoreOS to CentOS, 18 months long journey
 
 ![intro](assets/c2a_map.png?raw=true "intro")
+
 *Date: 2020-05-04*
+
 * [Russian Version](coreos2centos-ru.md)
 
 It is a text version of my speech at [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) and [SPbLUG 2019-09-25](http://spblug.org/) [slides](https://cloud.mail.ru/public/UDCZ/WM4Y9Qv3j).

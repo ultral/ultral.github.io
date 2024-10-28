@@ -7,7 +7,9 @@ redirect_from:
 # How to test Ansible and don't go nuts
 
 ![Ansible refactoring](assets/at_intro.png?raw=true "Ansible refactoring")
+
 *Date: 2020-05-03*
+
 It is the translation of my [speech](https://www.youtube.com/watch?v=GdrJv5oypfg) at [DevOps-40 2020-03-18](https://www.meetup.com/DevOps-40/events/269140089/):
 
 * [Slides](https://cloud.mail.ru/public/266x/3hJ2mQBzf)

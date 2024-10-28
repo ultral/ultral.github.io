@@ -4,7 +4,9 @@ redirect_from: "/coreos2centos"
 # Ansible: Миграция конфигурации 120 VM c Coreos на CentOS за 18 месяцев
 
 ![intro](assets/c2a_map.png?raw=true "intro")
+
 *Date: 2020-05-01*
+
 * [English Version](coreos2centos-en.md)
 
 Это расшифровка выступления на [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) и  [SPbLUG 2019-09-25](http://spblug.org/).

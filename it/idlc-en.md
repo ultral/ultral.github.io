@@ -7,7 +7,9 @@ redirect_from:
 # IaC Development Life Cycle
 
 ![intro](assets/idlc.png?raw=true)
+
 *Date: 2021-11-08*
+
 *It's the translation of my speech at [T-Meetup: DevOps Life Cycle](http://devopsconf.io/2021/dt-meetup).*
 
 I believe that you have heard about [SDLC (Systems development life cycle)](https://en.wikipedia.org/wiki/Systems_development_life_cycle). Is it possible that the same things are applicable for the **IaC**?

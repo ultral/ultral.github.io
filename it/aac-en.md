@@ -7,7 +7,9 @@ redirect_from:
 # Agreements as Code: how to refactor IaC and save your sanity?
 
 ![Agreements As Code](assets/aac_59_aac_en.png?raw=true "Agreements As Code")
+
 *Date: 2020-10-09*
+
 * [Russian Version](aac-ru.md)
 
 It is the translation of my speech [TechLeadConf 2020-06-09](https://techleadconf.ru/2020/abstracts/6772). Before we start, I'd like to get on the same page with you. So, could you please [answer](https://www.menti.com/96ctmh3mr6)? How much time will it take to:
