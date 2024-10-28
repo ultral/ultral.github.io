@@ -2,6 +2,8 @@
 
 ![intro](assets/distr-intro.png?raw=true)
 
+*Date: 2018-01-09*
+
 Это текстовая версия выступления на [Devopsdays T-systems 2018-03-02](https://www.t-systems.com/) и [Hashicorp meetup 2018-02-08](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/).
 
 * [Russian version](how-to-test-custom-os-distr-en.md)

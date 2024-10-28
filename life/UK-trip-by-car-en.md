@@ -1,9 +1,15 @@
+---
+redirect_from:
+  - /life/UK-trip-by-car-en.html
+  - /UK-trip-by-car-en.html
+---
 # UK trip by car
+
+*Date: 2018-12-14*
 
 A journey Chelyabinsk - London - Chelyabinsk took 12500km. It was an interesting experience. Be careful with your dreams.
 
-* [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
-* [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
+* [Челябинск - Лондон на машине - это реально!](UK-trip-by-car-ru.md)
 
 ## RHCP Chelyabinsk - Saint Petersburg - Ryazan
 
@@ -19,7 +25,7 @@ We check a car, stuck stickers, crammed all our stuff & headed to Saint Petersbu
 
 The first hop from Ryazan to Drezden took 2200km & 31 hours. It was non-stop & non-sleep driving. We were young & decided to buy 2 different beers & compare it at every overnight stop. We were really exhausted after the first hop, however, we went out to the city centre.
 
-The second target was Bruges. It was 900km/9.5hours - as easy as pie. We were astonished to look 180km/h at lanos speedometer, visited Herlen in Netherland & Keln by the way. There were two fails 
+The second target was Bruges. It was 900km/9.5hours - as easy as pie. We were astonished to look 180km/h at lanos speedometer, visited Herlen in Netherland & Keln by the way. There were two fails
 
 * Petrol tank was almost empty, too few cash was in our wallets & automatic petrol station didn’t accept our debit cards.
 * We lost booked hotel address & arrived in Bruges instead of Oostkamp Bruges.

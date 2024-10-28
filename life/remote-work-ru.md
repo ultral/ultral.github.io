@@ -4,7 +4,10 @@ redirect_from:
   - /life/remote-work.html
 ---
 # Уроки выученные за 3 года удаленной работы так, чтобы оставаться в трезвом уме и светлой памяти
+
 ![remote](assets/remote.jpg?raw=true)
+
+*Date: 2020-03-26*
 
 * [english version](remote-work-en.md)
 

@@ -4,6 +4,8 @@ redirect_from:
 ---
 # Что я узнал, протестировав 200 000 строк инфраструктурного кода
 
+*Date: 2019-09-12*
+
 * English version: [Lessons learned from testing Over 200,000 lines of Infrastructure Code](200k-iac-en.md)
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")

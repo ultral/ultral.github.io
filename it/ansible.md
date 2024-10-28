@@ -1,5 +1,7 @@
 # Ansible
 
+*Date: 2018-12-28*
+
 As an ansible follower, I'd like to present the ansible.
 
 First of all, what is it the ansible? Have you ever heard about it? It is open source software for configuration management & applications deployment. It allows automating existing processes.

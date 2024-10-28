@@ -3,6 +3,8 @@ redirect_from: "/make-cm-not-bash.html"
 ---
 # Make configuration management not bash
 
+*Date: 2018-10-05*
+
 [Russian version](make-cm-not-bash-ru.md)
 
 Why do we need configuration management ?

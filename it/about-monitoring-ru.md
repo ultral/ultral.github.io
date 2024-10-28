@@ -6,6 +6,8 @@ redirect_from:
 
 ![intro](assets/monitoring_intro.jpeg?raw=true "intro")
 
+*Date: 2017-10-04*
+
 [English version](about-monitoring-en.md)
 
 Мониторинг работы оборудования и ключевого ПО — это азы системного администрирования. Но все мы постигаем их по-разному. За 10 лет работы в IT моё отношение к мониторингу прошло через три стадии:

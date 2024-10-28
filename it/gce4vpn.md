@@ -5,6 +5,8 @@ redirect_from: "/gce4vpn.html"
 
 ![gce4vpn](assets/gce4vpn-intro.png?raw=true "gce4vpn")
 
+*Date: 2018-09-23*
+
 It is text version of my [presentation](https://cloud.mail.ru/public/MK6G/DgNtrv5x5) at [chaos constructions 2018-08-26](https://chaosconstructions.ru/) & [Hashicorp meetup 2018-08-29](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/). This project was created just for luls:
 
 * [video(RU) from hashicorp meetup](https://www.youtube.com/watch?v=BgOvc3pIJXo).

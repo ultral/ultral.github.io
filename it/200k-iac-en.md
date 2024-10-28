@@ -7,6 +7,8 @@ redirect_from:
 
 ![Infrastructure as Code](assets/200k_iac.png?raw=true "Infrastructure as Code")
 
+*Date: 2019-09-12*
+
 It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W53jMaebVJw)) at [DevopsConf 2019-05-28](http://devopsconf.io/moscow-rit/2019/abstracts/4906). Also I made this speach in English at [DevConf.CZ 2020](https://www.devconf.info/cz/).
 
 **IaC** (Infrastructure as Code) is a modern approach and I believe that infrastructure is code. It means that we should use the same philosophy for infrastructure as for software development. If we are talking that infrastructure is code, then we should reuse  practices from development for infrastructure, i.e. unit testing, pair programming, code review. Please, keep in mind this idea while reading the article.

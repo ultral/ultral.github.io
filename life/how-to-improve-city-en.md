@@ -7,6 +7,8 @@ redirect_from:
 ---
 # How to improve your town and don't go nuts
 
+*Date: 2020-03-26*
+
 [Russian version](how-to-improve-city-ru.md)
 
 I'd like to share my experience how to interact with housing and utilities service provider and be sane.

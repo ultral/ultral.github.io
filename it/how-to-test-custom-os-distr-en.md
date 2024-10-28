@@ -7,6 +7,8 @@ redirect_from:
 
 ![intro](assets/distr-intro.png?raw=true)
 
+*Date: 2019-01-21*
+
 It is text version of speech at [Devopsdays T-systems 2018-03-02](https://www.t-systems.com/) and [Hashicorp meetup 2018-02-08](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/).
 
 * [Russian version](how-to-test-custom-os-distr-en.md)

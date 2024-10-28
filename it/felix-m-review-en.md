@@ -2,6 +2,8 @@
 
 ![felix](assets/felix-intro.jpg?raw=true "felix")
 
+*Date: 2019-01-26*
+
 [Russian version](felix-m-review-ru.md)
 
 I was putting things in order in a garage, when I found an arithmometer Felix M. It is old school iron gadget, there are no electronics inside.

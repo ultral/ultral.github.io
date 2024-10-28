@@ -1,5 +1,7 @@
 # Docker testing
 
+*Date: 2018-12-21*
+
 Sometimes, I should rebuild docker containers, however, I don't know how the container should work. The sentence "The resulting image should behave like the current one" sounds clear, however, it is not a measurable goal.
 From my point of view, we have to write "tests" for our containers. I believe that infrastructure is code & we must use the same philosophy for infrastructure as for software development, i.e, testing
 

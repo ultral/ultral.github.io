@@ -5,6 +5,8 @@ redirect_from:
 ---
 # How to Make a Technical Speech and Not Go Nuts
 
+*Date: 2024-08-25*
+
 I have made [100 technical speeches](https://www.goncharov.xyz/) in English, Russian, and Spanish at international conferences, meetups, podcasts, etc. I have created the [Infrastructure as Code](https://gitlab.com/t-systems-devops-school/5-IAC) course from scratch, pushed up [DevOps school](https://habr.com/en/companies/deutschetelekomitsolutions/articles/521648/), and mentored a couple of tutors. Believe it or not, I have spotted a pattern:
 
 ![roadmap](assets/hms_roadmap.jpg?raw=true)

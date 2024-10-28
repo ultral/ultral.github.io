@@ -1,5 +1,7 @@
 # About outsourcing
 
+*Date: 2018-12-29*
+
 [Russian version](about-it-ru.md)
 
 Have you ever heard about outstaffing / outsourcing? It is "an agreement in which one company hires another company to be responsible for an existing internal activity". Outsourcing is very popular & widespread in IT because usually you don't need a person on-site & there is a difference in salary.
@@ -22,5 +24,5 @@ What does it mean?
 
 Is it possible to increase the salary? yes.
 
-* You are able to work as self-employed contractors, it allows to decrease TAXes from 50% to 6%. 
+* You are able to work as self-employed contractors, it allows to decrease TAXes from 50% to 6%.
 * You can reduce the count of the links in the chain.

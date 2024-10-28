@@ -1,7 +1,7 @@
 # Agreements as Code: как отрефакторить инфраструктуру и не сломаться
 
 ![Agreements As Code](assets/aac_59_aac.png?raw=true "Agreements As Code")
-
+*Date: 2020-10-09*
 * [English Version](aac-en.md)
 
 Здесь расшифровка выступления на [TechLeadConf 2020-06-09](https://techleadconf.ru/2020/abstracts/6772). Прежде чем начнем, попробуйте [ответить](https://www.menti.com/m7kkfm6hwv) для себя на вопрос какие у вас ожидания от взаимодействия с инфраструктурой? Например сколько времени займет:

@@ -1,6 +1,9 @@
 # How to lose weight?
 
+*Date: 2018-12-02*
+
 [Russian version](how-to-lose-weight-ru.md)
+
 I lost 45-50kg. Let me share my story. **Eat less, move more**
 
 ![weight](assets/weight.jpg?raw=true)
@@ -9,7 +12,7 @@ I lost 45-50kg. Let me share my story. **Eat less, move more**
 
 First of all I googled couple of a calorie calculator. I tracked my diet: food weight & calories. I received information about my total daily energy expenditure - how many calories I consumed per day. After that:
 
-1. I slightly decreased my diet. 
+1. I slightly decreased my diet.
 2. I looked at my weight.
 3. Di it decrease? NO - go to step #1.
 4. I found daily balance between my activity & diet.
@@ -57,7 +60,7 @@ X = D + A - C
 ## Conclusion
 
 * **Eat less, move more**.
-* You don't have to know exact count of calories. 
+* You don't have to know exact count of calories.
 * Stress is not allowed.
 * Eat frequently.
 * Keep calm and be patient.

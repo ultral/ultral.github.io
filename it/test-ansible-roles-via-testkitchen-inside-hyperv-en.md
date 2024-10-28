@@ -10,6 +10,8 @@ redirect_from:
 
 ![kitchen-ci schema](assets/kitchen-ci-schema.png?raw=true "kitchen-ci schema")
 
+*Date: 2019-01-22*
+
 It is text version of [presentation 2018-04-25](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) from [Saint-Petersburg Linux User Group](http://spblug.org/).
 
 * [Slides](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)

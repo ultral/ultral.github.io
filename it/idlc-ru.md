@@ -1,7 +1,7 @@
 # IaC Development Life Cycle
 
 ![idlc](assets/idlc.png?raw=true)
-
+*Date: 2021-08-27*
 Осмелюсь предположить, что многие слышали про [SDLC (Systems development life cycle)](https://en.wikipedia.org/wiki/Systems_development_life_cycle). Но что, если все то же самое происходит с IaC?
 
 ## Configuration Management

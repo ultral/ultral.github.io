@@ -1,5 +1,7 @@
 # How to prepare sublime
 
+*Date: 2018-09-21*
+
 It's better [configure VS Code](vscode.md) because sublime plugins for ansible is out of date.
 
 Download [sublime text 3](https://www.sublimetext.com/3)

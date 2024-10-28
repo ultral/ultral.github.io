@@ -4,6 +4,8 @@ redirect_from: "/d2o"
 
 # Let's deploy to Openshift
 
+*Date: 2019-02-27*
+
 It is the transcription of my presentation at [kubernetes SPB meetup #3 (RU) 2019-02-25](https://www.meetup.com/kubernetes-spb/events/258970186/) & [ITGM #14 (ENG) 2019-03-23](https://piter-united.ru/#rec91713889).
 
 * [Video(RU) from k8spb meetup at dell emc 2019-02-25](https://www.youtube.com/watch?v=mrTUo-k_jKg)
@@ -59,7 +61,7 @@ There was no major issue with ansible-container because [Openshift creating imag
 * There is no ability to use chroot, sudo inside Openshift by default, because of security. Just read [CVE-2019-5736](https://seclists.org/oss-sec/2019/q1/119).
 * For security reasons Openshift be default also generate random UID for each container, in other words openshift ignores the USER option from a Dockerfile.
 
-The main point is that ansible-container helped us to create a demo very fast, because of reusing. 
+The main point is that ansible-container helped us to create a demo very fast, because of reusing.
 
 ### Multiple containers demo
 
@@ -68,7 +70,7 @@ The main point is that ansible-container helped us to create a demo very fast, b
 The first demo container was built via ansible-container. It was good enough for the demo, however, we decided not to use it. We split the monolith container into different:
 
 1. We used the original Openshift PostgreSQL container without any modifications.
-2. We built the application stateless container. 
+2. We built the application stateless container.
 
 ![Multiple containers](assets/deploy2openshift-schema-multiple-containers-db-init.png?raw=true "Multiple containers")
 
@@ -94,11 +96,11 @@ We read the documentation again.
 
 > A pod (as in a pod of whales or pea pod) is a group of one or more containers (such as Docker containers), with shared storage/network, and a specification for how to run the containers.
 
-POD is a **group** of the containers. As a result, we decided to run 3 containers in an application POD 
+POD is a **group** of the containers. As a result, we decided to run 3 containers in an application POD
 
 1. Init container for a PostgreSQL initialization.
 2. The application container.
-3. Application initialization container. 
+3. Application initialization container.
 
 This approach allows to store our configuration as a code, there are two interesting results: the application configuration is testable and reproducible.
 

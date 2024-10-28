@@ -15,7 +15,6 @@
 * [Ansible: Coreos to centos, 18 months long journey](it/coreos2centos-en.md)
 * [How-to test your own OS distribution](it/how-to-test-custom-os-distr-en.md)
 * [Openvpn inside kubernetes inside google cloud via terraform](it/gce4vpn.md)
-* [How-to mix kubernetes/k8s, minikube, terraform (RU)](https://habr.com/post/340884/)
 * [System call interception in linux-kernel module](it/system-call-interception-in-linux-kernel-module-en.md)
 * [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv-en.md)
 * [From monolith to microservices](it/monolith-to-microservices.md)
@@ -66,31 +65,29 @@
 
 | date       | Name                                                                                                                           |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------|
+| 2024-08-24 | [How to make a speech and don't go nuts](life/how-to-make-speech-en.md)                                                        |
 | 2021-11-12 | [YAML](https://github.com/tdevopsschool/ansible-course/blob/master/docs/02.md)                                                 |
-| 2021-11-08 | [IaC Development Life Cycle](https://habr.com/en/companies/deutschetelekomitsolutions/articles/587780/)                        |
+| 2021-11-08 | [IaC Development Life Cycle](it/idlc-en.md)                                                                                    |
 | 2020-11-21 | [IaC introduction](https://github.com/tdevopsschool/ansible-course/blob/master/docs/01.md)                                     |
-| 2020-10-09 | [Agreements as Code: how to refactor IaC and save your sanity?](https://habr.com/en/articles/522698/)                          |
-| 2020-05-04 | [Ansible: CoreOS to CentOS, 18 months long journey](https://habr.com/en/articles/500350/)                                      |
-| 2020-05-03 | [How to test Ansible and don't go nuts](https://habr.com/en/articles/500226/)                                                  |
-| 2020-03-28 | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](https://habr.com/en/articles/494556/) |
-| 2019-09-12 | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](https://habr.com/en/articles/467169/)                 |
-| 2019-02-27 | [Let's deploy to Openshift](https://habr.com/en/articles/441906/)                                                              |
-| 2019-01-30 | [Time management in real life](https://habr.com/en/articles/437934/)                                                           |
-| 2019-01-29 | [How to learn English](https://habr.com/en/articles/437928/)                                                                   |
-| 2019-01-26 | [Arithmometer Felix M review](https://habr.com/en/articles/437454/)                                                            |
-| 2019-01-25 | [Monolith to microservices. Infrastructure point of view](https://habr.com/en/articles/437186/)                                |
-| 2019-01-24 | [About monitoring](https://habr.com/en/articles/437190/)                                                                       |
-| 2019-01-23 | [System call interception in Linux-kernel module](it/system-call-interception-in-linux-kernel-module-en.md)                                        |
-| 2019-01-22 | [Test me if you can. Do YML developers Dream of testing ansible?](https://habr.com/en/articles/436960/)                        |
-| 2019-01-21 | [How to test your own OS distribution](https://habr.com/en/articles/436864/)                                                   |
+| 2020-10-09 | [Agreements as Code: how to refactor IaC and save your sanity?](it/aac-en.md)                                                  |
+| 2020-05-04 | [Ansible: CoreOS to CentOS, 18 months long journey](it/coreos2centos-en.md)                                                    |
+| 2020-05-03 | [How to test Ansible and don't go nuts](it/ansible-testing-en.md)                                                              |
+| 2020-03-28 | [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-en.md)               |
+| 2019-09-12 | [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md)                                    |
+| 2019-02-27 | [Let's deploy to Openshift](it/deploy2openshift-en.md)                                                                         |
+| 2019-01-30 | [Time management in real life](life/time-management-irl-en.md)                                                                 |
+| 2019-01-29 | [How to learn English](life/how-to-english-en.md)                                                                              |
+| 2019-01-26 | [Arithmometer Felix M review](it/felix-m-review-en.md)                                                                         |
+| 2019-01-25 | [Monolith to microservices. Infrastructure point of view](it/monolith-to-microservices.md)                                     |
+| 2019-01-24 | [About monitoring](it/about-monitoring-en.md)                                                                                  |
+| 2019-01-23 | [System call interception in Linux-kernel module](it/system-call-interception-in-linux-kernel-module-en.md)                    |
+| 2019-01-22 | [Test me if you can. Do YML developers Dream of testing ansible?](it/test-ansible-roles-via-testkitchen-inside-hyperv-en.md)   |
+| 2019-01-21 | [How to test your own OS distribution](it/how-to-test-custom-os-distr-en.md)                                                   |
 
 ## Notes
 
-* [Arithmometer Felix M review](it/felix-m-review-en.md)
-* [About monitoring](it/about-monitoring-en.md).
 * [About ansible](it/ansible.md)
 * [Docker testing](it/docker-testing.md)
-* [How to mount NTFS on MAC for RW (RU)](https://habr.com/post/246517/)
 * [Make configuration management, not bash](it/make-cm-not-bash-en.md)
 * [About outsourcing](it/about-it-en.md)
 * [Hard vs soft skills](it/hard-soft-skills-en.md)
@@ -99,11 +96,7 @@
 
 ## Life
 
-* [How to make a speech and don't go nuts](life/how-to-make-speech-en.md)
-* [Lessons learned from working remotely for 3 years or how to save your bacon and sanity](life/remote-work-en.md)
-* [Time management in real life](life/time-management-irl-en.md)
-* [How to learn English](life/how-to-english-en.md)
 * [How to lose weight](life/how-to-lose-weight-en.md)
 * [How to improve your town and don't go nuts](life/how-to-improve-city-en.md)
-* [UK trip by car](life/UK-trip-by-car.md)
+* [UK trip by car](life/UK-trip-by-car-en.md)
 * [Baikal](life/baikal.md)

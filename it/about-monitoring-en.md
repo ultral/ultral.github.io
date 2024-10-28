@@ -6,6 +6,8 @@ redirect_from:
 
 ![intro](assets/monitoring_intro.jpeg?raw=true "intro")
 
+*Date: 2019-01-24*
+
 [Russian version](about-monitoring-ru.md)
 
 Monitoring is the most important part of your infrastructure. Monitoring is system engineers basics. However, everyone has his own way to understand it. My way consist of denial. anger & acceptance.
@@ -47,7 +49,7 @@ Also, I'd like to share some of the faced issues:
 1. There were cross DC distributed infrastructures and a lot of metrics. We faced that sometimes metrics were absent. We fixed it via Zabbix proxy.
 2. If VPN tunnel fails, we will receive a ton of messages. We configured infrastructure dependencies.
 3. We automated recurrent tasks. i.e. in case of low free space, we tried to clean it automatically.
-4. We understood that it was a bad idea to notify somebody if the CPU load average metric will be more than 95% during 30 seconds, as a result, we added something like threshold period. 
+4. We understood that it was a bad idea to notify somebody if the CPU load average metric will be more than 95% during 30 seconds, as a result, we added something like threshold period.
 5. We checked business-critical scenarios (i.e. web login, search, etc).
 6. We added Zabbix to skype integrations, because of chat-ops.
 7. Quis custodiet ipsos custodes?.

@@ -1,5 +1,7 @@
 # VScode & Vagrant
 
+*Date: 2021-10-16*
+
 ![VS code](assets/vscode_remote.png)
 
 In our case it's the best option.  The key idea is to use local VS code as editor, but execute tests inside CDE. How to configure:

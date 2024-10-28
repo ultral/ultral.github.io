@@ -1,5 +1,7 @@
 # Запускаем приложение в Openshift и сравниваем существующий инструментарий
 
+*Date: 2019-02-27*
+
 Это расшифровка выступления на [kubernetes SPB meetup #3 (RU) 2019-02-25](https://www.meetup.com/kubernetes-spb/events/258970186/) и [ITGM #14 (ENG) 2019-03-23](https://piter-united.ru/#rec91713889).
 
 * [Video from k8spb meetup at dell emc 2019-02-25](https://www.youtube.com/watch?v=mrTUo-k_jKg)

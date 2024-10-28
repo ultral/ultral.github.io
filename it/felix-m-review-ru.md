@@ -2,6 +2,8 @@
 
 ![felix](assets/felix-intro.jpg?raw=true "felix")
 
+*Date: 2013-02-16*
+
 [English version](felix-m-review-en.md)
 
 Это совсем не гаджет с кучей электроники, а тяжелый представитель старого железа

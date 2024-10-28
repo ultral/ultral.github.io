@@ -4,6 +4,8 @@ redirect_from:
 ---
 # How to learn English
 
+*Date: 2019-01-29*
+
 [Russian version](how-to-english-ru.md)
 
 One one hand I don't want to be the final authority, but on the other hand, I'd like to share my point of view on how to learn English. The English language is not secret knowledge; it is just a lot of hard training. One of the most important bullets is constantly improving English. You should do it from day to day if you want to approach result. It must not loathe torture for you, It means that you should find out something interesting in that process.
@@ -93,7 +95,7 @@ When I was in primary school, I visited a private English coach for a year or tw
 Just before I graduate, I had applied for international IT company. It was funny & frightful. I had to talk & chat with workmates during the day, so my English was improving forcedly & sharply. i.e.
 
 * My workmate stay with me & my during week or two.
-* I [visited the UK by a car](UK-trip-by-car.md).
+* I [visited the UK by a car](UK-trip-by-car-en.md).
 * I called to DataCenter & talked with Indian support.
 As a result, I finished English intermediate course in 2011. However, I decided to resign in 2012 and applied for a new job without sufficient English practise.
 

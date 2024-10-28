@@ -5,6 +5,8 @@ redirect_from:
 ---
 # System call interception in Linux-kernel module (kernel 2.6.34.7-61.fc13.x86_64)
 
+*Date: 2019-01-23*
+
 ## Preface
 
 It is the translation of my [article](https://habr.com/post/110369). The module was created as a part of my master thesis in the 2010 year. The master thesis theme is *Keylogging in Linux kernel*. The main idea was to find out a way to intercept system calls for x64 arch Linux kernel. Source code locates at [github.com/ultral/linux-keylogger](https://github.com/ultral/linux-keylogger).

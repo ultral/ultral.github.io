@@ -2,6 +2,8 @@
 
 ![kitchen-ci schema](https://habrastorage.org/webt/ct/me/vo/ctmevotjzsrr0s-5_erinl_pedk.png)
 
+*Date: 2019-01-22*
+
 Это текстовая версия [выступления](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) 2018-04-25 на [Saint-Petersburg Linux User Group](http://spblug.org/).
 
 * [Slides](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
