@@ -23,6 +23,7 @@
 
 | Date       | Event | Article        |
 |------------|-------|----------------|
+| 2024-11-06 | T-Systems Career Panel | [DevOps or there and back again](it/devops-roadmap.md) |
 | 2023-11-16 | [T-Systems Iberia Technical Meetup](https://www.linkedin.com/posts/tsystems-iberia_technical-meet-up-granadareus-de-t-systems-activity-7132642287020388352-1RoA) | [IDLC = SDLC + IaC: IaC Development Life Cycle](it/idlc-en.md) |
 | 2023-09-20 | Valencia Tech Camp | [How to make a speech and don't go nuts](life/how-to-make-speech-en.md) |
 | 2022-02-21 | Paper podcast | [How to get work/life balance](life/remote-work-en.md) |

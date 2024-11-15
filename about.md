@@ -1,6 +1,6 @@
 # About Lev Goncharov
 
-![about](assets/about.png?raw=true)
+![about](assets/about.jpeg?raw=true)
 
 * **In real life**: cyclist, camper, engineer & coffee person.
 * **At work**: As an infrastructure simplifying engineer, I've seen infrastructure from completely different points of view: as a system administrator, software-defined storage developer, and DevOps engineer. Fortunately, there's an unchanged part. I believe that infrastructure is code and therefore we must use the same philosophy for infrastructure as for software development.
@@ -16,14 +16,19 @@
 
 ### 2024
 
+* Prepared [devops roadmap](it/devops-roadmap.md).
+* Finished course [The Science of Well-Being](assets/2024_wellbeing.jpeg).
+* Finished course [Go Programming Essentials](assets/2024_go_3.jpeg).
+* Finished course [Programming with Golang](assets/2024_go_2.jpeg).
+* Finished course [Getting Started with Go](assets/2024_go_1.jpeg).
 * Wrote Article [How to make a speech and don't go nuts](life/how-to-make-speech-en.md).
 * Wrote Article(RU) [Tarragona Travel Guide](https://vas3k.club/guide/25136/).
 * Conducted multiple [IaC courses](https://gitlab.com/t-systems-devops-school/5-IAC) in International Devops School.
-* Finished course [Prompt Engineering for ChatGPT](assets/2024_chatgpt.png).
+* Finished course [Prompt Engineering for ChatGPT](assets/2024_chatgpt.jpeg).
 * Wrote Article(RU) [How to make a designer renovation without a designer in 15 months and make a 10% mistake in the budget](https://vas3k.club/post/21985/).
 * [Added domain_ou support for windows customization](https://github.com/hashicorp/terraform-provider-vsphere/pull/2181) for [terraform-provider-vsphere](https://github.com/hashicorp/terraform-provider-vsphere).
 * [Added handling ANSIBLE_FILTER_PLUGINS env var](https://github.com/ansible/molecule/pull/4135) in [ansible/molecule](https://github.com/ansible/molecule).
-* Hiked [via Francigena](assets/2024_Camino.png?raw=true).
+* Hiked [via Francigena](assets/2024_Camino.jpeg?raw=true) & wrote article(RU) [how to hike via Francigena](https://vas3k.club/post/25449/).
 
 ### 2023
 
@@ -35,8 +40,8 @@
 * Wrote article(RU) [Relocation guide to Spain](https://vas3k.club/post/1941225/).
 * Made speech [How to make a speech and don't go nuts](life/how-to-make-speech.md) at Valencia Tech Camp.
 * Made speech [IDLC = SDLC + IaC: IaC Development Life Cycle](it/idlc-en.md) at [T-Systems Iberia Technical Meetup](https://www.linkedin.com/posts/tsystems-iberia_technical-meet-up-granadareus-de-t-systems-activity-7132642287020388352-1RoA).
-* Hiked [camino de Santiago](assets/2023_Camino.png?raw=true) & wrote article(RU) [How to hike Camino de Santiago with children](https://vas3k.club/post/19315/).
-* Finished [spanish A2 course](assets/2023_EspanolA2.png).
+* Hiked [camino de Santiago](assets/2023_Camino.jpeg?raw=true) & wrote article(RU) [How to hike Camino de Santiago with children](https://vas3k.club/post/19315/).
+* Finished [spanish A2 course](assets/2023_EspanolA2.jpeg).
 
 ### 2022
 
@@ -92,7 +97,7 @@
 * Made [speech](assets/2019_devopsconf.jpg?raw=true) at [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906). [Lessons learned from testiting Over 200 000 lines of Infrastructure Code](it/200k-iac-en.md).
 * Made speech(ENG) at [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889). [Let us deploy to openshift](it/deploy2openshift-en.md).
 * Made speech(RU) at [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/). [Let us deploy to openshift](it/deploy2openshift-en.md).
-* Completed course [Storytelling tools - instruments for speakers](assets/2019_storytelling.png?raw=true)
+* Completed course [Storytelling tools - instruments for speakers](assets/2019_storytelling.jpeg?raw=true)
 
 ### 2018
 
