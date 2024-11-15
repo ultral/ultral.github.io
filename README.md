@@ -3,7 +3,6 @@
 * [Russian version](README-ru.md)
 * [About](about.md)
 * [Сerts](certs.md)
-* [Articles](articles.md)
 
 ## Publications
 

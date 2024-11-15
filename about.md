@@ -17,10 +17,10 @@
 ### 2024
 
 * Prepared [devops roadmap](it/devops-roadmap.md).
-* Finished course [The Science of Well-Being](assets/2024_wellbeing.jpeg).
-* Finished course [Go Programming Essentials](assets/2024_go_3.jpeg).
-* Finished course [Programming with Golang](assets/2024_go_2.jpeg).
-* Finished course [Getting Started with Go](assets/2024_go_1.jpeg).
+* Finished course [The Science of Well-Being](assets/2024_wellbeing.jpg).
+* Finished course [Go Programming Essentials](assets/2024_go_3.jpg).
+* Finished course [Programming with Golang](assets/2024_go_2.jpg).
+* Finished course [Getting Started with Go](assets/2024_go_1.jpg).
 * Wrote Article [How to make a speech and don't go nuts](life/how-to-make-speech-en.md).
 * Wrote Article(RU) [Tarragona Travel Guide](https://vas3k.club/guide/25136/).
 * Conducted multiple [IaC courses](https://gitlab.com/t-systems-devops-school/5-IAC) in International Devops School.
