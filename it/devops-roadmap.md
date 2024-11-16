@@ -2,17 +2,33 @@
 
 *Date: 2024-10-14*
 
+## About industry
+
+One who wants to become a devops engineer should learn a lot in this journey. Before sharing the materials let me put things from A to Z and clarify who is who and why. I don't want to touch salary topics because it's quite well described in the [The Trimodal Nature of Software Engineering Salaries in the Netherlands and Europe](https://blog.pragmaticengineer.com/software-engineering-salaries-in-the-netherlands-and-europe/).
+
 ### Seniority
 
 #### Learning journey: hard & soft skills
 
 ![bg contain](./assets/dr_hard-soft.svg)
 
+Usually before the senior level there is nothing interesting - you just learn, get practice & increase expertise. However at some point of time you should decide which track to choose. More technical or more people related. Soft skills ([time management](https://www.goncharov.xyz/life/time-management-irl-en.html), mentoring, [knowledge sharing](https://www.goncharov.xyz/life/how-to-make-speech-en.html), etc.) are also crucial and it is not possible to continue without them.
+
 #### Learning journey: skillset
 
 ![Learn deeply](./assets/dr_skillset.svg)
 
+Usually devops is a person with the combination of different skills. An those knowledge should be gotten in more less defined order. It's doesn't make sens to learn IaC without understanding underlaying principles of clouds, OS and networks.
+
+#### Learning journey: learn deeply
+
+![Learn deeply and be T-shaped](./assets/dr_t-shape.svg)
+
+In that journey you should learn deeply instead of technologies on the TOP. If you have fundomental knowledge it will you ability to troubleshoot complex problems.
+
 #### Seniority levels
+
+Some times it's tricky to understand current seniority level, so you can estimate your level according the table. It's not precise defenition but you can use it as a lighthouse in the journey. But please keep in mind that seniority it's not about the title.
 
 | Role          | Planning  Timeframe | Complexity              | Risk Management      | Domain Expertise | Big Picture Understanding | Influence on People | Experience (Years) |
 |---------------|---------------------|-------------------------|----------------------|------------------|---------------------------|---------------------|--------------------|
@@ -30,13 +46,13 @@
 
 ![](./assets/dr_problems_solving.svg)
 
+It's quite tricky to understand the current level. However, if you create a new complex problem from the existing problem then it might be possible that you are junior and just gaining the expirience. And it's ok. But in case of senior people expect that he provides the most optimal and efficient sollution. It can be used as a marker.
+
 #### A journey of a thousand miles starts with a single step
 
 ![](./assets/dr_knowledge.svg)
 
-#### Learning journey: learn deeply
-
-![Learn deeply and be T-shaped](./assets/dr_t-shape.svg)
+But it is crucial to keep in mind that our brain is too crucial. If you think that you know everything usually you know too litle. Becaus if you learn you understand that world is much more complicated that you can expect
 
 ### Lessons learned
 
