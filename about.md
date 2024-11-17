@@ -49,6 +49,7 @@
 * Recorded [IaC introduction](https://gitlab.com/t-systems-devops-school/5-IAC/-/blob/main/docs/ru/01.md) for Devops Bootcamp.
 * Finished A1 Spanish course.
 * Created telegram channel(RU) about [relocation to spain](https://t.me/lev2tarragona).
+* Write article(RU) [How to unlock AWS account via kindle](https://habr.com/en/articles/696288/) or [5 steps to lose your AWS account](https://www.reddit.com/r/aws/comments/utwndj/5_steps_to_lose_your_aws_account/).
 * Created [relocation2spain.github.io](https://relocation2spain.github.io/).
 * Added [support path with spaces](https://github.com/gardenlinux/gardenlinux/pull/1378) in [gardenlinux](https://github.com/gardenlinux/gardenlinux) OS distro.
 * Fixed bug [build fails on mac because there is no /bin/true](https://github.com/gardenlinux/gardenlinux/pull/1156) in [gardenlinux](https://github.com/gardenlinux/gardenlinux) OS distro.
@@ -60,7 +61,6 @@
 
 * Made speech [How to make an internal educational course](life/how-to-make-speech.md) at Christmas Marathon.
 * Conducted multiple [IaC courses](https://github.com/tdevopsschool/5-IAC) in [Devops School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/).
-* Write article(RU) [How to unlock AWS account via kindle](https://habr.com/en/articles/696288/) or [5 steps to lose your AWS account](https://www.reddit.com/r/aws/comments/utwndj/5_steps_to_lose_your_aws_account/).
 * Write article(RU) [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md).
 * Write article(RU) [User's home directory in ansible or what could be simpler? How is it calculated?](https://habr.com/en/articles/575880/).
 * Write article about [YAML](https://github.com/tdevopsschool/ansible-course/blob/master/docs/02.md).
@@ -70,6 +70,7 @@
 
 ### 2020
 
+* Created the [vmware_content_deploy_ovf_template](https://github.com/ansible-collections/community.vmware/blob/main/plugins/modules/vmware_content_deploy_ovf_template.py) for ansible.
 * Finished [elementary A1 german course](assets/2021_deutch.jpg?raw=true).
 * Created [IaC course](https://github.com/tdevopsschool/5-IAC) for [Devops School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/).
 * Participated in [Devops School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/) creation.
