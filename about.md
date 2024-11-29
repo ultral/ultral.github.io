@@ -16,6 +16,7 @@
 
 ### 2024
 
+* Made speech how to use GPT for IaC.
 * Prepared [devops roadmap](it/devops-roadmap.md).
 * Finished course [The Science of Well-Being](assets/2024_wellbeing.jpg).
 * Finished course [Go Programming Essentials](assets/2024_go_3.jpg).
