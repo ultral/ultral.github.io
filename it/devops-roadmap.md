@@ -95,6 +95,7 @@ But it is crucial to keep in mind that our brain is too crucial. If you think th
 - [DevOps school](https://gitlab.com/t-systems-devops-school/)
 - [DevOps Roadmap №1](https://roadmap.sh/devops)
 - [DevOps Roadmap №2](https://github.com/milanm/DevOps-Roadmap)
+- [DevOps Roadmap from octopus](https://octopus.com/devops/)
 - [DevOps / SRE / System engineer roadmap](https://github.com/mdubakin/devops-roadmap)
 - [How they DevOps](https://github.com/bregman-arie/howtheydevops)
 - [DevOps tutorial](https://github.com/antonputra/tutorials/tree/main?tab=readme-ov-file)

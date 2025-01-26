@@ -14,18 +14,22 @@
 
 * [Сerts](certs.md)
 
+### 2025
+
+* [Finished](assets/2025_learning.jpg) course [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn).
+
 ### 2024
 
 * Made speech how to use GPT for IaC.
 * Prepared [devops roadmap](it/devops-roadmap.md).
-* Finished course [The Science of Well-Being](assets/2024_wellbeing.jpg).
-* Finished course [Go Programming Essentials](assets/2024_go_3.jpg).
-* Finished course [Programming with Golang](assets/2024_go_2.jpg).
-* Finished course [Getting Started with Go](assets/2024_go_1.jpg).
+* [Finished](assets/2024_wellbeing.jpg) course [The Science of Well-Being](https://www.coursera.org/learn/the-science-of-well-being).
+* [Finished](assets/2024_go_3.jpg) course [Go Programming Essentials](https://dtag.percipio.com/journey/e6f3b466-4605-4429-80e9-023581a995dd).
+* [Finished](assets/2024_go_2.jpg) course [Programming with Golang](https://www.coursera.org/learn/programming-with-golang).
+* [Finished](assets/2024_go_1.jpg) course [Getting Started with Go](https://www.coursera.org/specializations/google-golang).
 * Wrote Article [How to make a speech and don't go nuts](life/how-to-make-speech-en.md).
 * Wrote Article(RU) [Tarragona Travel Guide](https://vas3k.club/guide/25136/).
 * Conducted multiple [IaC courses](https://gitlab.com/t-systems-devops-school/5-IAC) in International Devops School.
-* Finished course [Prompt Engineering for ChatGPT](assets/2024_chatgpt.jpeg).
+* [Finished](assets/2024_chatgpt.jpeg) course [Prompt Engineering for ChatGPT](https://www.coursera.org/learn/prompt-engineering).
 * Wrote Article(RU) [How to make a designer renovation without a designer in 15 months and make a 10% mistake in the budget](https://vas3k.club/post/21985/).
 * [Added domain_ou support for windows customization](https://github.com/hashicorp/terraform-provider-vsphere/pull/2181) for [terraform-provider-vsphere](https://github.com/hashicorp/terraform-provider-vsphere).
 * [Added handling ANSIBLE_FILTER_PLUGINS env var](https://github.com/ansible/molecule/pull/4135) in [ansible/molecule](https://github.com/ansible/molecule).

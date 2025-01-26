@@ -1,5 +1,6 @@
 # Certificates
 
+![Learning How to Learn](assets/2025_learning.jpg?raw=true)
 ![The Science of Well-Being](assets/2024_wellbeing.jpg?raw=true)
 ![Go Programming Essentials](assets/2024_go_3.jpg?raw=true)
 ![Programming with Golang](assets/2024_go_2.jpg?raw=true)
