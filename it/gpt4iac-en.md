@@ -141,13 +141,13 @@ However, I've decided to limit myself to Copilot because it integrates smoothly 
 
 # Copilot 4: summary
 
-| Pros                          |   | Cons                              |
-|-------------------------------|---|-----------------------------------|
-| Improves readability          |   | Lacks context                     |
-| Proposes syntax changes       |   | Possible errors in suggestions    |
-| Generates documentation       |   | Requires iterations               |
-| Step-by-step explanations     |   | Limited knowledge                 |
-| Generates configurations      |   | Unable to identify root causes    |
+| Pros                          | Cons                              |
+|-------------------------------|-----------------------------------|
+| Improves readability          | Lacks context                     |
+| Proposes syntax changes       | Possible errors in suggestions    |
+| Generates documentation       | Requires iterations               |
+| Step-by-step explanations     | Limited knowledge                 |
+| Generates configurations      | Unable to identify root causes    |
 
 **Conclusion:** ❗️just imagine that there is very smart junior in your team.
 
@@ -166,23 +166,25 @@ Make GPT as an optional reviewer in a repo:
 3. Provide prompt: "review it".
 4. Suggest changes to PR.
 
-**Conclusion:** ❗️ [IDLC](https://www.goncharov.xyz/it/idlc-en.html) can be improved.
+**Conclusion:** ❗️ [IDLC](idlc-en.md) can be improved.
 
 ### 💡 Idea: Increase IaC test coverage
 
 ![](./assets/200k_testing_pyramid.png?raw=true)
 
-**Conclusion:** ❗️ [IaC testing](https://www.goncharov.xyz/it/ansible-testing-en.html) can be improved.
+There is [IaC testing pyramid](200k-iac-en.md) concept. It describes how to test IaC. The problem is that it's slow or just linting. The idea is that maybe it will be possible to add gpt to Static Analysis level. I.e. simulate an ansible or terraform execution without real execution. Maybe it will be faster or cheaper.
+
+**Conclusion:** ❗️ [IaC testing](ansible-testing-en.md) can be improved.
 
 ## GPT 4 IaC summary
 
-❗️ Just imagine that there is very smart junior in your team.
-🔥 Documentations & presentations.
-✅ Create Ansible lookup plugin.
-✅ Generate documentation.
-✅ Explain Jinja2 expressions.
-❓ Fix errors in Ansible roles.
-⛔️ Debug Ansible OTC dynamic inventory plugin.
-⛔️ Explain dependencies across the project.
-💡 PR reviewer.
-💡 Increase IaC test coverage.
+- ❗️ Just imagine that there is very smart junior in your team.
+- 🔥 Documentations & presentations.
+- ✅ Create Ansible lookup plugin.
+- ✅ Generate documentation.
+- ✅ Explain Jinja2 expressions.
+- ❓ Fix errors in Ansible roles.
+- ⛔️ Debug Ansible OTC dynamic inventory plugin.
+- ⛔️ Explain dependencies across the project.
+- 💡 PR reviewer.
+- 💡 Increase IaC test coverage.
