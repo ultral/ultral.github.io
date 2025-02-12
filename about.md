@@ -16,6 +16,7 @@
 
 ### 2025
 
+* [Finished](assets/2025_exercise.jpg?raw=true) course [Science of Exercise](https://www.coursera.org/learn/science-exercise).
 * [Finished](assets/2025_learning.jpg) course [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn).
 
 ### 2024

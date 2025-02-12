@@ -20,10 +20,9 @@
 
 ## Speeches
 
-
 | Date       | Event                                                                                                                                                            | Article                                                                                                                      |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 2024-11-28 | DT IT meetup                                                                                                                                                     | GPT 4 IaC                                                                                                                    |
+| 2024-11-28 | [DT IT meetup](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7275537157463699458)                                                                   | [GPT 4 IaC](it/gpt4iac-en.md)                                                                                                |
 | 2024-11-06 | T-Systems Career Panel                                                                                                                                           | [DevOps or there and back again](it/devops-roadmap.md)                                                                       |
 | 2023-11-16 | [T-Systems Iberia Technical Meetup](https://www.linkedin.com/posts/tsystems-iberia_technical-meet-up-granadareus-de-t-systems-activity-7132642287020388352-1RoA) | [IDLC = SDLC + IaC: IaC Development Life Cycle](it/idlc-en.md)                                                               |
 | 2023-09-20 | Valencia Tech Camp                                                                                                                                               | [How to make a speech and don't go nuts](life/how-to-make-speech-en.md)                                                      |
