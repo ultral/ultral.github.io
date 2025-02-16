@@ -16,6 +16,10 @@
 
 ### 2025
 
+* Wrote the article [Terraform for VMware: Key Takeaways and Lessons from Managing Hundreds of VMs](it/tf4vm-en.md).
+* Wrote the article [GPT 4 IaC](it/gpt4iac-en.md).
+* Finished course [algorithms-part1](https://www.coursera.org/learn/algorithms-part1).
+* Wrote the article (RU) [My journey to normal coffee](https://vas3k.club/post/2745419/).
 * [Finished](assets/2025_exercise.jpg?raw=true) course [Science of Exercise](https://www.coursera.org/learn/science-exercise).
 * [Finished](assets/2025_learning.jpg) course [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn).
 
