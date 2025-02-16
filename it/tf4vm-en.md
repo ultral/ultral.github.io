@@ -642,9 +642,8 @@ resources:
 5. Use wrong hostname for customizations makes original VM unreachable
 6. The `datastore_cluster_id` is not supported & we must use `storage_policy_id`
 7. Sometimes VM creation is failed
-8. Move VM to another pool requires restart network
-9. *Too many code & copy-paste*
-10. *Higher entrance level*
+8. *Too many code & copy-paste*
+9. *Higher entrance level*
 
 ### Lessons learned
 
