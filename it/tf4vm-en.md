@@ -668,7 +668,7 @@ resources:
 
 ### Want to try
 
-1. Terraform pull request automation https://www.runatlantis.io/
+1. Terraform pull request automation via [Atlantis](https://www.runatlantis.io/)
 2. Build green button in jenkins
 3. Windows automation
 4. Cloud-init for [setting hostname](https://cloudinit.readthedocs.io/en/latest/reference/modules.html#set-hostname) like [here (sry it's in RU)](https://habr.com/en/articles/574050/)
