@@ -25,7 +25,7 @@
 
 ### 2024
 
-* Made the speech on how to use GPT for IaC.
+* [Made the speech](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7275537157463699458) on how to use [GPT for IaC](it/gpt4iac-en.md).
 * Prepared [devops roadmap](it/devops-roadmap.md).
 * [Finished](assets/2024_wellbeing.jpg) course [The Science of Well-Being](https://www.coursera.org/learn/the-science-of-well-being).
 * [Finished](assets/2024_go_3.jpg) course [Go Programming Essentials](https://dtag.percipio.com/journey/e6f3b466-4605-4429-80e9-023581a995dd).
@@ -42,7 +42,7 @@
 
 ### 2023
 
-* Made the speech on how to use terraform with VMware and migrate 300 VMs to terraform.
+* Made the speech on [Terraform for VMware: Key Takeaways and Lessons from Managing Hundreds of VMs](it/tf4vm-en.md).
 * Wrote the article (RU) [How to organize archive at home](https://vas3k.club/post/2193574/).
 * Participated in International DevOps School transformation.
 * Conducted multiple [IaC courses](https://github.com/tdevopsschool/5-IAC) in International DevOps School.
