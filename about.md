@@ -16,6 +16,7 @@
 
 ### 2025
 
+* [Finished](assets/2025_go_1.jpg) course [Programming with Google Go](https://www.coursera.org/specializations/google-golang).
 * Wrote the article [Terraform for VMware: Key Takeaways and Lessons from Managing Hundreds of VMs](it/tf4vm-en.md).
 * Wrote the article [GPT 4 IaC](it/gpt4iac-en.md).
 * Finished course [algorithms-part1](https://www.coursera.org/learn/algorithms-part1).
@@ -30,7 +31,6 @@
 * [Finished](assets/2024_wellbeing.jpg) course [The Science of Well-Being](https://www.coursera.org/learn/the-science-of-well-being).
 * [Finished](assets/2024_go_3.jpg) course [Go Programming Essentials](https://dtag.percipio.com/journey/e6f3b466-4605-4429-80e9-023581a995dd).
 * [Finished](assets/2024_go_2.jpg) course [Programming with Golang](https://www.coursera.org/learn/programming-with-golang).
-* [Finished](assets/2024_go_1.jpg) course [Getting Started with Go](https://www.coursera.org/specializations/google-golang).
 * Wrote the article [How to make a speech and don't go nuts](life/how-to-make-speech-en.md).
 * Wrote the article (RU) [Tarragona Travel Guide](https://vas3k.club/guide/25136/).
 * Conducted multiple [IaC courses](https://gitlab.com/t-systems-devops-school/5-IAC) in International DevOps School.

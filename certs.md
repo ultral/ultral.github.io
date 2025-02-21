@@ -1,11 +1,11 @@
 # Certificates
 
+![Programming with Google Go](assets/2025_go_1.jpg?raw=true)
 ![Science of Exercise](assets/2025_exercise.jpg?raw=true)
 ![Learning How to Learn](assets/2025_learning.jpg?raw=true)
 ![The Science of Well-Being](assets/2024_wellbeing.jpg?raw=true)
 ![Go Programming Essentials](assets/2024_go_3.jpg?raw=true)
 ![Programming with Golang](assets/2024_go_2.jpg?raw=true)
-![Getting Started with Go](assets/2024_go_1.jpg?raw=true)
 ![Prompt Engineering for ChatGPT](assets/2024_chatgpt.jpeg?raw=true)
 ![via francigena](assets/2024_Camino.jpeg?raw=true)
 ![camino de Santiago](assets/2023_Camino.jpeg?raw=true)
