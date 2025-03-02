@@ -1,6 +1,6 @@
 ---
 redirect_from:
-  - /life/UK-trip-by-car-en.html
+  - /life/UK-trip-by-car.html
   - /UK-trip-by-car-en.html
 ---
 # UK trip by car
