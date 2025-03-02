@@ -2,6 +2,7 @@
 
 ![about](assets/about.jpeg?raw=true)
 
+* [Simple Engineer Notes](https://t.me/simpleEngineerNotes)
 * **In real life**: cyclist, camper, engineer & coffee person.
 * **At work**: As an infrastructure simplifying engineer, I've seen infrastructure from completely different points of view: as a system administrator, software-defined storage developer, and DevOps engineer. Fortunately, there's an unchanged part. I believe that infrastructure is code and therefore we must use the same philosophy for infrastructure as for software development.
 
