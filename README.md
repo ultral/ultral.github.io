@@ -8,6 +8,7 @@
 
 * [Terraform for VMware: Key Takeaways and Lessons from Managing Hundreds of VMs](it/tf4vm-en.md)
 * [GPT 4 IaC](it/gpt4iac-en.md)
+* [DevOps or there and back again](it/devops-roadmap.md)
 * [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md)
 * [Agreements as Code: how to refactor IaC and save your sanity?](it/aac-en.md)
 * [How to test Ansible and don't go nuts](it/ansible-testing-en.md)
