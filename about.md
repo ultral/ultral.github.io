@@ -10,6 +10,7 @@
 
 * [t.me/ultralisc](https://t.me/ultralisc)
 * lev `[at]` goncharov `[dot]` xyz
+* [linkedin.com/in/lev-goncharov](https://www.linkedin.com/in/lev-goncharov/)
 
 ## Social activity, trainings, courses, awards
 
