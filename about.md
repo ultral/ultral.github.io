@@ -18,6 +18,11 @@
 
 ### 2025
 
+* Made the speech [GPT 4 IaC](it/gpt4iac-en.md) at [devconf.info](https://pretalx.devconf.info/devconf-cz-2025/talk/R7VQXB/).
+* Made the ignition at home automation meetup at [devconf.info](https://pretalx.devconf.info/devconf-cz-2025/talk/YNT8UW/) about _Lessons learned from home automation_.
+* Wrote the article (RU) [How to be on safe side in case of loosing all documents](https://vas3k.club/post/27940/).
+* Wrote the article (RU) [Fast&light hiking with kids](https://vas3k.club/post/28068/).
+* Wrote the article (RU) [How to hike Camino de Santiago Logroño → Burgos](https://vas3k.club/post/28277/).
 * [Finished](assets/2025_go_2.jpg) specialization [Go Programming Language](https://www.coursera.org/specializations/go-programming-language).
 * Finished the course [The Bilingual Brain](https://www.coursera.org/learn/bilingual).
 * Created telegram channel about [Simple Engineer Notes](https://t.me/simpleEngineerNotes).
@@ -46,7 +51,7 @@
 
 ### 2023
 
-* Made the speech on [Terraform for VMware: Key Takeaways and Lessons from Managing Hundreds of VMs](it/tf4vm-en.md).
+* Made the speech [Terraform for VMware: Key Takeaways and Lessons from Managing Hundreds of VMs](it/tf4vm-en.md).
 * Wrote the article (RU) [How to organize archive at home](https://vas3k.club/post/2193574/).
 * Participated in International DevOps School transformation.
 * Conducted multiple [IaC courses](https://github.com/tdevopsschool/5-IAC) in International DevOps School.
@@ -54,7 +59,7 @@
 * Wrote the article (RU) [Relocation guide to Spain](https://vas3k.club/post/1941225/).
 * Made the speech [How to make a speech and don't go nuts](life/how-to-make-speech.md) at Valencia Tech Camp.
 * Made the speech [IDLC = SDLC + IaC: IaC Development Life Cycle](it/idlc-en.md) at [T-Systems Iberia Technical Meetup](https://www.linkedin.com/posts/tsystems-iberia_technical-meet-up-granadareus-de-t-systems-activity-7132642287020388352-1RoA).
-* Hiked [Camino de Santiago](assets/2023_Camino.jpeg?raw=true) & Wrote the article (RU) [How to hike Camino de Santiago with children](https://vas3k.club/post/19315/).
+* Hiked [Camino de Santiago](assets/2023_Camino.jpeg?raw=true) & Wrote the article (RU) [How to hike Camino de Santiago Ruta Ingles with children](https://vas3k.club/post/19315/).
 * Finished [Spanish A2 course](assets/2023_EspanolA2.jpeg).
 
 ### 2022
