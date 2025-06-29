@@ -2,7 +2,9 @@
 
 *Date: 2025-02-12*
 
-I've made some practical experiments with GPT in the IaC context and [gave a speech about that at the meetup](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7275537157463699458/).
+I've made some practical experiments with GPT in the IaC context and [gave a speech about that at the meetup](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7275537157463699458/) and [DevConf](https://pretalx.devconf.info/devconf-cz-2025/talk/R7VQXB/).
+
+video: https://www.youtube.com/watch?v=OMOVEMChr8A
 
 I'm using chatGPT like solutions in real life for different purpose:
 
