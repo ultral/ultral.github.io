@@ -2,6 +2,7 @@
 redirect_from:
     - /tm
     - /tm.html
+    - /how-to-mange-tasks-en.html
 ---
 # Time management in real life
 
