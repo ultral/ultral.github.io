@@ -18,6 +18,7 @@
 
 ### 2025
 
+* Finished the course [Introduction to Public Speaking](https://www.coursera.org/learn/public-speaking).
 * Made the speech [GPT 4 IaC](it/gpt4iac-en.md) at [devconf.info](https://pretalx.devconf.info/devconf-cz-2025/talk/R7VQXB/).
 * Made the ignition at home automation meetup at [devconf.info](https://pretalx.devconf.info/devconf-cz-2025/talk/YNT8UW/) about _Lessons learned from home automation_.
 * Wrote the article (RU) [How to be on safe side in case of loosing all documents](https://vas3k.club/post/27940/).
