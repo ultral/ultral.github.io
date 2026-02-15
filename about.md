@@ -58,7 +58,7 @@
 * Conducted multiple [IaC courses](https://github.com/tdevopsschool/5-IAC) in International DevOps School.
 * Participated in the [stream about relocation to Spain](https://t.me/relocate_it/153266).
 * Wrote the article (RU) [Relocation guide to Spain](https://vas3k.club/post/1941225/).
-* Made the speech [How to make a speech and don't go nuts](life/how-to-make-speech.md) at Valencia Tech Camp.
+* Made the speech [How to make a speech and don't go nuts](life/how-to-make-speech-en.md) at Valencia Tech Camp.
 * Made the speech [IDLC = SDLC + IaC: IaC Development Life Cycle](it/idlc-en.md) at [T-Systems Iberia Technical Meetup](https://www.linkedin.com/posts/tsystems-iberia_technical-meet-up-granadareus-de-t-systems-activity-7132642287020388352-1RoA).
 * Hiked [Camino de Santiago](assets/2023_Camino.jpeg?raw=true) & Wrote the article (RU) [How to hike Camino de Santiago Ruta Ingles with children](https://vas3k.club/post/19315/).
 * Finished [Spanish A2 course](assets/2023_EspanolA2.jpeg).
@@ -79,7 +79,7 @@
 
 ### 2021
 
-* Made the speech [How to make an internal educational course](life/how-to-make-speech.md) at Christmas Marathon.
+* Made the speech [How to make an internal educational course](life/how-to-make-speech-en.md) at Christmas Marathon.
 * Conducted multiple [IaC courses](https://github.com/tdevopsschool/5-IAC) in [DevOps School](https://habr.com/en/company/deutschetelekomitsolutions/blog/521648/).
 * Wrote the article (RU) [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md).
 * Wrote the article (RU) [User's home directory in ansible or what could be simpler? How is it calculated?](https://habr.com/en/articles/575880/).
@@ -112,7 +112,7 @@
 * Finished [upper-intermediate](assets/2020_english.jpg?raw=true) English course.
 * [Got](assets/2019_devops_battle.jpg) the award as best team player at DevOps Battle 2.0.
 * Participated in the [Alexander Kadyrov podcast №2](https://podcast.kadyrov.dev/senior-yaml-developer/) podcast.
-* Made a speech (RU) at Fall marathon. [A technical article and a speech are sides of the same coin](life/how-to-make-speech.md).
+* Made a speech (RU) at Fall marathon. [A technical article and a speech are sides of the same coin](life/how-to-make-speech-en.md).
 * Participated in the [Linkmeup №22](https://linkmeup.ru/blog/495.html) podcast.
 * Made a speech (RU) at [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050). [Ansible: CoreOS to CentOS, 18 months long journey](it/coreos2centos-en.md).
 * Made a [speech](assets/2019_devopsconf.jpg?raw=true) at [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906). [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md).
