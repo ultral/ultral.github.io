@@ -16,6 +16,13 @@
 
 * [Certs](certs.md)
 
+### 2026
+
+* Hiked [Camino de Santiago](assets/2026_Camino.jpeg?raw=true)
+* Wrote the article (ESP) [España desde una nueva perspectiva o cómo hacer el Camino de Santiago con un niño de 7 año](life/camino-2023-esp.md)
+* Finished [Catalan A2.1 course](assets/2026_2026_CatalanA2.1.jpeg?raw=true)
+* Finished [Spanish A2.2 course](assets/2026_EspanolA2.2.jpeg?raw=true)
+
 ### 2025
 
 * Finished the course [Introduction to Public Speaking](https://www.coursera.org/learn/public-speaking).
