@@ -1,5 +1,8 @@
 # Certificates
 
+![Catalan A2.1](assets/2026_2026_CatalanA2.1.jpeg?raw=true)
+![Espanol A2.2](assets/2026_EspanolA2.2.jpeg?raw=true)
+![camino de Santiago](assets/2026_Camino.jpeg?raw=true)
 ![Go Programming Language](assets/2025_go_2.jpg?raw=true)
 ![Programming with Google Go](assets/2025_go_1.jpg?raw=true)
 ![Science of Exercise](assets/2025_exercise.jpg?raw=true)
