@@ -10,6 +10,11 @@ OUTPUT="${SCRIPT_DIR}/sitemap.xml"
   echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
 
   while IFS= read -r -d '' file; do
+    filename="$(basename "$file")"
+
+    if [[ "$filename" = "README.md" ]]; then
+      continue
+    fi
 
     # Build URL path: strip leading ./ and .md extension
     rel="${file#"${SCRIPT_DIR}/"}"
