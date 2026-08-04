@@ -4,6 +4,7 @@ set -euo pipefail
 SITE_URL="https://www.goncharov.xyz"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OUTPUT="${SCRIPT_DIR}/sitemap.xml"
+INDEX_OUTPUT="${SCRIPT_DIR}/sitemap-index.xml"
 
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
@@ -44,5 +45,18 @@ OUTPUT="${SCRIPT_DIR}/sitemap.xml"
   echo '</urlset>'
 } > "$OUTPUT"
 
+# Generate a sitemap index that references the sitemap above.
+# Submitting this fresh index URL in Search Console bypasses any cached fetch error.
+{
+  echo '<?xml version="1.0" encoding="UTF-8"?>'
+  echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+  echo '  <sitemap>'
+  echo "    <loc>${SITE_URL}/sitemap.xml</loc>"
+  echo "    <lastmod>$(date +%Y-%m-%d)</lastmod>"
+  echo '  </sitemap>'
+  echo '</sitemapindex>'
+} > "$INDEX_OUTPUT"
+
 echo "Generated: $OUTPUT"
 echo "Entries: $(grep -c '<loc>' "$OUTPUT")"
+echo "Generated: $INDEX_OUTPUT"
