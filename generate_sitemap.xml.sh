@@ -29,7 +29,7 @@ INDEX_OUTPUT="${SCRIPT_DIR}/sitemap-index.xml"
     lastmod="${lastmod:0:10}"
 
     echo "  <url>"
-    echo "    <loc>${SITE_URL}${url_path}</loc>"
+    echo "    <loc>${SITE_URL}${url_path}.html</loc>"
     echo "    <lastmod>${lastmod}</lastmod>"
     echo "    <changefreq>monthly</changefreq>"
     echo "  </url>"

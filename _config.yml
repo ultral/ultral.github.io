@@ -1,5 +1,7 @@
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
+url: "https://www.goncharov.xyz"
 theme: jekyll-theme-minimal
 title: Lev Goncharov
 description: Infrastructure simplifying engineer
