@@ -5,7 +5,7 @@ redirect_from: "/about-aparts.html"
 
 *Date: 2018-08-10*
 
-Основной сайт для покупки / продажи / аренды [emls.ru](http://emls.ru)
+Основной сайт для покупки / продажи / аренды [emls.ru](https://emls.ru)
 
 ## rent
 Сьем за месяц:

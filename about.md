@@ -92,7 +92,7 @@
 * Wrote the article (RU) [User's home directory in ansible or what could be simpler? How is it calculated?](https://habr.com/en/articles/575880/).
 * Wrote the article about [YAML](https://github.com/tdevopsschool/ansible-course/blob/master/docs/02.md).
 * Wrote the article (RU) [IaC introduction](https://gitlab.com/t-systems-devops-school/5-IAC/-/blob/main/docs/ru/01.md).
-* Made the speech (RU) at [T-Meetup: DevOps Life Cycle](http://devopsconf.io/2021/dt-meetup). [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md).
+* Made the speech (RU) at [T-Meetup: DevOps Life Cycle](https://devopsconf.io/2021/dt-meetup). [IDLC = SDLC + Ansible: IaC Development Life Cycle: Ansible based story](it/idlc-en.md).
 * Gave [the interview](https://www.youtube.com/watch?v=V54ZkGEnzfI) at [DevOpsConf](https://devopsconf.io/moscow/2021).
 
 ### 2020
@@ -122,7 +122,7 @@
 * Made a speech (RU) at Fall marathon. [A technical article and a speech are sides of the same coin](life/how-to-make-speech-en.md).
 * Participated in the [Linkmeup №22](https://linkmeup.ru/blog/495.html) podcast.
 * Made a speech (RU) at [DevopsConf](https://devopsconf.io/moscow/2019/meetups#2331050). [Ansible: CoreOS to CentOS, 18 months long journey](it/coreos2centos-en.md).
-* Made a [speech](assets/2019_devopsconf.jpg?raw=true) at [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906). [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md).
+* Made a [speech](assets/2019_devopsconf.jpg?raw=true) at [DevopsConf](https://devopsconf.io/moscow-rit/2019/abstracts/4906). [Lessons learned from testing Over 200,000 lines of Infrastructure Code](it/200k-iac-en.md).
 * Made a speech (ENG) at [ITGM #14 (ENG)](https://piter-united.ru/#rec91713889). [Let us deploy to OpenShift](it/deploy2openshift-en.md).
 * Made a speech (RU) at [K8S Spb meetup](https://www.meetup.com/kubernetes-spb/events/258970186/). [Let us deploy to OpenShift](it/deploy2openshift-en.md).
 * Completed course [Storytelling tools - instruments for speakers](assets/2019_storytelling.jpeg?raw=true)
@@ -136,7 +136,7 @@
 * Created & conducted [K8s/Terraform/GCP workshop](https://cloud.mail.ru/public/F193/yjoC7irob) at [HashiCorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/253644141/).
 * Created & conducted [K8s/Terraform/GCP workshop](https://cloud.mail.ru/public/MK6G/DgNtrv5x5) at [Chaos Constructions](https://chaosconstructions.ru/).
 * Made the speech (RU) at [Geek Picnic](https://vk.com/geekpicnicspb2018) about [Time Management in Real Life](life/time-management-irl-en.md).
-* Made the speech (RU) at [SpbLUG](http://spblug.org/) about [Ansible Roles Testing](it/test-ansible-roles-via-testkitchen-inside-hyperv-en.md).
+* Made the speech (RU) at [SpbLUG](https://spblug.org/) about [Ansible Roles Testing](it/test-ansible-roles-via-testkitchen-inside-hyperv-en.md).
 * Made the speech (RU) about Vagrant at internal conference DevOps Days T-Systems.
 * Made the speech (RU) at [HashiCorp meetup](https://www.meetup.com/St-Petersburg-Russia-HashiCorp-User-Group/events/247154437/) about [Testing Custom Linux Distributive](it/how-to-test-custom-os-distr-en.md).
 
@@ -153,11 +153,11 @@
 
 ### 2014
 
-* Made the speech (RU) at [dotnetconf](http://dotnetconf.ru/materialy/monitoringandalerting) about [migration from monolith to microservices](it/monolith-to-microservices.md).
+* Made the speech (RU) at [dotnetconf](https://dotnetconf.ru/materialy/monitoringandalerting) about [migration from monolith to microservices](it/monolith-to-microservices.md).
 
 ### 2013
 
-* Made the speech (RU) at [Microsoft Patterns & Practices](http://ineta.ru/MPPC/Meeting/2013-03-20-18-30) club about Windows Server 2012 features.
+* Made the speech (RU) at [Microsoft Patterns & Practices](https://ineta.ru/MPPC/Meeting/2013-03-20-18-30) club about Windows Server 2012 features.
 
 ### 2012
 
@@ -165,7 +165,7 @@
 
 ### 2011
 
-* Graduated from [CSU](http://www.csu.ru/) with a master's degree in computer science as an information security specialist. Master thesis: [System call interception in a Linux kernel module](it/system-call-interception-in-linux-kernel-module-en.md).
+* Graduated from [CSU](https://www.csu.ru/) with a master's degree in computer science as an information security specialist. Master thesis: [System call interception in a Linux kernel module](it/system-call-interception-in-linux-kernel-module-en.md).
 * Finished Linguaphone intermediate course in English club.
 * [Finished](assets/2011_english.jpg) intermediate course in English club.
 

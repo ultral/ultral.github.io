@@ -547,7 +547,7 @@ _Респект Свете и Толику за вкусный ужин, а Же
 На территории Белоруссии началась жесть, туман... было около 3 ночи, ни черта не видно, поспали 3 часа на заправке, поехали дальше. туман хоть и остался, но было более-менее светло
 
 видео с туманом:
-[http://www.youtube.com/watch?v=TCiL-nNqXNc&feature=youtu.be](http://www.youtube.com/watch?v=TCiL-nNqXNc&feature=youtu.be)
+[https://www.youtube.com/watch?v=TCiL-nNqXNc&feature=youtu.be](https://www.youtube.com/watch?v=TCiL-nNqXNc&feature=youtu.be)
 
 на заправке увидели наледь, не сильно мотивирует опять же, но радовало, что градусники кажут больше 0 и где-то там было солнце
 
@@ -590,7 +590,7 @@ _в Уфе респект сотрудникам авто-суши за пред
 
 ![](https://autokadabra.ru/system/uploads/photos/Shout/70/70427/big/DSC06495.JPG)
 ну и видео до кучи
-[http://www.youtube.com/watch?v=yPe67k8hbk8&feature=youtu.be](http://www.youtube.com/watch?v=yPe67k8hbk8&feature=youtu.be)
+[https://www.youtube.com/watch?v=yPe67k8hbk8&feature=youtu.be](https://www.youtube.com/watch?v=yPe67k8hbk8&feature=youtu.be)
 
 Но мы доехали
 

@@ -119,7 +119,7 @@ There a lot of already exists for managing openshift.
 * [source2image](https://github.com/openshift/source-to-image)
 * [kustomize](https://github.com/kubernetes-sigs/kustomize)
 * [helm](https://github.com/helm/helm)
-* [Automation broker](http://automationbroker.io/)
+* [Automation broker](https://automationbroker.io/)
 
 During the migration, I've tested some of them. I'd like to share my results.
 
@@ -231,11 +231,11 @@ The main idea is that you pack all needed thing into a container and run the con
 One one hand I don't want to be the final authority, but on the other hand, I'd like to share my point of view. There is no silver bullet exists.
 
 * if you don't plan provide your application as a service then [Ansible k8s module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html) is your choice.
-* if you are going to provide your application as a service then you should go deeper in [automation broker](http://automationbroker.io/) and [Ansible Playbook Bundle](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle).
+* if you are going to provide your application as a service then you should go deeper in [automation broker](https://automationbroker.io/) and [Ansible Playbook Bundle](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle).
 
 ## links
 
 * [www.meetup.com/kubernetes-spb](https://www.meetup.com/kubernetes-spb)
 * [t.me/k8spb](https://t.me/k8spb)
 * [learn.openshift.com](https://learn.openshift.com/operatorframework)
-* [Automate kubernetes with Ansible](http://ftp.belnet.be/mirror/FOSDEM/2019/UB2.252A/automate_kubernetes_ansible.mp4)
+* [Automate kubernetes with Ansible](https://ftp.belnet.be/mirror/FOSDEM/2019/UB2.252A/automate_kubernetes_ansible.mp4)

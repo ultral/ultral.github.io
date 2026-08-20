@@ -88,7 +88,7 @@ Workflow примерно такой вырисывается:
 
 Ссылки:
 
-* [ГИБДД](http://www.gibdd.ru/letter/)
+* [ГИБДД](https://www.gibdd.ru/letter/)
 * [ДОДД](https://гибдд.рф/request_main)
 * [info@gudodd.ru](emailto:info@gudodd.ru)
 
@@ -107,7 +107,7 @@ Workflow примерно такой вырисывается:
 Ссылки:
 
 * [roszkh.ru](https://roszkh.ru/) - сайт для жалоб на действия/бездействия УК
-* [красивыйпетербург.рф](http://xn--80accfiasjf8cghbfut2k.xn--p1ai) - [приложение iphone](https://play.google.com/store/apps/details?id=rpetrov.kraspb) и [приложение android](https://itunes.apple.com/ru/app/krasivyj-mir/id857488685?l=ru&ls=1&mt=8)
+* [красивыйпетербург.рф](https://xn--80accfiasjf8cghbfut2k.xn--p1ai) - [приложение iphone](https://play.google.com/store/apps/details?id=rpetrov.kraspb) и [приложение android](https://itunes.apple.com/ru/app/krasivyj-mir/id857488685?l=ru&ls=1&mt=8)
 
 ### Реформа ЖКХ
 

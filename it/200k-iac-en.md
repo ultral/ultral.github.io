@@ -9,7 +9,7 @@ redirect_from:
 
 *Date: 2019-09-12*
 
-It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W53jMaebVJw)) at [DevopsConf 2019-05-28](http://devopsconf.io/moscow-rit/2019/abstracts/4906). You can watch it [here](https://www.youtube.com/watch?v=ItDWID5wQq0). Also I made this speech in English at [DevConf.CZ 2020](https://www.devconf.info/cz/).
+It is the translation of my speech ([video RU](https://www.youtube.com/watch?v=W53jMaebVJw)) at [DevopsConf 2019-05-28](https://devopsconf.io/moscow-rit/2019/abstracts/4906). You can watch it [here](https://www.youtube.com/watch?v=ItDWID5wQq0). Also I made this speech in English at [DevConf.CZ 2020](https://www.devconf.info/cz/).
 
 **IaC** (Infrastructure as Code) is a modern approach and I believe that infrastructure is code. It means that we should use the same philosophy for infrastructure as for software development. If we are talking that infrastructure is code, then we should reuse  practices from development for infrastructure, i.e. unit testing, pair programming, code review. Please, keep in mind this idea while reading the article.
 
@@ -385,10 +385,10 @@ Everything was fine until we faced one more issue: we had to maintain heterogene
   * [Slides for Devconf](https://cloud.mail.ru/public/5Lg7/5JBnK6cBn)
 * [2019-06-20](https://dins.timepad.ru/event/995147/) [DevOps EVENING!](https://vk.com/wall-55518582_883)
   * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
-* 2019-05-28 [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906)
+* 2019-05-28 [DevopsConf](https://devopsconf.io/moscow-rit/2019/abstracts/4906)
   * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
   * [Slides for DevopConf (RU)](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
-* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](http://spblug.org)
+* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](https://spblug.org)
 * [English version](200k-iac-en.md)
 * [Russian version](200k-iac-ru.md)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)

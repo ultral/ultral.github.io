@@ -12,7 +12,7 @@ redirect_from:
 
 *Date: 2019-01-22*
 
-It is text version of [presentation 2018-04-25](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) from [Saint-Petersburg Linux User Group](http://spblug.org/).
+It is text version of [presentation 2018-04-25](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) from [Saint-Petersburg Linux User Group](https://spblug.org/).
 
 * [Slides](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
 * [Russian version](test-ansible-roles-via-testkitchen-inside-hyperv-ru.md)
@@ -192,7 +192,7 @@ As a result, molecule & docker might be pretty interesting solution.
 
 * [presentation](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
 * [simple example](https://github.com/ultral/ansible-role-testing)
-* [http://kitchen.ci/](http://kitchen.ci/)
+* [https://kitchen.ci/](https://kitchen.ci/)
 * [https://t.me/pro_ansible](https://t.me/pro_ansible)
 * [https://github.com/chef/kitchen-inspec](https://github.com/chef/kitchen-inspec)
 * [https://docs.chef.io/config_yml_kitchen.html](https://docs.chef.io/config_yml_kitchen.html)

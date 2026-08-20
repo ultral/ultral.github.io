@@ -115,7 +115,7 @@ POD это **группа** контейнеров. В итоге наш под 
 * [source2image](https://github.com/openshift/source-to-image)
 * [kustomize](https://github.com/kubernetes-sigs/kustomize)
 * [helm](https://github.com/helm/helm)
-* [Automation broker](http://automationbroker.io/)
+* [Automation broker](https://automationbroker.io/)
 
 ## Openshift templates
 
@@ -222,11 +222,11 @@ POD это **группа** контейнеров. В итоге наш под 
 Не хочется быть последний инстанцией, но поделюсь своими умозаключениями:
 
 * Если не планируете предоставлять приложение как сервис то [Ansible k8s module](https://docs.ansible.com/ansible/latest/modules/k8s_module.html) ваш выбор.
-* Но если оно вам надо, то надо копать про [automation broker](http://automationbroker.io/) и [Ansible Playbook Bundle](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle).
+* Но если оно вам надо, то надо копать про [automation broker](https://automationbroker.io/) и [Ansible Playbook Bundle](https://github.com/ansibleplaybookbundle/ansible-playbook-bundle).
 
 ## links
 
 * [www.meetup.com/kubernetes-spb](https://www.meetup.com/kubernetes-spb)
 * [t.me/k8spb](https://t.me/k8spb)
 * [learn.openshift.com](https://learn.openshift.com/operatorframework)
-* [Automate kubernetes with Ansible](http://ftp.belnet.be/mirror/FOSDEM/2019/UB2.252A/automate_kubernetes_ansible.mp4)
+* [Automate kubernetes with Ansible](https://ftp.belnet.be/mirror/FOSDEM/2019/UB2.252A/automate_kubernetes_ansible.mp4)

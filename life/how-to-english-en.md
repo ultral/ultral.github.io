@@ -43,12 +43,12 @@ Vocabulary, grammar, reading & audition are possible to train at home without a 
     * Podcasts
         * [English made simple](https://www.englishmadesimple.net/podcast/) & [iTunes](https://itunes.apple.com/ru/podcast/english-made-simple-podcast-english-podcast-aprender/id1094817727?mt=2).
         * [English second language podcast](https://www.eslpod.com) & [iTunes](https://itunes.apple.com/us/podcast/english-as-second-language-esl-podcast-learn-english/id75908431?mt=2) & [rutracker](https://rutracker.org/forum/viewtopic.php?t=4885469). I listened to `English café` only.
-        * [BBC, 6 minutes  English](http://www.bbc.co.uk/learningenglish/english/features/6-minute-english).
+        * [BBC, 6 minutes  English](https://www.bbc.co.uk/learningenglish/english/features/6-minute-english).
         * [Luke’s English Podcast](https://teacherluke.co.uk/).
-        * [Giant robots smashing into other giant robots](http://giantrobots.fm/).
+        * [Giant robots smashing into other giant robots](https://giantrobots.fm/).
         * [Software engineering daily podcast](https://softwareengineeringdaily.com/).
-        * [The bike shed podcast](http://bikeshed.fm/).
-    * There are a lot of free different audiobooks at [openculture](http://www.openculture.com/freeaudiobooks).
+        * [The bike shed podcast](https://bikeshed.fm/).
+    * There are a lot of free different audiobooks at [openculture](https://www.openculture.com/freeaudiobooks).
 3. **Speaking**:
     * [lyricstraining.com](https://lyricstraining.com/) I don't sure that it's possible to really improve your English, However, you can try to catch English pace & word stresses.
     * [Sounds American](https://www.youtube.com/channel/UC-MSYk9R94F3TMuKAnQ7dDg) - how to pronounce.

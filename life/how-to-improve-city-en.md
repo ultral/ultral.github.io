@@ -83,7 +83,7 @@ Links:
 If you want to organize road traffic or crosswalk
 
 Links:
-* [www.gibdd.ru](http://www.gibdd.ru/letter/)
+* [www.gibdd.ru](https://www.gibdd.ru/letter/)
 * [гибдд.рф](https://гибдд.рф/request_main)
 * `info@gudodd.ru`
 
@@ -100,7 +100,7 @@ Usually they provide templates for different standard cases.
 
 Links:
 * [roszkh.ru](https://roszkh.ru/)
-* [красивыйпетербург.рф](http://красивыйпетербург.рф)
+* [красивыйпетербург.рф](https://красивыйпетербург.рф)
 
 ## reformagkh
 

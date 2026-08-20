@@ -72,5 +72,5 @@ It was an extremely interesting experience. Be careful what you wish for, you ma
 
 * Chelyabinsk - Saint Petersburg - Ryazan 4700km
 * Ryazan - London - Chelyabinsk 7800km
-* [RHCP trip Челябинск - Санкт-Петербург - Рязань](http://autokadabra.ru/shouts/51038)
-* [Челябинск - Лондон на машине](http://autokadabra.ru/shouts/53220)
+* [RHCP trip Челябинск - Санкт-Петербург - Рязань](https://autokadabra.ru/shouts/51038)
+* [Челябинск - Лондон на машине](https://autokadabra.ru/shouts/53220)

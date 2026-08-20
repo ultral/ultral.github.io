@@ -9,7 +9,7 @@ redirect_from: "/coreos2centos"
 
 * [English Version](coreos2centos-en.md)
 
-Это расшифровка выступления на [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) и  [SPbLUG 2019-09-25](http://spblug.org/).
+Это расшифровка выступления на [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) и  [SPbLUG 2019-09-25](https://spblug.org/).
 
 Хочу поделиться историей проекта, на котором использовалась самописная система управления конфигурациями и почему переезд на Ansible затянулся на 18 месяцев.
 

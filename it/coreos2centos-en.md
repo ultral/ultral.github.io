@@ -11,7 +11,7 @@ redirect_from:
 
 * [Russian Version](coreos2centos-ru.md)
 
-It is a text version of my speech at [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) and [SPbLUG 2019-09-25](http://spblug.org/) [slides](https://cloud.mail.ru/public/UDCZ/WM4Y9Qv3j).
+It is a text version of my speech at [DevopsConf 2019-10-01](https://devopsconf.io/moscow/2019/meetups#2331050) and [SPbLUG 2019-09-25](https://spblug.org/) [slides](https://cloud.mail.ru/public/UDCZ/WM4Y9Qv3j).
 
 There was a custom configuration management solution.
 *I would like to share the story about a project. The project used to use a custom configuration management solution. Migration lasted 18 months. You can ask me: 'Why?'. There are some answers below about it and it is related to changing processes, agreements and workflows.*

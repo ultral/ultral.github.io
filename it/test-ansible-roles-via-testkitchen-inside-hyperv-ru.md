@@ -4,7 +4,7 @@
 
 *Date: 2019-01-22*
 
-Это текстовая версия [выступления](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) 2018-04-25 на [Saint-Petersburg Linux User Group](http://spblug.org/).
+Это текстовая версия [выступления](https://cloud.mail.ru/public/DBuA/7sEMAMRyH) 2018-04-25 на [Saint-Petersburg Linux User Group](https://spblug.org/).
 
 * [Slides](https://cloud.mail.ru/public/DBuA/7sEMAMRyH)
 * [Russian version](test-ansible-roles-via-testkitchen-inside-hyperv-ru.md)
@@ -84,7 +84,7 @@
 *Решение:* банально - создаем ERB шаблон.
 
 ```ruby
-<%= ENV['http_proxy'].to_s.empty? ? 'http://proxy.example.com:3128' : ENV['http_proxy'] %>
+<%= ENV['http_proxy'].to_s.empty? ? 'https://proxy.example.com:3128' : ENV['http_proxy'] %>
 ```
 
 ### Управление сетевыми настройками через ansible
@@ -189,7 +189,7 @@ OOM случайным образом убивал виртуальные маш
 * [Crosspost Russian version](https://habr.com/en/post/437004/)
 * [Crosspost English version](https://habr.com/en/post/436960/)
 * Пример кода: [github.com/ultral/ansible-role-testing](https://github.com/ultral/ansible-role-testing)
-* [http://kitchen.ci/](http://kitchen.ci/)
+* [https://kitchen.ci/](https://kitchen.ci/)
 * [https://github.com/chef/kitchen-inspec](https://github.com/chef/kitchen-inspec)
 * [https://docs.chef.io/config_yml_kitchen.html](https://docs.chef.io/config_yml_kitchen.html)
 * [https://docs.chef.io/ctl_kitchen.html](https://docs.chef.io/ctl_kitchen.html)

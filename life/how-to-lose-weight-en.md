@@ -37,7 +37,7 @@ X = D + A - C
 2. Stress is not allowed!!!
 3. It means that you should not break your casual diet at once. It should be continuous process of changes.
     * In my case it took about 2-3 months.
-    * [Eat healthy food](http://sportwiki.to/%D0%A0%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5)
+    * [Eat healthy food](https://sportwiki.to/%D0%A0%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5)
     * Read composition of a meal and nutrition facts.
     * Remove fat, sugar, all-purpose flour, fast carbohydrates food.
         * crisp, cookies, fizzy water, alcohol.

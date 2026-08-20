@@ -12,7 +12,7 @@ redirect_from:
 
 Подход **IaC** (Infrastructure as Code) состоит не только из кода, который хранится в репозитории, но еще людей и процессов, которые этот код окружают. Можно ли переиспользовать подходы из разработки ПО в управление и описание инфраструктуры? Будет не лишним держать в голове эту идею, пока будете читать статью.
 
-Это расшифровка моего [выступления](https://www.youtube.com/watch?v=W53jMaebVJw) на [DevopsConf 2019-05-28](http://devopsconf.io/moscow-rit/2019/abstracts/4906).
+Это расшифровка моего [выступления](https://www.youtube.com/watch?v=W53jMaebVJw) на [DevopsConf 2019-05-28](https://devopsconf.io/moscow-rit/2019/abstracts/4906).
 
 ## Infrastructure as bash history
 
@@ -360,10 +360,10 @@ Infrastructure as Code это
   * [Slides for Devconf](https://cloud.mail.ru/public/5Lg7/5JBnK6cBn)
 * [2019-06-20](https://dins.timepad.ru/event/995147/) [DevOps EVENING!](https://vk.com/wall-55518582_883)
   * [Video(RU) from DINS DevOps EVENING 2019-06-20](https://www.youtube.com/watch?v=kIGVTaTqnXI)
-* 2019-05-28 [DevopsConf](http://devopsconf.io/moscow-rit/2019/abstracts/4906)
+* 2019-05-28 [DevopsConf](https://devopsconf.io/moscow-rit/2019/abstracts/4906)
   * [Video(RU) from DevopsConf 2019-05-28](https://www.youtube.com/watch?v=W53jMaebVJw)
   * [Slides for DevopConf (RU)](https://cloud.mail.ru/public/4GHk/3ig7qKCCr)
-* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](http://spblug.org)
+* 2019-04-24 Dry run [Saint-Petersburg GNU/Linux Users group](https://spblug.org)
 * [English version](200k-iac-en.md)
 * [Russian version](200k-iac-ru.md)
 * [A list of awesome IaC testing articles, speeches & links](https://github.com/ultral/awesome-iac-testing)
