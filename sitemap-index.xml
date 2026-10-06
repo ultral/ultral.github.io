@@ -7,12 +7,12 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/README-ru.html</loc>
-    <lastmod>2024-11-29</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/about.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -22,12 +22,12 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/200k-iac-en.html</loc>
-    <lastmod>2025-12-13</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/200k-iac-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/ansible.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -92,22 +92,22 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/coreos2centos-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/coreos2centos-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/deploy2openshift-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/deploy2openshift-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -137,7 +137,7 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/gpt4iac-en.html</loc>
-    <lastmod>2025-07-21</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -162,7 +162,7 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/idlc-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -187,12 +187,12 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/monolith-to-microservices.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/ntfs4yosemite-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -217,12 +217,17 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/it/test-ansible-roles-via-testkitchen-inside-hyperv-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.goncharov.xyz/it/tf4proxmox-en.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -237,17 +242,17 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/UK-trip-by-car-en.html</loc>
-    <lastmod>2025-03-02</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/UK-trip-by-car-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/about-aparts.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -262,7 +267,7 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/how-to-english-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -272,27 +277,27 @@
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/how-to-improve-city-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/how-to-improve-city-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/how-to-lose-weight-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/how-to-lose-weight-ru.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.goncharov.xyz/life/how-to-make-speech-en.html</loc>
-    <lastmod>2024-10-28</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

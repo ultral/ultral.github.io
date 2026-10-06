@@ -7,6 +7,7 @@
 
 ## Publications
 
+* [Terraform Meets Proxmox: Lessons from a VMware Migration](it/tf4proxmox-en.md)
 * [Terraform for VMware: Key Takeaways and Lessons from Managing Hundreds of VMs](it/tf4vm-en.md)
 * [GPT 4 IaC](it/gpt4iac-en.md)
 * [DevOps or there and back again: roadmap how to become a DevOps](it/devops-roadmap.md)
