@@ -227,7 +227,7 @@ Systems are too complicated nowadays days. Troubleshooting itself is explaining 
 
 ### Copilot 4 learning: root-cause analysis
 
-![Learn deeply and be T-shaped](./assets/dr_t-shape.svg)
+![Learn deeply and be T-shaped](./assets/dr_t-shape.svg?raw=true)
 
 Nowadays systems might be complicated and over engineered. AI can mislead you, it's your responsobility to navigate troubleshooting.
 
@@ -237,7 +237,7 @@ Nowadays systems might be complicated and over engineered. AI can mislead you, i
 
 ### Copilot 4 learning: feedback and reflection
 
-![](./assets/dr_knowledge.svg)
+![](./assets/dr_knowledge.svg?raw=true)
 
 There are 2 mindsets: expert & fixer. If you want to be better you should to dig into problems and find a root cause. You need to stay curious to learn new debug techniques and train your brain.
 
@@ -255,7 +255,7 @@ There are 2 mindsets: expert & fixer. If you want to be better you should to dig
 
 ## GPT 4 IaC summary
 
-![](./assets/ai4iac.png)
+![](./assets/ai4iac_people.png?raw=true)
 
 The biggest question from my side is operational impact. Numbers without proofs look suspicious. I have kind of proof but it might be misleading, because maybe there is no direct correlation on AI, but the team maturity & expertise. Let me explain:
 
