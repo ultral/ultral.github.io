@@ -463,7 +463,8 @@ From my experience, people will say *thank you* sooner or later.
 Do not be shy. Start writing and speaking. It is a skill like driving or reading.
 
 ## Links
-
+* [How to Speak](https://www.youtube.com/watch?v=Unzc731iCUY)
+* [Introduction to Public Speaking](https://www.coursera.org/learn/public-speaking)
 * [Death by PowerPoint](https://www.slideshare.net/thecroaker/death-by-powerpoint)
 * [How to create a post for a corporate blog](https://habr.com/en/info/topics/toolkit/)
 * [Cross post](https://vas3k.club/post/25231)
