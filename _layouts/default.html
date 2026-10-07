@@ -89,6 +89,25 @@
         outline: 2px solid #267CB9;
         outline-offset: 2px;
       }
+
+      @media screen and (min-width: 961px) {
+        .wrapper {
+          width: 100%;
+        }
+
+        .wrapper > section {
+          width: calc(100% - 320px);
+        }
+
+        .wrapper > section > :is(p, ul, ol, blockquote) {
+          max-width: 80ch;
+          overflow-wrap: break-word;
+        }
+
+        .wrapper > section > p:has(img) {
+          max-width: none;
+        }
+      }
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
