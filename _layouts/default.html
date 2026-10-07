@@ -73,6 +73,23 @@
     </script>
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      .table-scroll {
+        max-width: 100%;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        margin-bottom: 20px;
+      }
+
+      .table-scroll > table {
+        margin-bottom: 0;
+      }
+
+      .table-scroll:focus-visible {
+        outline: 2px solid #267CB9;
+        outline-offset: 2px;
+      }
+    </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -93,6 +110,22 @@
         <p>This project is maintained by <a href="https://github.com/ultral">Lev Goncharov</a></p>
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      document.querySelectorAll('.wrapper > section table').forEach((table, tableIndex) => {
+        if (table.closest('.highlight, .table-scroll')) {
+          return;
+        }
+
+        const wrapper = document.createElement('div');
+        const caption = table.querySelector('caption');
+        wrapper.className = 'table-scroll';
+        wrapper.tabIndex = 0;
+        wrapper.setAttribute('role', 'region');
+        wrapper.setAttribute('aria-label',
+          (caption && caption.textContent.trim()) || 'Scrollable table ' + (tableIndex + 1));
+        table.before(wrapper);
+        wrapper.append(table);
+      });
+    </script>
   </body>
 </html>
